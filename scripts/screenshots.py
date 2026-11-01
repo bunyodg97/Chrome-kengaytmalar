@@ -69,7 +69,8 @@ def main_page(ext, m, cfg):
     pages = [p for p in (cfg.get("pages") or {}) if not p.startswith(("offscreen", "full"))]
     if pages: return pages[0]
     htmls = sorted(f.name for f in ext.glob("*.html") if not f.name.startswith(("settings", "options", "offscreen", "about", "blocked", "mic", "save")))
-    return htmls[0] if htmls else "popup.html"
+    opt = (m.get("options_ui") or {}).get("page") or (m.get("options_page"))
+    return htmls[0] if htmls else (opt or "popup.html")
 
 def shoot(pw, ext, cfg, num):
     eid, m = ext_id(ext); page = main_page(ext, m, cfg); seed = SEED.get(num, {})

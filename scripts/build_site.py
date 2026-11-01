@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from build_catalog import CATS, cat_of  # noqa: E402
 
 REPO = "bunyodg97/Chrome-kengaytmalar"
+SKIP = {"diqqat", "namoz-vaqtlari", "xavfsiz-bola", "rasm-saqlovchi"}  # saytda allaqachon bor
 TAG = sys.argv[sys.argv.index("--tag") + 1] if "--tag" in sys.argv else "v1.0.0"
 TAGS_OF = {"privacy": ["security"], "ai": ["utility", "work"], "dev": ["dev", "utility"], "api": ["dev"], "github": ["dev"], "work": ["work"], "trade": ["trade"], "life": ["utility", "home"], "access": ["utility"]}
 NEW_TAGS = [{"id": "dev", "uz": "Dasturchilar", "ru": "Разработчикам", "icon": "terminal"},
@@ -29,6 +30,7 @@ def main():
     for d in sorted((ROOT / "extensions").iterdir()):
         if not (d / "ext.json").exists(): continue
         c = json.loads((d / "ext.json").read_text(encoding="utf-8")); num = int(d.name.split("-")[0])
+        if c["slug"] in SKIP: continue
         cat = cat_of.get(num, "dev"); zipn = f"{d.name}-v{c['version']}.zip"; zp = ROOT / "dist" / zipn
         mb = zp.stat().st_size / 1048576 if zp.exists() else 0
         shots = []

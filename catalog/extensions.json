@@ -32,9 +32,4322 @@
   "access": {
    "uz": "Qulaylik",
    "ru": "Доступность"
+  },
+  "privacy": {
+   "uz": "Maxfiylik va xavfsizlik",
+   "ru": "Приватность и безопасность"
+  },
+  "ai": {
+   "uz": "AI vositalari",
+   "ru": "Инструменты ИИ"
   }
  },
  "extensions": [
+  {
+   "id": 1,
+   "slug": "sahifa-surati",
+   "folder": "001-sahifa-surati",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "S",
+   "category": "life",
+   "name": {
+    "uz": "Sahifa Surati",
+    "ru": "Снимок страницы"
+   },
+   "short": {
+    "uz": "Sahifa Surati",
+    "ru": "Снимок страницы"
+   },
+   "desc": {
+    "uz": "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi.",
+    "ru": "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."
+   },
+   "features": {
+    "uz": [
+     "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi."
+    ],
+    "ru": [
+     "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/001-sahifa-surati-uz.jpg",
+    "ru": "img/001-sahifa-surati-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/001-sahifa-surati-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/001-sahifa-surati"
+  },
+  {
+   "id": 2,
+   "slug": "tab-yiguvchi",
+   "folder": "002-tab-yiguvchi",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Tab Yig'uvchi",
+    "ru": "Сборщик вкладок"
+   },
+   "short": {
+    "uz": "Tab Yig'uvchi",
+    "ru": "Сборщик вкладок"
+   },
+   "desc": {
+    "uz": "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz.",
+    "ru": "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."
+   },
+   "features": {
+    "uz": [
+     "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz."
+    ],
+    "ru": [
+     "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/002-tab-yiguvchi-uz.jpg",
+    "ru": "img/002-tab-yiguvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/002-tab-yiguvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/002-tab-yiguvchi"
+  },
+  {
+   "id": 3,
+   "slug": "ai-yordamchi",
+   "folder": "003-ai-yordamchi",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "A",
+   "category": "ai",
+   "name": {
+    "uz": "AI Yordamchi (o'zbekcha)",
+    "ru": "AI Помощник (узбекский)"
+   },
+   "short": {
+    "uz": "AI Yordamchi (o'zbekcha)",
+    "ru": "AI Помощник (узбекский)"
+   },
+   "desc": {
+    "uz": "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi.",
+    "ru": "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."
+   },
+   "features": {
+    "uz": [
+     "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi."
+    ],
+    "ru": [
+     "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/003-ai-yordamchi-uz.jpg",
+    "ru": "img/003-ai-yordamchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/003-ai-yordamchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/003-ai-yordamchi"
+  },
+  {
+   "id": 4,
+   "slug": "reklamasiz",
+   "folder": "004-reklamasiz",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "R",
+   "category": "privacy",
+   "name": {
+    "uz": "Reklamasiz",
+    "ru": "Без рекламы"
+   },
+   "short": {
+    "uz": "Reklamasiz",
+    "ru": "Без рекламы"
+   },
+   "desc": {
+    "uz": "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi.",
+    "ru": "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."
+   },
+   "features": {
+    "uz": [
+     "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi."
+    ],
+    "ru": [
+     "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "content_scripts",
+    "contextMenus",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/004-reklamasiz-uz.jpg",
+    "ru": "img/004-reklamasiz-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/004-reklamasiz-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/004-reklamasiz"
+  },
+  {
+   "id": 5,
+   "slug": "seo-tekshiruv",
+   "folder": "005-seo-tekshiruv",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "S",
+   "category": "dev",
+   "name": {
+    "uz": "SEO Tekshiruv",
+    "ru": "SEO Проверка"
+   },
+   "short": {
+    "uz": "SEO Tekshiruv",
+    "ru": "SEO Проверка"
+   },
+   "desc": {
+    "uz": "Sahifaning SEO holati, meta teglari, sarlavhalari, rasmlari, yuklanish tezligi va buzilgan havolalarini tekshiradi.",
+    "ru": "Проверяет SEO страницы: мета-теги, заголовки, изображения, скорость загрузки и битые ссылки."
+   },
+   "features": {
+    "uz": [
+     "Sahifaning SEO holati, meta teglari, sarlavhalari, rasmlari, yuklanish tezligi va buzilgan havolalarini tekshiradi."
+    ],
+    "ru": [
+     "Проверяет SEO страницы: мета-теги, заголовки, изображения, скорость загрузки и битые ссылки."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/005-seo-tekshiruv-uz.jpg",
+    "ru": "img/005-seo-tekshiruv-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/005-seo-tekshiruv-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/005-seo-tekshiruv"
+  },
+  {
+   "id": 6,
+   "slug": "vaqt-hisobi",
+   "folder": "006-vaqt-hisobi",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "V",
+   "category": "work",
+   "name": {
+    "uz": "Vaqt Hisobi",
+    "ru": "Учёт времени"
+   },
+   "short": {
+    "uz": "Vaqt Hisobi",
+    "ru": "Учёт времени"
+   },
+   "desc": {
+    "uz": "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot.",
+    "ru": "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."
+   },
+   "features": {
+    "uz": [
+     "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot."
+    ],
+    "ru": [
+     "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "idle",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/006-vaqt-hisobi-uz.jpg",
+    "ru": "img/006-vaqt-hisobi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/006-vaqt-hisobi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/006-vaqt-hisobi"
+  },
+  {
+   "id": 7,
+   "slug": "kuzatuvsiz",
+   "folder": "007-kuzatuvsiz",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "K",
+   "category": "privacy",
+   "name": {
+    "uz": "Kuzatuvsiz",
+    "ru": "Без слежки"
+   },
+   "short": {
+    "uz": "Kuzatuvsiz",
+    "ru": "Без слежки"
+   },
+   "desc": {
+    "uz": "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi.",
+    "ru": "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."
+   },
+   "features": {
+    "uz": [
+     "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi."
+    ],
+    "ru": [
+     "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "cookies",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "tabs",
+    "webRequest"
+   ],
+   "image": {
+    "uz": "img/007-kuzatuvsiz-uz.jpg",
+    "ru": "img/007-kuzatuvsiz-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/007-kuzatuvsiz-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/007-kuzatuvsiz"
+  },
+  {
+   "id": 8,
+   "slug": "video-tezlik",
+   "folder": "008-video-tezlik",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "V",
+   "category": "life",
+   "name": {
+    "uz": "Video Tezlik",
+    "ru": "Скорость видео"
+   },
+   "short": {
+    "uz": "Video Tezlik",
+    "ru": "Скорость видео"
+   },
+   "desc": {
+    "uz": "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga.",
+    "ru": "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."
+   },
+   "features": {
+    "uz": [
+     "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga."
+    ],
+    "ru": [
+     "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/008-video-tezlik-uz.jpg",
+    "ru": "img/008-video-tezlik-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/008-video-tezlik-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/008-video-tezlik"
+  },
+  {
+   "id": 9,
+   "slug": "yangi-tab",
+   "folder": "009-yangi-tab",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "Y",
+   "category": "work",
+   "name": {
+    "uz": "Yangi Tab",
+    "ru": "Новая вкладка"
+   },
+   "short": {
+    "uz": "Yangi Tab",
+    "ru": "Новая вкладка"
+   },
+   "desc": {
+    "uz": "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar.",
+    "ru": "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."
+   },
+   "features": {
+    "uz": [
+     "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar."
+    ],
+    "ru": [
+     "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "https://api.open-meteo.com/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/009-yangi-tab-uz.jpg",
+    "ru": "img/009-yangi-tab-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/009-yangi-tab-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/009-yangi-tab"
+  },
+  {
+   "id": 10,
+   "slug": "odatlar",
+   "folder": "010-odatlar",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "O",
+   "category": "work",
+   "name": {
+    "uz": "Odatlar",
+    "ru": "Привычки"
+   },
+   "short": {
+    "uz": "Odatlar",
+    "ru": "Привычки"
+   },
+   "desc": {
+    "uz": "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar.",
+    "ru": "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."
+   },
+   "features": {
+    "uz": [
+     "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar."
+    ],
+    "ru": [
+     "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/010-odatlar-uz.jpg",
+    "ru": "img/010-odatlar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/010-odatlar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/010-odatlar"
+  },
+  {
+   "id": 11,
+   "slug": "rang-shrift",
+   "folder": "011-rang-shrift",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "R",
+   "category": "dev",
+   "name": {
+    "uz": "Rang va Shrift",
+    "ru": "Цвет и шрифт"
+   },
+   "short": {
+    "uz": "Rang va Shrift",
+    "ru": "Цвет и шрифт"
+   },
+   "desc": {
+    "uz": "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi.",
+    "ru": "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi."
+    ],
+    "ru": [
+     "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/011-rang-shrift-uz.jpg",
+    "ru": "img/011-rang-shrift-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/011-rang-shrift-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/011-rang-shrift"
+  },
+  {
+   "id": 12,
+   "slug": "pdf-ustaxona",
+   "folder": "012-pdf-ustaxona",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "P",
+   "category": "work",
+   "name": {
+    "uz": "PDF Ustaxona",
+    "ru": "PDF Мастерская"
+   },
+   "short": {
+    "uz": "PDF Ustaxona",
+    "ru": "PDF Мастерская"
+   },
+   "desc": {
+    "uz": "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…",
+    "ru": "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."
+   },
+   "features": {
+    "uz": [
+     "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…"
+    ],
+    "ru": [
+     "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/012-pdf-ustaxona-uz.jpg",
+    "ru": "img/012-pdf-ustaxona-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/012-pdf-ustaxona-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/012-pdf-ustaxona"
+  },
+  {
+   "id": 13,
+   "slug": "oqish-rejimi",
+   "folder": "013-oqish-rejimi",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "O",
+   "category": "work",
+   "name": {
+    "uz": "O'qish Rejimi",
+    "ru": "Режим чтения"
+   },
+   "short": {
+    "uz": "O'qish Rejimi",
+    "ru": "Режим чтения"
+   },
+   "desc": {
+    "uz": "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi.",
+    "ru": "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."
+   },
+   "features": {
+    "uz": [
+     "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi."
+    ],
+    "ru": [
+     "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/013-oqish-rejimi-uz.jpg",
+    "ru": "img/013-oqish-rejimi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/013-oqish-rejimi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/013-oqish-rejimi"
+  },
+  {
+   "id": 14,
+   "slug": "tezlik-sinovi",
+   "folder": "014-tezlik-sinovi",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "T",
+   "category": "dev",
+   "name": {
+    "uz": "Tezlik Sinovi",
+    "ru": "Тест скорости"
+   },
+   "short": {
+    "uz": "Tezlik Sinovi",
+    "ru": "Тест скорости"
+   },
+   "desc": {
+    "uz": "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi.",
+    "ru": "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."
+   },
+   "features": {
+    "uz": [
+     "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi."
+    ],
+    "ru": [
+     "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "https://speed.cloudflare.com/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/014-tezlik-sinovi-uz.jpg",
+    "ru": "img/014-tezlik-sinovi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/014-tezlik-sinovi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/014-tezlik-sinovi"
+  },
+  {
+   "id": 15,
+   "slug": "avto-yangilash",
+   "folder": "015-avto-yangilash",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "A",
+   "category": "privacy",
+   "name": {
+    "uz": "Avto Yangilash",
+    "ru": "Автообновление"
+   },
+   "short": {
+    "uz": "Avto Yangilash",
+    "ru": "Автообновление"
+   },
+   "desc": {
+    "uz": "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi.",
+    "ru": "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."
+   },
+   "features": {
+    "uz": [
+     "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi."
+    ],
+    "ru": [
+     "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "notifications",
+    "scripting",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/015-avto-yangilash-uz.jpg",
+    "ru": "img/015-avto-yangilash-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/015-avto-yangilash-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/015-avto-yangilash"
+  },
+  {
+   "id": 16,
+   "slug": "tozalagich",
+   "folder": "016-tozalagich",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "T",
+   "category": "privacy",
+   "name": {
+    "uz": "Tozalagich",
+    "ru": "Очиститель"
+   },
+   "short": {
+    "uz": "Tozalagich",
+    "ru": "Очиститель"
+   },
+   "desc": {
+    "uz": "Kesh, cookie, tarix va sayt ma'lumotlarini bir bosishda tozalaydi — butun brauzerda yoki faqat joriy saytda.",
+    "ru": "Очищает кэш, cookie, историю и данные сайтов одним нажатием — во всём браузере или только на текущем сайте."
+   },
+   "features": {
+    "uz": [
+     "Kesh, cookie, tarix va sayt ma'lumotlarini bir bosishda tozalaydi — butun brauzerda yoki faqat joriy saytda."
+    ],
+    "ru": [
+     "Очищает кэш, cookie, историю и данные сайтов одним нажатием — во всём браузере или только на текущем сайте."
+    ]
+   },
+   "permissions": [
+    "browsingData",
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/016-tozalagich-uz.jpg",
+    "ru": "img/016-tozalagich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/016-tozalagich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/016-tozalagich"
+  },
+  {
+   "id": 17,
+   "slug": "nusxa-ruxsati",
+   "folder": "017-nusxa-ruxsati",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "N",
+   "category": "privacy",
+   "name": {
+    "uz": "Nusxa Ruxsati",
+    "ru": "Разрешить копирование"
+   },
+   "short": {
+    "uz": "Nusxa Ruxsati",
+    "ru": "Разрешить копирование"
+   },
+   "desc": {
+    "uz": "Matnni belgilash, nusxa olish va o'ng tugmani bloklagan saytlarda bu cheklovlarni olib tashlaydi.",
+    "ru": "Снимает запреты на выделение текста, копирование и правую кнопку мыши на сайтах, где они заблокированы."
+   },
+   "features": {
+    "uz": [
+     "Matnni belgilash, nusxa olish va o'ng tugmani bloklagan saytlarda bu cheklovlarni olib tashlaydi."
+    ],
+    "ru": [
+     "Снимает запреты на выделение текста, копирование и правую кнопку мыши на сайтах, где они заблокированы."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/017-nusxa-ruxsati-uz.jpg",
+    "ru": "img/017-nusxa-ruxsati-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/017-nusxa-ruxsati-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/017-nusxa-ruxsati"
+  },
+  {
+   "id": 18,
+   "slug": "bayonnoma",
+   "folder": "018-bayonnoma",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "B",
+   "category": "work",
+   "name": {
+    "uz": "Bayonnoma",
+    "ru": "Протокол встречи"
+   },
+   "short": {
+    "uz": "Bayonnoma",
+    "ru": "Протокол встречи"
+   },
+   "desc": {
+    "uz": "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi.",
+    "ru": "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."
+   },
+   "features": {
+    "uz": [
+     "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi."
+    ],
+    "ru": [
+     "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "https://*.zoom.us/*",
+    "https://api.anthropic.com/*",
+    "https://api.openai.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://meet.google.com/*",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/018-bayonnoma-uz.jpg",
+    "ru": "img/018-bayonnoma-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/018-bayonnoma-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/018-bayonnoma"
+  },
+  {
+   "id": 19,
+   "slug": "parol-ustasi",
+   "folder": "019-parol-ustasi",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "P",
+   "category": "privacy",
+   "name": {
+    "uz": "Parol Ustasi",
+    "ru": "Мастер паролей"
+   },
+   "short": {
+    "uz": "Parol Ustasi",
+    "ru": "Мастер паролей"
+   },
+   "desc": {
+    "uz": "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi.",
+    "ru": "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."
+   },
+   "features": {
+    "uz": [
+     "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi."
+    ],
+    "ru": [
+     "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "https://api.pwnedpasswords.com/*",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/019-parol-ustasi-uz.jpg",
+    "ru": "img/019-parol-ustasi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/019-parol-ustasi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/019-parol-ustasi"
+  },
+  {
+   "id": 20,
+   "slug": "json-kozgu",
+   "folder": "020-json-kozgu",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "J",
+   "category": "dev",
+   "name": {
+    "uz": "JSON Ko'zgu",
+    "ru": "JSON Зеркало"
+   },
+   "short": {
+    "uz": "JSON Ko'zgu",
+    "ru": "JSON Зеркало"
+   },
+   "desc": {
+    "uz": "JSON javoblarni rangli, yig'iladigan daraxt ko'rinishida ko'rsatadi: qidiruv, yo'lni nusxalash, formatlash.",
+    "ru": "Показывает JSON-ответы цветным сворачиваемым деревом: поиск, копирование пути, форматирование."
+   },
+   "features": {
+    "uz": [
+     "JSON javoblarni rangli, yig'iladigan daraxt ko'rinishida ko'rsatadi: qidiruv, yo'lni nusxalash, formatlash."
+    ],
+    "ru": [
+     "Показывает JSON-ответы цветным сворачиваемым деревом: поиск, копирование пути, форматирование."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/020-json-kozgu-uz.jpg",
+    "ru": "img/020-json-kozgu-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/020-json-kozgu-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/020-json-kozgu"
+  },
+  {
+   "id": 21,
+   "slug": "mening-uslubim",
+   "folder": "021-mening-uslubim",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "M",
+   "category": "work",
+   "name": {
+    "uz": "Mening Uslubim",
+    "ru": "Мой стиль"
+   },
+   "short": {
+    "uz": "Mening Uslubim",
+    "ru": "Мой стиль"
+   },
+   "desc": {
+    "uz": "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi.",
+    "ru": "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."
+   },
+   "features": {
+    "uz": [
+     "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi."
+    ],
+    "ru": [
+     "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/021-mening-uslubim-uz.jpg",
+    "ru": "img/021-mening-uslubim-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/021-mening-uslubim-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/021-mening-uslubim"
+  },
+  {
+   "id": 22,
+   "slug": "ovoz-kuchaytirgich",
+   "folder": "022-ovoz-kuchaytirgich",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "O",
+   "category": "life",
+   "name": {
+    "uz": "Ovoz Kuchaytirgich",
+    "ru": "Усилитель звука"
+   },
+   "short": {
+    "uz": "Ovoz Kuchaytirgich",
+    "ru": "Усилитель звука"
+   },
+   "desc": {
+    "uz": "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi.",
+    "ru": "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."
+   },
+   "features": {
+    "uz": [
+     "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi."
+    ],
+    "ru": [
+     "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "offscreen",
+    "storage",
+    "tabCapture",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/022-ovoz-kuchaytirgich-uz.jpg",
+    "ru": "img/022-ovoz-kuchaytirgich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/022-ovoz-kuchaytirgich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/022-ovoz-kuchaytirgich"
+  },
+  {
+   "id": 23,
+   "slug": "oyna-ichida",
+   "folder": "023-oyna-ichida",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "O",
+   "category": "life",
+   "name": {
+    "uz": "Oyna ichida oyna",
+    "ru": "Картинка в картинке"
+   },
+   "short": {
+    "uz": "Oyna ichida oyna",
+    "ru": "Картинка в картинке"
+   },
+   "desc": {
+    "uz": "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz.",
+    "ru": "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."
+   },
+   "features": {
+    "uz": [
+     "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz."
+    ],
+    "ru": [
+     "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/023-oyna-ichida-uz.jpg",
+    "ru": "img/023-oyna-ichida-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/023-oyna-ichida-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/023-oyna-ichida"
+  },
+  {
+   "id": 24,
+   "slug": "sorov-ustasi",
+   "folder": "024-sorov-ustasi",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "S",
+   "category": "api",
+   "name": {
+    "uz": "So'rov Ustasi",
+    "ru": "Мастер запросов"
+   },
+   "short": {
+    "uz": "So'rov Ustasi",
+    "ru": "Мастер запросов"
+   },
+   "desc": {
+    "uz": "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…",
+    "ru": "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."
+   },
+   "features": {
+    "uz": [
+     "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…"
+    ],
+    "ru": [
+     "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "content_scripts",
+    "contextMenus",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/024-sorov-ustasi-uz.jpg",
+    "ru": "img/024-sorov-ustasi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/024-sorov-ustasi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/024-sorov-ustasi"
+  },
+  {
+   "id": 25,
+   "slug": "responsive",
+   "folder": "025-responsive",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "R",
+   "category": "dev",
+   "name": {
+    "uz": "Responsive Ko'rgich",
+    "ru": "Адаптивный просмотр"
+   },
+   "short": {
+    "uz": "Responsive Ko'rgich",
+    "ru": "Адаптивный просмотр"
+   },
+   "desc": {
+    "uz": "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi.",
+    "ru": "Показывает сайт рядом в размерах телефона, планшета и компьютера."
+   },
+   "features": {
+    "uz": [
+     "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi."
+    ],
+    "ru": [
+     "Показывает сайт рядом в размерах телефона, планшета и компьютера."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "declarativeNetRequest",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/025-responsive-uz.jpg",
+    "ru": "img/025-responsive-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/025-responsive-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/025-responsive"
+  },
+  {
+   "id": 26,
+   "slug": "texno-aniqlagich",
+   "folder": "026-texno-aniqlagich",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "T",
+   "category": "dev",
+   "name": {
+    "uz": "Texno Aniqlagich",
+    "ru": "Определитель технологий"
+   },
+   "short": {
+    "uz": "Texno Aniqlagich",
+    "ru": "Определитель технологий"
+   },
+   "desc": {
+    "uz": "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting.",
+    "ru": "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."
+   },
+   "features": {
+    "uz": [
+     "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting."
+    ],
+    "ru": [
+     "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/026-texno-aniqlagich-uz.jpg",
+    "ru": "img/026-texno-aniqlagich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/026-texno-aniqlagich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/026-texno-aniqlagich"
+  },
+  {
+   "id": 27,
+   "slug": "chegara",
+   "folder": "027-chegara",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "C",
+   "category": "dev",
+   "name": {
+    "uz": "Chegara Ko'rsatgich",
+    "ru": "Границы элементов"
+   },
+   "short": {
+    "uz": "Chegara Ko'rsatgich",
+    "ru": "Границы элементов"
+   },
+   "desc": {
+    "uz": "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun.",
+    "ru": "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun."
+    ],
+    "ru": [
+     "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/027-chegara-uz.jpg",
+    "ru": "img/027-chegara-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/027-chegara-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/027-chegara"
+  },
+  {
+   "id": 28,
+   "slug": "dasturchi-qutisi",
+   "folder": "028-dasturchi-qutisi",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "D",
+   "category": "dev",
+   "name": {
+    "uz": "Dasturchi Qutisi",
+    "ru": "Ящик разработчика"
+   },
+   "short": {
+    "uz": "Dasturchi Qutisi",
+    "ru": "Ящик разработчика"
+   },
+   "desc": {
+    "uz": "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz.",
+    "ru": "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."
+   },
+   "features": {
+    "uz": [
+     "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz."
+    ],
+    "ru": [
+     "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/028-dasturchi-qutisi-uz.jpg",
+    "ru": "img/028-dasturchi-qutisi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/028-dasturchi-qutisi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/028-dasturchi-qutisi"
+  },
+  {
+   "id": 29,
+   "slug": "github-yordamchi",
+   "folder": "029-github-yordamchi",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "G",
+   "category": "github",
+   "name": {
+    "uz": "GitHub Yordamchi",
+    "ru": "GitHub Помощник"
+   },
+   "short": {
+    "uz": "GitHub Yordamchi",
+    "ru": "GitHub Помощник"
+   },
+   "desc": {
+    "uz": "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish.",
+    "ru": "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."
+   },
+   "features": {
+    "uz": [
+     "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish."
+    ],
+    "ru": [
+     "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "https://api.github.com/*",
+    "https://github.com/*",
+    "https://raw.githubusercontent.com/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/029-github-yordamchi-uz.jpg",
+    "ru": "img/029-github-yordamchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/029-github-yordamchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/029-github-yordamchi"
+  },
+  {
+   "id": 30,
+   "slug": "web-vitals",
+   "folder": "030-web-vitals",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "W",
+   "category": "dev",
+   "name": {
+    "uz": "Web Vitals Jonli",
+    "ru": "Web Vitals онлайн"
+   },
+   "short": {
+    "uz": "Web Vitals Jonli",
+    "ru": "Web Vitals онлайн"
+   },
+   "desc": {
+    "uz": "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi.",
+    "ru": "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."
+   },
+   "features": {
+    "uz": [
+     "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi."
+    ],
+    "ru": [
+     "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/030-web-vitals-uz.jpg",
+    "ru": "img/030-web-vitals-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/030-web-vitals-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/030-web-vitals"
+  },
+  {
+   "id": 31,
+   "slug": "a11y-tekshiruv",
+   "folder": "031-a11y-tekshiruv",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Kirish Imkoniyati Tekshiruvi",
+    "ru": "Проверка доступности"
+   },
+   "short": {
+    "uz": "Kirish Imkoniyati Tekshiruvi",
+    "ru": "Проверка доступности"
+   },
+   "desc": {
+    "uz": "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…",
+    "ru": "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок…"
+   },
+   "features": {
+    "uz": [
+     "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…"
+    ],
+    "ru": [
+     "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/031-a11y-tekshiruv-uz.jpg",
+    "ru": "img/031-a11y-tekshiruv-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/031-a11y-tekshiruv-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/031-a11y-tekshiruv"
+  },
+  {
+   "id": 32,
+   "slug": "leetcode-github",
+   "folder": "032-leetcode-github",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "L",
+   "category": "github",
+   "name": {
+    "uz": "LeetCode → GitHub",
+    "ru": "LeetCode → GitHub"
+   },
+   "short": {
+    "uz": "LeetCode → GitHub",
+    "ru": "LeetCode → GitHub"
+   },
+   "desc": {
+    "uz": "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi.",
+    "ru": "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."
+   },
+   "features": {
+    "uz": [
+     "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi."
+    ],
+    "ru": [
+     "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "https://api.github.com/*",
+    "https://leetcode.com/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/032-leetcode-github-uz.jpg",
+    "ru": "img/032-leetcode-github-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/032-leetcode-github-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/032-leetcode-github"
+  },
+  {
+   "id": 33,
+   "slug": "ua-almashtirgich",
+   "folder": "033-ua-almashtirgich",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "U",
+   "category": "dev",
+   "name": {
+    "uz": "UA Almashtirgich",
+    "ru": "Смена User-Agent"
+   },
+   "short": {
+    "uz": "UA Almashtirgich",
+    "ru": "Смена User-Agent"
+   },
+   "desc": {
+    "uz": "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun.",
+    "ru": "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."
+   },
+   "features": {
+    "uz": [
+     "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun."
+    ],
+    "ru": [
+     "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "declarativeNetRequest",
+    "scripting",
+    "storage",
+    "tabs",
+    "webNavigation"
+   ],
+   "image": {
+    "uz": "img/033-ua-almashtirgich-uz.jpg",
+    "ru": "img/033-ua-almashtirgich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/033-ua-almashtirgich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/033-ua-almashtirgich"
+  },
+  {
+   "id": 34,
+   "slug": "github-xabarlari",
+   "folder": "034-github-xabarlari",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "G",
+   "category": "github",
+   "name": {
+    "uz": "GitHub Xabarlari",
+    "ru": "Уведомления GitHub"
+   },
+   "short": {
+    "uz": "GitHub Xabarlari",
+    "ru": "Уведомления GitHub"
+   },
+   "desc": {
+    "uz": "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi.",
+    "ru": "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."
+   },
+   "features": {
+    "uz": [
+     "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi."
+    ],
+    "ru": [
+     "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "https://api.github.com/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/034-github-xabarlari-uz.jpg",
+    "ru": "img/034-github-xabarlari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/034-github-xabarlari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/034-github-xabarlari"
+  },
+  {
+   "id": 35,
+   "slug": "prompt-kutubxonasi",
+   "folder": "035-prompt-kutubxonasi",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "P",
+   "category": "ai",
+   "name": {
+    "uz": "Prompt Kutubxonasi",
+    "ru": "Библиотека промптов"
+   },
+   "short": {
+    "uz": "Prompt Kutubxonasi",
+    "ru": "Библиотека промптов"
+   },
+   "desc": {
+    "uz": "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan.",
+    "ru": "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."
+   },
+   "features": {
+    "uz": [
+     "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan."
+    ],
+    "ru": [
+     "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/035-prompt-kutubxonasi-uz.jpg",
+    "ru": "img/035-prompt-kutubxonasi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/035-prompt-kutubxonasi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/035-prompt-kutubxonasi"
+  },
+  {
+   "id": 36,
+   "slug": "ai-eksport",
+   "folder": "036-ai-eksport",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "A",
+   "category": "ai",
+   "name": {
+    "uz": "AI Suhbat Eksporti",
+    "ru": "Экспорт AI-чатов"
+   },
+   "short": {
+    "uz": "AI Suhbat Eksporti",
+    "ru": "Экспорт AI-чатов"
+   },
+   "desc": {
+    "uz": "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi.",
+    "ru": "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."
+   },
+   "features": {
+    "uz": [
+     "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi."
+    ],
+    "ru": [
+     "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/036-ai-eksport-uz.jpg",
+    "ru": "img/036-ai-eksport-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/036-ai-eksport-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/036-ai-eksport"
+  },
+  {
+   "id": 37,
+   "slug": "cookie-muharriri",
+   "folder": "037-cookie-muharriri",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "C",
+   "category": "dev",
+   "name": {
+    "uz": "Cookie Muharriri",
+    "ru": "Редактор cookie"
+   },
+   "short": {
+    "uz": "Cookie Muharriri",
+    "ru": "Редактор cookie"
+   },
+   "desc": {
+    "uz": "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import.",
+    "ru": "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."
+   },
+   "features": {
+    "uz": [
+     "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import."
+    ],
+    "ru": [
+     "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "cookies",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/037-cookie-muharriri-uz.jpg",
+    "ru": "img/037-cookie-muharriri-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/037-cookie-muharriri-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/037-cookie-muharriri"
+  },
+  {
+   "id": 38,
+   "slug": "rest-mijozi",
+   "folder": "038-rest-mijozi",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "R",
+   "category": "api",
+   "name": {
+    "uz": "REST Mijozi",
+    "ru": "REST Клиент"
+   },
+   "short": {
+    "uz": "REST Mijozi",
+    "ru": "REST Клиент"
+   },
+   "desc": {
+    "uz": "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…",
+    "ru": "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."
+   },
+   "features": {
+    "uz": [
+     "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…"
+    ],
+    "ru": [
+     "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/038-rest-mijozi-uz.jpg",
+    "ru": "img/038-rest-mijozi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/038-rest-mijozi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/038-rest-mijozi"
+  },
+  {
+   "id": 39,
+   "slug": "youtube-tahlilchi",
+   "folder": "039-youtube-tahlilchi",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "Y",
+   "category": "life",
+   "name": {
+    "uz": "YouTube Tahlilchi",
+    "ru": "YouTube Аналитик"
+   },
+   "short": {
+    "uz": "YouTube Tahlilchi",
+    "ru": "YouTube Аналитик"
+   },
+   "desc": {
+    "uz": "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…",
+    "ru": "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."
+   },
+   "features": {
+    "uz": [
+     "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…"
+    ],
+    "ru": [
+     "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/039-youtube-tahlilchi-uz.jpg",
+    "ru": "img/039-youtube-tahlilchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/039-youtube-tahlilchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/039-youtube-tahlilchi"
+  },
+  {
+   "id": 40,
+   "slug": "kun-rejasi",
+   "folder": "040-kun-rejasi",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "K",
+   "category": "work",
+   "name": {
+    "uz": "Kun Rejasi",
+    "ru": "План дня"
+   },
+   "short": {
+    "uz": "Kun Rejasi",
+    "ru": "План дня"
+   },
+   "desc": {
+    "uz": "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish.",
+    "ru": "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."
+   },
+   "features": {
+    "uz": [
+     "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish."
+    ],
+    "ru": [
+     "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/040-kun-rejasi-uz.jpg",
+    "ru": "img/040-kun-rejasi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/040-kun-rejasi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/040-kun-rejasi"
+  },
+  {
+   "id": 41,
+   "slug": "cookie-bannersiz",
+   "folder": "041-cookie-bannersiz",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "C",
+   "category": "privacy",
+   "name": {
+    "uz": "Cookie Bannersiz",
+    "ru": "Без cookie-баннеров"
+   },
+   "short": {
+    "uz": "Cookie Bannersiz",
+    "ru": "Без cookie-баннеров"
+   },
+   "desc": {
+    "uz": "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi.",
+    "ru": "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."
+   },
+   "features": {
+    "uz": [
+     "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi."
+    ],
+    "ru": [
+     "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/041-cookie-bannersiz-uz.jpg",
+    "ru": "img/041-cookie-bannersiz-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/041-cookie-bannersiz-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/041-cookie-bannersiz"
+  },
+  {
+   "id": 42,
+   "slug": "vaqtinchalik-pochta",
+   "folder": "042-vaqtinchalik-pochta",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "V",
+   "category": "privacy",
+   "name": {
+    "uz": "Vaqtinchalik Pochta",
+    "ru": "Временная почта"
+   },
+   "short": {
+    "uz": "Vaqtinchalik Pochta",
+    "ru": "Временная почта"
+   },
+   "desc": {
+    "uz": "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…",
+    "ru": "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."
+   },
+   "features": {
+    "uz": [
+     "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…"
+    ],
+    "ru": [
+     "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "alarms",
+    "contextMenus",
+    "https://api.mail.tm/*",
+    "notifications",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/042-vaqtinchalik-pochta-uz.jpg",
+    "ru": "img/042-vaqtinchalik-pochta-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/042-vaqtinchalik-pochta-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/042-vaqtinchalik-pochta"
+  },
+  {
+   "id": 43,
+   "slug": "raqobat-narxlari",
+   "folder": "043-raqobat-narxlari",
+   "version": "1.1.0",
+   "color": "#c2410c",
+   "glyph": "R",
+   "category": "life",
+   "name": {
+    "uz": "Raqobat Narxlari",
+    "ru": "Цены конкурентов"
+   },
+   "short": {
+    "uz": "Raqobat Narxlari",
+    "ru": "Цены конкурентов"
+   },
+   "desc": {
+    "uz": "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…",
+    "ru": "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая…"
+   },
+   "features": {
+    "uz": [
+     "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…"
+    ],
+    "ru": [
+     "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая…"
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "content_scripts",
+    "contextMenus",
+    "https://*.alifshop.uz/*",
+    "https://*.asaxiy.uz/*",
+    "https://*.mediapark.uz/*",
+    "https://*.olcha.uz/*",
+    "https://*.texnomart.uz/*",
+    "https://*.uzum.uz/*",
+    "https://alifshop.uz/*",
+    "https://asaxiy.uz/*",
+    "https://cbu.uz/*",
+    "https://mediapark.uz/*",
+    "https://olcha.uz/*",
+    "https://olx.uz/*",
+    "https://texnomart.uz/*",
+    "https://uzum.uz/*",
+    "https://www.olx.uz/*",
+    "notifications",
+    "scripting",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/043-raqobat-narxlari-uz.jpg",
+    "ru": "img/043-raqobat-narxlari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/043-raqobat-narxlari-v1.1.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/043-raqobat-narxlari"
+  },
+  {
+   "id": 44,
+   "slug": "valyuta-kursi",
+   "folder": "044-valyuta-kursi",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "V",
+   "category": "life",
+   "name": {
+    "uz": "Valyuta Kursi",
+    "ru": "Курс валют"
+   },
+   "short": {
+    "uz": "Valyuta Kursi",
+    "ru": "Курс валют"
+   },
+   "desc": {
+    "uz": "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati.",
+    "ru": "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."
+   },
+   "features": {
+    "uz": [
+     "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati."
+    ],
+    "ru": [
+     "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "content_scripts",
+    "contextMenus",
+    "https://cbu.uz/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/044-valyuta-kursi-uz.jpg",
+    "ru": "img/044-valyuta-kursi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/044-valyuta-kursi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/044-valyuta-kursi"
+  },
+  {
+   "id": 45,
+   "slug": "telegramga-yuborish",
+   "folder": "045-telegramga-yuborish",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Telegram'ga Yuborish",
+    "ru": "Отправить в Telegram"
+   },
+   "short": {
+    "uz": "Telegram'ga Yuborish",
+    "ru": "Отправить в Telegram"
+   },
+   "desc": {
+    "uz": "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi.",
+    "ru": "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."
+   },
+   "features": {
+    "uz": [
+     "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi."
+    ],
+    "ru": [
+     "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "https://api.telegram.org/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/045-telegramga-yuborish-uz.jpg",
+    "ru": "img/045-telegramga-yuborish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/045-telegramga-yuborish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/045-telegramga-yuborish"
+  },
+  {
+   "id": 46,
+   "slug": "forma-toldirgich",
+   "folder": "046-forma-toldirgich",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "F",
+   "category": "work",
+   "name": {
+    "uz": "Forma To'ldirgich (Excel → sayt)",
+    "ru": "Заполнитель форм (Excel → сайт)"
+   },
+   "short": {
+    "uz": "Forma To'ldirgich (Excel → sayt)",
+    "ru": "Заполнитель форм (Excel → сайт)"
+   },
+   "desc": {
+    "uz": "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…",
+    "ru": "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."
+   },
+   "features": {
+    "uz": [
+     "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…"
+    ],
+    "ru": [
+     "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/046-forma-toldirgich-uz.jpg",
+    "ru": "img/046-forma-toldirgich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/046-forma-toldirgich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/046-forma-toldirgich"
+  },
+  {
+   "id": 47,
+   "slug": "ob-havo",
+   "folder": "047-ob-havo",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "O",
+   "category": "life",
+   "name": {
+    "uz": "Ob-havo va Havo Sifati",
+    "ru": "Погода и качество воздуха"
+   },
+   "short": {
+    "uz": "Ob-havo va Havo Sifati",
+    "ru": "Погода и качество воздуха"
+   },
+   "desc": {
+    "uz": "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…",
+    "ru": "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении…"
+   },
+   "features": {
+    "uz": [
+     "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…"
+    ],
+    "ru": [
+     "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении…"
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "https://air-quality-api.open-meteo.com/*",
+    "https://api.open-meteo.com/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/047-ob-havo-uz.jpg",
+    "ru": "img/047-ob-havo-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/047-ob-havo-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/047-ob-havo"
+  },
+  {
+   "id": 48,
+   "slug": "soz-daftari",
+   "folder": "048-soz-daftari",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "S",
+   "category": "work",
+   "name": {
+    "uz": "So'z Daftari",
+    "ru": "Словарик"
+   },
+   "short": {
+    "uz": "So'z Daftari",
+    "ru": "Словарик"
+   },
+   "desc": {
+    "uz": "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…",
+    "ru": "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и…"
+   },
+   "features": {
+    "uz": [
+     "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…"
+    ],
+    "ru": [
+     "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и…"
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "https://translate.googleapis.com/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/048-soz-daftari-uz.jpg",
+    "ru": "img/048-soz-daftari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/048-soz-daftari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/048-soz-daftari"
+  },
+  {
+   "id": 49,
+   "slug": "jadval-yuklovchi",
+   "folder": "049-jadval-yuklovchi",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "J",
+   "category": "work",
+   "name": {
+    "uz": "Jadval Yuklovchi",
+    "ru": "Загрузчик таблиц"
+   },
+   "short": {
+    "uz": "Jadval Yuklovchi",
+    "ru": "Загрузчик таблиц"
+   },
+   "desc": {
+    "uz": "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi.",
+    "ru": "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi."
+    ],
+    "ru": [
+     "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/049-jadval-yuklovchi-uz.jpg",
+    "ru": "img/049-jadval-yuklovchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/049-jadval-yuklovchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/049-jadval-yuklovchi"
+  },
+  {
+   "id": 50,
+   "slug": "tez-javoblar",
+   "folder": "050-tez-javoblar",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Tez Javoblar",
+    "ru": "Быстрые ответы"
+   },
+   "short": {
+    "uz": "Tez Javoblar",
+    "ru": "Быстрые ответы"
+   },
+   "desc": {
+    "uz": "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…",
+    "ru": "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."
+   },
+   "features": {
+    "uz": [
+     "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…"
+    ],
+    "ru": [
+     "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/050-tez-javoblar-uz.jpg",
+    "ru": "img/050-tez-javoblar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/050-tez-javoblar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/050-tez-javoblar"
+  },
+  {
+   "id": 51,
+   "slug": "qr-shtrix",
+   "folder": "051-qr-shtrix",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "Q",
+   "category": "life",
+   "name": {
+    "uz": "QR va Shtrix-kod",
+    "ru": "QR и штрихкод"
+   },
+   "short": {
+    "uz": "QR va Shtrix-kod",
+    "ru": "QR и штрихкод"
+   },
+   "desc": {
+    "uz": "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish.",
+    "ru": "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."
+   },
+   "features": {
+    "uz": [
+     "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish."
+    ],
+    "ru": [
+     "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/051-qr-shtrix-uz.jpg",
+    "ru": "img/051-qr-shtrix-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/051-qr-shtrix-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/051-qr-shtrix"
+  },
+  {
+   "id": 52,
+   "slug": "tez-yashirish",
+   "folder": "052-tez-yashirish",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Tez Yashirish («Boshliq keldi»)",
+    "ru": "Быстро скрыть («Начальник идёт»)"
+   },
+   "short": {
+    "uz": "Tez Yashirish («Boshliq keldi»)",
+    "ru": "Быстро скрыть («Начальник идёт»)"
+   },
+   "desc": {
+    "uz": "Bir tugma (Alt+Q) bilan ko'ngilochar tablar yopiladi, ovoz o'chadi va ish sahifasi ochiladi. Yana bossangiz — hammasi joyiga…",
+    "ru": "Одна клавиша (Alt+Q) закрывает развлекательные вкладки, выключает звук и открывает рабочую страницу. Повторное нажатие — всё…"
+   },
+   "features": {
+    "uz": [
+     "Bir tugma (Alt+Q) bilan ko'ngilochar tablar yopiladi, ovoz o'chadi va ish sahifasi ochiladi. Yana bossangiz — hammasi joyiga…"
+    ],
+    "ru": [
+     "Одна клавиша (Alt+Q) закрывает развлекательные вкладки, выключает звук и открывает рабочую страницу. Повторное нажатие — всё…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/052-tez-yashirish-uz.jpg",
+    "ru": "img/052-tez-yashirish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/052-tez-yashirish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/052-tez-yashirish"
+  },
+  {
+   "id": 53,
+   "slug": "gif-yaratuvchi",
+   "folder": "053-gif-yaratuvchi",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "G",
+   "category": "life",
+   "name": {
+    "uz": "GIF Yaratuvchi",
+    "ru": "Создатель GIF"
+   },
+   "short": {
+    "uz": "GIF Yaratuvchi",
+    "ru": "Создатель GIF"
+   },
+   "desc": {
+    "uz": "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun.",
+    "ru": "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."
+   },
+   "features": {
+    "uz": [
+     "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun."
+    ],
+    "ru": [
+     "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "offscreen",
+    "scripting",
+    "storage",
+    "tabCapture"
+   ],
+   "image": {
+    "uz": "img/053-gif-yaratuvchi-uz.jpg",
+    "ru": "img/053-gif-yaratuvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/053-gif-yaratuvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/053-gif-yaratuvchi"
+  },
+  {
+   "id": 54,
+   "slug": "soz-oyini",
+   "folder": "054-soz-oyini",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "S",
+   "category": "life",
+   "name": {
+    "uz": "So'z O'yini",
+    "ru": "Игра в слова"
+   },
+   "short": {
+    "uz": "So'z O'yini",
+    "ru": "Игра в слова"
+   },
+   "desc": {
+    "uz": "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan.",
+    "ru": "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."
+   },
+   "features": {
+    "uz": [
+     "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan."
+    ],
+    "ru": [
+     "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/054-soz-oyini-uz.jpg",
+    "ru": "img/054-soz-oyini-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/054-soz-oyini-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/054-soz-oyini"
+  },
+  {
+   "id": 55,
+   "slug": "sahifa-kuzatuvchi",
+   "folder": "055-sahifa-kuzatuvchi",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "S",
+   "category": "work",
+   "name": {
+    "uz": "Sahifa Kuzatuvchi",
+    "ru": "Наблюдатель страниц"
+   },
+   "short": {
+    "uz": "Sahifa Kuzatuvchi",
+    "ru": "Наблюдатель страниц"
+   },
+   "desc": {
+    "uz": "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi.",
+    "ru": "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."
+   },
+   "features": {
+    "uz": [
+     "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi."
+    ],
+    "ru": [
+     "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "offscreen",
+    "scripting",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/055-sahifa-kuzatuvchi-uz.jpg",
+    "ru": "img/055-sahifa-kuzatuvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/055-sahifa-kuzatuvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/055-sahifa-kuzatuvchi"
+  },
+  {
+   "id": 56,
+   "slug": "nusxalar-tarixi",
+   "folder": "056-nusxalar-tarixi",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "N",
+   "category": "work",
+   "name": {
+    "uz": "Nusxalar Tarixi",
+    "ru": "История копирования"
+   },
+   "short": {
+    "uz": "Nusxalar Tarixi",
+    "ru": "История копирования"
+   },
+   "desc": {
+    "uz": "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi.",
+    "ru": "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по…"
+   },
+   "features": {
+    "uz": [
+     "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi."
+    ],
+    "ru": [
+     "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по…"
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/056-nusxalar-tarixi-uz.jpg",
+    "ru": "img/056-nusxalar-tarixi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/056-nusxalar-tarixi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/056-nusxalar-tarixi"
+  },
+  {
+   "id": 57,
+   "slug": "sayt-nazoratchisi",
+   "folder": "057-sayt-nazoratchisi",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "S",
+   "category": "work",
+   "name": {
+    "uz": "Sayt Nazoratchisi",
+    "ru": "Мониторинг сайтов"
+   },
+   "short": {
+    "uz": "Sayt Nazoratchisi",
+    "ru": "Мониторинг сайтов"
+   },
+   "desc": {
+    "uz": "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…",
+    "ru": "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график…"
+   },
+   "features": {
+    "uz": [
+     "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…"
+    ],
+    "ru": [
+     "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график…"
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/057-sayt-nazoratchisi-uz.jpg",
+    "ru": "img/057-sayt-nazoratchisi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/057-sayt-nazoratchisi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/057-sayt-nazoratchisi"
+  },
+  {
+   "id": 58,
+   "slug": "bir-fayl",
+   "folder": "058-bir-fayl",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "B",
+   "category": "work",
+   "name": {
+    "uz": "Bir Fayl",
+    "ru": "Один файл"
+   },
+   "short": {
+    "uz": "Bir Fayl",
+    "ru": "Один файл"
+   },
+   "desc": {
+    "uz": "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi.",
+    "ru": "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."
+   },
+   "features": {
+    "uz": [
+     "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi."
+    ],
+    "ru": [
+     "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "offscreen",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/058-bir-fayl-uz.jpg",
+    "ru": "img/058-bir-fayl-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/058-bir-fayl-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/058-bir-fayl"
+  },
+  {
+   "id": 59,
+   "slug": "koz-dam",
+   "folder": "059-koz-dam",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "K",
+   "category": "life",
+   "name": {
+    "uz": "Ko'z Dam",
+    "ru": "Отдых для глаз"
+   },
+   "short": {
+    "uz": "Ko'z Dam",
+    "ru": "Отдых для глаз"
+   },
+   "desc": {
+    "uz": "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika.",
+    "ru": "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."
+   },
+   "features": {
+    "uz": [
+     "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika."
+    ],
+    "ru": [
+     "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "idle",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/059-koz-dam-uz.jpg",
+    "ru": "img/059-koz-dam-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/059-koz-dam-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/059-koz-dam"
+  },
+  {
+   "id": 60,
+   "slug": "avto-ovozsiz",
+   "folder": "060-avto-ovozsiz",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "A",
+   "category": "life",
+   "name": {
+    "uz": "Avto-ovozsiz",
+    "ru": "Без автовоспроизведения"
+   },
+   "short": {
+    "uz": "Avto-ovozsiz",
+    "ru": "Без автовоспроизведения"
+   },
+   "desc": {
+    "uz": "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…",
+    "ru": "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."
+   },
+   "features": {
+    "uz": [
+     "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…"
+    ],
+    "ru": [
+     "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/060-avto-ovozsiz-uz.jpg",
+    "ru": "img/060-avto-ovozsiz-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/060-avto-ovozsiz-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/060-avto-ovozsiz"
+  },
+  {
+   "id": 61,
+   "slug": "telefonga-yuborish",
+   "folder": "061-telefonga-yuborish",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Telefonga Yuborish",
+    "ru": "Отправить на телефон"
+   },
+   "short": {
+    "uz": "Telefonga Yuborish",
+    "ru": "Отправить на телефон"
+   },
+   "desc": {
+    "uz": "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…",
+    "ru": "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."
+   },
+   "features": {
+    "uz": [
+     "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…"
+    ],
+    "ru": [
+     "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/061-telefonga-yuborish-uz.jpg",
+    "ru": "img/061-telefonga-yuborish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/061-telefonga-yuborish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/061-telefonga-yuborish"
+  },
+  {
+   "id": 62,
+   "slug": "ekrandan-matn",
+   "folder": "062-ekrandan-matn",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "E",
+   "category": "life",
+   "name": {
+    "uz": "Ekrandan Matn (OCR)",
+    "ru": "Текст с экрана (OCR)"
+   },
+   "short": {
+    "uz": "Ekrandan Matn (OCR)",
+    "ru": "Текст с экрана (OCR)"
+   },
+   "desc": {
+    "uz": "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…",
+    "ru": "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок…"
+   },
+   "features": {
+    "uz": [
+     "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…"
+    ],
+    "ru": [
+     "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "https://cdn.jsdelivr.net/*",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/062-ekrandan-matn-uz.jpg",
+    "ru": "img/062-ekrandan-matn-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/062-ekrandan-matn-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/062-ekrandan-matn"
+  },
+  {
+   "id": 63,
+   "slug": "sahifaga-chizish",
+   "folder": "063-sahifaga-chizish",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "S",
+   "category": "life",
+   "name": {
+    "uz": "Sahifaga Chizish",
+    "ru": "Рисование на странице"
+   },
+   "short": {
+    "uz": "Sahifaga Chizish",
+    "ru": "Рисование на странице"
+   },
+   "desc": {
+    "uz": "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…",
+    "ru": "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для…"
+   },
+   "features": {
+    "uz": [
+     "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…"
+    ],
+    "ru": [
+     "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/063-sahifaga-chizish-uz.jpg",
+    "ru": "img/063-sahifaga-chizish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/063-sahifaga-chizish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/063-sahifaga-chizish"
+  },
+  {
+   "id": 64,
+   "slug": "uchrashuv-taymeri",
+   "folder": "064-uchrashuv-taymeri",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "U",
+   "category": "work",
+   "name": {
+    "uz": "Uchrashuv Taymeri",
+    "ru": "Таймер встречи"
+   },
+   "short": {
+    "uz": "Uchrashuv Taymeri",
+    "ru": "Таймер встречи"
+   },
+   "desc": {
+    "uz": "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…",
+    "ru": "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на…"
+   },
+   "features": {
+    "uz": [
+     "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…"
+    ],
+    "ru": [
+     "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "offscreen",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/064-uchrashuv-taymeri-uz.jpg",
+    "ru": "img/064-uchrashuv-taymeri-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/064-uchrashuv-taymeri-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/064-uchrashuv-taymeri"
+  },
+  {
+   "id": 65,
+   "slug": "tugilgan-kunlar",
+   "folder": "065-tugilgan-kunlar",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Tug'ilgan Kunlar",
+    "ru": "Дни рождения"
+   },
+   "short": {
+    "uz": "Tug'ilgan Kunlar",
+    "ru": "Дни рождения"
+   },
+   "desc": {
+    "uz": "Yaqinlar, hamkasblar va mijozlarning tug'ilgan kunlarini eslatadi (oldindan va shu kuni) hamda o'zbek, rus, ingliz tilida tayyor…",
+    "ru": "Напоминает о днях рождения близких, коллег и клиентов (заранее и в сам день) и даёт готовые поздравления на узбекском, русском и…"
+   },
+   "features": {
+    "uz": [
+     "Yaqinlar, hamkasblar va mijozlarning tug'ilgan kunlarini eslatadi (oldindan va shu kuni) hamda o'zbek, rus, ingliz tilida tayyor…"
+    ],
+    "ru": [
+     "Напоминает о днях рождения близких, коллег и клиентов (заранее и в сам день) и даёт готовые поздравления на узбекском, русском и…"
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/065-tugilgan-kunlar-uz.jpg",
+    "ru": "img/065-tugilgan-kunlar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/065-tugilgan-kunlar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/065-tugilgan-kunlar"
+  },
+  {
+   "id": 66,
+   "slug": "xarid-royxati",
+   "folder": "066-xarid-royxati",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "X",
+   "category": "work",
+   "name": {
+    "uz": "Xarid Ro'yxati",
+    "ru": "Список покупок"
+   },
+   "short": {
+    "uz": "Xarid Ro'yxati",
+    "ru": "Список покупок"
+   },
+   "desc": {
+    "uz": "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…",
+    "ru": "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ)…"
+   },
+   "features": {
+    "uz": [
+     "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…"
+    ],
+    "ru": [
+     "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ)…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "https://cbu.uz/*",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/066-xarid-royxati-uz.jpg",
+    "ru": "img/066-xarid-royxati-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/066-xarid-royxati-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/066-xarid-royxati"
+  },
+  {
+   "id": 67,
+   "slug": "keyinroq-oqish",
+   "folder": "067-keyinroq-oqish",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "K",
+   "category": "work",
+   "name": {
+    "uz": "Keyinroq O'qish",
+    "ru": "Прочитать позже"
+   },
+   "short": {
+    "uz": "Keyinroq O'qish",
+    "ru": "Прочитать позже"
+   },
+   "desc": {
+    "uz": "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…",
+    "ru": "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск —…"
+   },
+   "features": {
+    "uz": [
+     "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…"
+    ],
+    "ru": [
+     "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск —…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/067-keyinroq-oqish-uz.jpg",
+    "ru": "img/067-keyinroq-oqish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/067-keyinroq-oqish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/067-keyinroq-oqish"
+  },
+  {
+   "id": 68,
+   "slug": "meet-davomat",
+   "folder": "068-meet-davomat",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "M",
+   "category": "work",
+   "name": {
+    "uz": "Meet Davomat",
+    "ru": "Посещаемость Meet"
+   },
+   "short": {
+    "uz": "Meet Davomat",
+    "ru": "Посещаемость Meet"
+   },
+   "desc": {
+    "uz": "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…",
+    "ru": "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в…"
+   },
+   "features": {
+    "uz": [
+     "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…"
+    ],
+    "ru": [
+     "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в…"
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "https://meet.google.com/*",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/068-meet-davomat-uz.jpg",
+    "ru": "img/068-meet-davomat-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/068-meet-davomat-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/068-meet-davomat"
+  },
+  {
+   "id": 69,
+   "slug": "klaviatura-makroslari",
+   "folder": "069-klaviatura-makroslari",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "K",
+   "category": "work",
+   "name": {
+    "uz": "Klaviatura Makroslari",
+    "ru": "Клавиатурные макросы"
+   },
+   "short": {
+    "uz": "Klaviatura Makroslari",
+    "ru": "Клавиатурные макросы"
+   },
+   "desc": {
+    "uz": "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…",
+    "ru": "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На…"
+   },
+   "features": {
+    "uz": [
+     "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…"
+    ],
+    "ru": [
+     "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/069-klaviatura-makroslari-uz.jpg",
+    "ru": "img/069-klaviatura-makroslari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/069-klaviatura-makroslari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/069-klaviatura-makroslari"
+  },
+  {
+   "id": 70,
+   "slug": "kod-parchalari",
+   "folder": "070-kod-parchalari",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Kod Parchalari",
+    "ru": "Сниппеты кода"
+   },
+   "short": {
+    "uz": "Kod Parchalari",
+    "ru": "Сниппеты кода"
+   },
+   "desc": {
+    "uz": "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…",
+    "ru": "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле…"
+   },
+   "features": {
+    "uz": [
+     "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…"
+    ],
+    "ru": [
+     "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/070-kod-parchalari-uz.jpg",
+    "ru": "img/070-kod-parchalari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/070-kod-parchalari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/070-kod-parchalari"
+  },
+  {
+   "id": 71,
+   "slug": "tablar-ovozi",
+   "folder": "071-tablar-ovozi",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "T",
+   "category": "life",
+   "name": {
+    "uz": "Tablar Ovozi",
+    "ru": "Звук вкладок"
+   },
+   "short": {
+    "uz": "Tablar Ovozi",
+    "ru": "Звук вкладок"
+   },
+   "desc": {
+    "uz": "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…",
+    "ru": "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к…"
+   },
+   "features": {
+    "uz": [
+     "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…"
+    ],
+    "ru": [
+     "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к…"
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/071-tablar-ovozi-uz.jpg",
+    "ru": "img/071-tablar-ovozi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/071-tablar-ovozi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/071-tablar-ovozi"
+  },
+  {
+   "id": 72,
+   "slug": "video-kadri",
+   "folder": "072-video-kadri",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "V",
+   "category": "life",
+   "name": {
+    "uz": "Video Kadri",
+    "ru": "Кадр из видео"
+   },
+   "short": {
+    "uz": "Video Kadri",
+    "ru": "Кадр из видео"
+   },
+   "desc": {
+    "uz": "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…",
+    "ru": "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом…"
+   },
+   "features": {
+    "uz": [
+     "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…"
+    ],
+    "ru": [
+     "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/072-video-kadri-uz.jpg",
+    "ru": "img/072-video-kadri-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/072-video-kadri-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/072-video-kadri"
+  },
+  {
+   "id": 73,
+   "slug": "rasmga-logo",
+   "folder": "073-rasmga-logo",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "R",
+   "category": "life",
+   "name": {
+    "uz": "Rasmga Logo",
+    "ru": "Логотип на фото"
+   },
+   "short": {
+    "uz": "Rasmga Logo",
+    "ru": "Логотип на фото"
+   },
+   "desc": {
+    "uz": "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…",
+    "ru": "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность…"
+   },
+   "features": {
+    "uz": [
+     "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…"
+    ],
+    "ru": [
+     "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/073-rasmga-logo-uz.jpg",
+    "ru": "img/073-rasmga-logo-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/073-rasmga-logo-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/073-rasmga-logo"
+  },
+  {
+   "id": 74,
+   "slug": "xarajatlar-daftari",
+   "folder": "074-xarajatlar-daftari",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "X",
+   "category": "work",
+   "name": {
+    "uz": "Xarajatlar Daftari",
+    "ru": "Дневник расходов"
+   },
+   "short": {
+    "uz": "Xarajatlar Daftari",
+    "ru": "Дневник расходов"
+   },
+   "desc": {
+    "uz": "Kunlik xarajatlarni so'mda tez yozing: toifalar, oylik byudjet, kun va toifa bo'yicha grafiklar, oy oxirida hisobot va Excelga…",
+    "ru": "Быстро записывайте ежедневные расходы в сумах: категории, месячный бюджет, графики по дням и категориям, отчёт за месяц и экспорт…"
+   },
+   "features": {
+    "uz": [
+     "Kunlik xarajatlarni so'mda tez yozing: toifalar, oylik byudjet, kun va toifa bo'yicha grafiklar, oy oxirida hisobot va Excelga…"
+    ],
+    "ru": [
+     "Быстро записывайте ежедневные расходы в сумах: категории, месячный бюджет, графики по дням и категориям, отчёт за месяц и экспорт…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/074-xarajatlar-daftari-uz.jpg",
+    "ru": "img/074-xarajatlar-daftari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/074-xarajatlar-daftari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/074-xarajatlar-daftari"
+  },
+  {
+   "id": 75,
+   "slug": "birlik-ogiruvchi",
+   "folder": "075-birlik-ogiruvchi",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "B",
+   "category": "work",
+   "name": {
+    "uz": "Birlik O'giruvchi",
+    "ru": "Конвертер единиц"
+   },
+   "short": {
+    "uz": "Birlik O'giruvchi",
+    "ru": "Конвертер единиц"
+   },
+   "desc": {
+    "uz": "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…",
+    "ru": "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."
+   },
+   "features": {
+    "uz": [
+     "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…"
+    ],
+    "ru": [
+     "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/075-birlik-ogiruvchi-uz.jpg",
+    "ru": "img/075-birlik-ogiruvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/075-birlik-ogiruvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/075-birlik-ogiruvchi"
+  },
+  {
+   "id": 76,
+   "slug": "maxsus-belgilar",
+   "folder": "076-maxsus-belgilar",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "M",
+   "category": "work",
+   "name": {
+    "uz": "Maxsus Belgilar",
+    "ru": "Спецсимволы"
+   },
+   "short": {
+    "uz": "Maxsus Belgilar",
+    "ru": "Спецсимволы"
+   },
+   "desc": {
+    "uz": "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…",
+    "ru": "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."
+   },
+   "features": {
+    "uz": [
+     "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…"
+    ],
+    "ru": [
+     "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/076-maxsus-belgilar-uz.jpg",
+    "ru": "img/076-maxsus-belgilar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/076-maxsus-belgilar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/076-maxsus-belgilar"
+  },
+  {
+   "id": 77,
+   "slug": "ekran-chizgichi",
+   "folder": "077-ekran-chizgichi",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "E",
+   "category": "life",
+   "name": {
+    "uz": "Ekran Chizg'ichi",
+    "ru": "Экранная линейка"
+   },
+   "short": {
+    "uz": "Ekran Chizg'ichi",
+    "ru": "Экранная линейка"
+   },
+   "desc": {
+    "uz": "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…",
+    "ru": "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в…"
+   },
+   "features": {
+    "uz": [
+     "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…"
+    ],
+    "ru": [
+     "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/077-ekran-chizgichi-uz.jpg",
+    "ru": "img/077-ekran-chizgichi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/077-ekran-chizgichi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/077-ekran-chizgichi"
+  },
+  {
+   "id": 78,
+   "slug": "lupa",
+   "folder": "078-lupa",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "L",
+   "category": "life",
+   "name": {
+    "uz": "Lupa",
+    "ru": "Лупа"
+   },
+   "short": {
+    "uz": "Lupa",
+    "ru": "Лупа"
+   },
+   "desc": {
+    "uz": "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…",
+    "ru": "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа…"
+   },
+   "features": {
+    "uz": [
+     "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…"
+    ],
+    "ru": [
+     "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/078-lupa-uz.jpg",
+    "ru": "img/078-lupa-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/078-lupa-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/078-lupa"
+  },
+  {
+   "id": 79,
+   "slug": "rasm-qidirish",
+   "folder": "079-rasm-qidirish",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "R",
+   "category": "life",
+   "name": {
+    "uz": "Rasm bo'yicha Qidirish",
+    "ru": "Поиск по картинке"
+   },
+   "short": {
+    "uz": "Rasm bo'yicha Qidirish",
+    "ru": "Поиск по картинке"
+   },
+   "desc": {
+    "uz": "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…",
+    "ru": "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."
+   },
+   "features": {
+    "uz": [
+     "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…"
+    ],
+    "ru": [
+     "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/079-rasm-qidirish-uz.jpg",
+    "ru": "img/079-rasm-qidirish-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/079-rasm-qidirish-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/079-rasm-qidirish"
+  },
+  {
+   "id": 80,
+   "slug": "avto-qayta-yuklash",
+   "folder": "080-avto-qayta-yuklash",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Kengaytma Qayta Yuklagich",
+    "ru": "Перезагрузка расширений"
+   },
+   "short": {
+    "uz": "Kengaytma Qayta Yuklagich",
+    "ru": "Перезагрузка расширений"
+   },
+   "desc": {
+    "uz": "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…",
+    "ru": "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании…"
+   },
+   "features": {
+    "uz": [
+     "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…"
+    ],
+    "ru": [
+     "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "management",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/080-avto-qayta-yuklash-uz.jpg",
+    "ru": "img/080-avto-qayta-yuklash-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/080-avto-qayta-yuklash-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/080-avto-qayta-yuklash"
+  },
+  {
+   "id": 81,
+   "slug": "storage-muharriri",
+   "folder": "081-storage-muharriri",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "S",
+   "category": "dev",
+   "name": {
+    "uz": "Storage Muharriri",
+    "ru": "Редактор хранилища"
+   },
+   "short": {
+    "uz": "Storage Muharriri",
+    "ru": "Редактор хранилища"
+   },
+   "desc": {
+    "uz": "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…",
+    "ru": "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт…"
+   },
+   "features": {
+    "uz": [
+     "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…"
+    ],
+    "ru": [
+     "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт…"
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "contextMenus",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/081-storage-muharriri-uz.jpg",
+    "ru": "img/081-storage-muharriri-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/081-storage-muharriri-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/081-storage-muharriri"
+  },
+  {
+   "id": 82,
+   "slug": "konsol-xatolari",
+   "folder": "082-konsol-xatolari",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Konsol Xatolari",
+    "ru": "Ошибки консоли"
+   },
+   "short": {
+    "uz": "Konsol Xatolari",
+    "ru": "Ошибки консоли"
+   },
+   "desc": {
+    "uz": "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…",
+    "ru": "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в…"
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…"
+    ],
+    "ru": [
+     "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в…"
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "https://api.telegram.org/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/082-konsol-xatolari-uz.jpg",
+    "ru": "img/082-konsol-xatolari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/082-konsol-xatolari-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/082-konsol-xatolari"
+  },
+  {
+   "id": 83,
+   "slug": "element-nusxalash",
+   "folder": "083-element-nusxalash",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "E",
+   "category": "dev",
+   "name": {
+    "uz": "Element Nusxalash",
+    "ru": "Копирование элемента"
+   },
+   "short": {
+    "uz": "Element Nusxalash",
+    "ru": "Копирование элемента"
+   },
+   "desc": {
+    "uz": "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…",
+    "ru": "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание…"
+   },
+   "features": {
+    "uz": [
+     "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…"
+    ],
+    "ru": [
+     "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/083-element-nusxalash-uz.jpg",
+    "ru": "img/083-element-nusxalash-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/083-element-nusxalash-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/083-element-nusxalash"
+  },
+  {
+   "id": 84,
+   "slug": "hujjat-qidiruvi",
+   "folder": "084-hujjat-qidiruvi",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "H",
+   "category": "dev",
+   "name": {
+    "uz": "Hujjat Qidiruvi",
+    "ru": "Поиск по документации"
+   },
+   "short": {
+    "uz": "Hujjat Qidiruvi",
+    "ru": "Поиск по документации"
+   },
+   "desc": {
+    "uz": "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…",
+    "ru": "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go…"
+   },
+   "features": {
+    "uz": [
+     "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…"
+    ],
+    "ru": [
+     "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/084-hujjat-qidiruvi-uz.jpg",
+    "ru": "img/084-hujjat-qidiruvi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/084-hujjat-qidiruvi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/084-hujjat-qidiruvi"
+  },
+  {
+   "id": 85,
+   "slug": "ikonka-generatori",
+   "folder": "085-ikonka-generatori",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "I",
+   "category": "dev",
+   "name": {
+    "uz": "Ikonka Generatori",
+    "ru": "Генератор иконок"
+   },
+   "short": {
+    "uz": "Ikonka Generatori",
+    "ru": "Генератор иконок"
+   },
+   "desc": {
+    "uz": "Bitta rasmdan 16–1024 o'lchamdagi barcha ikonkalar: favicon.ico, Apple touch, PWA, Chrome kengaytma, Android mipmap, iOS. Fon…",
+    "ru": "Все иконки 16–1024 из одного изображения: favicon.ico, Apple touch, PWA, расширение Chrome, Android mipmap, iOS. Фон, отступы…"
+   },
+   "features": {
+    "uz": [
+     "Bitta rasmdan 16–1024 o'lchamdagi barcha ikonkalar: favicon.ico, Apple touch, PWA, Chrome kengaytma, Android mipmap, iOS. Fon…"
+    ],
+    "ru": [
+     "Все иконки 16–1024 из одного изображения: favicon.ico, Apple touch, PWA, расширение Chrome, Android mipmap, iOS. Фон, отступы…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/085-ikonka-generatori-uz.jpg",
+    "ru": "img/085-ikonka-generatori-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/085-ikonka-generatori-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/085-ikonka-generatori"
+  },
+  {
+   "id": 86,
+   "slug": "pwa-tekshiruvchi",
+   "folder": "086-pwa-tekshiruvchi",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "P",
+   "category": "dev",
+   "name": {
+    "uz": "PWA Tekshiruvchi",
+    "ru": "Проверка PWA"
+   },
+   "short": {
+    "uz": "PWA Tekshiruvchi",
+    "ru": "Проверка PWA"
+   },
+   "desc": {
+    "uz": "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…",
+    "ru": "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги —…"
+   },
+   "features": {
+    "uz": [
+     "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…"
+    ],
+    "ru": [
+     "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги —…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/086-pwa-tekshiruvchi-uz.jpg",
+    "ru": "img/086-pwa-tekshiruvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/086-pwa-tekshiruvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/086-pwa-tekshiruvchi"
+  },
+  {
+   "id": 87,
+   "slug": "sekin-internet",
+   "folder": "087-sekin-internet",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "S",
+   "category": "dev",
+   "name": {
+    "uz": "Sekin Internet",
+    "ru": "Медленный интернет"
+   },
+   "short": {
+    "uz": "Sekin Internet",
+    "ru": "Медленный интернет"
+   },
+   "desc": {
+    "uz": "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…",
+    "ru": "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной…"
+   },
+   "features": {
+    "uz": [
+     "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…"
+    ],
+    "ru": [
+     "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "debugger",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/087-sekin-internet-uz.jpg",
+    "ru": "img/087-sekin-internet-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/087-sekin-internet-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/087-sekin-internet"
+  },
+  {
+   "id": 88,
+   "slug": "kod-skrinshoti",
+   "folder": "088-kod-skrinshoti",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Kod Skrinshoti",
+    "ru": "Скриншот кода"
+   },
+   "short": {
+    "uz": "Kod Skrinshoti",
+    "ru": "Скриншот кода"
+   },
+   "desc": {
+    "uz": "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…",
+    "ru": "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или…"
+   },
+   "features": {
+    "uz": [
+     "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…"
+    ],
+    "ru": [
+     "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/088-kod-skrinshoti-uz.jpg",
+    "ru": "img/088-kod-skrinshoti-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/088-kod-skrinshoti-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/088-kod-skrinshoti"
+  },
+  {
+   "id": 89,
+   "slug": "konvertorlar",
+   "folder": "089-konvertorlar",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "K",
+   "category": "dev",
+   "name": {
+    "uz": "Konvertorlar",
+    "ru": "Конвертеры"
+   },
+   "short": {
+    "uz": "Konvertorlar",
+    "ru": "Конвертеры"
+   },
+   "desc": {
+    "uz": "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…",
+    "ru": "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct.…"
+   },
+   "features": {
+    "uz": [
+     "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…"
+    ],
+    "ru": [
+     "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct.…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/089-konvertorlar-uz.jpg",
+    "ru": "img/089-konvertorlar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/089-konvertorlar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/089-konvertorlar"
+  },
+  {
+   "id": 90,
+   "slug": "svg-yiguvchi",
+   "folder": "090-svg-yiguvchi",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "S",
+   "category": "dev",
+   "name": {
+    "uz": "SVG Yig'uvchi",
+    "ru": "Сборщик SVG"
+   },
+   "short": {
+    "uz": "SVG Yig'uvchi",
+    "ru": "Сборщик SVG"
+   },
+   "desc": {
+    "uz": "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…",
+    "ru": "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data…"
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…"
+    ],
+    "ru": [
+     "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/090-svg-yiguvchi-uz.jpg",
+    "ru": "img/090-svg-yiguvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/090-svg-yiguvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/090-svg-yiguvchi"
+  },
+  {
+   "id": 91,
+   "slug": "websocket-kuzatuvchi",
+   "folder": "091-websocket-kuzatuvchi",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "W",
+   "category": "dev",
+   "name": {
+    "uz": "WebSocket Kuzatuvchi",
+    "ru": "Наблюдатель WebSocket"
+   },
+   "short": {
+    "uz": "WebSocket Kuzatuvchi",
+    "ru": "Наблюдатель WebSocket"
+   },
+   "desc": {
+    "uz": "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…",
+    "ru": "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…"
+    ],
+    "ru": [
+     "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "sidePanel",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/091-websocket-kuzatuvchi-uz.jpg",
+    "ru": "img/091-websocket-kuzatuvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/091-websocket-kuzatuvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/091-websocket-kuzatuvchi"
+  },
+  {
+   "id": 92,
+   "slug": "xato-hisoboti",
+   "folder": "092-xato-hisoboti",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "X",
+   "category": "dev",
+   "name": {
+    "uz": "Xato Hisoboti",
+    "ru": "Отчёт об ошибке"
+   },
+   "short": {
+    "uz": "Xato Hisoboti",
+    "ru": "Отчёт об ошибке"
+   },
+   "desc": {
+    "uz": "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…",
+    "ru": "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в…"
+   },
+   "features": {
+    "uz": [
+     "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…"
+    ],
+    "ru": [
+     "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "https://api.github.com/*",
+    "https://api.telegram.org/*",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/092-xato-hisoboti-uz.jpg",
+    "ru": "img/092-xato-hisoboti-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/092-xato-hisoboti-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/092-xato-hisoboti"
+  },
+  {
+   "id": 93,
+   "slug": "vizual-farq",
+   "folder": "093-vizual-farq",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "V",
+   "category": "dev",
+   "name": {
+    "uz": "Vizual Farq",
+    "ru": "Визуальная разница"
+   },
+   "short": {
+    "uz": "Vizual Farq",
+    "ru": "Визуальная разница"
+   },
+   "desc": {
+    "uz": "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…",
+    "ru": "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки…"
+   },
+   "features": {
+    "uz": [
+     "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…"
+    ],
+    "ru": [
+     "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/093-vizual-farq-uz.jpg",
+    "ru": "img/093-vizual-farq-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/093-vizual-farq-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/093-vizual-farq"
+  },
+  {
+   "id": 94,
+   "slug": "akkaunt-almashtirgich",
+   "folder": "094-akkaunt-almashtirgich",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "A",
+   "category": "dev",
+   "name": {
+    "uz": "Akkaunt Almashtirgich",
+    "ru": "Переключатель аккаунтов"
+   },
+   "short": {
+    "uz": "Akkaunt Almashtirgich",
+    "ru": "Переключатель аккаунтов"
+   },
+   "desc": {
+    "uz": "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…",
+    "ru": "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием —…"
+   },
+   "features": {
+    "uz": [
+     "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…"
+    ],
+    "ru": [
+     "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием —…"
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "cookies",
+    "scripting",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/094-akkaunt-almashtirgich-uz.jpg",
+    "ru": "img/094-akkaunt-almashtirgich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/094-akkaunt-almashtirgich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/094-akkaunt-almashtirgich"
+  },
+  {
+   "id": 95,
+   "slug": "joy-vaqt-til",
+   "folder": "095-joy-vaqt-til",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "J",
+   "category": "dev",
+   "name": {
+    "uz": "Joy, Vaqt va Til",
+    "ru": "Место, время и язык"
+   },
+   "short": {
+    "uz": "Joy, Vaqt va Til",
+    "ru": "Место, время и язык"
+   },
+   "desc": {
+    "uz": "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…",
+    "ru": "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только…"
+   },
+   "features": {
+    "uz": [
+     "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…"
+    ],
+    "ru": [
+     "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "debugger",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/095-joy-vaqt-til-uz.jpg",
+    "ru": "img/095-joy-vaqt-til-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/095-joy-vaqt-til-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/095-joy-vaqt-til"
+  },
+  {
+   "id": 96,
+   "slug": "domen-ssl",
+   "folder": "096-domen-ssl",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "D",
+   "category": "dev",
+   "name": {
+    "uz": "Domen va SSL",
+    "ru": "Домен и SSL"
+   },
+   "short": {
+    "uz": "Domen va SSL",
+    "ru": "Домен и SSL"
+   },
+   "desc": {
+    "uz": "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…",
+    "ru": "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты —…"
+   },
+   "features": {
+    "uz": [
+     "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…"
+    ],
+    "ru": [
+     "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты —…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "alarms",
+    "contextMenus",
+    "https://*/*",
+    "https://crt.sh/*",
+    "https://dns.google/*",
+    "https://rdap.org/*",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/096-domen-ssl-uz.jpg",
+    "ru": "img/096-domen-ssl-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/096-domen-ssl-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/096-domen-ssl"
+  },
+  {
+   "id": 97,
+   "slug": "cron-sql",
+   "folder": "097-cron-sql",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "C",
+   "category": "dev",
+   "name": {
+    "uz": "Cron va SQL",
+    "ru": "Cron и SQL"
+   },
+   "short": {
+    "uz": "Cron va SQL",
+    "ru": "Cron и SQL"
+   },
+   "desc": {
+    "uz": "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…",
+    "ru": "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."
+   },
+   "features": {
+    "uz": [
+     "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…"
+    ],
+    "ru": [
+     "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/097-cron-sql-uz.jpg",
+    "ru": "img/097-cron-sql-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/097-cron-sql-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/097-cron-sql"
+  },
+  {
+   "id": 98,
+   "slug": "readme-muharriri",
+   "folder": "098-readme-muharriri",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "R",
+   "category": "dev",
+   "name": {
+    "uz": "README Muharriri",
+    "ru": "Редактор README"
+   },
+   "short": {
+    "uz": "README Muharriri",
+    "ru": "Редактор README"
+   },
+   "desc": {
+    "uz": "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…",
+    "ru": "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие…"
+   },
+   "features": {
+    "uz": [
+     "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…"
+    ],
+    "ru": [
+     "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "https://api.github.com/*",
+    "https://raw.githubusercontent.com/*",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/098-readme-muharriri-uz.jpg",
+    "ru": "img/098-readme-muharriri-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/098-readme-muharriri-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/098-readme-muharriri"
+  },
+  {
+   "id": 99,
+   "slug": "flex-grid",
+   "folder": "099-flex-grid",
+   "version": "1.0.0",
+   "color": "#c2410c",
+   "glyph": "F",
+   "category": "dev",
+   "name": {
+    "uz": "Flex/Grid Ko'rgich",
+    "ru": "Просмотр Flex/Grid"
+   },
+   "short": {
+    "uz": "Flex/Grid Ko'rgich",
+    "ru": "Просмотр Flex/Grid"
+   },
+   "desc": {
+    "uz": "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…",
+    "ru": "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и…"
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…"
+    ],
+    "ru": [
+     "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/099-flex-grid-uz.jpg",
+    "ru": "img/099-flex-grid-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/099-flex-grid-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/099-flex-grid"
+  },
+  {
+   "id": 100,
+   "slug": "ishlatilmagan-css",
+   "folder": "100-ishlatilmagan-css",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "I",
+   "category": "dev",
+   "name": {
+    "uz": "Ishlatilmagan CSS",
+    "ru": "Неиспользуемый CSS"
+   },
+   "short": {
+    "uz": "Ishlatilmagan CSS",
+    "ru": "Неиспользуемый CSS"
+   },
+   "desc": {
+    "uz": "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…",
+    "ru": "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим…"
+   },
+   "features": {
+    "uz": [
+     "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…"
+    ],
+    "ru": [
+     "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/100-ishlatilmagan-css-uz.jpg",
+    "ru": "img/100-ishlatilmagan-css-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/100-ishlatilmagan-css-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/100-ishlatilmagan-css"
+  },
+  {
+   "id": 101,
+   "slug": "breakpoint",
+   "folder": "101-breakpoint",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "B",
+   "category": "dev",
+   "name": {
+    "uz": "Breakpoint Ko'rsatkichi",
+    "ru": "Индикатор брейкпоинтов"
+   },
+   "short": {
+    "uz": "Breakpoint Ko'rsatkichi",
+    "ru": "Индикатор брейкпоинтов"
+   },
+   "desc": {
+    "uz": "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…",
+    "ru": "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта…"
+   },
+   "features": {
+    "uz": [
+     "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…"
+    ],
+    "ru": [
+     "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/101-breakpoint-uz.jpg",
+    "ru": "img/101-breakpoint-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/101-breakpoint-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/101-breakpoint"
+  },
+  {
+   "id": 102,
+   "slug": "soya-gradient",
+   "folder": "102-soya-gradient",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "S",
+   "category": "dev",
+   "name": {
+    "uz": "Soya va Gradient",
+    "ru": "Тени и градиенты"
+   },
+   "short": {
+    "uz": "Soya va Gradient",
+    "ru": "Тени и градиенты"
+   },
+   "desc": {
+    "uz": "box-shadow (ko'p qatlamli, inset), text-shadow va gradient (linear, radial, conic) ni jonli tahrirlang: tayyor namunalar, rang…",
+    "ru": "Живое редактирование box-shadow (многослойные, inset), text-shadow и градиентов (linear, radial, conic): готовые образцы, точки…"
+   },
+   "features": {
+    "uz": [
+     "box-shadow (ko'p qatlamli, inset), text-shadow va gradient (linear, radial, conic) ni jonli tahrirlang: tayyor namunalar, rang…"
+    ],
+    "ru": [
+     "Живое редактирование box-shadow (многослойные, inset), text-shadow и градиентов (linear, radial, conic): готовые образцы, точки…"
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/102-soya-gradient-uz.jpg",
+    "ru": "img/102-soya-gradient-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/102-soya-gradient-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/102-soya-gradient"
+  },
+  {
+   "id": 103,
+   "slug": "tailwind-tushuntiruvchi",
+   "folder": "103-tailwind-tushuntiruvchi",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "T",
+   "category": "dev",
+   "name": {
+    "uz": "Tailwind Tushuntiruvchi",
+    "ru": "Объяснитель Tailwind"
+   },
+   "short": {
+    "uz": "Tailwind Tushuntiruvchi",
+    "ru": "Объяснитель Tailwind"
+   },
+   "desc": {
+    "uz": "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…",
+    "ru": "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary]…"
+   },
+   "features": {
+    "uz": [
+     "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…"
+    ],
+    "ru": [
+     "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary]…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/103-tailwind-tushuntiruvchi-uz.jpg",
+    "ru": "img/103-tailwind-tushuntiruvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/103-tailwind-tushuntiruvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/103-tailwind-tushuntiruvchi"
+  },
   {
    "id": 104,
    "slug": "dark-mode",
@@ -1899,6 +6212,687 @@
    },
    "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/197-futbol-natijalari-v1.1.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/197-futbol-natijalari"
+  },
+  {
+   "id": 198,
+   "slug": "ekran-yozuvchi",
+   "folder": "198-ekran-yozuvchi",
+   "version": "2.0.0",
+   "color": "#4d6b0f",
+   "glyph": "E",
+   "category": "work",
+   "name": {
+    "uz": "Ekran Yozuvchi",
+    "ru": "Запись экрана"
+   },
+   "short": {
+    "uz": "Ekran Yozuvchi",
+    "ru": "Запись экрана"
+   },
+   "desc": {
+    "uz": "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…",
+    "ru": "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или…"
+   },
+   "features": {
+    "uz": [
+     "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…"
+    ],
+    "ru": [
+     "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или…"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "desktopCapture",
+    "downloads",
+    "offscreen",
+    "scripting",
+    "storage",
+    "tabCapture",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/198-ekran-yozuvchi-uz.jpg",
+    "ru": "img/198-ekran-yozuvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/198-ekran-yozuvchi-v2.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/198-ekran-yozuvchi"
+  },
+  {
+   "id": 199,
+   "slug": "diqqat",
+   "folder": "199-diqqat",
+   "version": "1.1.0",
+   "color": "#a16207",
+   "glyph": "D",
+   "category": "work",
+   "name": {
+    "uz": "Diqqat",
+    "ru": "Концентрация"
+   },
+   "short": {
+    "uz": "Diqqat",
+    "ru": "Концентрация"
+   },
+   "desc": {
+    "uz": "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika.",
+    "ru": "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."
+   },
+   "features": {
+    "uz": [
+     "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika."
+    ],
+    "ru": [
+     "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "declarativeNetRequestWithHostAccess",
+    "notifications",
+    "offscreen",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/199-diqqat-uz.jpg",
+    "ru": "img/199-diqqat-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/199-diqqat-v1.1.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/199-diqqat"
+  },
+  {
+   "id": 200,
+   "slug": "dokon-qidiruv",
+   "folder": "200-dokon-qidiruv",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "B",
+   "category": "life",
+   "name": {
+    "uz": "Bir qidiruv",
+    "ru": "Один поиск"
+   },
+   "short": {
+    "uz": "Bir qidiruv",
+    "ru": "Один поиск"
+   },
+   "desc": {
+    "uz": "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson.",
+    "ru": "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."
+   },
+   "features": {
+    "uz": [
+     "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson."
+    ],
+    "ru": [
+     "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."
+    ]
+   },
+   "permissions": [
+    "contextMenus",
+    "storage",
+    "tabGroups",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/200-dokon-qidiruv-uz.jpg",
+    "ru": "img/200-dokon-qidiruv-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/200-dokon-qidiruv-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/200-dokon-qidiruv"
+  },
+  {
+   "id": 201,
+   "slug": "dostcha",
+   "folder": "201-dostcha",
+   "version": "2.0.0",
+   "color": "#1f7a4d",
+   "glyph": "D",
+   "category": "life",
+   "name": {
+    "uz": "Do'stcha",
+    "ru": "Дружок"
+   },
+   "short": {
+    "uz": "Do'stcha",
+    "ru": "Дружок"
+   },
+   "desc": {
+    "uz": "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin.",
+    "ru": "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."
+   },
+   "features": {
+    "uz": [
+     "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin."
+    ],
+    "ru": [
+     "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/201-dostcha-uz.jpg",
+    "ru": "img/201-dostcha-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/201-dostcha-v2.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/201-dostcha"
+  },
+  {
+   "id": 202,
+   "slug": "matn-hisoblagich",
+   "folder": "202-matn-hisoblagich",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "M",
+   "category": "work",
+   "name": {
+    "uz": "Matn Hisoblagich",
+    "ru": "Счётчик текста"
+   },
+   "short": {
+    "uz": "Matn Hisoblagich",
+    "ru": "Счётчик текста"
+   },
+   "desc": {
+    "uz": "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich.",
+    "ru": "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."
+   },
+   "features": {
+    "uz": [
+     "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich."
+    ],
+    "ru": [
+     "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/202-matn-hisoblagich-uz.jpg",
+    "ru": "img/202-matn-hisoblagich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/202-matn-hisoblagich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/202-matn-hisoblagich"
+  },
+  {
+   "id": 203,
+   "slug": "namoz-vaqtlari",
+   "folder": "203-namoz-vaqtlari",
+   "version": "1.1.0",
+   "color": "#c2410c",
+   "glyph": "N",
+   "category": "life",
+   "name": {
+    "uz": "Namoz vaqtlari",
+    "ru": "Время намаза"
+   },
+   "short": {
+    "uz": "Namoz vaqtlari",
+    "ru": "Время намаза"
+   },
+   "desc": {
+    "uz": "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi.",
+    "ru": "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."
+   },
+   "features": {
+    "uz": [
+     "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi."
+    ],
+    "ru": [
+     "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."
+    ]
+   },
+   "permissions": [
+    "alarms",
+    "geolocation",
+    "notifications",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/203-namoz-vaqtlari-uz.jpg",
+    "ru": "img/203-namoz-vaqtlari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/203-namoz-vaqtlari-v1.1.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/203-namoz-vaqtlari"
+  },
+  {
+   "id": 204,
+   "slug": "oqib-ber",
+   "folder": "204-oqib-ber",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "O",
+   "category": "access",
+   "name": {
+    "uz": "O'qib Ber",
+    "ru": "Озвучка"
+   },
+   "short": {
+    "uz": "O'qib Ber",
+    "ru": "Озвучка"
+   },
+   "desc": {
+    "uz": "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish.",
+    "ru": "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."
+   },
+   "features": {
+    "uz": [
+     "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish."
+    ],
+    "ru": [
+     "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "content_scripts",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tts"
+   ],
+   "image": {
+    "uz": "img/204-oqib-ber-uz.jpg",
+    "ru": "img/204-oqib-ber-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/204-oqib-ber-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/204-oqib-ber"
+  },
+  {
+   "id": 205,
+   "slug": "pdf-imzo",
+   "folder": "205-pdf-imzo",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "P",
+   "category": "work",
+   "name": {
+    "uz": "PDF Imzo",
+    "ru": "PDF-подпись"
+   },
+   "short": {
+    "uz": "PDF Imzo",
+    "ru": "PDF-подпись"
+   },
+   "desc": {
+    "uz": "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi.",
+    "ru": "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."
+   },
+   "features": {
+    "uz": [
+     "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi."
+    ],
+    "ru": [
+     "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/205-pdf-imzo-uz.jpg",
+    "ru": "img/205-pdf-imzo-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/205-pdf-imzo-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/205-pdf-imzo"
+  },
+  {
+   "id": 206,
+   "slug": "rasm-saqlovchi",
+   "folder": "206-rasm-saqlovchi",
+   "version": "1.0.0",
+   "color": "#4d6b0f",
+   "glyph": "R",
+   "category": "work",
+   "name": {
+    "uz": "Rasm Saqlovchi",
+    "ru": "Сохранение картинок"
+   },
+   "short": {
+    "uz": "Rasm Saqlovchi",
+    "ru": "Сохранение картинок"
+   },
+   "desc": {
+    "uz": "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish.",
+    "ru": "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."
+   },
+   "features": {
+    "uz": [
+     "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish."
+    ],
+    "ru": [
+     "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "notifications",
+    "offscreen",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/206-rasm-saqlovchi-uz.jpg",
+    "ru": "img/206-rasm-saqlovchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/206-rasm-saqlovchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/206-rasm-saqlovchi"
+  },
+  {
+   "id": 207,
+   "slug": "stikerlar",
+   "folder": "207-stikerlar",
+   "version": "1.0.0",
+   "color": "#a16207",
+   "glyph": "S",
+   "category": "work",
+   "name": {
+    "uz": "Stikerlar",
+    "ru": "Стикеры"
+   },
+   "short": {
+    "uz": "Stikerlar",
+    "ru": "Стикеры"
+   },
+   "desc": {
+    "uz": "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida.",
+    "ru": "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."
+   },
+   "features": {
+    "uz": [
+     "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida."
+    ],
+    "ru": [
+     "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "contextMenus",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+   ],
+   "image": {
+    "uz": "img/207-stikerlar-uz.jpg",
+    "ru": "img/207-stikerlar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/207-stikerlar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/207-stikerlar"
+  },
+  {
+   "id": 208,
+   "slug": "tab-uxlatuvchi",
+   "folder": "208-tab-uxlatuvchi",
+   "version": "1.0.0",
+   "color": "#2f6fed",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Tab Uxlatuvchi",
+    "ru": "Усыпитель вкладок"
+   },
+   "short": {
+    "uz": "Tab Uxlatuvchi",
+    "ru": "Усыпитель вкладок"
+   },
+   "desc": {
+    "uz": "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi.",
+    "ru": "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."
+   },
+   "features": {
+    "uz": [
+     "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi."
+    ],
+    "ru": [
+     "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "content_scripts",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/208-tab-uxlatuvchi-uz.jpg",
+    "ru": "img/208-tab-uxlatuvchi-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/208-tab-uxlatuvchi-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/208-tab-uxlatuvchi"
+  },
+  {
+   "id": 209,
+   "slug": "toza-pdf",
+   "folder": "209-toza-pdf",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Toza PDF",
+    "ru": "Чистый PDF"
+   },
+   "short": {
+    "uz": "Toza PDF",
+    "ru": "Чистый PDF"
+   },
+   "desc": {
+    "uz": "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish.",
+    "ru": "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."
+   },
+   "features": {
+    "uz": [
+     "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish."
+    ],
+    "ru": [
+     "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/209-toza-pdf-uz.jpg",
+    "ru": "img/209-toza-pdf-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/209-toza-pdf-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/209-toza-pdf"
+  },
+  {
+   "id": 210,
+   "slug": "trafik",
+   "folder": "210-trafik",
+   "version": "1.0.0",
+   "color": "#7a3fd1",
+   "glyph": "T",
+   "category": "work",
+   "name": {
+    "uz": "Trafik Hisoblagich",
+    "ru": "Счётчик трафика"
+   },
+   "short": {
+    "uz": "Trafik Hisoblagich",
+    "ru": "Счётчик трафика"
+   },
+   "desc": {
+    "uz": "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun.",
+    "ru": "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."
+   },
+   "features": {
+    "uz": [
+     "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun."
+    ],
+    "ru": [
+     "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "notifications",
+    "storage",
+    "tabs",
+    "webRequest"
+   ],
+   "image": {
+    "uz": "img/210-trafik-uz.jpg",
+    "ru": "img/210-trafik-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/210-trafik-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/210-trafik"
+  },
+  {
+   "id": 211,
+   "slug": "tungi-rejim",
+   "folder": "211-tungi-rejim",
+   "version": "2.0.0",
+   "color": "#c2410c",
+   "glyph": "T",
+   "category": "access",
+   "name": {
+    "uz": "Tungi rejim",
+    "ru": "Ночной режим"
+   },
+   "short": {
+    "uz": "Tungi rejim",
+    "ru": "Ночной режим"
+   },
+   "desc": {
+    "uz": "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D.",
+    "ru": "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."
+   },
+   "features": {
+    "uz": [
+     "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D."
+    ],
+    "ru": [
+     "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "content_scripts",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/211-tungi-rejim-uz.jpg",
+    "ru": "img/211-tungi-rejim-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/211-tungi-rejim-v2.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/211-tungi-rejim"
+  },
+  {
+   "id": 212,
+   "slug": "video-yuklagich",
+   "folder": "212-video-yuklagich",
+   "version": "1.0.0",
+   "color": "#0e7490",
+   "glyph": "V",
+   "category": "life",
+   "name": {
+    "uz": "Video Yuklagich",
+    "ru": "Загрузчик видео"
+   },
+   "short": {
+    "uz": "Video Yuklagich",
+    "ru": "Загрузчик видео"
+   },
+   "desc": {
+    "uz": "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI.",
+    "ru": "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."
+   },
+   "features": {
+    "uz": [
+     "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI."
+    ],
+    "ru": [
+     "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."
+    ]
+   },
+   "permissions": [
+    "content_scripts",
+    "declarativeNetRequestWithHostAccess",
+    "downloads",
+    "http://*/*",
+    "https://*/*",
+    "storage",
+    "tabs",
+    "webRequest"
+   ],
+   "image": {
+    "uz": "img/212-video-yuklagich-uz.jpg",
+    "ru": "img/212-video-yuklagich-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/212-video-yuklagich-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/212-video-yuklagich"
+  },
+  {
+   "id": 213,
+   "slug": "xavfsiz-bola",
+   "folder": "213-xavfsiz-bola",
+   "version": "1.0.0",
+   "color": "#b4234a",
+   "glyph": "X",
+   "category": "privacy",
+   "name": {
+    "uz": "Xavfsiz Bola",
+    "ru": "Безопасный ребёнок"
+   },
+   "short": {
+    "uz": "Xavfsiz Bola",
+    "ru": "Безопасный ребёнок"
+   },
+   "desc": {
+    "uz": "Kattalar va qimor saytlarini bloklaydi, YouTube/Instagram/TikTok uchun kunlik vaqt limiti, uxlash vaqti, PIN bilan himoyalangan ota-ona paneli.",
+    "ru": "Блокирует сайты для взрослых и азартные игры, дневной лимит времени для YouTube/Instagram/TikTok, время сна, родительская панель с PIN."
+   },
+   "features": {
+    "uz": [
+     "Kattalar va qimor saytlarini bloklaydi, YouTube/Instagram/TikTok uchun kunlik vaqt limiti, uxlash vaqti, PIN bilan himoyalangan ota-ona paneli."
+    ],
+    "ru": [
+     "Блокирует сайты для взрослых и азартные игры, дневной лимит времени для YouTube/Instagram/TikTok, время сна, родительская панель с PIN."
+    ]
+   },
+   "permissions": [
+    "<all_urls>",
+    "alarms",
+    "declarativeNetRequestWithHostAccess",
+    "idle",
+    "storage",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/213-xavfsiz-bola-uz.jpg",
+    "ru": "img/213-xavfsiz-bola-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/213-xavfsiz-bola-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/213-xavfsiz-bola"
   }
  ]
 }
