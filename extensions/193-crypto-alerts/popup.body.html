@@ -1,0 +1,19 @@
+<div class="row nowrap">
+  <select id="ex"><option value="binance">Binance</option><option value="bybit">Bybit</option></select>
+  <input id="sym" class="grow" list="symlist" autocomplete="off" data-i18n-ph="symbolPh"><datalist id="symlist"></datalist>
+  <button class="btn" id="addSym" data-i18n="add"></button>
+</div>
+<div class="row" style="margin:8px 0 4px"><button class="btn ghost small" id="refresh" data-i18n="refresh"></button><span class="small muted" id="upd"></span></div>
+<div id="err" class="banner" hidden></div>
+<div id="list"></div>
+<style>
+[hidden]{display:none!important}.nowrap{flex-wrap:nowrap}
+.banner{padding:8px 10px;border-radius:8px;font-size:12px;background:color-mix(in srgb,var(--warn) 18%,transparent);margin:6px 0}
+.cc{padding:8px 10px;margin-bottom:8px}.cc .top{display:flex;gap:8px;align-items:center}.cc .top b{font-size:14px}.cc .top .ex{font-size:10.5px;color:var(--fg2)}
+.cc .px{margin-left:auto;text-align:right}.cc .px strong{font-size:16px;display:block}.cc .px span{font-size:12px;font-weight:600}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}.chip{display:inline-flex;gap:4px;align-items:center;font-size:11.5px;border:1px solid var(--line);border-radius:99px;padding:1px 4px 1px 8px;background:var(--bg)}
+.chip.done{opacity:.55;text-decoration:line-through}.chip button{all:unset;cursor:pointer;padding:0 5px;color:var(--fg2)}
+.af{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}.af select,.af input{width:100%;box-sizing:border-box}
+.cc svg{display:block;margin:4px 0}
+</style>

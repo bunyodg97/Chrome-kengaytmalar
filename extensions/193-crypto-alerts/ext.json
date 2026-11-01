@@ -1,0 +1,63 @@
+{
+  "slug": "crypto-alerts",
+  "version": "1.0.0",
+  "color": "#f08c00",
+  "glyph": "!",
+  "name": {
+    "uz": "Kripto narx ogohlantirgichi",
+    "ru": "Оповещения о цене крипто"
+  },
+  "short": {
+    "uz": "Narx signali",
+    "ru": "Цены крипто"
+  },
+  "desc": {
+    "uz": "Binance va Bybit koinlari narxini kuzating: narx belgilangan darajaga yetganda yoki tez o’zgarganda (masalan 15 daqiqada ±3%) bildirishnoma oling.",
+    "ru": "Следите за ценами монет Binance и Bybit: уведомление, когда цена достигла уровня или быстро изменилась (например ±3% за 15 минут)."
+  },
+  "features": {
+    "uz": [
+      "Watchlist: narx, 24 soatlik o’zgarish va mini grafik",
+      "Ogohlantirish turlari: «narx yuqoriga/pastga o’tdi» va «N daqiqada ±X% o’zgardi»",
+      "Bir martalik yoki takroriy (qayta yoqiladigan) signallar",
+      "Binance (spot) va Bybit (spot) — kalitsiz, ochiq API",
+      "Bildirishnoma bosilsa birja sahifasi ochiladi",
+      "Juftliklar ro’yxatidan qidirish (avtomatik taklif)",
+      "Hamma ma’lumot brauzerda; savdo signali yoki maslahat emas"
+    ],
+    "ru": [
+      "Список наблюдения: цена, изменение за 24 часа и мини-график",
+      "Типы оповещений: «цена выше/ниже уровня» и «изменение ±X% за N минут»",
+      "Одноразовые и повторяющиеся (перезаряжаемые) оповещения",
+      "Binance (спот) и Bybit (спот) — открытый API без ключей",
+      "Клик по уведомлению открывает страницу биржи",
+      "Поиск пары по списку (автоподсказка)",
+      "Все данные в браузере; это не торговый сигнал и не совет"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://data-api.binance.vision/*",
+    "https://api.bybit.com/*"
+  ],
+  "hosts_why": {
+    "uz": "Binance va Bybit’ning ochiq narx API’lari (faqat o’qish)",
+    "ru": "Открытые ценовые API Binance и Bybit (только чтение)"
+  },
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {
+    "popup.html": {
+      "body": "popup.body.html",
+      "settings": "settings.body.html",
+      "scripts": [
+        "core.js",
+        "popup.js"
+      ]
+    }
+  }
+}

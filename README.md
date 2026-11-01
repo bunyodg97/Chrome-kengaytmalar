@@ -44,6 +44,8 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 | 157 | [Tinchlantiruvchi tovushlar](extensions/157-relax-sounds) | Успокаивающие звуки | 1.0.0 |
 | 191 | [Avia chiptalar: arzon narx kuzatuvchisi](extensions/191-flight-tracker) | Авиабилеты: трекер низких цен | 1.0.0 |
 | 192 | [Trader to’plami](extensions/192-trader-toolkit) | Набор трейдера | 1.0.0 |
+| 193 | [Kripto narx ogohlantirgichi](extensions/193-crypto-alerts) | Оповещения о цене крипто | 1.0.0 |
+| 194 | [Iqtisodiy kalendar (trader uchun)](extensions/194-econ-calendar) | Экономический календарь трейдера | 1.0.0 |
 <!-- LIST:END -->
 
 ## Har bir kengaytmadagi «Sozlamalar» bo’limi

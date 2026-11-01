@@ -1,0 +1,62 @@
+{
+  "slug": "econ-calendar",
+  "version": "1.0.0",
+  "color": "#c2255c",
+  "glyph": "E",
+  "name": {
+    "uz": "Iqtisodiy kalendar (trader uchun)",
+    "ru": "Экономический календарь трейдера"
+  },
+  "short": {
+    "uz": "Kalendar",
+    "ru": "Календарь"
+  },
+  "desc": {
+    "uz": "CPI, NFP, FOMC kabi muhim iqtisodiy yangiliklar kalendari: o’zbekcha va ruscha izohlar, mahalliy vaqt, valyuta/ahamiyat filtri va yangilikdan oldin eslatma.",
+    "ru": "Календарь важных экономических новостей (CPI, NFP, FOMC): пояснения на русском и узбекском, местное время, фильтры по валюте и важности, напоминание перед новостью."
+  },
+  "features": {
+    "uz": [
+      "Haftalik kalendar: bugun, ertaga, shu hafta, keyingi hafta",
+      "Ahamiyat (yuqori/o’rta/past) va valyuta bo’yicha filtr",
+      "Vaqtlar sizning mahalliy vaqtingizda",
+      "Muhim atamalarga (CPI, NFP, FOMC, PMI…) qisqa izoh o’zbekcha va ruscha",
+      "Keyingi muhim yangilikkacha teskari sanoq va belgi (badge)",
+      "Yangilikdan 5–60 daqiqa oldin avtomatik eslatma; ixtiyoriy yangilikka alohida 🔔",
+      "Prognoz va oldingi qiymat ko’rsatiladi"
+    ],
+    "ru": [
+      "Недельный календарь: сегодня, завтра, неделя, следующая неделя",
+      "Фильтр по важности (высокая/средняя/низкая) и валюте",
+      "Время в вашем часовом поясе",
+      "Краткие пояснения терминов (CPI, NFP, FOMC, PMI…) на русском и узбекском",
+      "Обратный отсчёт до ближайшей важной новости и значок (badge)",
+      "Авто-напоминание за 5–60 минут; отдельный 🔔 для любой новости",
+      "Показываются прогноз и предыдущее значение"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://nfs.faireconomy.media/*"
+  ],
+  "hosts_why": {
+    "uz": "iqtisodiy kalendar ma’lumotlari (ochiq JSON, faqat o’qish)",
+    "ru": "данные экономического календаря (открытый JSON, только чтение)"
+  },
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {
+    "popup.html": {
+      "body": "popup.body.html",
+      "settings": "settings.body.html",
+      "scripts": [
+        "core.js",
+        "popup.js"
+      ]
+    }
+  }
+}
