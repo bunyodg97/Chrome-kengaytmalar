@@ -1,0 +1,60 @@
+{
+  "slug": "relax-sounds",
+  "version": "1.0.0",
+  "color": "#364fc7",
+  "glyph": "♫",
+  "name": {
+    "uz": "Tinchlantiruvchi tovushlar",
+    "ru": "Успокаивающие звуки"
+  },
+  "short": {
+    "uz": "Relaks",
+    "ru": "Релакс"
+  },
+  "desc": {
+    "uz": "Tungi chigirtkalar, yomg’ir, shamol, qor, momaqaldiroq, olov, dengiz va boshqa tovushlarni aralashtirib tinglang. Uyqu taymeri bilan. Internetsiz ishlaydi.",
+    "ru": "Сверчки ночью, дождь, ветер, снег, гроза, костёр, море и другие звуки — смешивайте и слушайте. С таймером сна. Работает без интернета."
+  },
+  "features": {
+    "uz": [
+      "12 ta tovush: chigirtka, yomg’ir, momaqaldiroq, shamol, qor, olov, dengiz, soy, boyo’g’li, oq/pushti/jigarrang shovqin",
+      "Har bir tovushning alohida balandligi — o’z aralashmangizni yarating",
+      "Tayyor to’plamlar: Yozgi tun, Yomg’irli kecha, Qishki tun, Dengiz bo’yi, Diqqat",
+      "Uyqu taymeri — oxirida ovoz asta pasayadi",
+      "Ovozlar kod bilan sintez qilinadi: takrorlanmaydi, internet kerak emas",
+      "Popup yopilsa ham tovush davom etadi; `Alt+Shift+M` — yoqish/to’xtatish"
+    ],
+    "ru": [
+      "12 звуков: сверчки, дождь, гроза, ветер, снег, костёр, море, ручей, сова, белый/розовый/коричневый шум",
+      "Отдельная громкость каждого звука — создайте свой микс",
+      "Готовые наборы: Летняя ночь, Дождливый вечер, Зимняя ночь, Берег моря, Фокус",
+      "Таймер сна — в конце звук плавно затихает",
+      "Звуки синтезируются кодом: не повторяются, интернет не нужен",
+      "Звук продолжается после закрытия popup; `Alt+Shift+M` — вкл/выкл"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "offscreen"
+  ],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {
+    "popup.html": {
+      "body": "popup.body.html",
+      "scripts": [
+        "presets.js",
+        "popup.js"
+      ]
+    }
+  },
+  "commands": {
+    "toggle": {
+      "key": "Alt+Shift+M",
+      "desc": {
+        "uz": "Tovushni yoqish/to’xtatish",
+        "ru": "Включить/выключить звук"
+      }
+    }
+  }
+}

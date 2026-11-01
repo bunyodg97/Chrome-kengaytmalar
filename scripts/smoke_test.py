@@ -24,6 +24,8 @@ def pages_of(ext):
     if m.get("chrome_url_overrides", {}).get("newtab"):
         pages.add(m["chrome_url_overrides"]["newtab"])
     for p in ext.glob("*.html"):
+        if p.name.startswith("offscreen"):
+            continue
         pages.add(p.name)
     return sorted(pages)
 
