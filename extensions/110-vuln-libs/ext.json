@@ -1,0 +1,17 @@
+{
+  "slug": "vuln-libs",
+  "version": "1.0.0",
+  "color": "#c92a2a",
+  "glyph": "⚠",
+  "name": {"uz": "Eski kutubxona ogohlantiruvchisi", "ru": "Предупреждение об устаревших библиотеках"},
+  "short": {"uz": "Zaif kutubxona", "ru": "Уязв. библ."},
+  "desc": {"uz": "Saytda ishlatilgan JS kutubxonalar versiyasini aniqlab, ma’lum zaifliklar (CVE) va qo’llab-quvvatlanmaydigan versiyalar haqida ogohlantiradi.", "ru": "Определяет версии JS-библиотек на сайте и предупреждает об известных уязвимостях (CVE) и неподдерживаемых версиях."},
+  "features": {
+    "uz": ["jQuery, jQuery UI, Bootstrap, Lodash, Moment, Handlebars, AngularJS, DOMPurify, Axios, Next.js va boshqalar", "CVE raqami, xavf darajasi va qaysi versiyada tuzatilgani", "Qo’llab-quvvatlash tugagan (EOL) versiyalar", "Natija ikonkada son bilan ko’rinadi", "Hisobotni nusxalash (vazifa yoki tiket uchun)"],
+    "ru": ["jQuery, jQuery UI, Bootstrap, Lodash, Moment, Handlebars, AngularJS, DOMPurify, Axios, Next.js и др.", "Номер CVE, уровень риска и версия с исправлением", "Версии с завершённой поддержкой (EOL)", "Результат отображается числом на иконке", "Копирование отчёта (для задачи или тикета)"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "include": ["../_common/detect.js"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["detect.js", "vulndb.js", "popup.js"]}}
+}

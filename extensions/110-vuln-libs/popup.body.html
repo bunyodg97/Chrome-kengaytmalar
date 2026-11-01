@@ -1,0 +1,16 @@
+<div class="stack">
+  <button class="btn block" id="scan" data-i18n="scan"></button>
+  <div id="head"></div>
+  <div id="list" class="stack"></div>
+  <div id="libsBox" class="hidden"><div class="set-title" data-i18n="detected"></div><table class="t"><tbody id="libs"></tbody></table></div>
+  <button class="btn ghost small hidden" id="copy" data-i18n="copyReport"></button>
+  <p class="note" data-i18n="disclaimer"></p>
+</div>
+<style>
+.vl{border-left:4px solid var(--line);padding:6px 10px;background:var(--bg2);border-radius:6px}
+.vl.high{border-color:var(--bad)}.vl.medium{border-color:var(--warn)}.vl.info{border-color:var(--fg2)}
+.vl .id{font-family:var(--mono);font-size:11px}
+.big{font-size:15px;font-weight:700;padding:8px;border-radius:8px;text-align:center}
+.big.ok{background:color-mix(in srgb,var(--ok) 14%,transparent);color:var(--ok)}
+.big.bad{background:color-mix(in srgb,var(--bad) 14%,transparent);color:var(--bad)}
+</style>

@@ -1,0 +1,16 @@
+{
+  "slug": "image-audit",
+  "version": "1.0.0",
+  "color": "#0b7285",
+  "glyph": "IMG",
+  "name": {"uz": "Rasm auditi", "ru": "Аудит изображений"},
+  "short": {"uz": "Rasm auditi", "ru": "Аудит картинок"},
+  "desc": {"uz": "Sahifadagi rasmlarni tekshiradi: og’ir fayllar, keragidan katta o’lcham, eski format (WebP/AVIF tavsiyasi), alt va width/height yo’qligi, lazy-loading xatolari.", "ru": "Проверяет изображения на странице: тяжёлые файлы, избыточный размер, устаревший формат (совет WebP/AVIF), нет alt и width/height, ошибки lazy-loading."},
+  "features": {
+    "uz": ["Har bir rasm hajmi, asl va ko’rsatilgan o’lchami", "Taxminiy tejash hajmi", "WebP/AVIF tavsiyasi", "Alt, width/height, loading=lazy tekshiruvi (SEO va CLS)", "Rasmni bosganda sahifada ko’rsatadi", "CSV eksport"],
+    "ru": ["Размер файла, исходные и отображаемые размеры каждой картинки", "Оценка возможной экономии", "Рекомендация WebP/AVIF", "Проверка alt, width/height, loading=lazy (SEO и CLS)", "Подсветка картинки на странице по клику", "Экспорт CSV"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["popup.js"]}}
+}

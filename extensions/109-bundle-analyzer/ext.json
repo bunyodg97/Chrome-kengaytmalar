@@ -1,0 +1,17 @@
+{
+  "slug": "bundle-analyzer",
+  "version": "1.0.0",
+  "color": "#e67700",
+  "glyph": "JS",
+  "name": {"uz": "Bundle tahlili", "ru": "Анализ бандлов"},
+  "short": {"uz": "Bundle", "ru": "Бандлы"},
+  "desc": {"uz": "Sahifa yuklagan JS fayllar hajmi (siqilgan va asl), domenlar bo’yicha taqsimot va ishlatilgan kutubxonalar ro’yxati.", "ru": "Размер JS-файлов страницы (сжатый и исходный), распределение по доменам и список используемых библиотек."},
+  "features": {
+    "uz": ["Har bir JS fayl: tarmoq hajmi, asl hajmi, yuklanish vaqti", "O’z kodi va uchinchi tomon kodi ulushi", "Domenlar bo’yicha diagramma", "Aniqlangan kutubxona va frameworklar versiyasi bilan", "Bir kutubxona ikki marta yuklanganini topadi", "CSV eksport"],
+    "ru": ["Каждый JS-файл: вес по сети, исходный размер, время загрузки", "Доля своего и стороннего кода", "Диаграмма по доменам", "Обнаруженные библиотеки и фреймворки с версиями", "Находит библиотеки, загруженные дважды", "Экспорт CSV"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "include": ["../_common/detect.js"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["detect.js", "popup.js"]}}
+}

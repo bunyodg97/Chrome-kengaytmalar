@@ -1,0 +1,18 @@
+{
+  "slug": "commit-graph",
+  "version": "1.0.0",
+  "color": "#e8590c",
+  "glyph": "CG",
+  "name": {"uz": "Commit tarixi grafigi", "ru": "Граф истории коммитов"},
+  "short": {"uz": "Commit graf", "ru": "Граф коммитов"},
+  "desc": {"uz": "GitHub repozitoriyasidagi branch’lar va commit’larni git log --graph kabi daraxt ko’rinishida ko’rsatadi: merge’lar, ajralishlar, teglar.", "ru": "Показывает ветки и коммиты репозитория GitHub деревом, как git log --graph: слияния, ответвления, метки."},
+  "features": {
+    "uz": ["Bir nechta branch birga, rangli chiziqlar bilan", "Merge va branch ajralishlari", "Branch nomlari commit yonida", "Commit xabari, muallif, sana; bosganda GitHub’da ochiladi", "Joriy tabdagi repo avtomatik tanlanadi", "Xususiy repolar uchun token (ixtiyoriy)"],
+    "ru": ["Несколько веток вместе, цветные линии", "Слияния и ответвления", "Названия веток рядом с коммитами", "Сообщение, автор, дата; клик открывает на GitHub", "Репозиторий из текущей вкладки выбирается сам", "Токен для приватных репо (необязательно)"]
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.github.com/*"],
+  "hosts_why": {"uz": "GitHub API’dan commit va branch’larni olish", "ru": "получение коммитов и веток из GitHub API"},
+  "background": "background.js",
+  "pages": {"graph.html": {"body": "graph.body.html", "libs": ["gh"], "scripts": ["graph.js"], "wide": true}}
+}

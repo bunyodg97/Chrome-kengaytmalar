@@ -1,0 +1,20 @@
+{
+  "slug": "react-finder",
+  "version": "1.0.0",
+  "color": "#087ea4",
+  "glyph": "⚛",
+  "name": {"uz": "React komponent topuvchi", "ru": "Поиск React-компонентов"},
+  "short": {"uz": "React topuvchi", "ru": "React поиск"},
+  "desc": {"uz": "Sahifadagi elementni bosing — u qaysi React komponentga tegishli, qaysi faylning qaysi qatorida yozilgani va komponentlar zanjirini ko’rsatadi. Bir bosishda VS Code’da ochadi.", "ru": "Наведите на элемент — покажет, какому React-компоненту он принадлежит, в каком файле и строке, и цепочку компонентов. Открывает в VS Code в один клик."},
+  "features": {
+    "uz": ["Sichqoncha ostidagi element komponenti va fayl:qator", "Komponentlar zanjiri (App › Layout › Button)", "Bosilganda props konsolga chiqadi ($rf), fayl yo’li nusxalanadi", "VS Code, Cursor yoki WebStorm’da ochish", "React 16–19 (fayl manzili development build’da)", "`Alt+Shift+R` — tanlash rejimi"],
+    "ru": ["Компонент и файл:строка элемента под курсором", "Цепочка компонентов (App › Layout › Button)", "По клику props выводятся в консоль ($rf), путь копируется", "Открытие в VS Code, Cursor или WebStorm", "React 16–19 (путь к файлу в development-сборке)", "`Alt+Shift+R` — режим выбора"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "settings": "settings.body.html", "scripts": ["start.js", "popup.js"]}},
+  "commands": {
+    "pick": {"key": "Alt+Shift+R", "desc": {"uz": "Komponent tanlash rejimi", "ru": "Режим выбора компонента"}}
+  }
+}

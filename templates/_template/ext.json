@@ -1,0 +1,13 @@
+{
+  "slug": "my-extension",
+  "version": "1.0.0",
+  "color": "#2f6fed",
+  "glyph": "AB",
+  "name": {"uz": "Kengaytma nomi", "ru": "Название расширения"},
+  "short": {"uz": "Qisqa nom", "ru": "Короткое"},
+  "desc": {"uz": "Bir-ikki gapda nima qilishi (132 belgigacha).", "ru": "Что делает, в одном-двух предложениях (до 132 символов)."},
+  "features": {"uz": ["Imkoniyat 1"], "ru": ["Возможность 1"]},
+  "permissions": ["storage"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["popup.js"]}}
+}

@@ -1,0 +1,25 @@
+<div class="mk-grid">
+  <aside class="stack">
+    <div class="card stack">
+      <b data-i18n="sites"></b>
+      <div class="row"><input id="site" class="grow" data-i18n-ph="sitePh"><button class="btn small" id="addSite" data-i18n="enableSite"></button></div>
+      <div id="sites"></div>
+      <p class="note" data-i18n="reloadHint"></p>
+    </div>
+    <div class="row"><b class="grow" data-i18n="routes"></b><button class="btn small" id="addRoute" data-i18n="addRoute"></button></div>
+    <div id="routes" class="rlist"></div>
+    <div class="row"><button class="btn ghost small" id="exp" data-i18n="export"></button><label class="btn ghost small"><span data-i18n="import"></span><input type="file" id="imp" accept=".json" hidden></label></div>
+  </aside>
+  <section id="editor" class="card stack"></section>
+</div>
+<style>
+.mk-grid{display:grid;grid-template-columns:340px 1fr;gap:14px;align-items:start}@media(max-width:900px){.mk-grid{grid-template-columns:1fr}}
+.rlist{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ri{display:flex;gap:8px;align-items:center;padding:7px 9px;border-bottom:1px solid var(--line);cursor:pointer}
+.ri:hover{background:var(--bg2)}.ri.on{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.ri .m{font:700 11px var(--mono);width:52px}.ri .u{flex:1;font:12px var(--mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ri.off{opacity:.5}
+#editor textarea{min-height:260px}
+.ed-cols{display:grid;grid-template-columns:1fr 1fr;gap:10px}@media(max-width:1100px){.ed-cols{grid-template-columns:1fr}}
+#pv{max-height:420px;overflow:auto}
+</style>

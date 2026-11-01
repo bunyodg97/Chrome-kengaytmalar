@@ -1,0 +1,30 @@
+<div class="nt-hero">
+  <div><div id="greet" class="muted"></div><div id="clock" class="clock"></div><div id="date" class="muted"></div></div>
+  <form id="sform" class="sform"><input id="s" data-i18n-ph="searchPh" autocomplete="off" autofocus></form>
+</div>
+<div id="setup" class="card small hidden" data-i18n="setup" style="margin-bottom:12px"></div>
+<div class="nt-grid">
+  <section class="card"><div class="row"><b class="grow" data-i18n="myPrs"></b><span class="badge" id="nPrs"></span></div><div id="prs" class="lst"></div></section>
+  <section class="card"><div class="row"><b class="grow" data-i18n="reviews"></b><span class="badge" id="nRev"></span></div><div id="rev" class="lst"></div></section>
+  <section class="card"><div class="row"><b class="grow" data-i18n="issues"></b><span class="badge" id="nIss"></span></div><div id="iss" class="lst"></div></section>
+  <section class="card"><div class="row"><b class="grow" data-i18n="todos"></b><button class="link small" id="clearDone" data-i18n="clearDone"></button></div>
+    <form id="tform"><input id="tin" data-i18n-ph="todoPh"></form><div id="todos" class="lst"></div></section>
+  <section class="card"><b data-i18n="activity"></b><div id="act" class="lst"></div></section>
+  <section class="card"><b data-i18n="links"></b><div id="links" class="links"></div>
+    <form id="lform" class="row" style="margin-top:6px"><input id="ln" data-i18n-ph="linkName" style="width:35%"><input id="lu" type="url" data-i18n-ph="linkUrl" class="grow"><button class="btn small">+</button></form></section>
+</div>
+<div class="small muted center" id="upd" style="margin-top:10px"></div>
+<style>
+body.wide .pane{max-width:1240px}
+.nt-hero{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin:18px 0 18px;flex-wrap:wrap}
+.clock{font:300 56px/1 system-ui;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+.sform{flex:1;max-width:560px}.sform input{font-size:16px;padding:11px 14px;border-radius:10px}
+.nt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:1000px){.nt-grid{grid-template-columns:1fr 1fr}}@media(max-width:650px){.nt-grid{grid-template-columns:1fr}}
+.nt-grid .card{min-height:180px;max-height:330px;overflow:auto}
+.lst{margin-top:6px}.it{display:block;padding:5px 0;border-bottom:1px solid var(--line);color:var(--fg);text-decoration:none;font-size:12.5px}
+.it:hover .t{text-decoration:underline}.it .m{font-size:11px;color:var(--fg2)}
+.td{display:flex;gap:6px;align-items:center;padding:4px 0;border-bottom:1px solid var(--line)}.td.done span{text-decoration:line-through;color:var(--fg2)}.td button{margin-left:auto;background:none;border:0;color:var(--fg2);cursor:pointer}
+#tform input{margin-top:6px}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.links a{display:inline-flex;align-items:center;gap:6px;padding:5px 9px;border:1px solid var(--line);border-radius:7px;color:var(--fg);text-decoration:none;font-size:12px;background:var(--bg)}
+.links a img{width:14px;height:14px}.links a b{font-weight:400;color:var(--fg2);cursor:pointer;margin-left:2px}
+</style>

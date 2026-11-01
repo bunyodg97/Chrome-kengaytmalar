@@ -1,0 +1,32 @@
+<div class="row" style="margin-bottom:8px">
+  <div class="seg"><button data-v="preview" class="active" data-i18n="preview"></button><button data-v="html" data-i18n="html"></button></div>
+  <label class="check small"><input type="checkbox" id="breaks"><span data-i18n="breaks"></span></label>
+  <span class="grow small muted" id="cnt"></span>
+  <label class="btn ghost small"><span data-i18n="openMd"></span><input type="file" id="open" accept=".md,.markdown,.txt" hidden></label>
+  <button class="btn ghost small" id="saveMd" data-i18n="saveMd"></button>
+  <button class="btn ghost small" id="copyHtml" data-i18n="copyHtml"></button>
+  <button class="btn ghost small" id="copyRich" data-i18n="copyRich"></button>
+  <button class="btn small" id="dl" data-i18n="download"></button>
+</div>
+<div class="md-split">
+  <textarea id="src" spellcheck="false"></textarea>
+  <div id="out" class="md-out markdown-body"></div>
+  <pre id="code" class="out hidden"></pre>
+</div>
+<style>
+body.wide .pane{max-width:none}
+.md-split{display:grid;grid-template-columns:1fr 1fr;gap:12px;height:calc(100vh - 120px)}
+@media(max-width:800px){.md-split{grid-template-columns:1fr;height:auto}}
+#src{height:100%;resize:none;font-size:13.5px;line-height:1.6;padding:12px}
+.md-out,#code{height:100%;overflow:auto;border:1px solid var(--line);border-radius:8px;padding:16px 22px}
+#code{white-space:pre-wrap}
+.markdown-body{font-size:15px;line-height:1.6}
+.markdown-body h1,.markdown-body h2{border-bottom:1px solid var(--line);padding-bottom:.3em}
+.markdown-body code{background:var(--bg2);padding:.15em .35em;border-radius:4px;font:85% var(--mono)}
+.markdown-body pre{background:var(--bg2);padding:12px 14px;border-radius:8px;overflow:auto}
+.markdown-body pre code{background:none;padding:0;font-size:13px}
+.markdown-body blockquote{margin:0;padding:0 1em;color:var(--fg2);border-left:4px solid var(--line)}
+.markdown-body table{border-collapse:collapse}.markdown-body th,.markdown-body td{border:1px solid var(--line);padding:6px 12px}
+.markdown-body tr:nth-child(2n){background:var(--bg2)}.markdown-body img{max-width:100%}
+.markdown-body ul.contains-task-list{list-style:none;padding-left:1.2em}
+</style>

@@ -1,0 +1,15 @@
+<div class="stack">
+  <textarea id="diff" rows="8" data-i18n-ph="diffPh"></textarea>
+  <div class="row"><button class="btn ghost small" id="fromPage" data-i18n="fromPage"></button><span class="grow"></span><span id="len" class="small muted"></span></div>
+  <p class="note" data-i18n="tip"></p>
+  <div class="row">
+    <div class="field grow"><label data-i18n="lang"></label><select id="lang"><option value="English">English</option><option value="Uzbek (Latin script)">O’zbekcha</option><option value="Russian">Русский</option></select></div>
+    <div class="field grow"><label data-i18n="style"></label><select id="style"><option value="conv" data-i18n="conv"></option><option value="plain" data-i18n="plain"></option></select></div>
+  </div>
+  <label class="check small"><input type="checkbox" id="body" checked><span data-i18n="withBody"></span></label>
+  <button class="btn block" id="gen" data-i18n="gen"></button>
+  <div id="res" class="hidden stack">
+    <textarea id="msg" rows="7"></textarea>
+    <div class="row"><button class="btn small" id="copy" data-i18n="copy"></button><button class="btn ghost small" id="copyCmd" data-i18n="copyCmd"></button><span class="grow"></span><button class="btn ghost small" id="again" data-i18n="again"></button></div>
+  </div>
+</div>

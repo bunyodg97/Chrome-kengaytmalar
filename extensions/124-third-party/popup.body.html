@@ -1,0 +1,16 @@
+<div class="stack">
+  <button class="btn block" id="scan" data-i18n="scan"></button>
+  <div id="sum" class="stats hidden"></div>
+  <div id="cats" class="row"></div>
+  <div class="row hidden" id="tools"><div class="seg"><button data-f="all" class="active" data-i18n="all"></button><button data-f="tr" data-i18n="onlyTrackers"></button></div><span class="grow"></span>
+    <button class="btn ghost small" id="csp" data-i18n="csp"></button><button class="btn ghost small" id="csv" data-i18n="csv"></button></div>
+  <div id="list"></div>
+  <p class="note" data-i18n="note"></p>
+</div>
+<style>
+.tp{padding:7px 0;border-bottom:1px solid var(--line)}.tp .top{display:flex;gap:6px;align-items:center}
+.tp .nm{font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tp .dm{font:11px var(--mono);color:var(--fg2);word-break:break-all}
+.tp .send{color:var(--bad);font-size:11px}
+.badge.c-analytics,.badge.c-ads,.badge.c-social,.badge.c-ab{background:color-mix(in srgb,var(--bad) 15%,transparent);color:var(--bad)}
+</style>

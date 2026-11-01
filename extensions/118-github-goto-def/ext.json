@@ -1,0 +1,21 @@
+{
+  "slug": "github-goto-def",
+  "version": "1.0.0",
+  "color": "#24292f",
+  "glyph": "→ƒ",
+  "name": {"uz": "GitHub’da «go to definition»", "ru": "«Go to definition» на GitHub"},
+  "short": {"uz": "GitHub defn", "ru": "GitHub defn"},
+  "desc": {"uz": "GitHub’da kod o’qiyotganda Ctrl (Mac’da ⌘) + bosish bilan funksiya, klass yoki o’zgaruvchi e’lon qilingan joyga o’ting — repo ichida qidiradi.", "ru": "Читая код на GitHub, переходите к объявлению функции, класса или переменной по Ctrl (⌘ на Mac) + клик — поиск внутри репозитория."},
+  "features": {
+    "uz": ["Ctrl/⌘ + bosish — e’lon qilingan joyni repo bo’yicha qidirish", "Ctrl bosib turilganda so’z ostiga chiziq tortiladi", "Belgilangan matn uchun `Alt+Shift+G`", "Popup’dan istalgan nomni qidirish", "Barcha tillar: JS/TS, Python, Go, PHP, Java, C#, Rust…"],
+    "ru": ["Ctrl/⌘ + клик — поиск объявления по репозиторию", "При зажатом Ctrl слово подчёркивается", "`Alt+Shift+G` для выделенного текста", "Поиск любого имени из popup", "Все языки: JS/TS, Python, Go, PHP, Java, C#, Rust…"]
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [{"matches": ["https://github.com/*"], "js": ["shared/i18n.js", "strings.js", "url.js", "content.js"], "css": ["content.css"], "run_at": "document_idle"}],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "settings": "settings.body.html", "scripts": ["url.js", "popup.js"]}},
+  "commands": {
+    "lookup": {"key": "Alt+Shift+G", "desc": {"uz": "Belgilangan nomning e’lonini topish", "ru": "Найти объявление выделенного имени"}}
+  }
+}

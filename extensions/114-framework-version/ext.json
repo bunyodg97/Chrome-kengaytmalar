@@ -1,0 +1,19 @@
+{
+  "slug": "framework-version",
+  "version": "1.0.0",
+  "color": "#1864ab",
+  "glyph": "v↑",
+  "name": {"uz": "Framework versiyasi", "ru": "Версия фреймворка"},
+  "short": {"uz": "Versiyalar", "ru": "Версии"},
+  "desc": {"uz": "Sayt qaysi framework va kutubxonalarda yozilganini, ularning versiyasini va eng so’nggi versiyadan qancha orqada ekanini ko’rsatadi.", "ru": "Показывает, на каких фреймворках и библиотеках сделан сайт, их версии и насколько они отстают от последней."},
+  "features": {
+    "uz": ["React, Next.js, Vue, Nuxt, Angular, Svelte, jQuery, Bootstrap va 40+ boshqa", "Eng so’nggi versiya npm’dan olinadi (24 soat keshlanadi)", "Holat: yangi / kichik yangilanish / major orqada", "Natijani Markdown jadval sifatida nusxalash"],
+    "ru": ["React, Next.js, Vue, Nuxt, Angular, Svelte, jQuery, Bootstrap и 40+ других", "Последняя версия берётся из npm (кэш 24 часа)", "Статус: актуальна / минорное обновление / отстаёт на мажор", "Копирование результата таблицей Markdown"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://registry.npmjs.org/*"],
+  "hosts_why": {"uz": "eng so’nggi versiyalarni npm reyestridan olish", "ru": "получение последних версий из реестра npm"},
+  "include": ["../_common/detect.js"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["detect.js", "popup.js"]}}
+}

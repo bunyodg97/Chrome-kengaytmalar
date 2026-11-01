@@ -1,0 +1,18 @@
+{
+  "slug": "graphql-builder",
+  "version": "1.0.0",
+  "color": "#c2255c",
+  "glyph": "GQL",
+  "name": {"uz": "GraphQL so’rov quruvchi", "ru": "Конструктор GraphQL-запросов"},
+  "short": {"uz": "GraphQL", "ru": "GraphQL"},
+  "desc": {"uz": "API sxemasini avtomatik yuklab, maydonlarni belgilab GraphQL so’rov tuzing, avtoto’ldirish bilan tahrirlang va natijani ko’ring.", "ru": "Загружает схему API, собирайте GraphQL-запрос галочками, редактируйте с автодополнением и смотрите результат."},
+  "features": {
+    "uz": ["Introspection orqali sxemani avtomatik yuklash", "Query/Mutation maydonlarini belgilash — so’rov o’zi yoziladi", "Argumentlar o’zgaruvchilarga (variables) aylanadi, enum’lar ro’yxatdan", "Muharrirda sxema bo’yicha avtoto’ldirish (Ctrl+Space)", "Header’lar (Authorization va h.k.), endpoint tarixi", "Natijani chiroyli JSON ko’rinishida"],
+    "ru": ["Автозагрузка схемы через introspection", "Отмечайте поля Query/Mutation — запрос пишется сам", "Аргументы превращаются в variables, enum — списком", "Автодополнение по схеме в редакторе (Ctrl+Space)", "Заголовки (Authorization и т.д.), история endpoint", "Красивый вывод JSON"]
+  },
+  "permissions": ["storage"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "hosts_why": {"uz": "faqat siz kiritgan GraphQL manzil uchun so’raladi", "ru": "запрашивается только для указанного вами GraphQL-адреса"},
+  "background": "background.js",
+  "pages": {"graphql.html": {"body": "graphql.body.html", "scripts": ["graphql.js"], "wide": true}}
+}

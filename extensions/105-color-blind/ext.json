@@ -1,0 +1,20 @@
+{
+  "slug": "color-blind",
+  "version": "1.0.0",
+  "color": "#d9480f",
+  "glyph": "◉",
+  "name": {"uz": "Rang ko’rligi simulyatori", "ru": "Симулятор дальтонизма"},
+  "short": {"uz": "Rang ko’rligi", "ru": "Дальтонизм"},
+  "desc": {"uz": "Sahifani rang ko’rligining 8 turida ko’ring: protanopiya, deyteranopiya, tritanopiya va boshqalar. Dizayn va kirish qulayligini tekshirish uchun.", "ru": "Смотрите страницу глазами людей с 8 видами нарушения цветовосприятия: протанопия, дейтеранопия, тританопия и др."},
+  "features": {
+    "uz": ["Protanopiya, deyteranopiya, tritanopiya, axromatopsiya va ularning yengil shakllari", "Xira ko’rish simulyatsiyasi", "Machado (2009) ilmiy matritsalari", "`Alt+Shift+C` — keyingi turga o’tish"],
+    "ru": ["Протанопия, дейтеранопия, тританопия, ахроматопсия и их лёгкие формы", "Симуляция размытого зрения", "Научные матрицы Machado (2009)", "`Alt+Shift+C` — следующий тип"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["sim.js", "popup.js"]}},
+  "commands": {
+    "next": {"key": "Alt+Shift+C", "desc": {"uz": "Keyingi rang ko’rligi turi", "ru": "Следующий тип дальтонизма"}}
+  }
+}

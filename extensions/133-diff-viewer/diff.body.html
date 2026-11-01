@@ -1,0 +1,35 @@
+<div id="inputs" class="df-in">
+  <div class="stack"><div class="row"><b class="grow" data-i18n="left"></b><span id="ln" class="small muted mono"></span><label class="btn ghost small"><span data-i18n="file"></span><input type="file" id="fl" hidden></label></div><textarea id="a" spellcheck="false" data-i18n-ph="dropHint"></textarea></div>
+  <div class="stack"><div class="row"><b class="grow" data-i18n="right"></b><span id="rn" class="small muted mono"></span><label class="btn ghost small"><span data-i18n="file"></span><input type="file" id="fr" hidden></label></div><textarea id="b" spellcheck="false" data-i18n-ph="dropHint"></textarea></div>
+</div>
+<div class="row df-bar">
+  <button class="btn" id="go" data-i18n="compare"></button>
+  <button class="btn ghost small" id="edit" data-i18n="edit"></button>
+  <button class="btn ghost small" id="swap" data-i18n="swap"></button>
+  <div class="seg" id="view"><button data-v="split" class="active" data-i18n="split"></button><button data-v="unified" data-i18n="unified"></button></div>
+  <label class="check small"><input type="checkbox" id="ws"><span data-i18n="ignoreWs"></span></label>
+  <label class="check small"><input type="checkbox" id="cs"><span data-i18n="ignoreCase"></span></label>
+  <label class="small" data-i18n="context"></label><select id="ctx" style="width:auto"><option value="3">3</option><option value="10">10</option><option value="-1" data-i18n="all"></option></select>
+  <span class="grow"></span><span id="stats" class="small"></span>
+  <button class="btn ghost small" id="patch" data-i18n="patch"></button>
+  <button class="btn ghost small" id="clr" data-i18n="clear"></button>
+</div>
+<div id="res"></div>
+<style>
+body.wide .pane{max-width:none}
+.df-in{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.df-in textarea{height:34vh;font-size:12.5px;line-height:1.5;white-space:pre;overflow:auto}
+.df-bar{margin:10px 0;position:sticky;top:46px;background:var(--bg);padding:6px 0;z-index:3}
+.dt{width:100%;border-collapse:collapse;font:12.5px/1.5 var(--mono);table-layout:fixed;border:1px solid var(--line)}
+.dt td{padding:0 8px;vertical-align:top;white-space:pre-wrap;word-break:break-all}
+.dt td.n{width:48px;text-align:right;color:var(--fg2);user-select:none;background:var(--bg2);border-right:1px solid var(--line)}
+.dt td.s{width:16px;user-select:none;color:var(--fg2);padding:0 2px}
+.dt tr.del td.c,.dt td.c.del{background:color-mix(in srgb,#e03131 13%,transparent)}
+.dt tr.add td.c,.dt td.c.add{background:color-mix(in srgb,#2f9e44 14%,transparent)}
+.dt td.c.empty{background:repeating-linear-gradient(45deg,transparent 0 5px,var(--bg2) 5px 10px)}
+.dt del{background:color-mix(in srgb,#e03131 35%,transparent);text-decoration:none;border-radius:2px}
+.dt ins{background:color-mix(in srgb,#2f9e44 38%,transparent);text-decoration:none;border-radius:2px}
+.dt tr.gap td{background:var(--bg2);color:var(--fg2);text-align:center;font-family:system-ui;font-size:11px;padding:3px}
+.dt.split td.c:nth-of-type(3){border-right:1px solid var(--line)}
+.ok-big{padding:30px;text-align:center;font-size:18px;color:var(--ok)}
+</style>

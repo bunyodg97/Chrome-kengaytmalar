@@ -1,0 +1,26 @@
+<div class="card stack" style="margin-bottom:12px">
+  <div class="row"><b data-i18n="yourUrl"></b><span id="live" class="badge ok"></span><span class="grow"></span><button class="btn ghost small" id="newUrl" data-i18n="newUrl"></button></div>
+  <div class="row"><input id="hook" readonly class="grow mono" style="font-size:14px"><button class="btn" id="copyHook" data-i18n="copy"></button></div>
+  <div class="row">
+    <label class="check"><input type="checkbox" id="fwOn"><span data-i18n="forward"></span></label>
+    <input type="url" id="fwUrl" data-i18n-ph="forwardPh" style="max-width:320px">
+  </div>
+  <p class="note" data-i18n="privacy"></p>
+</div>
+<div class="wh-grid">
+  <aside><div class="row" style="margin-bottom:6px"><b class="grow" data-i18n="requests"></b><button class="btn ghost small" id="clearAll" data-i18n="clearAll"></button></div>
+    <div id="list" class="wh-list"></div></aside>
+  <section id="detail" class="card"><div class="empty" data-i18n="select"></div></section>
+</div>
+<style>
+.wh-grid{display:grid;grid-template-columns:320px 1fr;gap:12px;align-items:start}
+@media(max-width:800px){.wh-grid{grid-template-columns:1fr}}
+.wh-list{max-height:calc(100vh - 290px);overflow:auto;border:1px solid var(--line);border-radius:8px}
+.wh-it{padding:7px 10px;border-bottom:1px solid var(--line);cursor:pointer}
+.wh-it:hover{background:var(--bg2)}.wh-it.on{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.wh-it .m{font:700 11px var(--mono);margin-right:6px}
+.wh-it .tm{font-size:11px;color:var(--fg2)}
+#detail h4{margin:12px 0 6px;font-size:12px;text-transform:uppercase;color:var(--fg2)}
+#detail td:first-child{font-family:var(--mono);color:var(--accent);white-space:nowrap}
+#detail td{word-break:break-all}
+</style>

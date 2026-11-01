@@ -1,0 +1,18 @@
+<div class="stack">
+  <button class="btn block" id="scan" data-i18n="scan"></button>
+  <div id="res" class="stack hidden">
+    <div id="sum" class="stats"></div>
+    <div id="dupBox"></div>
+    <div><div class="set-title" data-i18n="byDomain"></div><div id="doms"></div></div>
+    <div><div class="set-title" data-i18n="libs"></div><div id="libs" class="row"></div></div>
+    <div><div class="row"><div class="set-title grow" data-i18n="scripts"></div><button class="btn ghost small" id="csv" data-i18n="csv"></button></div>
+      <table class="t"><tbody id="files"></tbody></table>
+      <p class="note" id="note"></p></div>
+  </div>
+</div>
+<style>
+.dom{margin-bottom:6px}.dom .row{font-size:12px}.dom .bar{margin-top:2px}
+.dom.third .bar>i{background:var(--warn)}
+#libs .badge{font-size:12px}
+#files td.f{max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+</style>

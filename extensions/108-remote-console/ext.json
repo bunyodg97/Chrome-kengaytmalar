@@ -1,0 +1,19 @@
+{
+  "slug": "remote-console",
+  "version": "1.0.0",
+  "color": "#2b8a3e",
+  "glyph": ">_",
+  "name": {"uz": "Telefon konsoli kompyuterda", "ru": "Консоль телефона на компьютере"},
+  "short": {"uz": "Tel konsoli", "ru": "Моб. консоль"},
+  "desc": {"uz": "Telefonda ochilgan sahifaning console.log, xato va ogohlantirishlarini kompyuterda real vaqtda ko’ring. Kabel va USB debugging kerak emas.", "ru": "Смотрите console.log, ошибки и предупреждения страницы с телефона на компьютере в реальном времени. Без кабеля и USB-отладки."},
+  "features": {
+    "uz": ["Kichik skript yoki bookmarklet — telefonga hech narsa o’rnatilmaydi", "console.log/info/warn/error, JS xatolari va unhandled rejection", "Har bir qurilma (User-Agent) alohida ko’rsatiladi", "Filtr, daraja bo’yicha saralash, eksport", "O’z ntfy serveringizni ulash mumkin"],
+    "ru": ["Небольшой скрипт или букмарклет — на телефон ничего не ставится", "console.log/info/warn/error, ошибки JS и unhandled rejection", "Каждое устройство (User-Agent) отдельно", "Фильтр, уровни, экспорт", "Можно подключить свой сервер ntfy"]
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://ntfy.sh/*"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "hosts_why": {"uz": "loglarni telefon va kompyuter orasida uzatuvchi relay server (ntfy)", "ru": "relay-сервер (ntfy) для передачи логов между телефоном и компьютером"},
+  "background": "background.js",
+  "pages": {"console.html": {"body": "console.body.html", "settings": "settings.body.html", "scripts": ["console.js"], "wide": true}}
+}

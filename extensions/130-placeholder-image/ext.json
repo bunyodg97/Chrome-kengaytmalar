@@ -1,0 +1,16 @@
+{
+  "slug": "placeholder-image",
+  "version": "1.0.0",
+  "color": "#868e96",
+  "glyph": "WxH",
+  "name": {"uz": "Placeholder rasm generatori", "ru": "Генератор картинок-заглушек"},
+  "short": {"uz": "Placeholder", "ru": "Заглушки"},
+  "desc": {"uz": "Kerakli o’lcham, rang va matndagi placeholder rasmni bir zumda yarating: PNG, JPG, WebP yoki SVG; yuklab olish, nusxalash yoki data URL.", "ru": "Мгновенно создавайте картинку-заглушку нужного размера, цвета и с текстом: PNG, JPG, WebP или SVG; скачать, скопировать или data URL."},
+  "features": {
+    "uz": ["Istalgan o’lcham va tayyor o’lchamlar (avatar, banner, OG, Instagram…)", "Fon va matn rangi, o’z matningiz yoki «1200×630»", "Gradient va katakli naqsh", "PNG, JPG, WebP, SVG", "Rasm sifatida buferga nusxalash yoki data URL / <img> kod", "Internetsiz ishlaydi"],
+    "ru": ["Любой размер и готовые пресеты (аватар, баннер, OG, Instagram…)", "Цвет фона и текста, свой текст или «1200×630»", "Градиент и шахматный узор", "PNG, JPG, WebP, SVG", "Копирование картинкой в буфер или как data URL / код <img>", "Работает без интернета"]
+  },
+  "permissions": ["storage", "clipboardWrite"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["popup.js"]}}
+}

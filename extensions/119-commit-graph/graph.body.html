@@ -1,0 +1,24 @@
+<div class="row" style="margin-bottom:8px">
+  <input id="repo" class="grow" data-i18n-ph="repoPh" style="max-width:420px">
+  <label class="small muted" data-i18n="perBranch"></label>
+  <select id="per" style="width:auto"><option>30</option><option selected>50</option><option>100</option></select>
+  <button class="btn" id="show" data-i18n="show"></button>
+  <span id="info" class="small muted"></span>
+</div>
+<details id="brBox" class="hidden" style="margin-bottom:8px"><summary class="small"><span data-i18n="branches"></span> (<span id="brCount"></span>)</summary>
+  <div id="brList" class="br-list"></div><p class="note" data-i18n="selectNote"></p></details>
+<div id="graph" class="cg"><div class="empty" data-i18n="empty"></div></div>
+<button class="btn ghost hidden" id="more" data-i18n="more" style="margin-top:8px"></button>
+<style>
+.br-list{display:flex;flex-wrap:wrap;gap:4px 12px;max-height:160px;overflow:auto;padding:6px 0}
+.cg{position:relative;border:1px solid var(--line);border-radius:8px;overflow:auto}
+.cg-row{display:flex;align-items:center;height:30px;border-bottom:1px solid color-mix(in srgb,var(--line) 50%,transparent);font-size:12.5px;white-space:nowrap}
+.cg-row:hover{background:var(--bg2)}
+.cg-row .msg{flex:1;overflow:hidden;text-overflow:ellipsis;padding-right:10px}
+.cg-row .msg a{color:var(--fg);text-decoration:none}.cg-row .msg a:hover{text-decoration:underline}
+.cg-row .au{width:150px;color:var(--fg2);overflow:hidden;text-overflow:ellipsis}
+.cg-row .dt{width:120px;color:var(--fg2)}
+.cg-row .sha{width:70px;font-family:var(--mono);font-size:11px}
+.ref{display:inline-block;font:600 11px var(--mono);padding:0 6px;border-radius:9px;margin-right:5px;color:#fff;vertical-align:1px}
+.cg svg{position:absolute;left:0;top:0;pointer-events:none}
+</style>

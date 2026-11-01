@@ -1,0 +1,18 @@
+{
+  "slug": "code-copy",
+  "version": "1.0.0",
+  "color": "#495057",
+  "glyph": "</>",
+  "name": {"uz": "Kod nusxalash tugmasi", "ru": "Кнопка копирования кода"},
+  "short": {"uz": "Kod nusxa", "ru": "Копир. кода"},
+  "desc": {"uz": "Istalgan saytdagi kod bloki ustiga sichqonchani olib borsangiz «Nusxalash» tugmasi chiqadi. Qator raqamlari va $ belgisini olib tashlaydi.", "ru": "При наведении на блок кода на любом сайте появляется кнопка «Копировать». Убирает номера строк и знак $."},
+  "features": {
+    "uz": ["Barcha saytlarda pre/code bloklari uchun", "Terminal buyruqlaridagi $ va > belgilarini olib tashlash", "Qator raqamlarini olib tashlash", "Sahifa tuzilishini o’zgartirmaydi — tugma ustida suzib turadi", "Saytni istisnolar ro’yxatiga qo’shish"],
+    "ru": ["Для блоков pre/code на всех сайтах", "Удаление $ и > в командах терминала", "Удаление номеров строк", "Не меняет вёрстку страницы — кнопка плавает поверх", "Исключение сайтов"]
+  },
+  "permissions": ["storage", "activeTab"],
+  "content_scripts": [{"matches": ["<all_urls>"], "js": ["shared/i18n.js", "strings.js", "content.js"], "run_at": "document_idle", "all_frames": false}],
+  "hosts_why": {"uz": "kod bloklariga tugma qo’shish uchun barcha saytlarda ishlaydi; hech qanday ma’lumot yuborilmaydi", "ru": "работает на всех сайтах, чтобы добавлять кнопку к блокам кода; никакие данные не отправляются"},
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["popup.js"]}}
+}

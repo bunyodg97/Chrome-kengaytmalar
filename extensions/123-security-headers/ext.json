@@ -1,0 +1,18 @@
+{
+  "slug": "security-headers",
+  "version": "1.0.0",
+  "color": "#1098ad",
+  "glyph": "SH",
+  "name": {"uz": "Xavfsizlik header’lari", "ru": "Заголовки безопасности"},
+  "short": {"uz": "Sec headers", "ru": "Sec headers"},
+  "desc": {"uz": "Sayt javobida CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy borligini tekshirib, A–F baho va tuzatish maslahatini beradi.", "ru": "Проверяет наличие CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy в ответе сайта, ставит оценку A–F и даёт советы."},
+  "features": {
+    "uz": ["10+ xavfsizlik header’i tekshiruvi", "A+…F baho", "CSP’dagi xavfli qoidalar: unsafe-inline, unsafe-eval, *", "HSTS max-age va includeSubDomains tahlili", "Ortiqcha ma’lumot beruvchi Server, X-Powered-By", "Nginx, Apache va Express uchun tayyor sozlama namunasi"],
+    "ru": ["Проверка 10+ заголовков безопасности", "Оценка A+…F", "Опасные правила CSP: unsafe-inline, unsafe-eval, *", "Анализ HSTS max-age и includeSubDomains", "Раскрывающие информацию Server, X-Powered-By", "Готовые примеры настройки для Nginx, Apache и Express"]
+  },
+  "permissions": ["activeTab", "storage"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "hosts_why": {"uz": "faqat tekshirilayotgan sayt uchun so’raladi — javob header’larini o’qish", "ru": "запрашивается только для проверяемого сайта — чтение заголовков ответа"},
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["checks.js", "popup.js"]}}
+}

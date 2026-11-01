@@ -1,0 +1,16 @@
+<div class="stack">
+  <div id="run" class="card hidden"></div>
+  <div id="projects"></div>
+  <form id="addF" class="row"><input id="pname" class="grow" data-i18n-ph="newProject"><button class="btn" data-i18n="add"></button></form>
+  <div class="stats"><div class="stat card"><b id="tToday">0:00</b><span data-i18n="today"></span></div><div class="stat card"><b id="tWeek">0:00</b><span data-i18n="week"></span></div></div>
+  <a href="report.html" target="_blank" class="center" data-i18n="report"></a>
+</div>
+<style>
+.pr{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--line)}
+.pr i{width:10px;height:10px;border-radius:50%;flex:none}.pr .n{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis}
+.pr .tm{font:12px var(--mono);color:var(--fg2)}
+.play{width:30px;height:30px;border-radius:50%;border:0;background:var(--bg3);color:var(--fg);cursor:pointer;font-size:12px}
+.play.on{background:var(--bad);color:#fff}
+#run{border-color:var(--accent)}#run .big{font:600 26px var(--mono)}
+.ed{display:grid;grid-template-columns:1fr 70px 60px;gap:4px;margin:4px 0 8px 18px}
+</style>

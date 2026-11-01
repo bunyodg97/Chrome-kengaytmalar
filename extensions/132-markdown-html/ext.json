@@ -1,0 +1,16 @@
+{
+  "slug": "markdown-html",
+  "version": "1.0.0",
+  "color": "#343a40",
+  "glyph": "M↓",
+  "name": {"uz": "Markdown → HTML", "ru": "Markdown → HTML"},
+  "short": {"uz": "MD → HTML", "ru": "MD → HTML"},
+  "desc": {"uz": "Markdown yozing — jonli ko’rinish va tayyor HTML kod. GitHub uslubi, kod rang-barangligi, Gmail/Word’ga formatli nusxa, alohida .html fayl.", "ru": "Пишите Markdown — живой предпросмотр и готовый HTML. Стиль GitHub, подсветка кода, копирование с форматированием в Gmail/Word, отдельный .html файл."},
+  "features": {
+    "uz": ["Jonli ko’rinish, sinxron aylantirish", "GFM: jadvallar, vazifalar ro’yxati, kod bloklari", "Kod bloklarini rang bilan ajratish (190+ til)", "HTML kodni nusxalash yoki formatli matn sifatida (Gmail, Word, Google Docs)", "Uslublari bilan alohida .html fayl yuklab olish", "Matn avtomatik saqlanadi; xavfsiz (DOMPurify)"],
+    "ru": ["Живой предпросмотр, синхронная прокрутка", "GFM: таблицы, списки задач, блоки кода", "Подсветка кода (190+ языков)", "Копирование HTML-кода или текста с форматированием (Gmail, Word, Google Docs)", "Скачивание отдельного .html файла со стилями", "Текст сохраняется сам; безопасно (DOMPurify)"]
+  },
+  "permissions": ["storage", "clipboardWrite"],
+  "background": "background.js",
+  "pages": {"md.html": {"body": "md.body.html", "css": ["vendor/hljs.css"], "scripts": ["vendor/md-bundle.min.js", "md.js"], "wide": true}}
+}

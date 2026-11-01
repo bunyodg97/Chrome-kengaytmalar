@@ -1,0 +1,20 @@
+{
+  "slug": "network-log",
+  "version": "1.0.0",
+  "color": "#1971c2",
+  "glyph": "⇅",
+  "name": {"uz": "Sahifa ichidagi network log", "ru": "Сетевой лог на странице"},
+  "short": {"uz": "Network log", "ru": "Network log"},
+  "desc": {"uz": "fetch va XHR so’rovlarini DevTools ochmasdan sahifaning o’zida ko’ring: status, vaqt, header’lar, javob tanasi, cURL nusxa.", "ru": "Смотрите fetch и XHR запросы прямо на странице без DevTools: статус, время, заголовки, тело ответа, копирование cURL."},
+  "features": {
+    "uz": ["fetch va XMLHttpRequest’ni real vaqtda yozadi", "So’rov/javob header’lari va tanasi", "Filtr, pauza, tozalash", "cURL sifatida nusxalash, JSON eksport", "Telefon rejimida (DevTools device mode) ham qulay"],
+    "ru": ["Записывает fetch и XMLHttpRequest в реальном времени", "Заголовки и тело запроса/ответа", "Фильтр, пауза, очистка", "Копирование как cURL, экспорт JSON", "Удобно и в режиме устройства DevTools"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "popup": "popup.html",
+  "background": "background.js",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["toggle.js", "popup.js"]}},
+  "commands": {
+    "toggle": {"key": "Alt+Shift+N", "desc": {"uz": "Network panelni ochish/yopish", "ru": "Открыть/закрыть сетевую панель"}}
+  }
+}

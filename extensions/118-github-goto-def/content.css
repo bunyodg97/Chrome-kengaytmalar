@@ -1,0 +1,2 @@
+.__gd-hover { text-decoration: underline 2px #0969da !important; cursor: pointer !important; }
+.__gd-tip { position: fixed; z-index: 2147483647; background: #24292f; color: #fff; font: 12px/1.4 -apple-system, system-ui, sans-serif; padding: 4px 8px; border-radius: 6px; pointer-events: none; box-shadow: 0 4px 12px rgba(0,0,0,.25); }

@@ -1,0 +1,18 @@
+{
+  "slug": "openapi-viewer",
+  "version": "1.0.0",
+  "color": "#37b24d",
+  "glyph": "API",
+  "name": {"uz": "Swagger/OpenAPI ko’ruvchi", "ru": "Просмотр Swagger/OpenAPI"},
+  "short": {"uz": "OpenAPI", "ru": "OpenAPI"},
+  "desc": {"uz": "OpenAPI 3 va Swagger 2 spetsifikatsiyasini (JSON yoki YAML) chiroyli, qidiriladigan hujjatga aylantiradi: endpoint’lar, parametrlar, sxemalar va namunalar.", "ru": "Превращает спецификацию OpenAPI 3 и Swagger 2 (JSON или YAML) в удобную документацию с поиском: эндпоинты, параметры, схемы и примеры."},
+  "features": {
+    "uz": ["URL, fayl yoki matndan yuklash; JSON va YAML", "Teglar bo’yicha guruhlangan endpoint’lar, qidiruv", "Parametrlar, so’rov tanasi va javob sxemalari ($ref avtomatik ochiladi)", "Sxemadan namuna JSON yaratish", "Har bir endpoint uchun cURL nusxa", "Joriy tabdagi .json/.yaml spetsifikatsiyani bir bosishda ochish"],
+    "ru": ["Загрузка по URL, из файла или текста; JSON и YAML", "Эндпоинты по тегам, поиск", "Параметры, тело запроса и схемы ответов ($ref раскрываются)", "Генерация примера JSON по схеме", "Копирование cURL для каждого эндпоинта", "Открытие .json/.yaml спецификации из текущей вкладки"]
+  },
+  "permissions": ["storage"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "hosts_why": {"uz": "faqat siz ochgan spetsifikatsiya manzili uchun so’raladi", "ru": "запрашивается только для открываемой вами спецификации"},
+  "background": "background.js",
+  "pages": {"viewer.html": {"body": "viewer.body.html", "scripts": ["vendor/js-yaml.min.js", "viewer.js"], "wide": true}}
+}

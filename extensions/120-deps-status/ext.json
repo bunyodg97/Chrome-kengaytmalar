@@ -1,0 +1,18 @@
+{
+  "slug": "deps-status",
+  "version": "1.0.0",
+  "color": "#cb3837",
+  "glyph": "npm",
+  "name": {"uz": "Bog’liqliklar holati", "ru": "Состояние зависимостей"},
+  "short": {"uz": "Bog’liqliklar", "ru": "Зависимости"},
+  "desc": {"uz": "package.json (npm) yoki requirements.txt (PyPI) dagi paketlar eskirganmi — eng so’nggi versiya, major orqada qolish va deprecated paketlarni ko’rsatadi.", "ru": "Устарели ли пакеты из package.json (npm) или requirements.txt (PyPI): последняя версия, отставание на мажор и deprecated-пакеты."},
+  "features": {
+    "uz": ["GitHub’dagi package.json/requirements.txt sahifasida bir bosishda", "Faylni yuklash yoki matnni qo’yish", "dependencies, devDependencies, peerDependencies", "Holat: yangi / minor / major orqada / deprecated", "Yangilash buyrug’ini nusxalash (npm i pkg@latest)", "Markdown hisobot"],
+    "ru": ["В один клик на странице package.json/requirements.txt на GitHub", "Загрузка файла или вставка текста", "dependencies, devDependencies, peerDependencies", "Статус: актуален / минор / отстаёт на мажор / deprecated", "Копирование команды обновления (npm i pkg@latest)", "Отчёт в Markdown"]
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://registry.npmjs.org/*", "https://pypi.org/*", "https://raw.githubusercontent.com/*"],
+  "hosts_why": {"uz": "paketlarning so’nggi versiyasini olish va GitHub’dagi faylni o’qish", "ru": "получение последних версий пакетов и чтение файла с GitHub"},
+  "background": "background.js",
+  "pages": {"deps.html": {"body": "deps.body.html", "scripts": ["deps.js"], "wide": true}}
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "webhook-tester",
+  "version": "1.0.0",
+  "color": "#9c36b5",
+  "glyph": "WH",
+  "name": {"uz": "Webhook sinov manzili", "ru": "Тестовый адрес для вебхуков"},
+  "short": {"uz": "Webhook", "ru": "Вебхуки"},
+  "desc": {"uz": "Bir bosishda ochiq webhook manzili oling va kelgan so’rovlarni (header, body, query) real vaqtda ko’ring. Lokal serveringizga yo’naltirish ham mumkin.", "ru": "Получите публичный адрес для вебхуков в один клик и смотрите входящие запросы (заголовки, тело, query) в реальном времени. Можно пересылать на локальный сервер."},
+  "features": {
+    "uz": ["Bir bosishda yangi webhook URL (webhook.site orqali)", "Kelgan so’rovlar real vaqtda: metod, header, query, body", "JSON va form-data chiroyli ko’rinishda", "Lokal serverga yo’naltirish (masalan, http://localhost:3000/webhook)", "cURL sifatida takrorlash uchun nusxa", "Telegram, Payme, Click, Stripe, GitHub webhook’larini sinash uchun"],
+    "ru": ["Новый адрес вебхука в один клик (через webhook.site)", "Входящие запросы в реальном времени: метод, заголовки, query, тело", "Красивый вывод JSON и form-data", "Пересылка на локальный сервер (например, http://localhost:3000/webhook)", "Копирование как cURL для повтора", "Для проверки вебхуков Telegram, Payme, Click, Stripe, GitHub"]
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://webhook.site/*"],
+  "optional_host_permissions": ["http://localhost/*", "http://127.0.0.1/*", "https://*/*", "http://*/*"],
+  "hosts_why": {"uz": "webhook.site — so’rovlarni qabul qiluvchi server; localhost — faqat yo’naltirishni yoqsangiz", "ru": "webhook.site — сервер приёма запросов; localhost — только если включите пересылку"},
+  "background": "background.js",
+  "pages": {"webhook.html": {"body": "webhook.body.html", "scripts": ["webhook.js"], "wide": true}}
+}

@@ -1,0 +1,32 @@
+<div class="row kb-top">
+  <select id="board" style="width:auto;max-width:180px"></select>
+  <button class="btn ghost small" id="addBoard">+</button>
+  <button class="btn ghost small" id="menuBtn">⋯</button>
+  <span class="grow"></span>
+  <a href="board.html" target="_blank" class="small" id="big" data-i18n="bigView"></a>
+</div>
+<div id="menu" class="card hidden row" style="margin-bottom:8px">
+  <button class="btn ghost small" id="rename" data-i18n="renameBoard"></button>
+  <button class="btn ghost small" id="clearDone" data-i18n="clearDone"></button>
+  <button class="btn ghost small" id="exp" data-i18n="export"></button>
+  <label class="btn ghost small"><span data-i18n="import"></span><input type="file" id="imp" accept=".json" hidden></label>
+  <button class="btn ghost small" id="delBoard" style="color:var(--bad)" data-i18n="delBoard"></button>
+</div>
+<div class="kb" id="kb"></div>
+<style>
+body.popup{width:600px}
+.kb-top{margin-bottom:8px}
+.kb{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;align-items:start}
+.col{background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:6px;min-height:140px}
+.col.over{outline:2px dashed var(--accent)}
+.col h3{font-size:12px;margin:2px 4px 6px;display:flex;justify-content:space-between;color:var(--fg2);text-transform:uppercase;letter-spacing:.03em}
+.cd{background:var(--bg);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:6px;padding:6px 8px;margin-bottom:6px;cursor:grab;font-size:12.5px;word-break:break-word;position:relative}
+.cd.dragging{opacity:.4}.cd .x{position:absolute;right:3px;top:2px;border:0;background:none;color:var(--fg2);cursor:pointer;display:none}
+.cd:hover .x{display:block}.cd .due{font-size:10.5px;color:var(--fg2);margin-top:3px}.cd .due.late{color:var(--bad);font-weight:600}
+.cd.done-t .tx{text-decoration:line-through;color:var(--fg2)}
+.add{width:100%;border:1px dashed var(--line);background:none;color:var(--fg2);border-radius:6px;padding:5px;cursor:pointer;font:inherit;font-size:12px}
+.add:hover{color:var(--accent);border-color:var(--accent)}
+.ed textarea{font-family:inherit;font-size:12.5px;min-height:46px}
+.ed .row{margin-top:4px;gap:4px}.ed .sw{width:16px;height:16px;border-radius:50%;border:2px solid transparent;cursor:pointer}.ed .sw.on{border-color:var(--fg)}
+body.wide .kb{grid-template-columns:repeat(3,minmax(260px,1fr))}body.wide .col{min-height:70vh}
+</style>

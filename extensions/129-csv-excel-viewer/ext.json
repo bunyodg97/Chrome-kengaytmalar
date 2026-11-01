@@ -1,0 +1,16 @@
+{
+  "slug": "csv-excel-viewer",
+  "version": "1.0.0",
+  "color": "#2b8a3e",
+  "glyph": "XLS",
+  "name": {"uz": "CSV va Excel ko’ruvchi", "ru": "Просмотр CSV и Excel"},
+  "short": {"uz": "CSV/Excel", "ru": "CSV/Excel"},
+  "desc": {"uz": "CSV, TSV va Excel (.xlsx) fayllarni Excel’siz, brauzerning o’zida jadval ko’rinishida oching: saralash, qidiruv, varaqlar, eksport. Fayl hech qayerga yuborilmaydi.", "ru": "Открывайте CSV, TSV и Excel (.xlsx) таблицей прямо в браузере без Excel: сортировка, поиск, листы, экспорт. Файл никуда не отправляется."},
+  "features": {
+    "uz": ["CSV/TSV: ajratgich va kodirovka (UTF-8, Windows-1251) avtomatik aniqlanadi", "XLSX: barcha varaqlar, sanalar to’g’ri ko’rinadi", "Ustun bo’yicha saralash, umumiy qidiruv", "Ustun statistikasi: soni, yig’indi, o’rtacha, min/max", "Filtrlangan natijani CSV qilib saqlash", "Faylni sudrab tashlash; internetsiz ishlaydi"],
+    "ru": ["CSV/TSV: разделитель и кодировка (UTF-8, Windows-1251) определяются сами", "XLSX: все листы, даты отображаются правильно", "Сортировка по столбцу, общий поиск", "Статистика столбца: количество, сумма, среднее, мин/макс", "Сохранение отфильтрованного результата в CSV", "Перетаскивание файла; работает без интернета"]
+  },
+  "permissions": ["storage"],
+  "background": "background.js",
+  "pages": {"viewer.html": {"body": "viewer.body.html", "scripts": ["xlsx.js", "viewer.js"], "wide": true}}
+}

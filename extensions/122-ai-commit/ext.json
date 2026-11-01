@@ -1,0 +1,19 @@
+{
+  "slug": "ai-commit",
+  "version": "1.0.0",
+  "color": "#7048e8",
+  "glyph": "AI",
+  "name": {"uz": "AI commit xabari", "ru": "AI-сообщение коммита"},
+  "short": {"uz": "AI commit", "ru": "AI commit"},
+  "desc": {"uz": "git diff asosida aniq va qisqa commit xabarini AI yozib beradi: Conventional Commits uslubida, ingliz, o’zbek yoki rus tilida.", "ru": "AI пишет точное и краткое сообщение коммита по git diff: в стиле Conventional Commits, на английском, узбекском или русском."},
+  "features": {
+    "uz": ["git diff --staged natijasini qo’ying yoki GitHub PR/commit/compare sahifasidan avtomatik oling", "Conventional Commits (feat:, fix:, refactor:…) yoki oddiy uslub", "Ingliz / o’zbek / rus tilida", "Sarlavha + o’zgarishlar ro’yxati", "`git commit -m …` buyrug’i sifatida nusxalash", "O’z API kalitingiz: Claude, OpenAI yoki OpenAI-ga mos xizmat"],
+    "ru": ["Вставьте вывод git diff --staged или возьмите со страницы PR/commit/compare GitHub", "Conventional Commits (feat:, fix:, refactor:…) или обычный стиль", "На английском / узбекском / русском", "Заголовок + список изменений", "Копирование как команда `git commit -m …`", "Свой API-ключ: Claude, OpenAI или совместимый сервис"]
+  },
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://api.anthropic.com/*", "https://api.openai.com/*", "https://openrouter.ai/*", "https://github.com/*", "https://patch-diff.githubusercontent.com/*"],
+  "optional_host_permissions": ["https://*/*"],
+  "hosts_why": {"uz": "AI provayderga so’rov yuborish va GitHub’dan diff olish", "ru": "запросы к AI-провайдеру и получение diff с GitHub"},
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "libs": ["ai"], "scripts": ["popup.js"]}}
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "rerender-counter",
+  "version": "1.0.0",
+  "color": "#5f3dc4",
+  "glyph": "↻",
+  "name": {"uz": "Re-render hisoblagich", "ru": "Счётчик ререндеров"},
+  "short": {"uz": "Re-render", "ru": "Ререндеры"},
+  "desc": {"uz": "React komponentlari necha marta qayta chizilganini real vaqtda sanaydi va sahifada ko’rsatadi. Keraksiz re-render’larni topish uchun.", "ru": "Считает в реальном времени, сколько раз перерисовывается каждый React-компонент, и показывает на странице. Для поиска лишних ререндеров."},
+  "features": {
+    "uz": ["Har komponent uchun render soni va oxirgi render vaqti", "Qayta chizilgan elementlarni rangli ramka bilan ko’rsatish", "Faqat siz yoqqan saytlarda ishlaydi", "Nolga qaytarish, panelni yig’ish", "React DevTools bilan birga ishlaydi"],
+    "ru": ["Число рендеров и время последнего рендера для каждого компонента", "Подсветка перерисованных элементов рамкой", "Работает только на сайтах, где вы включили", "Сброс, сворачивание панели", "Совместим с React DevTools"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "hosts_why": {"uz": "faqat siz yoqqan sayt uchun so’raladi — sahifa yuklanishidan oldin hisoblagichni ulash", "ru": "запрашивается только для включённого вами сайта — подключение счётчика до загрузки страницы"},
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "scripts": ["popup.js"]}}
+}

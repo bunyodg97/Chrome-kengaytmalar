@@ -1,0 +1,20 @@
+{
+  "slug": "vue-svelte-inspector",
+  "version": "1.0.0",
+  "color": "#2f9e44",
+  "glyph": "V/S",
+  "name": {"uz": "Vue va Svelte inspektori", "ru": "Инспектор Vue и Svelte"},
+  "short": {"uz": "Vue/Svelte", "ru": "Vue/Svelte"},
+  "desc": {"uz": "Elementni tanlang — Vue komponentining props, holati (data/setup) va fayli yoki Svelte komponentining fayl:qatori ko’rinadi. DevTools o’rnatmasdan.", "ru": "Выберите элемент — увидите props, состояние (data/setup) и файл компонента Vue или файл:строку компонента Svelte. Без установки DevTools."},
+  "features": {
+    "uz": ["Vue 2 va Vue 3: props, data, setup holati, computed", "Svelte 3/4/5: komponent fayli va qatori (dev build)", "Komponentlar zanjiri", "Holatni JSON daraxt ko’rinishida, konsolga chiqarish ($vs)", "VS Code / Cursor / WebStorm’da ochish", "`Alt+Shift+V` — tanlash rejimi"],
+    "ru": ["Vue 2 и Vue 3: props, data, setup-состояние, computed", "Svelte 3/4/5: файл и строка компонента (dev-сборка)", "Цепочка компонентов", "Состояние деревом JSON, вывод в консоль ($vs)", "Открытие в VS Code / Cursor / WebStorm", "`Alt+Shift+V` — режим выбора"]
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "settings": "settings.body.html", "scripts": ["start.js", "popup.js"]}},
+  "commands": {
+    "pick": {"key": "Alt+Shift+V", "desc": {"uz": "Komponent tanlash rejimi", "ru": "Режим выбора компонента"}}
+  }
+}

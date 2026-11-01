@@ -1,0 +1,16 @@
+{
+  "slug": "popup-kanban",
+  "version": "1.0.0",
+  "color": "#1971c2",
+  "glyph": "▥",
+  "name": {"uz": "Popup Kanban", "ru": "Kanban в popup"},
+  "short": {"uz": "Kanban", "ru": "Kanban"},
+  "desc": {"uz": "Vazifalar uchun kichik Kanban doska brauzer panelida: Rejada, Jarayonda, Tayyor. Sudrab o’tkazish, ranglar, bir nechta doska.", "ru": "Мини-доска Kanban в панели браузера: Запланировано, В работе, Готово. Перетаскивание, цвета, несколько досок."},
+  "features": {
+    "uz": ["3 ustun, kartochkalarni sudrab o’tkazish", "Bir nechta doska (loyiha bo’yicha)", "Kartochka rangi (ustuvorlik) va muddat", "Ikki marta bosib tahrirlash", "Ikonkada «Jarayonda» vazifalar soni", "JSON eksport/import, katta oynada ochish"],
+    "ru": ["3 колонки, перетаскивание карточек", "Несколько досок (по проектам)", "Цвет карточки (приоритет) и срок", "Редактирование двойным кликом", "Число задач «В работе» на иконке", "Экспорт/импорт JSON, открытие в большом окне"]
+  },
+  "permissions": ["storage"],
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "board.body.html", "scripts": ["board.js"]}, "board.html": {"body": "board.body.html", "scripts": ["board.js"], "wide": true}}
+}

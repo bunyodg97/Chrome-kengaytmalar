@@ -1,0 +1,35 @@
+openapi: 3.0.3
+info: {title: Petstore, version: 1.2.0, description: Namuna API}
+servers: [{url: 'https://api.example.com/v1'}]
+tags: [{name: pets, description: Uy hayvonlari}]
+paths:
+  /pets:
+    get:
+      tags: [pets]
+      summary: Ro'yxat
+      parameters:
+        - {name: limit, in: query, schema: {type: integer, format: int32}}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: array, items: {$ref: '#/components/schemas/Pet'}}}}}
+    post:
+      tags: [pets]
+      summary: Yaratish
+      requestBody: {required: true, content: {application/json: {schema: {$ref: '#/components/schemas/Pet'}}}}
+      responses: {'201': {description: Yaratildi}, '400': {description: Xato}}
+  /pets/{id}:
+    parameters: [{name: id, in: path, required: true, schema: {type: string}}]
+    delete: {summary: O'chirish, deprecated: true, responses: {'204': {description: OK}}}
+components:
+  schemas:
+    Pet:
+      type: object
+      required: [name]
+      properties:
+        id: {type: integer, format: int64}
+        name: {type: string, example: Bobik}
+        owner: {$ref: '#/components/schemas/Owner'}
+        tags: {type: array, items: {type: string}}
+    Owner:
+      allOf:
+        - {type: object, properties: {email: {type: string, format: email}}}
+        - {type: object, properties: {pets: {type: array, items: {$ref: '#/components/schemas/Pet'}}}}

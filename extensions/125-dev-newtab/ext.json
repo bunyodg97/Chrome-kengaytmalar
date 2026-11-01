@@ -1,0 +1,18 @@
+{
+  "slug": "dev-newtab",
+  "version": "1.0.0",
+  "color": "#212529",
+  "glyph": "{}",
+  "name": {"uz": "Dasturchi uchun yangi tab", "ru": "Новая вкладка для разработчика"},
+  "short": {"uz": "Dev tab", "ru": "Dev tab"},
+  "desc": {"uz": "Yangi tabda: ochiq PR’laringiz, sizdan review kutayotganlar, tayinlangan issue’lar, GitHub faolligi, vazifalar ro’yxati va tezkor havolalar.", "ru": "На новой вкладке: ваши открытые PR, ожидающие вашего ревью, назначенные issue, активность GitHub, список задач и быстрые ссылки."},
+  "features": {
+    "uz": ["Mening ochiq PR’larim va review so’rovlari", "Menga tayinlangan issue’lar", "Oxirgi GitHub faolligi", "Vazifalar ro’yxati (brauzerda saqlanadi)", "Tezkor havolalar va qidiruv: Google, GitHub, MDN, StackOverflow, npm", "Soat va sana o’zbek/rus tilida"],
+    "ru": ["Мои открытые PR и запросы на ревью", "Назначенные мне issue", "Последняя активность GitHub", "Список задач (хранится в браузере)", "Быстрые ссылки и поиск: Google, GitHub, MDN, StackOverflow, npm", "Часы и дата на узбекском/русском"]
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.github.com/*"],
+  "hosts_why": {"uz": "GitHub’dan PR, issue va faollikni olish", "ru": "получение PR, issue и активности с GitHub"},
+  "newtab": "newtab.html",
+  "pages": {"newtab.html": {"body": "newtab.body.html", "settings": "settings.body.html", "libs": ["gh"], "scripts": ["newtab.js"], "wide": true}}
+}

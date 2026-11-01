@@ -1,0 +1,38 @@
+<div class="rc-grid">
+  <aside class="stack">
+    <div class="card stack">
+      <div class="row"><b data-i18n="session"></b><code id="sid" class="grow"></code><button class="btn ghost small" id="newS" data-i18n="newSession"></button></div>
+      <p class="small" data-i18n="step1"></p>
+      <textarea id="snippet" rows="7" readonly></textarea>
+      <button class="btn small" id="copyS" data-i18n="copySnippet"></button>
+      <p class="small" data-i18n="step1b"></p>
+      <button class="btn ghost small" id="copyB" data-i18n="copyBm"></button>
+      <p class="small" data-i18n="step2"></p>
+      <p class="note" data-i18n="privacy"></p>
+    </div>
+  </aside>
+  <section class="rc-main">
+    <div class="row rc-tools">
+      <span id="status" class="badge"></span>
+      <select id="dev" style="width:auto"></select>
+      <div class="seg" id="lv"><button data-l="all" class="active" data-i18n="all"></button><button data-l="log">log</button><button data-l="info">info</button><button data-l="warn">warn</button><button data-l="error">error</button></div>
+      <input type="search" id="q" data-i18n-ph="filter" class="grow" style="max-width:240px">
+      <button class="btn ghost small" id="clr" data-i18n="clear"></button>
+      <button class="btn ghost small" id="exp" data-i18n="export"></button>
+    </div>
+    <div id="out" class="rc-out"><div class="empty" data-i18n="waiting"></div></div>
+  </section>
+</div>
+<style>
+.rc-grid{display:grid;grid-template-columns:340px 1fr;gap:14px;align-items:start}
+@media(max-width:800px){.rc-grid{grid-template-columns:1fr}}
+.rc-tools{margin-bottom:8px}
+.rc-out{background:var(--bg2);border:1px solid var(--line);border-radius:8px;height:calc(100vh - 140px);overflow:auto;font:12px/1.5 var(--mono)}
+.ln{display:grid;grid-template-columns:70px 46px 1fr;gap:8px;padding:3px 10px;border-bottom:1px solid var(--line);white-space:pre-wrap;word-break:break-word}
+.ln .tm{color:var(--fg2)}.ln .lv{font-weight:600}
+.ln.warn{background:color-mix(in srgb,var(--warn) 10%,transparent)}.ln.warn .lv{color:var(--warn)}
+.ln.error{background:color-mix(in srgb,var(--bad) 10%,transparent)}.ln.error .lv{color:var(--bad)}
+.ln.info .lv{color:var(--accent)}
+.ln.sys{color:var(--fg2);font-style:italic}
+#sid{font-size:11px;word-break:break-all}
+</style>

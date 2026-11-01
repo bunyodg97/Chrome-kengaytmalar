@@ -1,0 +1,16 @@
+{
+  "slug": "diff-viewer",
+  "version": "1.0.0",
+  "color": "#5c940d",
+  "glyph": "±",
+  "name": {"uz": "Diff ko’ruvchi", "ru": "Сравнение текстов (Diff)"},
+  "short": {"uz": "Diff", "ru": "Diff"},
+  "desc": {"uz": "Ikki matn yoki kod faylini solishtiring: yonma-yon yoki birlashgan ko’rinish, qator ichidagi farqlar, bo’sh joylarni e’tiborsiz qoldirish, unified patch.", "ru": "Сравнивайте два текста или файла с кодом: рядом или единым списком, отличия внутри строк, игнорирование пробелов, unified patch."},
+  "features": {
+    "uz": ["Yonma-yon (split) va birlashgan (unified) ko’rinish", "Qator ichidagi so’z darajasidagi farqlar", "Bo’sh joy va katta-kichik harfni e’tiborsiz qoldirish", "Fayllarni sudrab tashlash, joyini almashtirish", "Statistika: +qo’shilgan / −o’chirilgan", ".patch (unified diff) sifatida saqlash; internetsiz"],
+    "ru": ["Режимы «рядом» (split) и «единый» (unified)", "Отличия внутри строк на уровне слов", "Игнорирование пробелов и регистра", "Перетаскивание файлов, перестановка местами", "Статистика: +добавлено / −удалено", "Сохранение в .patch (unified diff); без интернета"]
+  },
+  "permissions": ["storage"],
+  "background": "background.js",
+  "pages": {"diff.html": {"body": "diff.body.html", "scripts": ["vendor/diff.min.js", "diff.js"], "wide": true}}
+}

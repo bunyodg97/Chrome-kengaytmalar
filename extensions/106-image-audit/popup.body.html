@@ -1,0 +1,19 @@
+<div class="stack">
+  <button class="btn block" id="scan" data-i18n="scan"></button>
+  <div id="summary" class="stats hidden"></div>
+  <div class="row hidden" id="tools">
+    <div class="seg"><button data-f="issues" class="active" data-i18n="onlyIssues"></button><button data-f="all" data-i18n="all"></button></div>
+    <span class="grow"></span>
+    <button class="btn ghost small" id="csv" data-i18n="csv"></button>
+  </div>
+  <div id="list"></div>
+</div>
+<style>
+.img-item{display:flex;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.img-item:hover{background:var(--bg2)}
+.img-item img{width:52px;height:52px;object-fit:contain;background:repeating-conic-gradient(var(--bg3) 0 25%,var(--bg) 0 50%) 0/10px 10px;border-radius:4px;flex:none}
+.img-item .meta{min-width:0;flex:1}
+.img-item .name{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.img-item ul{margin:3px 0 0;padding-left:16px;font-size:11px}
+.img-item li.bad{color:var(--bad)}.img-item li.warn{color:var(--warn)}
+</style>

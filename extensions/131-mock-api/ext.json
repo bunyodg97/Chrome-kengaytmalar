@@ -1,0 +1,18 @@
+{
+  "slug": "mock-api",
+  "version": "1.0.0",
+  "color": "#d6336c",
+  "glyph": "{ }",
+  "name": {"uz": "Mock API generatori", "ru": "Генератор Mock API"},
+  "short": {"uz": "Mock API", "ru": "Mock API"},
+  "desc": {"uz": "Backend tayyor bo’lmasa ham frontendni ishlating: endpoint va shablon yozing — kengaytma fetch/XHR so’rovlarini ushlab, soxta ma’lumot qaytaradi.", "ru": "Работайте над фронтендом без готового бэкенда: опишите endpoint и шаблон — расширение перехватит fetch/XHR и вернёт фейковые данные."},
+  "features": {
+    "uz": ["Metod, URL (* va :id), status kodi va kechikish", "Shablon: {{name}}, {{email}}, {{int 1 100}}, {{uuid}}, {{date}}, {{city}}, {{phone}}, {{param id}}…", "O’zbekcha ism va shaharlar bilan realistik ma’lumot", "__repeat bilan massiv yaratish", "Faqat siz yoqqan saytlarda, fetch va XHR uchun", "Oldindan ko’rish, JSON nusxalash, eksport/import"],
+    "ru": ["Метод, URL (* и :id), код статуса и задержка", "Шаблон: {{name}}, {{email}}, {{int 1 100}}, {{uuid}}, {{date}}, {{city}}, {{phone}}, {{param id}}…", "Реалистичные данные с узбекскими именами и городами", "Массивы через __repeat", "Только на включённых вами сайтах, для fetch и XHR", "Предпросмотр, копирование JSON, экспорт/импорт"]
+  },
+  "permissions": ["storage", "scripting", "activeTab"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "hosts_why": {"uz": "faqat siz yoqqan sayt uchun so’raladi — so’rovlarni ushlash uchun", "ru": "запрашивается только для включённого вами сайта — для перехвата запросов"},
+  "background": "background.js",
+  "pages": {"mock.html": {"body": "mock.body.html", "scripts": ["mockgen.js", "mock.js"], "wide": true}}
+}
