@@ -1,0 +1,38 @@
+<div class="row" style="margin-bottom:8px"><div class="seg" id="sub"><button data-s="search" class="active" data-i18n="tabSearch"></button><button data-s="watch" id="subWatch"></button></div></div>
+<div id="v-search" class="stack">
+  <div class="row nowrap">
+    <div class="field grow ac-wrap"><label data-i18n="from"></label><input id="from" autocomplete="off" data-i18n-ph="placePh"><div class="ac" id="acFrom"></div></div>
+    <button class="btn ghost small" id="swap" style="margin-top:6px">⇄</button>
+    <div class="field grow ac-wrap"><label data-i18n="to"></label><input id="to" autocomplete="off" data-i18n-ph="anywhere"><div class="ac" id="acTo"></div></div>
+  </div>
+  <div class="row nowrap">
+    <div class="field grow"><label data-i18n="depart"></label><input type="date" id="dep"></div>
+    <div class="field grow"><label data-i18n="ret"></label><input type="date" id="ret"></div>
+  </div>
+  <div class="row">
+    <div class="seg" id="mode"><button data-m="month" class="active" data-i18n="byMonth"></button><button data-m="day" data-i18n="byDay"></button></div>
+    <select id="cur"><option value="usd">USD</option><option value="eur">EUR</option><option value="rub">RUB</option><option value="uzs">UZS</option><option value="kzt">KZT</option></select>
+    <label class="small" style="display:flex;gap:4px;align-items:center"><input type="checkbox" id="direct"><span data-i18n="direct"></span></label>
+  </div>
+  <button class="btn block" id="go" data-i18n="search"></button>
+  <div id="res"></div>
+</div>
+<div id="v-watch" class="stack" hidden>
+  <div class="row"><button class="btn small" id="chk" data-i18n="checkNow"></button><span class="small muted" id="chkInfo"></span></div>
+  <div id="wl"></div>
+</div>
+<style>
+#mode button{white-space:nowrap}
+.nowrap{flex-wrap:nowrap}.ac-wrap{position:relative}
+.ac{position:absolute;left:0;right:0;top:100%;z-index:20;background:var(--bg);border:1px solid var(--line);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.18);max-height:210px;overflow:auto;display:none}
+.ac div{padding:6px 9px;cursor:pointer;font-size:12.5px}.ac div:hover{background:var(--bg2)}.ac small{color:var(--fg2);margin-left:6px}
+.tk{display:flex;gap:10px;align-items:center;padding:8px 10px;margin-bottom:6px}
+.tk .pr{font-size:17px;font-weight:700;min-width:78px}.tk .mid{flex:1;min-width:0;font-size:12px}.tk .mid b{font-size:13px}
+.tk .acts{display:flex;flex-direction:column;gap:4px}.tk .acts .btn{padding:3px 8px;font-size:11.5px;white-space:nowrap}
+.wf{display:flex;gap:6px;align-items:center;padding:0 10px 8px;margin-top:-2px}.wf input{width:100px}
+.links{display:flex;gap:6px;flex-wrap:wrap}.links a{text-decoration:none}
+.banner{padding:8px 10px;border-radius:8px;font-size:12px;background:color-mix(in srgb,var(--warn) 16%,transparent);margin-bottom:8px}
+.wc.hit{border-color:var(--ok)}.wc .top{display:flex;gap:8px;align-items:center}.wc .top b{flex:1}
+.wc .nums{display:flex;gap:14px;align-items:flex-end;margin:6px 0}.wc .nums div{display:flex;flex-direction:column}.wc .nums span{font-size:11px;color:var(--fg2)}.wc .nums strong{font-size:16px}
+.wc svg{margin-left:auto}.wc input.tg{width:90px}
+</style>

@@ -42,6 +42,7 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 | 132 | [Markdown → HTML](extensions/132-markdown-html) | Markdown → HTML | 1.0.0 |
 | 133 | [Diff ko’ruvchi](extensions/133-diff-viewer) | Сравнение текстов (Diff) | 1.0.0 |
 | 157 | [Tinchlantiruvchi tovushlar](extensions/157-relax-sounds) | Успокаивающие звуки | 1.0.0 |
+| 191 | [Avia chiptalar: arzon narx kuzatuvchisi](extensions/191-flight-tracker) | Авиабилеты: трекер низких цен | 1.0.0 |
 <!-- LIST:END -->
 
 ## Har bir kengaytmadagi «Sozlamalar» bo’limi

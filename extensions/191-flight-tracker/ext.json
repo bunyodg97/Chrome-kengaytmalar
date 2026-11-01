@@ -1,0 +1,19 @@
+{
+  "slug": "flight-tracker",
+  "version": "1.0.0",
+  "color": "#0b7285",
+  "glyph": "✈",
+  "name": {"uz": "Avia chiptalar: arzon narx kuzatuvchisi", "ru": "Авиабилеты: трекер низких цен"},
+  "short": {"uz": "Avia narx", "ru": "Авиацены"},
+  "desc": {"uz": "Dunyo bo’ylab avia reyslar narxini qidiring, eng arzonini toping va narx siz belgilagan summaga tushganda bildirishnoma oling.", "ru": "Ищите авиарейсы по всему миру, находите самые дешёвые и получайте уведомление, когда цена опустится до вашей суммы."},
+  "features": {
+    "uz": ["Istalgan shahar/aeroportdan istalgan shaharga qidiruv; «Hamma yo’nalishlar» — eng arzon manzillar ro’yxati", "Aniq kun yoki butun oy bo’yicha eng arzon narxlar, to’g’ridan-to’g’ri reyslar filtri", "Narx kuzatuvi: maqsadli summani belgilang — narx tushganda bildirishnoma keladi", "Narx tarixi grafigi, avtomatik tekshiruv (1–12 soat)", "UZS, USD, EUR, RUB, KZT valyutalari", "Sotib olish — Aviasales sahifasiga o’tadi; token bo’lmasa Skyscanner, Google Flights, Kayak havolalari"],
+    "ru": ["Поиск из любого города/аэропорта в любой; «Все направления» — список самых дешёвых мест", "Самые низкие цены на конкретный день или весь месяц, фильтр прямых рейсов", "Слежение за ценой: задайте сумму — придёт уведомление, когда цена упадёт", "График истории цен, автопроверка (раз в 1–12 часов)", "Валюты UZS, USD, EUR, RUB, KZT", "Покупка — переход на Aviasales; без токена — ссылки Skyscanner, Google Flights, Kayak"]
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "host_permissions": ["https://api.travelpayouts.com/*", "https://autocomplete.travelpayouts.com/*"],
+  "hosts_why": {"uz": "Travelpayouts (Aviasales) narxlar API’si va shahar/aeroport qidiruvi", "ru": "API цен Travelpayouts (Aviasales) и поиск городов/аэропортов"},
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {"popup.html": {"body": "popup.body.html", "settings": "settings.body.html", "scripts": ["core.js", "popup.js"]}}
+}

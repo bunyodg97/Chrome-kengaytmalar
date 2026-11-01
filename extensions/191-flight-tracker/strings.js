@@ -1,0 +1,40 @@
+self.STR = {
+  uz: {
+    appName: 'Avia chiptalar: arzon narx kuzatuvchisi',
+    tabSearch: 'Qidirish', tabWatch: 'Kuzatuv', from: 'Qayerdan', to: 'Qayerga', anywhere: 'Hamma yo’nalishlar', placePh: 'Shahar yoki aeroport',
+    depart: 'Uchish', ret: 'Qaytish (ixtiyoriy)', byDay: 'Aniq kun', byMonth: 'Butun oy', direct: 'Faqat to’g’ridan-to’g’ri', currency: 'Valyuta',
+    search: 'Qidirish', searching: 'Qidirilmoqda…', noResults: 'Bu sana uchun narx topilmadi. Boshqa oy yoki yo’nalishni sinab ko’ring.',
+    pickFrom: 'Avval «Qayerdan» ni tanlang', pickList: 'Ro’yxatdan shahar yoki aeroportni tanlang',
+    buy: 'Sotib olish ↗', watch: '🔔 Kuzatish', target: 'Maqsadli narx', saveWatch: 'Kuzatuvga qo’shish', watchAdded: 'Kuzatuvga qo’shildi',
+    nonstop: 'to’g’ridan-to’g’ri', stops: '{n} ta almashinuv', hm: '{h} soat {m} daq',
+    noToken: 'Narxlarni ko’rish uchun bepul Travelpayouts tokeni kerak (Sozlamalarda). Hozircha chipta saytlarida qidiring:',
+    goSettings: 'Sozlamalarni ochish', demoBanner: 'DEMO: bu namunaviy (soxta) narxlar. Haqiqiy narx uchun tokenni kiriting.',
+    errToken: 'Token noto’g’ri yoki ruxsat yo’q.', errRate: 'So’rovlar limiti tugadi, birozdan so’ng urinib ko’ring.', errNet: 'Tarmoq xatosi: ',
+    watchEmpty: 'Kuzatuv ro’yxati bo’sh. Qidiruv natijasidan «🔔 Kuzatish» ni bosing.',
+    now: 'Hozir', targetShort: 'Maqsad', reached: 'Maqsadga yetdi!', checkNow: 'Hozir tekshirish', checking: 'Tekshirilmoqda…', checked: 'Tekshirildi', lastCheck: 'Oxirgi tekshiruv',
+    noData: 'ma’lumot yo’q', del: 'O’chirish', open: 'Ochish', month: 'oy', oneWay: 'bir tomonga', roundTrip: 'borib-qaytish',
+    token: 'Travelpayouts API tokeni', tokenNote: 'Bepul: travelpayouts.com’da ro’yxatdan o’ting → Developer → API token. Narxlar Aviasales ma’lumotlar bazasidan olinadi (foydalanuvchilar qidiruvlari keshi) — haqiqiy narx sotib olish sahifasida biroz farq qilishi mumkin. Token faqat api.travelpayouts.com ga yuboriladi. Sinov uchun «demo» deb yozing.',
+    getToken: 'Token olish ↗', interval: 'Avtomatik tekshiruv oralig’i', every: 'Har {n} soatda', defCurrency: 'Odatiy valyuta', home: 'Uy aeroporti (ixtiyoriy)',
+    notifTitle: 'Narx tushdi!', notifBody: '{p} ≤ {tg}',
+    cmd: 'Narxlarni hozir tekshirish', checkLimit: 'Bir vaqtda 20 tagacha kuzatuv tekshiriladi.'
+  },
+  ru: {
+    appName: 'Авиабилеты: трекер низких цен',
+    tabSearch: 'Поиск', tabWatch: 'Слежение', from: 'Откуда', to: 'Куда', anywhere: 'Все направления', placePh: 'Город или аэропорт',
+    depart: 'Вылет', ret: 'Обратно (необязательно)', byDay: 'Точная дата', byMonth: 'Весь месяц', direct: 'Только прямые', currency: 'Валюта',
+    search: 'Найти', searching: 'Поиск…', noResults: 'На эту дату цен не найдено. Попробуйте другой месяц или направление.',
+    pickFrom: 'Сначала выберите «Откуда»', pickList: 'Выберите город или аэропорт из списка',
+    buy: 'Купить ↗', watch: '🔔 Следить', target: 'Целевая цена', saveWatch: 'Добавить в слежение', watchAdded: 'Добавлено в слежение',
+    nonstop: 'прямой', stops: 'пересадок: {n}', hm: '{h} ч {m} мин',
+    noToken: 'Для цен нужен бесплатный токен Travelpayouts (в Настройках). Пока ищите на сайтах:',
+    goSettings: 'Открыть настройки', demoBanner: 'ДЕМО: это примерные (вымышленные) цены. Введите токен для реальных.',
+    errToken: 'Токен неверный или нет доступа.', errRate: 'Лимит запросов исчерпан, попробуйте позже.', errNet: 'Ошибка сети: ',
+    watchEmpty: 'Список слежения пуст. Нажмите «🔔 Следить» в результатах поиска.',
+    now: 'Сейчас', targetShort: 'Цель', reached: 'Цель достигнута!', checkNow: 'Проверить сейчас', checking: 'Проверка…', checked: 'Проверено', lastCheck: 'Последняя проверка',
+    noData: 'нет данных', del: 'Удалить', open: 'Открыть', month: 'мес.', oneWay: 'в одну сторону', roundTrip: 'туда-обратно',
+    token: 'API-токен Travelpayouts', tokenNote: 'Бесплатно: зарегистрируйтесь на travelpayouts.com → Developer → API token. Цены берутся из базы Aviasales (кэш поисков пользователей) — на странице покупки могут немного отличаться. Токен отправляется только на api.travelpayouts.com. Для проверки введите «demo».',
+    getToken: 'Получить токен ↗', interval: 'Интервал автопроверки', every: 'Каждые {n} ч', defCurrency: 'Валюта по умолчанию', home: 'Домашний аэропорт (необязательно)',
+    notifTitle: 'Цена упала!', notifBody: '{p} ≤ {tg}',
+    cmd: 'Проверить цены сейчас', checkLimit: 'За раз проверяется до 20 слежений.'
+  }
+};
