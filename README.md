@@ -46,6 +46,7 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 | 192 | [Trader to’plami](extensions/192-trader-toolkit) | Набор трейдера | 1.0.0 |
 | 193 | [Kripto narx ogohlantirgichi](extensions/193-crypto-alerts) | Оповещения о цене крипто | 1.0.0 |
 | 194 | [Iqtisodiy kalendar (trader uchun)](extensions/194-econ-calendar) | Экономический календарь трейдера | 1.0.0 |
+| 195 | [Suzuvchi video (PiP) — boshqa ishlaringizni qilavering](extensions/195-pip-player) | Плавающее видео (PiP) — работайте параллельно | 1.0.0 |
 <!-- LIST:END -->
 
 ## Har bir kengaytmadagi «Sozlamalar» bo’limi

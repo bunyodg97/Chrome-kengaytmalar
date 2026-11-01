@@ -1,0 +1,92 @@
+{
+  "slug": "pip-player",
+  "version": "1.0.0",
+  "color": "#7048e8",
+  "glyph": "P",
+  "name": {
+    "uz": "Suzuvchi video (PiP) — boshqa ishlaringizni qilavering",
+    "ru": "Плавающее видео (PiP) — работайте параллельно"
+  },
+  "short": {
+    "uz": "Suzuvchi video",
+    "ru": "PiP-видео"
+  },
+  "desc": {
+    "uz": "Videoni kichik suzuvchi oynaga chiqaring: boshqa tab yoki dasturda ishlayversangiz ham ustida turadi. Alt+P, video ustidagi tugma, tab almashganda avtomatik, ±10 soniya va tezlik boshqaruvi.",
+    "ru": "Выводите видео в маленькое плавающее окно: оно остаётся поверх других вкладок и программ. Alt+P, кнопка на видео, автозапуск при смене вкладки, перемотка ±10 с и скорость."
+  },
+  "features": {
+    "uz": [
+      "`Alt+P` yoki video ustidagi «PiP» tugmasi bilan suzuvchi oyna",
+      "Tab almashganda avtomatik PiP (Chrome 134+), qaytsangiz video joyiga qaytadi",
+      "Kengaytirilgan oyna (Document PiP): ±10 soniya, surish chizig’i, tezlik 0.5x–2x, ovoz, to’liq ekran, sahifaga qaytarish",
+      "Sahifada bir nechta video bo’lsa — qaysi birini chiqarishni tanlash oynasi",
+      "Oyna o’lchami va joyi eslab qolinadi",
+      "Saytlar qo’ygan PiP/uzatish cheklovlarini (disablePictureInPicture) olib tashlaydi",
+      "iframe ichidagi videolar ham qo’llab-quvvatlanadi",
+      "DRM himoyalangan xizmatlarda (Netflix kabi) Chrome PiP’ni bloklashi mumkin"
+    ],
+    "ru": [
+      "Плавающее окно по `Alt+P` или кнопке «PiP» на видео",
+      "Автоматический PiP при смене вкладки (Chrome 134+); при возврате видео встаёт на место",
+      "Расширенное окно (Document PiP): ±10 с, полоса перемотки, скорость 0.5x–2x, звук, полный экран, возврат на страницу",
+      "Если на странице несколько видео — окно выбора",
+      "Размер и положение окна запоминаются",
+      "Снимает ограничения сайтов на PiP/трансляцию (disablePictureInPicture)",
+      "Поддерживаются видео внутри iframe",
+      "В сервисах с DRM (вроде Netflix) Chrome может блокировать PiP"
+    ]
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-main.js"
+      ],
+      "world": "MAIN",
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-iso.js"
+      ],
+      "all_frames": true,
+      "match_about_blank": true,
+      "run_at": "document_start"
+    }
+  ],
+  "hosts_why": {
+    "uz": "videosi bor har qanday saytda PiP tugmasi va boshqaruvni ishlatish uchun (ma’lumot hech qayerga yuborilmaydi)",
+    "ru": "чтобы работать с видео на любом сайте: кнопка PiP и управление (данные никуда не отправляются)"
+  },
+  "background": "background.js",
+  "popup": "popup.html",
+  "commands": {
+    "toggle": {
+      "key": "Alt+P",
+      "desc": {
+        "uz": "Videoni suzuvchi oynaga chiqarish / qaytarish",
+        "ru": "Вывести видео в плавающее окно / вернуть"
+      }
+    }
+  },
+  "pages": {
+    "popup.html": {
+      "body": "popup.body.html",
+      "settings": "settings.body.html",
+      "scripts": [
+        "popup.js"
+      ]
+    }
+  }
+}
