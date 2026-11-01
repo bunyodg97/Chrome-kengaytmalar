@@ -6,7 +6,7 @@ Talab: pip install playwright && playwright install chromium
     python3 scripts/smoke_test.py            # hammasi
     python3 scripts/smoke_test.py 104 105    # tanlanganlar
 """
-import hashlib, json, os, sys, tempfile
+import base64, hashlib, json, os, sys, tempfile
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -38,7 +38,8 @@ def test_ext(pw, ext, langs=("uz", "ru")):
             args=[f"--disable-extensions-except={ext}", f"--load-extension={ext}", "--headless=new"],
             viewport={"width": 1100, "height": 760},
         )
-        h = hashlib.sha256(os.path.realpath(ext).encode()).hexdigest()[:32]
+        mk = json.loads((ext / "manifest.json").read_text()).get("key")
+        h = hashlib.sha256(base64.b64decode(mk) if mk else os.path.realpath(ext).encode()).hexdigest()[:32]
         ext_id = ''.join(chr(ord('a') + int(c, 16)) for c in h)
         for page in pages_of(ext):
             for lang in langs:

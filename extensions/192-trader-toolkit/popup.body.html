@@ -1,0 +1,94 @@
+<div class="row nowrap" style="margin-bottom:8px">
+  <div class="seg" id="sub"><button data-s="calc" class="active" data-i18n="tCalc"></button><button data-s="journal" data-i18n="tJournal"></button><button data-s="sess" data-i18n="tSess"></button><button data-s="check" id="tCheckBtn" data-i18n="tCheck"></button></div>
+  <a class="btn ghost small" id="fullBtn" href="full.html" target="_blank" data-i18n-title="full">⤢</a>
+</div>
+
+<div id="v-calc" class="stack">
+  <div class="seg" id="mode"><button data-m="crypto" data-i18n="mCrypto"></button><button data-m="forex" data-i18n="mForex"></button><button data-m="stock" data-i18n="mStock"></button></div>
+  <div class="g2">
+    <div class="field"><label data-i18n="dep"></label><input id="c-dep" inputmode="decimal"></div>
+    <div class="field"><label data-i18n="riskPct"></label><input id="c-risk" inputmode="decimal"></div>
+    <div class="field"><label data-i18n="entry"></label><input id="c-entry" inputmode="decimal"></div>
+    <div class="field"><label data-i18n="sl"></label><input id="c-sl" inputmode="decimal"></div>
+    <div class="field"><label data-i18n="tp"></label><input id="c-tp" inputmode="decimal"></div>
+    <div class="field only-crypto"><label data-i18n="lev"></label><input id="c-lev" inputmode="decimal"></div>
+    <div class="field only-nofx"><label data-i18n="fee"></label><input id="c-fee" inputmode="decimal"></div>
+    <div class="field only-forex"><label data-i18n="pip"></label><input id="c-pip" inputmode="decimal"></div>
+    <div class="field only-forex"><label data-i18n="pipv"></label><input id="c-pipv" inputmode="decimal"></div>
+  </div>
+  <div id="c-out"></div>
+  <div class="row"><button class="btn small" id="c-toj" data-i18n="toJournal" hidden></button></div>
+</div>
+
+<div id="v-journal" class="stack" hidden>
+  <div id="j-stats"></div>
+  <div id="j-eq"></div>
+  <details id="j-form" class="card"><summary><b data-i18n="addTrade"></b></summary>
+    <div class="g2" style="margin-top:8px">
+      <div class="field"><label data-i18n="symbol"></label><input id="j-sym"></div>
+      <div class="field"><label data-i18n="side"></label><select id="j-side"><option value="long">LONG</option><option value="short">SHORT</option></select></div>
+      <div class="field"><label data-i18n="entry"></label><input id="j-entry" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="exit"></label><input id="j-exit" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="qty"></label><input id="j-size" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="feeAbs"></label><input id="j-fee" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="riskUsd"></label><input id="j-risk" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="pnlManual"></label><input id="j-pnl" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="tag"></label><input id="j-tag" list="j-tags"><datalist id="j-tags"></datalist></div>
+      <div class="field"><label data-i18n="date"></label><input id="j-date" type="datetime-local"></div>
+    </div>
+    <div class="field"><label data-i18n="note"></label><input id="j-note"></div>
+    <div class="row"><button class="btn" id="j-save" data-i18n="save"></button><button class="btn ghost small" id="j-cancel" hidden>✕</button></div>
+  </details>
+  <div class="row" id="j-tools">
+    <select id="j-ftag"></select><input type="date" id="j-from" title=""><input type="date" id="j-to" title="">
+    <button class="btn ghost small" id="j-exp" data-i18n="exportCsv"></button>
+    <label class="btn ghost small" style="cursor:pointer"><span data-i18n="importCsv"></span><input type="file" id="j-imp" accept=".csv,text/csv" hidden></label>
+  </div>
+  <div id="j-list"></div>
+</div>
+
+<div id="v-sess" class="stack" hidden>
+  <div class="small muted" id="s-tz"></div>
+  <div id="s-sum" class="banner"></div>
+  <div id="s-list"></div>
+  <div class="small muted" data-i18n="sessNote"></div>
+</div>
+
+<div id="v-check" class="stack" hidden>
+  <div id="k-lim"></div>
+  <div class="card">
+    <b data-i18n="limTitle"></b>
+    <div class="g2" style="margin-top:6px">
+      <div class="field"><label data-i18n="dep"></label><input id="k-dep" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="limType"></label><select id="k-type"><option value="pct" data-i18n="limPct"></option><option value="usd" data-i18n="limUsd"></option></select></div>
+      <div class="field"><label data-i18n="limVal"></label><input id="k-val" inputmode="decimal"></div>
+      <div class="field"><label data-i18n="maxTr"></label><input id="k-max" inputmode="numeric"></div>
+    </div>
+  </div>
+  <div class="card"><b data-i18n="ckTitle"></b>
+    <div id="k-items" style="margin-top:6px"></div>
+    <div class="row nowrap"><input id="k-new" class="grow" data-i18n-ph="ckAdd"><button class="btn small" id="k-add">+</button></div>
+    <div id="k-res" class="banner" style="margin-top:8px"></div>
+    <button class="btn ghost small" id="k-reset" data-i18n="ckReset"></button>
+  </div>
+</div>
+<div class="small muted" style="margin-top:10px" data-i18n="disclaimer"></div>
+<style>
+[hidden]{display:none!important}.nowrap{flex-wrap:nowrap}.g2{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}.g2 .field input,.g2 .field select{width:100%;box-sizing:border-box}
+body.wide .g2{grid-template-columns:repeat(4,1fr)}
+.seg button{white-space:nowrap}#sub button{padding:5px 8px;font-size:12.5px}
+.kv{display:flex;justify-content:space-between;gap:8px;padding:5px 0;border-bottom:1px solid var(--line);font-size:13px}.kv b{text-align:right}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.banner{padding:8px 10px;border-radius:8px;font-size:12.5px;background:var(--bg2);border:1px solid var(--line)}
+.banner.ok{background:color-mix(in srgb,var(--ok) 15%,transparent);border-color:var(--ok)}.banner.warn{background:color-mix(in srgb,var(--warn) 18%,transparent)}.banner.bad{background:color-mix(in srgb,var(--bad) 16%,transparent);border-color:var(--bad);font-weight:600}
+.st{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}body.wide .st{grid-template-columns:repeat(6,1fr)}
+.st div{background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:6px 8px}.st span{display:block;font-size:10.5px;color:var(--fg2)}.st b{font-size:14px}
+.tr{display:flex;gap:8px;align-items:center;padding:6px 8px;border-bottom:1px solid var(--line);font-size:12.5px}.tr .m{flex:1;min-width:0}.tr .m small{display:block;color:var(--fg2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tr .p{font-weight:700;white-space:nowrap}.tr button{padding:2px 6px;font-size:11px}
+.sess{padding:8px 10px;margin-bottom:6px}.sess .top{display:flex;gap:8px;align-items:center}.sess .top b{flex:1}
+.bar{position:relative;height:9px;background:var(--bg3);border-radius:5px;margin:6px 0 2px;overflow:hidden;display:flex}.bar i{flex:1;display:block}.bar u{position:absolute;top:0;bottom:0;width:2px;background:var(--fg)}
+.prog{height:8px;background:var(--bg3);border-radius:5px;overflow:hidden;margin-top:4px}.prog i{display:block;height:100%;background:var(--ok)}
+.ck{display:flex;gap:8px;align-items:center;padding:4px 0;font-size:13px}.ck span{flex:1}.ck button{padding:0 6px}
+#j-tools select,#j-tools input{max-width:130px}
+body.wide #v-calc,body.wide #v-check,body.wide #v-sess{max-width:760px}
+</style>

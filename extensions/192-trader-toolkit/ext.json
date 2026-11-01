@@ -1,0 +1,70 @@
+{
+  "slug": "trader-toolkit",
+  "version": "1.0.0",
+  "color": "#1f7a4d",
+  "glyph": "%",
+  "name": {
+    "uz": "Trader to’plami",
+    "ru": "Набор трейдера"
+  },
+  "short": {
+    "uz": "Trader",
+    "ru": "Трейдер"
+  },
+  "desc": {
+    "uz": "Pozitsiya hajmi kalkulyatori, savdo jurnali, bozor sessiyalari soati va savdodan oldingi chek-list bilan kunlik zarar limiti.",
+    "ru": "Калькулятор размера позиции, торговый журнал, часы торговых сессий и чек-лист перед сделкой с дневным лимитом убытка."
+  },
+  "features": {
+    "uz": [
+      "Pozitsiya kalkulyatori: kripto/futures, forex va aksiya; risk, hajm, margin, likvidatsiya narxi, R:R",
+      "Savdo jurnali: win rate, profit factor, kutilma, maksimal cho’kish, equity grafigi, CSV import/eksport",
+      "Sessiyalar soati: Sidney, Tokio, London, Nyu-York — ochiq/yopiq, kesishish soatlari, ochilishdan oldin ogohlantirish",
+      "Savdodan oldingi chek-list (o’zingiz tahrirlaysiz)",
+      "Kunlik zarar limiti: oshsa belgi va bildirishnoma «bugun to’xta»",
+      "Hamma ma’lumot faqat brauzeringizda saqlanadi, internet kerak emas",
+      "Bu moliyaviy maslahat emas — faqat hisoblash va hisob yuritish vositasi"
+    ],
+    "ru": [
+      "Калькулятор позиции: крипто/фьючерсы, форекс и акции; риск, объём, маржа, цена ликвидации, R:R",
+      "Торговый журнал: win rate, profit factor, матожидание, макс. просадка, график эквити, импорт/экспорт CSV",
+      "Часы сессий: Сидней, Токио, Лондон, Нью-Йорк — открыто/закрыто, пересечения, уведомление перед открытием",
+      "Чек-лист перед сделкой (редактируете сами)",
+      "Дневной лимит убытка: при превышении значок и уведомление «на сегодня хватит»",
+      "Все данные хранятся только в браузере, интернет не нужен",
+      "Это не финансовый совет — только инструмент расчётов и учёта"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": "background.js",
+  "popup": "popup.html",
+  "pages": {
+    "popup.html": {
+      "body": "popup.body.html",
+      "scripts": [
+        "core.js",
+        "calc.js",
+        "journal.js",
+        "sessions.js",
+        "check.js",
+        "main.js"
+      ]
+    },
+    "full.html": {
+      "body": "popup.body.html",
+      "scripts": [
+        "core.js",
+        "calc.js",
+        "journal.js",
+        "sessions.js",
+        "check.js",
+        "main.js"
+      ],
+      "wide": true
+    }
+  }
+}

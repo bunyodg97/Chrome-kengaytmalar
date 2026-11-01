@@ -8,6 +8,7 @@ Ishlatish:
     python3 scripts/build.py            # hammasi
     python3 scripts/build.py 104 107    # faqat tanlanganlar
     python3 scripts/build.py --no-zip   # zip yasamasdan
+    python3 scripts/build.py --store    # Web Store uchun: manifest.json’ga "key" qo’shilmaydi
 """
 import json, os, re, shutil, sys, zipfile
 from pathlib import Path
@@ -229,7 +230,11 @@ def build_one(ext_dir, do_zip=True):
         shutil.copy2((ext_dir / inc).resolve(), out / Path(inc).name)
     for name, spec in (cfg.get("pages") or {}).items():
         (out / name).write_text(page_html(cfg, name, spec, ext_dir), encoding="utf-8")
-    (out / "manifest.json").write_text(json.dumps(manifest(cfg), ensure_ascii=False, indent=2), encoding="utf-8")
+    man = manifest(cfg)
+    keyf = ROOT / "keys" / (ext_dir.name.split("-")[0] + ".pub")
+    if keyf.exists() and "--store" not in sys.argv:
+        man["key"] = keyf.read_text().strip()   # doimiy ID (Web Store uchun --store)
+    (out / "manifest.json").write_text(json.dumps(man, ensure_ascii=False, indent=2), encoding="utf-8")
     locales(cfg, out)
     make_icons(cfg, out)
     (ext_dir / "README.md").write_text(readme(cfg, num), encoding="utf-8")
