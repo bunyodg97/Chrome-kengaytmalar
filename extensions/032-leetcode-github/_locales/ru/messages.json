@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "LeetCode → GitHub"
+ },
+ "desc": {
+  "message": "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."
+ }
+}

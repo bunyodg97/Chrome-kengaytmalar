@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Do'konlarni sozlash</title>
+<link rel="icon" href="icons/icon32.png">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 "Segoe UI", system-ui, sans-serif; background: #f7f5fd; color: #1f1734; }
+  button, input { font: inherit; color: inherit; }
+  .wrap { max-width: 820px; margin: 28px auto; padding: 0 20px; }
+  .head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; } .head img { width: 40px; } h1 { font-size: 20px; margin: 0; }
+  p.m { color: #786e95; margin: 4px 0 16px; font-size: 13.5px; }
+  code { background: #ece6fb; padding: 1px 6px; border-radius: 5px; color: #5b3fb0; }
+  .list { background: #fff; border: 1px solid #e6e0f6; border-radius: 14px; }
+  .row { display: grid; grid-template-columns: 26px 150px 1fr auto auto; gap: 8px; align-items: center; padding: 8px 12px; border-top: 1px solid #f0ecfa; }
+  .row:first-child { border-top: 0; }
+  .row input[type=text] { border: 1px solid #ddd3f7; border-radius: 8px; padding: 6px 8px; width: 100%; background: #fff; }
+  .row input.u { font-family: ui-monospace, Consolas, monospace; font-size: 12.5px; }
+  .row input[type=checkbox] { width: 17px; height: 17px; accent-color: #7c3aed; }
+  .b { border: 1px solid #ddd3f7; background: #fff; border-radius: 8px; padding: 5px 10px; cursor: pointer; font-size: 12.5px; white-space: nowrap; }
+  .b:hover { border-color: #7c3aed; }
+  .b.del { color: #dc2626; }
+  .ok { font-size: 11px; color: #16a34a; }
+  .acts { display: flex; gap: 8px; margin-top: 14px; }
+  .pri { background: #7c3aed; border-color: #7c3aed; color: #fff; padding: 8px 16px; font-weight: 600; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1f1734; color: #fff; padding: 8px 16px; border-radius: 10px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head"><img src="icons/icon128.png" alt=""><h1>Do'konlarni sozlash</h1></div>
+  <p class="m">✓ — standart yoqilgan. Manzilda <code>{q}</code> — qidiruv so'zi, <code>{q-}</code> — bo'sh joylar chiziqcha bilan.
+    Do'kon manzili o'zgarsa: do'kon saytida biror narsa qidiring, manzil satridagi havolani nusxalab, qidiruv so'zi o'rniga <code>{q}</code> qo'ying.
+    <b>Sinash</b> tugmasi "telefon" so'zi bilan ochib ko'radi.</p>
+  <div class="list" id="list"></div>
+  <div class="acts">
+    <button class="b" id="add">+ Do'kon qo'shish</button>
+    <button class="b" id="reset">Standart ro'yxatni tiklash</button>
+    <span style="flex:1"></span>
+    <button class="b pri" id="save">Saqlash</button>
+  </div>
+</div>
+<script src="stores.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "avto-yangilash",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "A",
+ "name": {
+  "uz": "Avto Yangilash",
+  "ru": "Автообновление"
+ },
+ "short": {
+  "uz": "Avto Yangilash",
+  "ru": "Автообновление"
+ },
+ "desc": {
+  "uz": "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi.",
+  "ru": "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."
+ },
+ "features": {
+  "uz": [
+   "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi."
+  ],
+  "ru": [
+   "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "notifications",
+  "scripting",
+  "storage",
+  "tabs"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

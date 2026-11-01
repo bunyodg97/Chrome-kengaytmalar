@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "valyuta-kursi",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "V",
+ "name": {
+  "uz": "Valyuta Kursi",
+  "ru": "Курс валют"
+ },
+ "short": {
+  "uz": "Valyuta Kursi",
+  "ru": "Курс валют"
+ },
+ "desc": {
+  "uz": "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati.",
+  "ru": "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."
+ },
+ "features": {
+  "uz": [
+   "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati."
+  ],
+  "ru": [
+   "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "content_scripts",
+  "contextMenus",
+  "https://cbu.uz/*",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

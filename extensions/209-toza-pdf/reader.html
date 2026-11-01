@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Toza PDF</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="reader.css">
+</head>
+<body class="serif">
+  <div class="toolbar" id="tb">
+    <img src="icons/icon32.png" alt=""><b>Toza PDF</b>
+    <span class="grp">
+      <button id="fs-" title="Shriftni kichraytirish">A−</button><button id="fs+" title="Shriftni kattalashtirish">A+</button>
+      <button id="font" title="Shrift turi">Aa Serif</button>
+    </span>
+    <span class="grp">
+      <label><input type="checkbox" id="imgs" checked> Rasmlar</label>
+      <label><input type="checkbox" id="links"> Havolalar manzili</label>
+      <label><input type="checkbox" id="src" checked> Manba</label>
+    </span>
+    <button id="cut" class="cut" title="Keraksiz blokni bosib o'chiring">✂️ Keraksizini o'chirish</button>
+    <button id="undo" title="Oxirgi o'chirishni qaytarish" disabled>↶</button>
+    <span style="flex:1"></span>
+    <button id="print" class="pri">⬇ PDF qilib saqlash</button>
+  </div>
+  <div class="hint" id="hint">✂️ O'chirish rejimi: keraksiz blok ustiga bosing. Tugatish uchun tugmani yana bosing.</div>
+
+  <main class="paper" id="paper">
+    <div class="meta" id="meta"></div>
+    <h1 id="title"></h1>
+    <div class="by" id="by"></div>
+    <article id="content"></article>
+    <div class="source" id="source"></div>
+  </main>
+  <div class="err" id="err" hidden>
+    <h2>Bu sahifadan maqola olib bo'lmadi</h2>
+    <p>Chrome ichki sahifalari (chrome://) va Web Store'da kengaytmalar ishlay olmaydi. Oddiy saytdagi maqolani oching va qayta urinib ko'ring.</p>
+  </div>
+  <script src="reader.js"></script>
+</body>
+</html>

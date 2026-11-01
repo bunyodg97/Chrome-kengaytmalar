@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Cron va SQL"
+ },
+ "desc": {
+  "message": "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…"
+ }
+}

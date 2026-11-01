@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "storage-muharriri",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "S",
+ "name": {
+  "uz": "Storage Muharriri",
+  "ru": "Редактор хранилища"
+ },
+ "short": {
+  "uz": "Storage Muharriri",
+  "ru": "Редактор хранилища"
+ },
+ "desc": {
+  "uz": "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…",
+  "ru": "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт…"
+ },
+ "features": {
+  "uz": [
+   "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…"
+  ],
+  "ru": [
+   "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт…"
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "scripting",
+  "sidePanel",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

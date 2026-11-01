@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "SVG Yig'uvchi"
+ },
+ "desc": {
+  "message": "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…"
+ }
+}

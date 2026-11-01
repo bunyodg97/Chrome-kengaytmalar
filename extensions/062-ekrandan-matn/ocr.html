@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Ekrandan Matn</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.lay{display:grid;grid-template-columns:1fr 1fr;gap:16px}.img{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;justify-content:center;align-items:flex-start;max-height:70vh;overflow:auto}.img canvas{max-width:100%}
+#out{min-height:300px;font:15px/1.6 var(--f)}progress{width:100%}@media(max-width:800px){.lay{grid-template-columns:1fr}}</style></head>
+<body><div class="page" style="max-width:1200px">
+<div class="row between"><h1>Ekrandan Matn</h1><div class="row"><select id="lang" style="width:auto"><option value="uzb+rus+eng">O'zbek (lotin) + Rus + Ingliz</option><option value="uzb">O'zbek (lotin)</option><option value="uzb_cyrl">O'zbek (kirill)</option><option value="rus">Rus</option><option value="eng">Ingliz</option><option value="uzb_cyrl+rus">O'zbek kirill + Rus</option></select><button class="ghost" id="re">Qayta o'qish</button><label class="btn ghost">Rasm yuklash<input type="file" id="file" accept="image/*" hidden></label></div></div>
+<div class="small muted" id="st"></div><progress id="pg" value="0" max="1"></progress>
+<div class="lay"><div class="img"><canvas id="cv"></canvas></div><div class="list"><textarea id="out" spellcheck="false"></textarea><div class="row"><button id="cp">Nusxalash</button><button class="ghost" id="dl">TXT yuklab olish</button><span class="small muted" id="conf"></span></div>
+<p class="small muted">Birinchi marta tanlangan til uchun ma'lumot (~5–15 MB) yuklab olinadi va keyin internetsiz ishlaydi. Matn qanchalik katta va aniq bo'lsa, natija shunchalik yaxshi.</p></div></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/tesseract.min.js"></script><script src="ocr.js"></script></body></html>

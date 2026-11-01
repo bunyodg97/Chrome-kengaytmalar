@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "oqib-ber",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "O",
+ "name": {
+  "uz": "O'qib Ber",
+  "ru": "Озвучка"
+ },
+ "short": {
+  "uz": "O'qib Ber",
+  "ru": "Озвучка"
+ },
+ "desc": {
+  "uz": "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish.",
+  "ru": "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."
+ },
+ "features": {
+  "uz": [
+   "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish."
+  ],
+  "ru": [
+   "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "tts"
+ ],
+ "category": "access",
+ "standalone": true
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:420px}.n{display:flex;gap:8px;align-items:flex-start;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer}.n:hover{border-color:var(--acc)}
+.n.read{opacity:.6}.n .ic{width:20px;text-align:center}.n .t{flex:1;min-width:0}.n .t b{display:block;font-size:13px;font-weight:600}.n .t span{font-size:11.5px;color:var(--muted)}
+.n button{padding:2px 7px;font-size:11px}.repo{font-size:11.5px;color:var(--muted);font-weight:600;margin-top:4px}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>GitHub Xabarlari</h1><button class="ghost" id="rf" title="Yangilash">↻</button></header>
+<div class="wrap">
+  <div id="setup" hidden class="card"><b>GitHub token kiriting</b><p class="small muted">«Notifications» va repo o'qish ruxsatli classic token (scope: notifications, repo) kerak.</p>
+    <input type="password" id="token" placeholder="ghp_…" autocomplete="off"><div class="row"><button id="save">Saqlash</button><a class="small" target="_blank" href="https://github.com/settings/tokens/new?scopes=notifications,repo&description=GitHub%20Xabarlari">Token yaratish</a></div></div>
+  <div id="main" hidden>
+    <div class="tabs"><button class="on" data-tab="n">Bildirishnomalar <span id="cn"></span></button><button data-tab="mine">Mening PR'larim</button><button data-tab="rev">Review kutilmoqda</button></div>
+    <div data-pane="n"><div class="row between" style="margin:6px 0"><label class="inline small"><input type="checkbox" id="unread" checked> Faqat o'qilmaganlar</label><button class="ghost" id="all">Hammasini o'qildi</button></div><div class="list" id="nl"></div></div>
+    <div data-pane="mine" hidden class="list" id="ml"></div>
+    <div data-pane="rev" hidden class="list" id="rl"></div>
+    <div class="row between small muted" style="margin-top:6px"><span id="err"></span><span><label class="inline small"><input type="checkbox" id="notify"> Ish stoli xabarlari</label> <a href="#" id="logout">Tokenni o'chirish</a></span></div>
+  </div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="gh.js"></script><script src="popup.js"></script>
+</body></html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.h{display:flex;align-items:center;gap:10px;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:10px;border-left:5px solid var(--c)}
+.h .ck{width:30px;height:30px;border-radius:50%;border:2px solid var(--c);background:transparent;padding:0;color:#fff;font-size:16px}
+.h.done .ck{background:var(--c)} .h.done .nm{text-decoration:line-through;color:var(--muted)}
+.fire{font-size:12px;color:var(--muted);white-space:nowrap}.days{display:flex;gap:4px}.days label{flex-direction:row;gap:2px;font-size:12px;color:var(--ink)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Odatlar</h1><button class="ghost" id="stats">Statistika</button></header>
+<div class="wrap">
+  <div class="row between"><b id="today"></b><span class="chip ok" id="prog"></span></div>
+  <div class="list" id="list"></div>
+  <details id="addBox"><summary class="small" style="cursor:pointer;color:var(--acc);font-weight:600">+ Yangi odat qo'shish</summary>
+    <form class="card" id="f" style="margin-top:6px">
+      <input id="name" placeholder="Masalan: 20 bet kitob o'qish" required>
+      <div class="days" id="days"></div>
+      <button>Qo'shish</button>
+    </form></details>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="common.js"></script><script src="popup.js"></script>
+</body></html>

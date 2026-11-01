@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.pal{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}.pal button{height:40px;border-radius:8px;border:1px solid var(--line);padding:0;position:relative}
+.pal button span{position:absolute;bottom:-1px;left:0;right:0;font-size:9.5px;background:rgba(0,0,0,.55);color:#fff;border-radius:0 0 8px 8px;font-weight:500}
+.f{display:flex;justify-content:space-between;gap:8px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Rang va Shrift</h1></header>
+<div class="wrap">
+  <button id="pick">Elementni tanlash va pipetka</button>
+  <div class="tabs"><button class="on" data-tab="pal">Sahifa ranglari</button><button data-tab="fonts">Shriftlar</button><button data-tab="hist">Tarix</button></div>
+  <div data-pane="pal"><div class="pal" id="pal"></div></div>
+  <div data-pane="fonts" hidden><div class="list" id="fonts"></div></div>
+  <div data-pane="hist" hidden><div class="list" id="hist"></div></div>
+  <p class="muted small">Rangni bosing — nusxalanadi. Formatni almashtirish: <select id="fmt" style="width:auto;padding:2px 6px"><option>HEX</option><option>RGB</option><option>HSL</option></select></p>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

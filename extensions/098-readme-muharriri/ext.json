@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "readme-muharriri",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "R",
+ "name": {
+  "uz": "README Muharriri",
+  "ru": "Редактор README"
+ },
+ "short": {
+  "uz": "README Muharriri",
+  "ru": "Редактор README"
+ },
+ "desc": {
+  "uz": "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…",
+  "ru": "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие…"
+ },
+ "features": {
+  "uz": [
+   "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…"
+  ],
+  "ru": [
+   "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "https://api.github.com/*",
+  "https://raw.githubusercontent.com/*",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

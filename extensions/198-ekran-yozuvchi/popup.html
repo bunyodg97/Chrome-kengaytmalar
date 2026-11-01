@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:380px}.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.modes button{flex-direction:column;gap:2px;padding:10px 4px;background:var(--card);color:var(--ink);border:1px solid var(--line);font-weight:600;font-size:12.5px}
+.modes button span{font-size:22px}.modes button.on{border-color:var(--acc);background:var(--acc-soft);color:var(--acc)}
+.big-rec{font-size:15px;padding:11px;background:#d32f2f;border-color:#d32f2f;color:#fff}
+.live{text-align:center}.live .t{font:800 34px var(--mono);color:#d32f2f}.live.paused .t{color:var(--warn)}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Ekran Yozuvchi</h1><span class="chip">2.0</span></header>
+<div class="wrap" id="idle">
+  <div class="modes"><button data-m="region"><span>⬚</span>Hudud tanlash</button><button data-m="tab"><span>▭</span>Joriy tab</button><button data-m="screen"><span>🖥</span>Ekran / oyna</button></div>
+  <div class="small muted" id="mdesc"></div>
+  <div class="card">
+    <label class="inline"><input type="checkbox" id="mic"> Mikrofon</label>
+    <label class="inline"><input type="checkbox" id="sysAudio"> Sayt / tizim ovozi</label>
+    <label class="inline" id="cdRow"><input type="checkbox" id="countdown"> Boshlashdan oldin 3-2-1</label>
+    <div class="grid2"><label>Format<select id="fmt"><option value="mp4">MP4</option><option value="webm">WebM</option></select></label>
+      <label>Sifat<select id="quality"><option value="high">Yuqori</option><option value="mid">O'rtacha</option><option value="low">Kichik hajm</option></select></label></div>
+  </div>
+  <div class="card">
+    <b class="small">Video nomi</b>
+    <label class="inline"><input type="radio" name="nm" value="ask"> Saqlashdan oldin o'zim yozaman</label>
+    <label class="inline"><input type="radio" name="nm" value="auto"> Avtomatik: sana va vaqt bilan saqlansin</label>
+    <label>Standart nom andozasi<input id="tpl" placeholder="Ekran {sana} {vaqt}"></label>
+    <div class="muted small">{sana} → 2026-10-31, {vaqt} → 12-05-33. Misol: <span id="ex" class="mono"></span></div>
+  </div>
+  <button class="big-rec" id="go">● Yozishni boshlash</button>
+  <div class="small" id="err" style="color:var(--bad)"></div>
+  <p class="muted small">Tezkor tugma: Alt+Shift+R (boshlash/to'xtatish).</p>
+</div>
+<div class="wrap live" id="live" hidden>
+  <div class="muted small" id="lmode"></div><div class="t" id="lt">0:00</div>
+  <div class="row"><button class="ghost grow" id="pause">⏸ Pauza</button><button class="danger grow" id="stop">■ To'xtatish va saqlash</button></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="name.js"></script><script src="popup.js"></script></body></html>

@@ -1,0 +1,41 @@
+{
+ "external": true,
+ "slug": "bayonnoma",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "B",
+ "name": {
+  "uz": "Bayonnoma",
+  "ru": "Протокол встречи"
+ },
+ "short": {
+  "uz": "Bayonnoma",
+  "ru": "Протокол встречи"
+ },
+ "desc": {
+  "uz": "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi.",
+  "ru": "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."
+ },
+ "features": {
+  "uz": [
+   "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi."
+  ],
+  "ru": [
+   "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "https://*.zoom.us/*",
+  "https://api.anthropic.com/*",
+  "https://api.openai.com/*",
+  "https://generativelanguage.googleapis.com/*",
+  "https://meet.google.com/*",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": false
+}

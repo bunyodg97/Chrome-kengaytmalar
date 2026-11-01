@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "nusxalar-tarixi",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "N",
+ "name": {
+  "uz": "Nusxalar Tarixi",
+  "ru": "История копирования"
+ },
+ "short": {
+  "uz": "Nusxalar Tarixi",
+  "ru": "История копирования"
+ },
+ "desc": {
+  "uz": "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi.",
+  "ru": "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по…"
+ },
+ "features": {
+  "uz": [
+   "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi."
+  ],
+  "ru": [
+   "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по…"
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

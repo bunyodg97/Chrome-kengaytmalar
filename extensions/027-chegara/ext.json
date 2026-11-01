@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "chegara",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "C",
+ "name": {
+  "uz": "Chegara Ko'rsatgich",
+  "ru": "Границы элементов"
+ },
+ "short": {
+  "uz": "Chegara Ko'rsatgich",
+  "ru": "Границы элементов"
+ },
+ "desc": {
+  "uz": "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun.",
+  "ru": "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun."
+  ],
+  "ru": [
+   "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

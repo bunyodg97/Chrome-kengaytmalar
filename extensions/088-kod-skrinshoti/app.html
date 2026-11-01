@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Kod Skrinshoti</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.lay{display:grid;grid-template-columns:300px 1fr;gap:16px;align-items:start}.stage{background:repeating-conic-gradient(#8881 0 25%,transparent 0 50%) 0 0/16px 16px;border-radius:10px;padding:12px;overflow:auto;text-align:center}.stage canvas{max-width:100%;height:auto}textarea{font:13px var(--mono);min-height:220px;white-space:pre;tab-size:2}
+.bgs{display:flex;flex-wrap:wrap;gap:6px}.bgs span{width:30px;height:30px;border-radius:6px;cursor:pointer;border:2px solid transparent}.bgs span.on{border-color:var(--ink)}@media(max-width:860px){.lay{grid-template-columns:1fr}}</style></head>
+<body><div class="page" style="max-width:1400px"><div class="row between"><h1>Kod Skrinshoti</h1><div class="row"><button id="png">PNG yuklash</button><button class="ghost" id="copy">Nusxalash</button></div></div>
+<div class="lay"><div class="list">
+<textarea id="code" spellcheck="false"></textarea>
+<div class="grid2"><label class="small">Til<select id="lang"><option value="auto">Avto</option><option value="js">JavaScript</option><option value="py">Python</option><option value="sql">SQL</option><option value="html">HTML</option><option value="css">CSS</option><option value="sh">Bash</option><option value="php">PHP</option><option value="go">Go</option><option value="java">Java/Kotlin/C#</option></select></label><label class="small">Mavzu<select id="theme"></select></label></div>
+<label class="small">Sarlavha (fayl nomi)<input id="title" placeholder="index.js"></label>
+<b class="small">Fon</b><div class="bgs" id="bgs"></div>
+<label class="small">Chet: <span id="padv"></span><input type="range" id="pad" min="0" max="120" value="56"></label>
+<label class="small">Shrift: <span id="fsv"></span>px<input type="range" id="fs" min="11" max="28" value="16"></label>
+<label class="small">Eni (min, px): <span id="wv"></span><input type="range" id="w" min="300" max="1400" step="20" value="560"></label>
+<label class="inline small"><input type="checkbox" id="dots" checked style="width:auto"> Oyna tugmalari</label><label class="inline small"><input type="checkbox" id="ln" style="width:auto"> Qator raqamlari</label><label class="inline small"><input type="checkbox" id="shadow" checked style="width:auto"> Soya</label>
+<label class="small">Belgi (watermark)<input id="wm" placeholder="@kanalim"></label>
+<label class="small">Sifat<select id="scale"><option value="1">1x</option><option value="2" selected>2x (tavsiya)</option><option value="3">3x</option></select></label>
+</div><div class="stage"><canvas id="cv"></canvas></div></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="hl.js"></script><script src="app.js"></script></body></html>

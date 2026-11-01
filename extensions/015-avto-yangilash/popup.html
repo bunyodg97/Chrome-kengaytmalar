@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.pre{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.pre button{padding:6px 0}.pre button.on{outline:2px solid var(--acc)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Avto Yangilash</h1></header>
+<div class="wrap">
+  <div class="muted small" id="tt"></div>
+  <div class="pre" id="pre"></div>
+  <div class="row"><label class="grow">Yoki o'zingiz (soniya)<input type="number" id="sec" min="2" value="60"></label></div>
+  <label class="inline"><input type="checkbox" id="watch"> Sahifa matni o'zgarsa xabar berish</label>
+  <label id="selBox" hidden>Faqat shu qismni kuzatish (CSS selektor, ixtiyoriy)<input id="sel" placeholder="masalan: #natijalar"></label>
+  <div class="row"><button id="go" class="grow">Boshlash</button><button id="stop" class="danger" hidden>To'xtatish</button></div>
+  <details><summary class="small muted">Faol tablar</summary><div class="list" id="list" style="margin-top:6px"></div></details>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

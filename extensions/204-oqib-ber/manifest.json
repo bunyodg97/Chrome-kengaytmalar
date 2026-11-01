@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "O'qib Ber — sahifani ovozda o'qish",
+  "short_name": "O'qib Ber",
+  "version": "1.0.0",
+  "description": "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish.",
+  "author": "Bunyodg97",
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": { "default_popup": "popup.html", "default_title": "O'qib Ber" },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["tts", "storage", "contextMenus", "scripting", "activeTab"],
+  "content_scripts": [{ "matches": ["http://*/*", "https://*/*", "file:///*"], "js": ["content.js"], "run_at": "document_idle" }],
+  "commands": {
+    "read-page": { "suggested_key": { "default": "Alt+Shift+O" }, "description": "Sahifani / belgilangan matnni o'qish" },
+    "stop": { "suggested_key": { "default": "Alt+Shift+X" }, "description": "To'xtatish" }
+  }
+}

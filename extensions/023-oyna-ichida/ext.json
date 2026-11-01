@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "oyna-ichida",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "O",
+ "name": {
+  "uz": "Oyna ichida oyna",
+  "ru": "Картинка в картинке"
+ },
+ "short": {
+  "uz": "Oyna ichida oyna",
+  "ru": "Картинка в картинке"
+ },
+ "desc": {
+  "uz": "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz.",
+  "ru": "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."
+ },
+ "features": {
+  "uz": [
+   "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz."
+  ],
+  "ru": [
+   "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

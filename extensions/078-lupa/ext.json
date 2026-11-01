@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "lupa",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "L",
+ "name": {
+  "uz": "Lupa",
+  "ru": "Лупа"
+ },
+ "short": {
+  "uz": "Lupa",
+  "ru": "Лупа"
+ },
+ "desc": {
+  "uz": "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…",
+  "ru": "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа…"
+ },
+ "features": {
+  "uz": [
+   "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…"
+  ],
+  "ru": [
+   "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:400px}.nav{display:flex;align-items:center;gap:6px}.nav b{flex:1;text-align:center}.nav button{padding:4px 10px}
+.t{display:flex;gap:8px;align-items:center;padding:7px 9px;border:1px solid var(--line);border-left:4px solid var(--p);border-radius:8px;background:var(--card)}
+.t.done{opacity:.55}.t.done .x{text-decoration:line-through}.t .x{flex:1;min-width:0;word-break:break-word}.t time{font:600 12px var(--mono);color:var(--acc)}
+.t button{padding:1px 6px;background:none;border:0;color:var(--muted);font-weight:400}.add{display:grid;grid-template-columns:1fr 92px 42px;gap:6px}
+.pr{display:flex;gap:6px}.pr label{flex-direction:row;gap:4px;align-items:center;color:var(--ink);font-size:12.5px}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Kun Rejasi</h1><span class="chip ok" id="prog"></span></header>
+<div class="wrap">
+  <div class="nav"><button class="ghost" id="prev">‹</button><b id="day"></b><button class="ghost" id="next">›</button><button class="ghost" id="today">Bugun</button></div>
+  <div class="bar"><span id="pbar" style="width:0"></span></div>
+  <form class="add" id="f"><input id="txt" placeholder="Vazifa yoki uchrashuv…" required><input type="time" id="time" aria-label="Vaqt"><button>+</button></form>
+  <div class="pr"><span class="small muted">Muhimlik:</span><label><input type="radio" name="p" value="1" checked> Oddiy</label><label><input type="radio" name="p" value="2"> Muhim</label><label><input type="radio" name="p" value="3"> Shoshilinch</label></div>
+  <div class="list" id="list"></div>
+  <button class="ghost" id="carry" hidden>Kechagi bajarilmaganlarni bugunga ko'chirish</button>
+  <label>Kun uchun eslatma<textarea id="note" rows="3" style="font-family:var(--f)" placeholder="Fikrlar, xaridlar…"></textarea></label>
+  <label class="inline small">Eslatma uchrashuvdan <input type="number" id="before" min="0" max="120" style="width:60px"> daqiqa oldin</label>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="common.js"></script><script src="popup.js"></script></body></html>

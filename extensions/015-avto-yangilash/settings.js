@@ -1,0 +1,1 @@
+(() => { const w = new URLSearchParams(location.search).get('welcome'); const p = __AB.panel({ welcome: !!w }); document.getElementById('root').append(p); document.title = (__AB.lang === 'ru' ? 'Настройки — ' : 'Sozlamalar — ') + document.querySelector('.hd b').textContent; })();

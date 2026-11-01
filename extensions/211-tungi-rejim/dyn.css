@@ -1,0 +1,9 @@
+/* Tungi rejim — DINAMIK usul uchun vaqtinchalik qoplama.
+   Sahifa ranglari qayta yozilguncha (bir necha yuz ms) oq chaqnash bo'lmasligi uchun. */
+html:not(.tr-off):not(.tr-filter) { background-color: #181a1b !important; color-scheme: dark; }
+html:not(.tr-off):not(.tr-filter):not(.tr-ready) body,
+html:not(.tr-off):not(.tr-filter):not(.tr-ready) body :not(iframe):not(img):not(video):not(svg *) {
+  background-color: #181a1b !important;
+  border-color: #3a3f44 !important;
+  color: #e3e3e3 !important;
+}

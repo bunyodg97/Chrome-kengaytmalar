@@ -1,0 +1,39 @@
+{
+ "external": true,
+ "slug": "akkaunt-almashtirgich",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "A",
+ "name": {
+  "uz": "Akkaunt Almashtirgich",
+  "ru": "Переключатель аккаунтов"
+ },
+ "short": {
+  "uz": "Akkaunt Almashtirgich",
+  "ru": "Переключатель аккаунтов"
+ },
+ "desc": {
+  "uz": "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…",
+  "ru": "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием —…"
+ },
+ "features": {
+  "uz": [
+   "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…"
+  ],
+  "ru": [
+   "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием —…"
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "cookies",
+  "scripting",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

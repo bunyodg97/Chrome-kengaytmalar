@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "youtube-tahlilchi",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "Y",
+ "name": {
+  "uz": "YouTube Tahlilchi",
+  "ru": "YouTube Аналитик"
+ },
+ "short": {
+  "uz": "YouTube Tahlilchi",
+  "ru": "YouTube Аналитик"
+ },
+ "desc": {
+  "uz": "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…",
+  "ru": "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."
+ },
+ "features": {
+  "uz": [
+   "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…"
+  ],
+  "ru": [
+   "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

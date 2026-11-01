@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "dostcha",
+ "version": "2.0.0",
+ "color": "#1f7a4d",
+ "glyph": "D",
+ "name": {
+  "uz": "Do'stcha",
+  "ru": "Дружок"
+ },
+ "short": {
+  "uz": "Do'stcha",
+  "ru": "Дружок"
+ },
+ "desc": {
+  "uz": "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin.",
+  "ru": "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."
+ },
+ "features": {
+  "uz": [
+   "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin."
+  ],
+  "ru": [
+   "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": true
+}

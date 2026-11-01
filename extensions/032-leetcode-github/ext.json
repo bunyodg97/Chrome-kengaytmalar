@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "leetcode-github",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "L",
+ "name": {
+  "uz": "LeetCode → GitHub",
+  "ru": "LeetCode → GitHub"
+ },
+ "short": {
+  "uz": "LeetCode → GitHub",
+  "ru": "LeetCode → GitHub"
+ },
+ "desc": {
+  "uz": "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi.",
+  "ru": "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."
+ },
+ "features": {
+  "uz": [
+   "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi."
+  ],
+  "ru": [
+   "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "https://api.github.com/*",
+  "https://leetcode.com/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "github",
+ "standalone": false
+}

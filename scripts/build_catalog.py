@@ -6,6 +6,7 @@
 Saytga: `catalog/` papkasini yuklang (index.html + img/). Yoki faqat extensions.json'ni o'z sayt kodingizda ishlating."""
 import json, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "bunyodg97/Chrome-kengaytmalar"
@@ -19,8 +20,15 @@ CATS = {
     "trade": ({"uz": "Traderlar uchun", "ru": "Трейдерам"}, [192, 193, 194]),
     "life": ({"uz": "Kundalik hayot", "ru": "Повседневное"}, [157, 191, 195, 197]),
     "access": ({"uz": "Qulaylik", "ru": "Доступность"}, [105, 196]),
+    "privacy": ({"uz": "Maxfiylik va xavfsizlik", "ru": "Приватность и безопасность"}, []),
+    "ai": ({"uz": "AI vositalari", "ru": "Инструменты ИИ"}, []),
 }
 cat_of = {n: k for k, (_, ns) in CATS.items() for n in ns}
+try:
+    from import_bundle import CAT_BY_NUM
+    cat_of.update(CAT_BY_NUM)
+except ImportError:
+    pass
 
 def main():
     items = []

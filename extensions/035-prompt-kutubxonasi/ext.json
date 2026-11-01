@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "prompt-kutubxonasi",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "P",
+ "name": {
+  "uz": "Prompt Kutubxonasi",
+  "ru": "Библиотека промптов"
+ },
+ "short": {
+  "uz": "Prompt Kutubxonasi",
+  "ru": "Библиотека промптов"
+ },
+ "desc": {
+  "uz": "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan.",
+  "ru": "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."
+ },
+ "features": {
+  "uz": [
+   "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan."
+  ],
+  "ru": [
+   "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "ai",
+ "standalone": false
+}

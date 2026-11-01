@@ -1,0 +1,24 @@
+let tab, url, site, profs = {}, active = {};
+const COLORS = ['#1e88e5', '#43a047', '#e53935', '#8e24aa', '#fb8c00', '#00897b', '#6d4c41', '#3949ab'];
+const baseDomain = h => { const p = h.split('.'); if (/^\d+\.\d+\.\d+\.\d+$/.test(h) || p.length <= 2) return h; const sl = ['co', 'com', 'org', 'net', 'gov', 'edu', 'ac']; return p.slice(sl.includes(p[p.length - 2]) && p[p.length - 1].length === 2 ? -3 : -2).join('.'); };
+async function cookiesFor() { const h = url.hostname, d = $('#sub').checked ? baseDomain(h) : h; const all = await chrome.cookies.getAll({ domain: d }); return $('#sub').checked ? all : all.filter(c => c.domain.replace(/^\./, '') === h || h.endsWith(c.domain)); }
+const pageStore = (op, data) => chrome.scripting.executeScript({ target: { tabId: tab.id }, func: (op, data) => {
+  if (op === 'get') return { l: Object.fromEntries(Object.entries(localStorage)), s: Object.fromEntries(Object.entries(sessionStorage)) };
+  localStorage.clear(); sessionStorage.clear(); if (op === 'set' && data) { Object.entries(data.l || {}).forEach(([k, v]) => localStorage.setItem(k, v)); Object.entries(data.s || {}).forEach(([k, v]) => sessionStorage.setItem(k, v)); } return true; }, args: [op, data || null] }).then(r => r[0].result);
+async function clearCookies() { for (const c of await cookiesFor()) await chrome.cookies.remove({ url: `http${c.secure ? 's' : ''}://${c.domain.replace(/^\./, '')}${c.path}`, name: c.name, storeId: c.storeId, ...(c.partitionKey ? { partitionKey: c.partitionKey } : {}) }).catch(() => {}); }
+async function setCookies(list) { for (const c of list) { const o = { url: `http${c.secure ? 's' : ''}://${c.domain.replace(/^\./, '')}${c.path}`, name: c.name, value: c.value, path: c.path, secure: c.secure, httpOnly: c.httpOnly, sameSite: c.sameSite, storeId: c.storeId };
+  if (!c.hostOnly) o.domain = c.domain; if (!c.session && c.expirationDate) o.expirationDate = c.expirationDate; if (c.partitionKey) o.partitionKey = c.partitionKey; try { await chrome.cookies.set(o); } catch (e) { console.warn(c.name, e); } } }
+function render() { const arr = Object.entries(profs[site] || {});
+  $('#list').innerHTML = arr.length ? arr.map(([n, p], i) => `<div class="item p ${active[site] === n ? 'on' : ''}" data-n="${esc(n)}"><span class="av" style="background:${COLORS[i % 8]}">${esc(n[0].toUpperCase())}</span><div class="grow"><div class="n">${esc(n)}</div><div class="small muted">${p.c.length} cookie · ${Object.keys(p.st.l).length} local · ${new Date(p.t).toLocaleDateString('uz')}</div></div><button class="ghost" data-a="go" title="O'tish">→</button><button class="ghost" data-a="upd" title="Joriy holat bilan yangilash">⟳</button><button class="ghost" data-a="del" title="O'chirish">✕</button></div>`).join('')
+    : '<div class="empty small">Bu sayt uchun saqlangan akkaunt yo\'q. Login qiling va pastda nom berib saqlang.</div>'; }
+async function snapshot() { return { c: await cookiesFor(), st: await pageStore('get'), t: Date.now(), sub: $('#sub').checked }; }
+async function persist() { await store.set('profs', profs); await store.set('active', active); render(); }
+$('#save').onclick = async () => { const n = $('#nm').value.trim(); if (!n) return toast('Nom kiriting'); (profs[site] ||= {})[n] = await snapshot(); active[site] = n; $('#nm').value = ''; await persist(); toast(`«${n}» saqlandi`); };
+$('#list').onclick = async e => { const b = e.target.closest('[data-a]'), it = e.target.closest('.p'); if (!it) return; const n = it.dataset.n, p = profs[site][n], a = b?.dataset.a || 'go';
+  if (a === 'del') { if (confirm(`«${n}» o'chirilsinmi?`)) { delete profs[site][n]; if (active[site] === n) delete active[site]; persist(); } return; }
+  if (a === 'upd') { profs[site][n] = await snapshot(); persist(); toast('Yangilandi'); return; }
+  if (active[site] && active[site] !== n && profs[site][active[site]]) profs[site][active[site]] = await snapshot(); // joriyni avtomatik yangilab qo'yamiz
+  $('#sub').checked = p.sub !== false; await clearCookies(); await setCookies(p.c); await pageStore('set', p.st); active[site] = n; await persist(); chrome.tabs.reload(tab.id); window.close(); };
+$('#clean').onclick = async () => { if (!confirm('Bu sayt cookie va storage tozalanadi (chiqish). Davom etilsinmi?')) return; if (active[site] && profs[site]?.[active[site]]) profs[site][active[site]] = await snapshot(); await clearCookies(); await pageStore('clear'); delete active[site]; await persist(); chrome.tabs.reload(tab.id); window.close(); };
+(async () => { tab = await activeTab(); try { url = new URL(tab.url); if (!/^https?:$/.test(url.protocol)) throw 0; } catch { $('#list').innerHTML = '<div class="empty">Bu sahifada ishlamaydi</div>'; $('#save').disabled = $('#clean').disabled = true; return; }
+  site = url.host; $('#site').textContent = site; profs = await store.get('profs', {}); active = await store.get('active', {}); render(); })();

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Flex/Grid Ko'rgich"
+ },
+ "desc": {
+  "message": "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…"
+ }
+}

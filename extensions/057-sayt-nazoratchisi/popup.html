@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:440px}.s{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:8px 10px;display:flex;flex-direction:column;gap:4px;border-left:5px solid var(--line)}.s.ok{border-left-color:var(--ok)}.s.down{border-left-color:var(--bad)}
+.bars{display:flex;gap:1px;height:20px;align-items:flex-end}.bars i{flex:1;min-width:2px;background:var(--ok);border-radius:1px}.bars i.x{background:var(--bad);height:100%!important}.s .row button{padding:2px 8px;font-size:12px}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Sayt Nazoratchisi</h1><button class="ghost" id="all">↻</button></header>
+<div class="wrap">
+  <form class="card" id="f"><input id="url" placeholder="https://mening-saytim.uz" required><div class="grid2"><input id="name" placeholder="Nomi (ixtiyoriy)"><input id="kw" placeholder="Sahifada bo'lishi kerak bo'lgan so'z (ixtiyoriy)"></div>
+    <div class="row"><select id="every" style="width:auto"><option value="1">har 1 daq</option><option value="5" selected>har 5 daq</option><option value="15">har 15 daq</option><option value="60">har soat</option></select><button class="grow">+ Qo'shish</button></div></form>
+  <div class="list" id="list"></div>
+  <details><summary class="small muted">Telegram ogohlantirish</summary><div class="card" style="margin-top:6px"><input id="tgt" type="password" placeholder="Bot token (@BotFather)"><input id="tgc" placeholder="Chat ID"><button class="ghost" id="tgs" style="align-self:flex-start">Saqlash va sinash</button></div></details>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

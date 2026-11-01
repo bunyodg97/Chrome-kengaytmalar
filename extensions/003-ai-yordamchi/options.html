@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>AI Yordamchi — sozlamalar</title><link rel="stylesheet" href="ui.css"></head>
+<body><div class="page" style="max-width:560px">
+<h1>AI Yordamchi sozlamalari</h1>
+<p class="muted">Kengaytma sizning API kalitingiz bilan to'g'ridan-to'g'ri provayderga murojaat qiladi. Kalit faqat shu kompyuterda saqlanadi.</p>
+<div class="card">
+  <label>Provayder<select id="provider"><option value="anthropic">Anthropic (Claude)</option><option value="openai">OpenAI</option><option value="gemini">Google Gemini</option></select></label>
+  <label>API kaliti<input id="key" type="password" placeholder="sk-…" autocomplete="off"></label>
+  <label>Model (bo'sh qoldirsangiz, standart model)<input id="model" placeholder=""></label>
+  <div class="row"><button id="save">Saqlash</button><button class="ghost" id="test">Sinab ko'rish</button><span id="st" class="muted small"></span></div>
+</div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="ai.js"></script><script src="options.js"></script>
+</body></html>

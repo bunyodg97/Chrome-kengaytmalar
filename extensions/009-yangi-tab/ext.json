@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "yangi-tab",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "Y",
+ "name": {
+  "uz": "Yangi Tab",
+  "ru": "Новая вкладка"
+ },
+ "short": {
+  "uz": "Yangi Tab",
+  "ru": "Новая вкладка"
+ },
+ "desc": {
+  "uz": "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar.",
+  "ru": "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."
+ },
+ "features": {
+  "uz": [
+   "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar."
+  ],
+  "ru": [
+   "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "https://api.open-meteo.com/*",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

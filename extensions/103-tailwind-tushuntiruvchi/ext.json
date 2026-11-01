@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "tailwind-tushuntiruvchi",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "T",
+ "name": {
+  "uz": "Tailwind Tushuntiruvchi",
+  "ru": "Объяснитель Tailwind"
+ },
+ "short": {
+  "uz": "Tailwind Tushuntiruvchi",
+  "ru": "Объяснитель Tailwind"
+ },
+ "desc": {
+  "uz": "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…",
+  "ru": "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary]…"
+ },
+ "features": {
+  "uz": [
+   "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…"
+  ],
+  "ru": [
+   "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary]…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

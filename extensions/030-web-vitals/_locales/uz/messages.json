@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Web Vitals Jonli"
+ },
+ "desc": {
+  "message": "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi."
+ }
+}

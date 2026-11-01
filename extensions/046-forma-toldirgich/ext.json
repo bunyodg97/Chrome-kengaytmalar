@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "forma-toldirgich",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "F",
+ "name": {
+  "uz": "Forma To'ldirgich (Excel → sayt)",
+  "ru": "Заполнитель форм (Excel → сайт)"
+ },
+ "short": {
+  "uz": "Forma To'ldirgich (Excel → sayt)",
+  "ru": "Заполнитель форм (Excel → сайт)"
+ },
+ "desc": {
+  "uz": "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…",
+  "ru": "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."
+ },
+ "features": {
+  "uz": [
+   "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…"
+  ],
+  "ru": [
+   "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "scripting",
+  "sidePanel",
+  "storage",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": false
+}

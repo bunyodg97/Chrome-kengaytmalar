@@ -1,0 +1,39 @@
+{
+ "external": true,
+ "slug": "rasm-saqlovchi",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "R",
+ "name": {
+  "uz": "Rasm Saqlovchi",
+  "ru": "Сохранение картинок"
+ },
+ "short": {
+  "uz": "Rasm Saqlovchi",
+  "ru": "Сохранение картинок"
+ },
+ "desc": {
+  "uz": "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish.",
+  "ru": "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."
+ },
+ "features": {
+  "uz": [
+   "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish."
+  ],
+  "ru": [
+   "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "downloads",
+  "notifications",
+  "offscreen",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": true
+}

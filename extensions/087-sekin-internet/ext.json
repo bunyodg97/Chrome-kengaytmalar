@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "sekin-internet",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "S",
+ "name": {
+  "uz": "Sekin Internet",
+  "ru": "Медленный интернет"
+ },
+ "short": {
+  "uz": "Sekin Internet",
+  "ru": "Медленный интернет"
+ },
+ "desc": {
+  "uz": "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…",
+  "ru": "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной…"
+ },
+ "features": {
+  "uz": [
+   "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…"
+  ],
+  "ru": [
+   "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "debugger",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

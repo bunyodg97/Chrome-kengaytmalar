@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "xarid-royxati",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "X",
+ "name": {
+  "uz": "Xarid Ro'yxati",
+  "ru": "Список покупок"
+ },
+ "short": {
+  "uz": "Xarid Ro'yxati",
+  "ru": "Список покупок"
+ },
+ "desc": {
+  "uz": "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…",
+  "ru": "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ)…"
+ },
+ "features": {
+  "uz": [
+   "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…"
+  ],
+  "ru": [
+   "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ)…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "https://cbu.uz/*",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

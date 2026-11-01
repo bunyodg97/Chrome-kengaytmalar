@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  "description": "__MSG_desc__",
+  "author": "Bunyodg97",
+  "permissions": [
+    "storage",
+    "contextMenus"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "ru.js",
+        "about-cs.js",
+        "core.js",
+        "content.js"
+      ],
+      "css": [],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "JSON muharriri",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  },
+  "default_locale": "uz"
+}

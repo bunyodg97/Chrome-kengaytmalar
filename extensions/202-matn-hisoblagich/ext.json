@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "matn-hisoblagich",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "M",
+ "name": {
+  "uz": "Matn Hisoblagich",
+  "ru": "Счётчик текста"
+ },
+ "short": {
+  "uz": "Matn Hisoblagich",
+  "ru": "Счётчик текста"
+ },
+ "desc": {
+  "uz": "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich.",
+  "ru": "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."
+ },
+ "features": {
+  "uz": [
+   "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich."
+  ],
+  "ru": [
+   "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": true
+}

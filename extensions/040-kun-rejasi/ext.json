@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "kun-rejasi",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "K",
+ "name": {
+  "uz": "Kun Rejasi",
+  "ru": "План дня"
+ },
+ "short": {
+  "uz": "Kun Rejasi",
+  "ru": "План дня"
+ },
+ "desc": {
+  "uz": "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish.",
+  "ru": "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."
+ },
+ "features": {
+  "uz": [
+   "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish."
+  ],
+  "ru": [
+   "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "notifications",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

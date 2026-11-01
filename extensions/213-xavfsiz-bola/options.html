@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Ota-ona paneli — Xavfsiz Bola</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .center { min-height: 100vh; display: grid; place-items: center; padding: 20px; }
+  .gate { width: 360px; padding: 30px 26px; }
+  .gate h2 { font-size: 20px; }
+  .topbar { position: sticky; top: 0; z-index: 5; background: rgba(244,247,251,.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .topbar .in { max-width: 900px; margin: auto; display: flex; align-items: center; gap: 12px; padding: 12px 20px; }
+  .topbar img { width: 32px; }
+  .topbar h1 { font-size: 18px; flex: 1; }
+  .wrap { max-width: 900px; margin: auto; padding: 20px; display: grid; gap: 16px; }
+  .card h2 { font-size: 16px; margin-bottom: 4px; }
+  .card > .muted { font-size: 13px; margin-bottom: 12px; }
+  .row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .row:first-of-type { border-top: 0; }
+  .row .txt { flex: 1; }
+  .row .txt b { display: block; font-weight: 600; }
+  .row .txt small { color: var(--muted); }
+  .cat { font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin: 14px 0 6px; font-weight: 600; }
+  .sites { display: grid; grid-template-columns: repeat(auto-fill, minmax(275px, 1fr)); gap: 8px; }
+  .site { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; background: #fff; }
+  .site.on { border-color: #c7c7f5; background: #fafaff; }
+  .site.blk { border-color: #f6c4c5; background: #fff8f8; }
+  .site .ic { font-size: 20px; width: 28px; text-align: center; }
+  .site .nm { flex: 1; min-width: 0; }
+  .site .nm b { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .site .nm small { display: block; color: var(--muted); font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .site select { flex: none; width: 112px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px; background: #fff; font-size: 12px; }
+  .site .x { border: 0; background: none; color: var(--muted); cursor: pointer; font-size: 15px; padding: 2px; }
+  .add { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .add input, .inp { border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; background: #fff; }
+  .add input { flex: 1; min-width: 160px; }
+  textarea.inp { width: 100%; min-height: 90px; resize: vertical; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 700px) { .two { grid-template-columns: 1fr; } }
+  .stat { display: flex; justify-content: space-between; padding: 6px 0; border-top: 1px dashed var(--line); font-size: 13.5px; }
+  .warnbox { background: var(--warn-soft); border: 1px solid #f7d79a; border-radius: 12px; padding: 12px 14px; font-size: 13.5px; }
+  .okbox { background: var(--ok-soft); border: 1px solid #a8e3da; border-radius: 12px; padding: 12px 14px; font-size: 13.5px; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1c2433; color: #fff; padding: 8px 16px; border-radius: 10px; font-size: 13px; z-index: 50; }
+  code { background: #eef1f6; padding: 1px 5px; border-radius: 5px; font-size: 12.5px; }
+  ol { margin: 6px 0 0; padding-left: 20px; font-size: 13.5px; }
+</style>
+</head>
+<body>
+
+<!-- 1) Birinchi marta: PIN yaratish -->
+<div class="center hidden" id="setupView">
+  <div class="card gate pin-box">
+    <img src="icons/icon128.png" width="72" alt="">
+    <h2>Xush kelibsiz!</h2>
+    <div class="muted">Ota-ona paneli uchun PIN kod yarating. Bola sozlamalarni o'zgartira olmasligi uchun uni sir saqlang.</div>
+    <input class="pin-input" id="newPin1" type="password" inputmode="numeric" maxlength="6" placeholder="••••">
+    <input class="pin-input" id="newPin2" type="password" inputmode="numeric" maxlength="6" placeholder="takror">
+    <div class="err" id="setupErr"></div>
+    <button class="btn pri" id="setupBtn" style="width:100%">PIN ni saqlash</button>
+    <small class="muted">4–6 ta raqam</small>
+  </div>
+</div>
+
+<!-- 2) Qulflangan -->
+<div class="center hidden" id="lockView">
+  <div class="card gate pin-box">
+    <div class="lock-ico">🔒</div>
+    <h2>Ota-ona paneli</h2>
+    <div class="muted">Davom etish uchun PIN kodni kiriting</div>
+    <input class="pin-input" id="pin" type="password" inputmode="numeric" maxlength="6" placeholder="••••" autofocus>
+    <div class="err" id="pinErr"></div>
+    <button class="btn pri" id="unlockBtn" style="width:100%">Ochish</button>
+  </div>
+</div>
+
+<!-- 3) Panel -->
+<div class="hidden" id="panelView">
+  <div class="topbar"><div class="in">
+    <img src="icons/icon48.png" alt=""><h1>Xavfsiz Bola — ota-ona paneli</h1>
+    <button class="btn sm" id="lockBtn">🔒 Qulflash</button>
+  </div></div>
+
+  <div class="wrap">
+    <div id="incognitoWarn"></div>
+
+    <div class="card">
+      <h2>🛡️ Himoya</h2>
+      <div class="muted">Bu bloklar doim ishlaydi, vaqtga bog'liq emas.</div>
+      <label class="row"><div class="txt"><b>Kattalar (18+) saytlarini bloklash</b><small>Mashhur saytlar ro'yxati va manzildagi kalit so'zlar bo'yicha</small></div><span class="switch"><input type="checkbox" data-s="blockAdult"><span></span></span></label>
+      <label class="row"><div class="txt"><b>Qimor va stavka saytlarini bloklash</b><small>1xbet, Mostbet, Melbet, kazino va boshqalar</small></div><span class="switch"><input type="checkbox" data-s="blockGambling"><span></span></span></label>
+      <label class="row"><div class="txt"><b>Xavfsiz qidiruv</b><small>Google, Bing, DuckDuckGo SafeSearch + YouTube cheklangan rejimi</small></div><span class="switch"><input type="checkbox" data-s="safeSearch"><span></span></span></label>
+      <label class="row"><div class="txt"><b>Kengaytmalar sahifasini PIN bilan qulflash</b><small>Bola <code>chrome://extensions</code> ga kirib, himoyani o'chira olmaydi</small></div><span class="switch"><input type="checkbox" data-s="protectExtensions"><span></span></span></label>
+      <label class="row"><div class="txt"><b>Inkognito oynalarni darhol yopish</b><small>Faqat kengaytmaga inkognitoda ruxsat berilgan bo'lsa ishlaydi</small></div><span class="switch"><input type="checkbox" data-s="closeIncognito"><span></span></span></label>
+    </div>
+
+    <div class="card">
+      <h2>⏱️ Saytlar uchun kunlik vaqt limiti</h2>
+      <div class="muted">Vaqt faqat bola saytda haqiqatan o'tirganda hisoblanadi. Chrome yopib qayta ochilsa ham limit nolga tushmaydi — faqat ertasi kuni yangilanadi.</div>
+      <div id="sitesBox"></div>
+      <div class="cat">Boshqa sayt qo'shish</div>
+      <div class="add">
+        <input id="addDomain" placeholder="masalan: kinolar.uz">
+        <button class="btn" id="addBtn">+ Qo'shish</button>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>🌐 Umumiy internet vaqti</h2>
+        <div class="muted">Kuniga barcha saytlar uchun jami vaqt.</div>
+        <select class="inp" id="totalLimit" style="width:100%"></select>
+      </div>
+      <div class="card">
+        <h2>🌙 Uxlash vaqti</h2>
+        <div class="muted">Bu oraliqda barcha saytlar yopiladi.</div>
+        <label class="row" style="border:0;padding-top:0"><div class="txt"><b>Yoqish</b></div><span class="switch"><input type="checkbox" id="bedOn"><span></span></span></label>
+        <div style="display:flex;gap:10px;align-items:center">
+          <input type="time" class="inp" id="bedFrom"> <span>—</span> <input type="time" class="inp" id="bedTo">
+        </div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>🚫 Qo'shimcha bloklangan saytlar</h2>
+        <div class="muted">Har qatorga bitta sayt.</div>
+        <textarea class="inp" id="blocklist" placeholder="example.com"></textarea>
+      </div>
+      <div class="card">
+        <h2>✅ Doim ruxsat etilgan saytlar</h2>
+        <div class="muted">Uxlash vaqtida va limit tugaganda ham ochiladi (masalan, maktab sayti).</div>
+        <textarea class="inp" id="allowlist" placeholder="emaktab.uz"></textarea>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📊 Bugungi statistika</h2>
+      <div class="muted" id="statTotal"></div>
+      <div id="stats"></div>
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap">
+        <button class="btn sm" data-bonus="15">+15 daq umumiy vaqt</button>
+        <button class="btn sm" data-bonus="30">+30 daq umumiy vaqt</button>
+        <button class="btn sm danger" id="resetToday">Bugungi hisobni nolga tushirish</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🔑 PIN kodni o'zgartirish</h2>
+      <div class="add">
+        <input type="password" id="chOld" placeholder="Eski PIN" maxlength="6" inputmode="numeric">
+        <input type="password" id="chNew" placeholder="Yangi PIN" maxlength="6" inputmode="numeric">
+        <button class="btn" id="chBtn">O'zgartirish</button>
+      </div>
+      <div class="err" id="chErr"></div>
+    </div>
+
+    <div class="card">
+      <h2>💡 To'liq himoya uchun maslahatlar</h2>
+      <ol>
+        <li>Bolaning Windows akkaunti <b>administrator bo'lmasin</b> — shunda u dastur o'rnata olmaydi va boshqa brauzer ocha olmaydi.</li>
+        <li>Kengaytma papkasidagi <code>windows/chrome_himoya_yoqish.reg</code> faylini ota-ona (administrator) sifatida ishga tushiring: inkognito rejimi, mehmon rejimi va yangi profil qo'shish o'chadi.</li>
+        <li>Kompyuterdagi boshqa brauzerlarni (Edge, Opera, Yandex) olib tashlang yoki ularni ham cheklang.</li>
+      </ol>
+    </div>
+    <div class="muted" style="text-align:center;font-size:12px;padding-bottom:20px">Xavfsiz Bola v1.0 · Bunyodg97</div>
+  </div>
+</div>
+
+<script type="module" src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Konsol Xatolari"
+ },
+ "desc": {
+  "message": "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…"
+ }
+}

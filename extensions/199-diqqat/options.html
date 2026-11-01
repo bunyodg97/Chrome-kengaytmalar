@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Diqqat — sozlamalar</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .top { background: #16132a; color: #fff; }
+  .top .in { max-width: 900px; margin: auto; padding: 16px 20px; display: flex; align-items: center; gap: 12px; }
+  .top img { width: 34px; }
+  .top h1 { font-size: 19px; }
+  .top small { color: #a9a3c7; }
+  .wrap { max-width: 900px; margin: auto; padding: 20px; display: grid; gap: 16px; }
+  .card h2 { font-size: 16px; margin-bottom: 3px; }
+  .card > .muted { font-size: 13px; margin-bottom: 12px; }
+  .cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+  .cat { border: 1px solid var(--line); border-radius: 12px; padding: 12px; display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+  .cat.on { border-color: #c9bff2; background: #faf9ff; }
+  .cat .ic { font-size: 22px; }
+  .cat .tx { flex: 1; min-width: 0; }
+  .cat .tx b { display: block; }
+  .cat .tx small { color: var(--muted); font-size: 11.5px; line-height: 1.35; display: block; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .two { grid-template-columns: 1fr; } }
+  textarea, .inp { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; background: #fff; }
+  textarea { min-height: 100px; resize: vertical; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 0; border-top: 1px solid var(--line); }
+  .row:first-of-type { border-top: 0; }
+  .row .tx b { display: block; font-weight: 600; }
+  .row .tx small { color: var(--muted); }
+  .days { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
+  .days button { width: 42px; padding: 7px 0; border-radius: 10px; border: 1px solid var(--line); background: #fff; cursor: pointer; font-weight: 600; }
+  .days button.on { background: var(--pri); border-color: var(--pri); color: #fff; }
+  .times { display: flex; gap: 10px; align-items: center; }
+  .times input { width: auto; }
+  .num { width: 70px !important; text-align: center; }
+  .chart { display: flex; align-items: flex-end; gap: 10px; height: 150px; padding-top: 10px; }
+  .chart .c { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 5px; height: 100%; justify-content: flex-end; }
+  .chart .b { width: 100%; max-width: 46px; background: var(--pri); border-radius: 8px 8px 3px 3px; min-height: 3px; }
+  .chart .c.today .b { background: #f5a524; }
+  .chart small { color: var(--muted); font-size: 11.5px; }
+  .chart .v { font-size: 11.5px; font-weight: 600; }
+  .sum { display: flex; gap: 24px; margin-top: 12px; flex-wrap: wrap; font-size: 13.5px; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #16132a; color: #fff; padding: 8px 16px; border-radius: 10px; font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="top"><div class="in"><img src="icons/icon48.png" alt=""><div><h1>Diqqat — sozlamalar</h1><small>Ish vaqtida chalg'ituvchi saytlarni bloklash</small></div></div></div>
+  <div class="wrap">
+
+    <div class="card">
+      <h2>📊 Oxirgi 7 kun</h2>
+      <div class="chart" id="chart"></div>
+      <div class="sum" id="sum"></div>
+    </div>
+
+    <div class="card">
+      <h2>🚫 Nimalar bloklansin?</h2>
+      <div class="muted">Diqqat seansi va ish vaqtida shu toifadagi saytlar yopiladi.</div>
+      <div class="cats" id="cats"></div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>➕ Qo'shimcha saytlar</h2>
+        <div class="muted">Har qatorga bitta sayt — ular ham bloklanadi.</div>
+        <textarea id="custom" placeholder="example.com"></textarea>
+      </div>
+      <div class="card">
+        <h2>✅ Istisnolar</h2>
+        <div class="muted">Hech qachon bloklanmaydi (masalan, ish uchun kerakli YouTube kanali bo'lsa — youtube.com).</div>
+        <textarea id="allow" placeholder="music.youtube.com"></textarea>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h2>💼 Ish vaqti jadvali</h2>
+        <div class="muted">Taymerni bosmasangiz ham shu vaqtda saytlar avtomatik bloklanadi.</div>
+        <label class="row"><div class="tx"><b>Jadvalni yoqish</b></div><span class="switch"><input type="checkbox" id="schOn"><span></span></span></label>
+        <div class="days" id="days"></div>
+        <div class="times"><input type="time" class="inp" id="from"> — <input type="time" class="inp" id="to"></div>
+      </div>
+      <div class="card">
+        <h2>🍅 Pomodoro</h2>
+        <div class="muted">Ish va dam olish navbatma-navbat.</div>
+        <div class="row"><div class="tx"><b>Ish seansi</b></div><span><input type="number" class="inp num" id="pWork" min="5" max="180"> daq</span></div>
+        <div class="row"><div class="tx"><b>Qisqa dam olish</b></div><span><input type="number" class="inp num" id="pShort" min="1" max="60"> daq</span></div>
+        <div class="row"><div class="tx"><b>Uzun dam olish</b><small>har <input type="number" class="inp num" id="pEvery" min="2" max="10" style="width:50px!important;padding:2px"> seansdan keyin</small></div><span><input type="number" class="inp num" id="pLong" min="5" max="90"> daq</span></div>
+        <label class="row"><div class="tx"><b>Dam olishdan keyin avtomatik boshlash</b></div><span class="switch"><input type="checkbox" id="pAuto"><span></span></span></label>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🔔 Ovozli signal</h2>
+      <div class="muted">Diqqat seansi tugaganda pasayuvchi, dam olish tugaganda ko'tariluvchi ohang chalinadi.</div>
+      <label class="row"><div class="tx"><b>Ovozni yoqish</b></div><span class="switch"><input type="checkbox" id="sndOn"><span></span></span></label>
+      <div class="row"><div class="tx"><b>Ovoz turi</b></div>
+        <span style="display:flex;gap:8px"><select class="inp" id="sndType" style="width:190px"></select>
+        <button class="btn sm" id="sndTest1" title="Seans tugashi">▶ Seans</button><button class="btn sm" id="sndTest2" title="Dam olish tugashi">▶ Dam olish</button></span></div>
+      <div class="row"><div class="tx"><b>Balandlik</b></div><span style="display:flex;align-items:center;gap:8px"><input type="range" id="sndVol" min="5" max="100" step="5" style="width:180px;accent-color:#6e56cf"><b id="sndVolTxt" style="width:40px">70%</b></span></div>
+    </div>
+
+    <div class="card">
+      <h2>🔒 Intizom</h2>
+      <label class="row"><div class="tx"><b>Qat'iy rejim</b><small>Diqqat seansini muddatidan oldin to'xtatib bo'lmaydi, "baribir ochish" tugmasi yo'qoladi</small></div><span class="switch"><input type="checkbox" id="strict"><span></span></span></label>
+      <div class="row"><div class="tx"><b>"Baribir ochish" muddati</b><small>15 soniya kutgandan keyin sayt shuncha vaqtga ochiladi</small></div>
+        <select class="inp" id="emer" style="width:130px"><option value="2">2 daqiqa</option><option value="5">5 daqiqa</option><option value="10">10 daqiqa</option><option value="15">15 daqiqa</option></select></div>
+    </div>
+
+    <div class="muted" style="text-align:center;font-size:12px;padding-bottom:20px">Diqqat v1.1 · Bunyodg97 · <button class="btn sm" id="resetStats">Statistikani tozalash</button></div>
+  </div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

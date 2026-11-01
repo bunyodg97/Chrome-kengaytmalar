@@ -1,0 +1,16 @@
+/* Tungi rejim — FILTR usuli. Sahifa yuklanishidan oldin qo'llaniladi (oq chaqnashsiz). */
+html:not(.tr-off):not(.tr-dyn) {
+  filter: invert(1) hue-rotate(180deg) brightness(var(--tr-b, 1)) contrast(var(--tr-c, .9)) sepia(var(--tr-s, 0)) !important;
+  background-color: #fff !important;
+}
+/* Rasm, video va ichki oynalar asl rangida qoladi */
+html:not(.tr-off):not(.tr-dyn) :is(img, picture, video, canvas, iframe, embed, object, .tr-bg) {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+html:not(.tr-off):not(.tr-dyn) :is(picture, .tr-bg) :is(img, picture, video, canvas, .tr-bg) {
+  filter: none !important;
+}
+/* To'liq ekran (video) — asl holatda */
+html:not(.tr-off):not(.tr-dyn):has(:fullscreen), html:not(.tr-off):not(.tr-dyn):has(:fullscreen) * {
+  filter: none !important;
+}

@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "sahifaga-chizish",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "S",
+ "name": {
+  "uz": "Sahifaga Chizish",
+  "ru": "Рисование на странице"
+ },
+ "short": {
+  "uz": "Sahifaga Chizish",
+  "ru": "Рисование на странице"
+ },
+ "desc": {
+  "uz": "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…",
+  "ru": "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для…"
+ },
+ "features": {
+  "uz": [
+   "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…"
+  ],
+  "ru": [
+   "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "downloads",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

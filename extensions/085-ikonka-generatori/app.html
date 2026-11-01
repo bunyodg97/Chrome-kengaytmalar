@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Ikonka Generatori</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.lay{display:grid;grid-template-columns:320px 1fr;gap:16px;align-items:start}.drop{border:2px dashed var(--line);border-radius:12px;padding:26px;text-align:center;color:var(--muted);cursor:pointer}.drop.on{border-color:var(--acc)}
+.prev{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end}.prev div{text-align:center;font-size:11px;color:var(--muted)}.prev canvas{display:block;margin:0 auto 4px;background:repeating-conic-gradient(#8882 0 25%,transparent 0 50%) 0 0/10px 10px;border-radius:4px}
+pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;font:12px var(--mono);overflow:auto;white-space:pre-wrap}@media(max-width:860px){.lay{grid-template-columns:1fr}}</style></head>
+<body><div class="page" style="max-width:1200px"><h1>Ikonka Generatori</h1>
+<div class="lay"><div class="list">
+<label class="drop" id="drop">Rasm (PNG/SVG/JPG, kvadrat, ≥512px tavsiya) — tashlang yoki bosing<input type="file" id="f" accept="image/*,.svg" hidden></label>
+<div class="card list"><b>To'plamlar</b><div id="sets" class="list"></div></div>
+<div class="card list"><b>Ko'rinish</b>
+<label class="small">Ichki chet: <span id="padv"></span>%<input type="range" id="pad" min="0" max="30" value="0"></label>
+<label class="small">Burchak yumaloqligi: <span id="radv"></span>%<input type="range" id="rad" min="0" max="50" value="0"></label>
+<div class="row"><label class="inline small"><input type="checkbox" id="bgOn" style="width:auto"> Fon rangi</label><input type="color" id="bg" value="#ffffff" style="width:60px"></div>
+<label class="inline small"><input type="checkbox" id="sharp" checked style="width:auto"> Kichik o'lchamlarni keskinlashtirish</label></div>
+<div class="card list"><label class="small">Ilova nomi (manifest uchun)<input id="nm" value="Mening ilovam"></label><label class="small">Mavzu rangi<input type="color" id="tc" value="#1565c0"></label>
+<button id="zip">ZIP yuklab olish</button></div></div>
+<div class="list"><div class="card"><div class="prev" id="prev"><div class="empty">Rasm tanlang</div></div></div><b>HTML &lt;head&gt; uchun</b><pre id="html"></pre><b>manifest.json (PWA)</b><pre id="man"></pre></div></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/jszip.min.js"></script><script src="app.js"></script></body></html>

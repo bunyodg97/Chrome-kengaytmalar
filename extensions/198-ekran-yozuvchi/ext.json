@@ -1,0 +1,40 @@
+{
+ "external": true,
+ "slug": "ekran-yozuvchi",
+ "version": "2.0.0",
+ "color": "#4d6b0f",
+ "glyph": "E",
+ "name": {
+  "uz": "Ekran Yozuvchi",
+  "ru": "Запись экрана"
+ },
+ "short": {
+  "uz": "Ekran Yozuvchi",
+  "ru": "Запись экрана"
+ },
+ "desc": {
+  "uz": "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…",
+  "ru": "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или…"
+ },
+ "features": {
+  "uz": [
+   "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…"
+  ],
+  "ru": [
+   "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "desktopCapture",
+  "downloads",
+  "offscreen",
+  "scripting",
+  "storage",
+  "tabCapture",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": false
+}

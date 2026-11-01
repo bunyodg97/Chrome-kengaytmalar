@@ -1,0 +1,170 @@
+[
+ {
+  "id": 1,
+  "priority": 3,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "transform": {
+     "queryTransform": {
+      "addOrReplaceParams": [
+       {
+        "key": "safe",
+        "value": "active"
+       }
+      ]
+     }
+    }
+   }
+  },
+  "condition": {
+   "requestDomains": [
+    "google.com",
+    "google.co.uz",
+    "google.ru",
+    "google.kz",
+    "google.com.tr"
+   ],
+   "urlFilter": "/search?",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "priority": 4,
+  "action": {
+   "type": "allow"
+  },
+  "condition": {
+   "requestDomains": [
+    "google.com",
+    "google.co.uz",
+    "google.ru",
+    "google.kz",
+    "google.com.tr"
+   ],
+   "urlFilter": "safe=active",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 3,
+  "priority": 3,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "transform": {
+     "queryTransform": {
+      "addOrReplaceParams": [
+       {
+        "key": "adlt",
+        "value": "strict"
+       }
+      ]
+     }
+    }
+   }
+  },
+  "condition": {
+   "requestDomains": [
+    "bing.com"
+   ],
+   "urlFilter": "/search?",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 4,
+  "priority": 4,
+  "action": {
+   "type": "allow"
+  },
+  "condition": {
+   "requestDomains": [
+    "bing.com"
+   ],
+   "urlFilter": "adlt=strict",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 5,
+  "priority": 3,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "transform": {
+     "queryTransform": {
+      "addOrReplaceParams": [
+       {
+        "key": "kp",
+        "value": "1"
+       }
+      ]
+     }
+    }
+   }
+  },
+  "condition": {
+   "requestDomains": [
+    "duckduckgo.com"
+   ],
+   "urlFilter": "q=",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 6,
+  "priority": 4,
+  "action": {
+   "type": "allow"
+  },
+  "condition": {
+   "requestDomains": [
+    "duckduckgo.com"
+   ],
+   "urlFilter": "kp=1",
+   "resourceTypes": [
+    "main_frame"
+   ]
+  }
+ },
+ {
+  "id": 7,
+  "priority": 3,
+  "action": {
+   "type": "modifyHeaders",
+   "requestHeaders": [
+    {
+     "header": "YouTube-Restrict",
+     "operation": "set",
+     "value": "Moderate"
+    }
+   ]
+  },
+  "condition": {
+   "requestDomains": [
+    "youtube.com",
+    "youtube-nocookie.com",
+    "youtubei.googleapis.com",
+    "youtube.googleapis.com"
+   ],
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame",
+    "xmlhttprequest",
+    "other"
+   ]
+  }
+ }
+]

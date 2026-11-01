@@ -34,7 +34,7 @@ def check(ext: Path):
         if not (ext / f).exists():
             errs.append(f"manifest fayli yo'q: {f}")
     msgs = {}
-    for loc in (("en", "ru") if "__MSG_" in json.dumps(m) else ()):
+    for loc in ((m.get("default_locale", "en"), "ru") if "__MSG_" in json.dumps(m) else ()):
         p = ext / "_locales" / loc / "messages.json"
         if not p.exists():
             errs.append(f"_locales/{loc} yo'q")

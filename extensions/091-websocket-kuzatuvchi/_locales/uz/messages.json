@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "WebSocket Kuzatuvchi"
+ },
+ "desc": {
+  "message": "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…"
+ }
+}

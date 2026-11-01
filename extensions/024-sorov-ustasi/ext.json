@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "sorov-ustasi",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "S",
+ "name": {
+  "uz": "So'rov Ustasi",
+  "ru": "Мастер запросов"
+ },
+ "short": {
+  "uz": "So'rov Ustasi",
+  "ru": "Мастер запросов"
+ },
+ "desc": {
+  "uz": "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…",
+  "ru": "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."
+ },
+ "features": {
+  "uz": [
+   "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…"
+  ],
+  "ru": [
+   "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "content_scripts",
+  "contextMenus",
+  "declarativeNetRequest",
+  "declarativeNetRequestFeedback",
+  "storage"
+ ],
+ "category": "api",
+ "standalone": false
+}

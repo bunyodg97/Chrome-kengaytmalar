@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "github-xabarlari",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "G",
+ "name": {
+  "uz": "GitHub Xabarlari",
+  "ru": "Уведомления GitHub"
+ },
+ "short": {
+  "uz": "GitHub Xabarlari",
+  "ru": "Уведомления GitHub"
+ },
+ "desc": {
+  "uz": "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi.",
+  "ru": "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."
+ },
+ "features": {
+  "uz": [
+   "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi."
+  ],
+  "ru": [
+   "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "https://api.github.com/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "github",
+ "standalone": false
+}

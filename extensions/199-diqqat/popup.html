@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { width: 320px; background: #16132a; color: #f1effa; }
+  header { display: flex; align-items: center; gap: 8px; padding: 12px 14px 0; }
+  header img { width: 22px; }
+  header h1 { font-size: 15px; flex: 1; }
+  .ico { background: none; border: 0; color: #a9a3c7; cursor: pointer; padding: 5px; border-radius: 8px; font-size: 16px; }
+  .ico:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .sched { margin: 10px 14px 0; font-size: 12px; padding: 6px 10px; border-radius: 9px; background: rgba(110,86,207,.22); color: #cfc6ff; }
+  .ring { position: relative; width: 210px; height: 210px; margin: 14px auto 6px; }
+  .ring svg { transform: rotate(-90deg); }
+  .ring .mid { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+  .ring .lbl { font-size: 13px; color: #a9a3c7; text-transform: uppercase; letter-spacing: 1px; }
+  .ring .time { font-size: 46px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: 1px; }
+  .ring .sub { font-size: 12px; color: #8d87ad; }
+  .presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 0 14px; }
+  .presets button { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08); color: #e6e3f5; border-radius: 10px; padding: 8px 0; cursor: pointer; font-weight: 600; }
+  .presets button.sel { background: #6e56cf; border-color: #6e56cf; color: #fff; }
+  .opt { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px 0; font-size: 13px; color: #cfcbe4; }
+  .opt .switch span { background: #3a3555; }
+  .main { padding: 12px 14px 0; display: flex; gap: 8px; }
+  .main .btn { flex: 1; padding: 11px; font-size: 15px; border: 0; }
+  .main .ghost { background: rgba(255,255,255,.08); color: #fff; flex: none; padding: 11px 14px; }
+  .strict { text-align: center; font-size: 11.5px; color: #8d87ad; padding: 6px 14px 0; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); margin: 14px; background: rgba(255,255,255,.05); border-radius: 12px; }
+  .stats div { text-align: center; padding: 9px 4px; }
+  .stats b { display: block; font-size: 15px; }
+  .stats small { color: #8d87ad; font-size: 11px; }
+  input[type=number] { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 8px; width: 64px; padding: 4px 6px; color: #fff; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt=""><h1>Diqqat</h1>
+    <button class="ico" id="mute" title="Ovozli signal">🔔</button>
+    <button class="ico" id="settings" title="Sozlamalar">⚙</button>
+  </header>
+  <div class="sched hidden" id="sched"></div>
+
+  <div class="ring">
+    <svg width="210" height="210">
+      <circle cx="105" cy="105" r="94" stroke="rgba(255,255,255,.08)" stroke-width="10" fill="none"/>
+      <circle id="arc" cx="105" cy="105" r="94" stroke="#6e56cf" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="590.6" stroke-dashoffset="590.6"/>
+    </svg>
+    <div class="mid">
+      <div class="lbl" id="lbl">Tayyor</div>
+      <div class="time" id="time">25:00</div>
+      <div class="sub" id="sub">&nbsp;</div>
+    </div>
+  </div>
+
+  <div id="idle">
+    <div class="presets" id="presets">
+      <button data-m="25">25</button><button data-m="45">45</button><button data-m="60">60</button><button data-m="90">90</button>
+    </div>
+    <div class="opt"><span>Boshqa vaqt (daqiqa)</span><input type="number" id="custom" min="1" max="480" placeholder="—"></div>
+    <label class="opt"><span>🍅 Pomodoro (ish + dam olish)</span><span class="switch"><input type="checkbox" id="pomo"><span></span></span></label>
+    <div class="main"><button class="btn pri" id="start">▶ Boshlash</button></div>
+  </div>
+
+  <div id="running" class="hidden">
+    <div class="main">
+      <button class="btn pri" id="plus">+5 daqiqa</button>
+      <button class="btn ghost" id="stop">■ To'xtatish</button>
+    </div>
+    <div class="strict hidden" id="strictNote">🔒 Qat'iy rejim: seans tugamaguncha to'xtatib bo'lmaydi</div>
+  </div>
+
+  <div class="stats">
+    <div><b id="stFocus">0</b><small>bugun diqqat</small></div>
+    <div><b id="stSess">0</b><small>seans</small></div>
+    <div><b id="stBlk">0</b><small>to'xtatilgan</small></div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "keyinroq-oqish",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "K",
+ "name": {
+  "uz": "Keyinroq O'qish",
+  "ru": "Прочитать позже"
+ },
+ "short": {
+  "uz": "Keyinroq O'qish",
+  "ru": "Прочитать позже"
+ },
+ "desc": {
+  "uz": "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…",
+  "ru": "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск —…"
+ },
+ "features": {
+  "uz": [
+   "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…"
+  ],
+  "ru": [
+   "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск —…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": false
+}

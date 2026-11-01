@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:440px}.tb{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:8px;display:flex;flex-direction:column;gap:6px}
+.pv{overflow:auto;max-height:110px;border:1px solid var(--line);border-radius:6px}.pv table td{font-size:11px;padding:2px 6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis}
+.tb .row button{padding:4px 9px;font-size:12.5px}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Jadval Yuklovchi</h1></header>
+<div class="wrap"><div class="row between"><span class="small muted" id="sum"></span><button class="ghost" id="all" hidden>Hammasi bitta Excel'da</button></div>
+<label class="inline small"><input type="checkbox" id="num" checked> Sonlarni son sifatida saqlash (12 500 → 12500)</label>
+<div class="list" id="list"><div class="empty">Qidirilmoqda…</div></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/xlsx.full.min.js"></script><script src="popup.js"></script></body></html>

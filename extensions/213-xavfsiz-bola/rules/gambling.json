@@ -1,0 +1,125 @@
+[
+ {
+  "id": 1,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=gambling"
+   }
+  },
+  "condition": {
+   "requestDomains": [
+    "1xbet.com",
+    "1xbet.uz",
+    "melbet.com",
+    "mostbet.com",
+    "betwinner.com",
+    "linebet.com",
+    "22bet.com",
+    "pin-up.casino",
+    "parimatch.com",
+    "fonbet.ru",
+    "leonbets.com",
+    "olimpbet.kz",
+    "betway.com",
+    "bet365.com",
+    "stake.com",
+    "ggbet.com",
+    "vavada.com",
+    "1win.com",
+    "1win.pro",
+    "4rabet.com",
+    "megapari.com",
+    "betandyou.com",
+    "betboom.ru",
+    "winline.ru",
+    "ligastavok.ru",
+    "joycasino.com",
+    "pokerstars.com",
+    "ggpokerok.com",
+    "roobet.com",
+    "bc.game",
+    "casino",
+    "bet",
+    "poker"
+   ],
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=gambling"
+   }
+  },
+  "condition": {
+   "regexFilter": "(1xbet|1xstavka|melbet|mostbet|betwinner|linebet|22bet)",
+   "isUrlFilterCaseSensitive": false,
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ },
+ {
+  "id": 3,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=gambling"
+   }
+  },
+  "condition": {
+   "regexFilter": "(parimatch|fonbet|leonbet|olimpbet|betway|bet365|ggbet|vavada)",
+   "isUrlFilterCaseSensitive": false,
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ },
+ {
+  "id": 4,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=gambling"
+   }
+  },
+  "condition": {
+   "regexFilter": "(1win\\.|4rabet|megapari|betandyou|betboom|winline|ligastavok)",
+   "isUrlFilterCaseSensitive": false,
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ },
+ {
+  "id": 5,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=gambling"
+   }
+  },
+  "condition": {
+   "regexFilter": "(joycasino|casino|kazino|pin-?up\\.|aviator-?game|stavki)",
+   "isUrlFilterCaseSensitive": false,
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ }
+]

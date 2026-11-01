@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:440px}.score{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:22px;font-weight:800;border:5px solid var(--line)}
+.chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0;border-bottom:1px solid var(--line)}.chk:last-child{border:0}.chk b{font-weight:600}.chk .v{color:var(--muted);font-size:12.5px;word-break:break-word}
+.dot{width:10px;height:10px;border-radius:50%;margin-top:5px;flex:none}.dot.ok{background:var(--ok)}.dot.warn{background:var(--warn)}.dot.bad{background:var(--bad)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>SEO Tekshiruv</h1></header>
+<div class="wrap">
+  <div class="row"><div class="score" id="score">…</div><div class="grow"><div id="title" class="small" style="font-weight:600"></div><div id="url" class="muted small" style="word-break:break-all"></div></div></div>
+  <div class="tabs"><button class="on" data-tab="seo">SEO</button><button data-tab="speed">Tezlik</button><button data-tab="links">Havolalar</button><button data-tab="img">Rasmlar</button></div>
+  <div data-pane="seo" id="seo"></div>
+  <div data-pane="speed" id="speed" hidden></div>
+  <div data-pane="links" hidden><div class="row between"><span id="lsum" class="small muted"></span><button class="ghost" id="check">Buzilganlarni tekshirish</button></div><div id="links" class="list" style="margin-top:8px"></div></div>
+  <div data-pane="img" id="img" hidden></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

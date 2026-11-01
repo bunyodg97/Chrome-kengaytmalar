@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><style>body.popup{width:380px}.pl{display:flex;flex-wrap:wrap;gap:4px}.pl button{padding:4px 9px;font-size:12px}.pl button.on{background:var(--acc);color:var(--acc-ink)}.now{font-size:12px}</style></head>
+<body class="popup"><div class="wrap"><h2>Joy, vaqt va til — shu tab</h2>
+<div class="pl" id="pl"></div>
+<div class="grid2"><label class="small">Kenglik<input id="lat" type="number" step="0.0001"></label><label class="small">Uzunlik<input id="lon" type="number" step="0.0001"></label></div>
+<div class="grid2"><label class="small">Vaqt zonasi<input id="tz" list="tzs" placeholder="Asia/Tashkent"></label><label class="small">Til / locale<input id="loc" list="locs" placeholder="uz-UZ"></label></div>
+<datalist id="tzs"></datalist><datalist id="locs"><option>uz-UZ</option><option>uz-Cyrl-UZ</option><option>ru-RU</option><option>en-US</option><option>en-GB</option><option>tr-TR</option><option>de-DE</option><option>ar-AE</option><option>kk-KZ</option><option>ko-KR</option><option>ja-JP</option><option>zh-CN</option></datalist>
+<label class="inline small"><input type="checkbox" id="geo" checked style="width:auto"> Geolokatsiyani ham almashtirish</label>
+<div class="row"><button id="go" style="flex:1">Qo'llash va yangilash</button><button class="ghost" id="off">O'chirish</button></div>
+<div class="card now" id="now"></div><div class="small" id="err" style="color:var(--bad)"></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="places.js"></script><script src="popup.js"></script></body></html>

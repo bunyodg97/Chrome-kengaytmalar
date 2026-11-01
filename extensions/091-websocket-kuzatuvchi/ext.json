@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "websocket-kuzatuvchi",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "W",
+ "name": {
+  "uz": "WebSocket Kuzatuvchi",
+  "ru": "Наблюдатель WebSocket"
+ },
+ "short": {
+  "uz": "WebSocket Kuzatuvchi",
+  "ru": "Наблюдатель WebSocket"
+ },
+ "desc": {
+  "uz": "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…",
+  "ru": "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…"
+  ],
+  "ru": [
+   "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "sidePanel",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

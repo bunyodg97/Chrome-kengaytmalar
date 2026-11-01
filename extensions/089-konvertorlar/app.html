@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Konvertorlar</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.lay{display:grid;grid-template-columns:1fr 1fr;gap:14px}textarea{font:13px/1.5 var(--mono);height:66vh;white-space:pre;tab-size:2}#err{color:var(--bad);font-size:13px;min-height:18px}@media(max-width:900px){.lay{grid-template-columns:1fr}textarea{height:40vh}}</style></head>
+<body><div class="page" style="max-width:1400px"><div class="row between"><h1>Konvertorlar</h1><div class="row"><input id="name" placeholder="Nom (komponent/tip)" style="width:200px"><button id="cp">Natijani nusxalash</button></div></div>
+<div class="tabs" id="tb"><button data-m="jsx" class="on">HTML → JSX</button><button data-m="tw">CSS → Tailwind</button><button data-m="ts">JSON → TypeScript</button><button data-m="go">JSON → Go</button><button data-m="fetch">cURL → fetch</button><button data-m="axios">cURL → axios</button></div>
+<div id="err"></div><div class="lay"><textarea id="in" spellcheck="false"></textarea><textarea id="out" spellcheck="false" readonly></textarea></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="conv.js"></script><script src="app.js"></script></body></html>

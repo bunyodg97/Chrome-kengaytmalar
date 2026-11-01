@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>PDF Imzo</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="sign.css">
+</head>
+<body>
+  <header class="tb">
+    <img src="icons/icon32.png" alt=""><b class="brand">PDF Imzo</b>
+    <label class="btn"><input type="file" id="file" accept="application/pdf" hidden>📂 PDF ochish</label>
+    <span class="sep"></span>
+    <button class="tool" data-tool="sign" title="Imzo qo'yish">✍️ Imzo</button>
+    <button class="tool" data-tool="date" title="Bugungi sana">📅 Sana</button>
+    <button class="tool" data-tool="text" title="Matn yozish">🔤 Matn</button>
+    <button class="tool" data-tool="check" title="Belgi">✓ Belgi</button>
+    <span class="sep"></span>
+    <button class="btn sm" id="zoomOut" title="Kichraytirish">−</button><span id="zoomTxt">100%</span><button class="btn sm" id="zoomIn" title="Kattalashtirish">+</button>
+    <span class="grow"></span>
+    <span id="fname" class="fname"></span>
+    <button class="btn pri" id="save" disabled>⬇ Imzolangan PDF ni saqlash</button>
+  </header>
+  <div class="hint" id="hint"></div>
+
+  <div class="layout">
+    <aside class="side">
+      <h3>Imzolarim</h3>
+      <div id="sigs"></div>
+      <button class="btn wide" id="newSig">+ Yangi imzo</button>
+      <h3>Tanlangan element</h3>
+      <div id="props" class="props muted">Element ustiga bosing</div>
+    </aside>
+    <main id="viewer">
+      <label class="drop" id="drop">
+        <div class="big">📄</div>
+        <b>PDF faylni shu yerga tashlang</b>
+        <span>yoki bosib tanlang</span>
+        <small>Fayl kompyuteringizdan chiqmaydi — hammasi brauzerda bajariladi</small>
+        <input type="file" accept="application/pdf" id="file2" hidden>
+      </label>
+      <div id="pages"></div>
+    </main>
+  </div>
+
+  <!-- Imzo chizish oynasi -->
+  <div class="modal" id="modal" hidden>
+    <div class="box">
+      <div class="mh"><b>Imzo chizing</b><button class="x" id="mClose">✕</button></div>
+      <canvas id="pad" width="1200" height="420"></canvas>
+      <div class="mt">
+        <span>Rang:</span>
+        <button class="clr on" data-c="#1a3fb5" style="background:#1a3fb5"></button>
+        <button class="clr" data-c="#111111" style="background:#111"></button>
+        <button class="clr" data-c="#0a7a3c" style="background:#0a7a3c"></button>
+        <span>Qalinlik:</span><input type="range" id="thick" min="2" max="10" value="4">
+        <span class="grow"></span>
+        <label class="btn sm"><input type="file" id="sigImg" accept="image/*" hidden>🖼 Rasmdan</label>
+        <button class="btn sm" id="padClear">Tozalash</button>
+        <button class="btn pri" id="padSave">Saqlash va qo'yish</button>
+      </div>
+      <small class="muted">Sichqoncha, sensorli ekran yoki qalam bilan chizing. Qog'ozdagi imzongiz suratini ham yuklashingiz mumkin — oq fon avtomatik olib tashlanadi.</small>
+    </div>
+  </div>
+
+  <script src="lib/pdf-lib.min.js"></script>
+  <script type="module" src="sign.js"></script>
+</body>
+</html>

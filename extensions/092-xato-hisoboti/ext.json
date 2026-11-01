@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "xato-hisoboti",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "X",
+ "name": {
+  "uz": "Xato Hisoboti",
+  "ru": "Отчёт об ошибке"
+ },
+ "short": {
+  "uz": "Xato Hisoboti",
+  "ru": "Отчёт об ошибке"
+ },
+ "desc": {
+  "uz": "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…",
+  "ru": "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в…"
+ },
+ "features": {
+  "uz": [
+   "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…"
+  ],
+  "ru": [
+   "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "https://api.github.com/*",
+  "https://api.telegram.org/*",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

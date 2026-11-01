@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "rasm-qidirish",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "R",
+ "name": {
+  "uz": "Rasm bo'yicha Qidirish",
+  "ru": "Поиск по картинке"
+ },
+ "short": {
+  "uz": "Rasm bo'yicha Qidirish",
+  "ru": "Поиск по картинке"
+ },
+ "desc": {
+  "uz": "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…",
+  "ru": "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."
+ },
+ "features": {
+  "uz": [
+   "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…"
+  ],
+  "ru": [
+   "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

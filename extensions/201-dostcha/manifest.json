@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Do'stcha — kayfiyat uchun kichik do'st",
+  "short_name": "Do'stcha",
+  "version": "2.0.0",
+  "description": "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin.",
+  "author": "Bunyodg97",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Do'stcha"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "pets.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "pets/*/*.webp"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+  "options_page": "options.html"
+}

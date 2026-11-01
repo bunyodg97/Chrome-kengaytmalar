@@ -1,0 +1,54 @@
+{
+ "external": true,
+ "slug": "raqobat-narxlari",
+ "version": "1.1.0",
+ "color": "#c2410c",
+ "glyph": "R",
+ "name": {
+  "uz": "Raqobat Narxlari",
+  "ru": "Цены конкурентов"
+ },
+ "short": {
+  "uz": "Raqobat Narxlari",
+  "ru": "Цены конкурентов"
+ },
+ "desc": {
+  "uz": "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…",
+  "ru": "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая…"
+ },
+ "features": {
+  "uz": [
+   "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…"
+  ],
+  "ru": [
+   "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая…"
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "content_scripts",
+  "contextMenus",
+  "https://*.alifshop.uz/*",
+  "https://*.asaxiy.uz/*",
+  "https://*.mediapark.uz/*",
+  "https://*.olcha.uz/*",
+  "https://*.texnomart.uz/*",
+  "https://*.uzum.uz/*",
+  "https://alifshop.uz/*",
+  "https://asaxiy.uz/*",
+  "https://cbu.uz/*",
+  "https://mediapark.uz/*",
+  "https://olcha.uz/*",
+  "https://olx.uz/*",
+  "https://texnomart.uz/*",
+  "https://uzum.uz/*",
+  "https://www.olx.uz/*",
+  "notifications",
+  "scripting",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "life",
+ "standalone": false
+}

@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "telefonga-yuborish",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "T",
+ "name": {
+  "uz": "Telefonga Yuborish",
+  "ru": "Отправить на телефон"
+ },
+ "short": {
+  "uz": "Telefonga Yuborish",
+  "ru": "Отправить на телефон"
+ },
+ "desc": {
+  "uz": "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…",
+  "ru": "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."
+ },
+ "features": {
+  "uz": [
+   "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…"
+  ],
+  "ru": [
+   "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

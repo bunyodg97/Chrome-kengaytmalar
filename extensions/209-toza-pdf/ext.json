@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "toza-pdf",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "T",
+ "name": {
+  "uz": "Toza PDF",
+  "ru": "Чистый PDF"
+ },
+ "short": {
+  "uz": "Toza PDF",
+  "ru": "Чистый PDF"
+ },
+ "desc": {
+  "uz": "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish.",
+  "ru": "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."
+ },
+ "features": {
+  "uz": [
+   "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish."
+  ],
+  "ru": [
+   "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": true
+}

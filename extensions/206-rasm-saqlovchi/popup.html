@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { width: 400px; }
+  header { display: flex; align-items: center; gap: 8px; padding: 12px 14px; background: #fff; border-bottom: 1px solid var(--line); }
+  header img { width: 24px; }
+  header h1 { font-size: 15px; flex: 1; }
+  .ico { border: 0; background: none; cursor: pointer; font-size: 16px; color: var(--muted); padding: 4px 6px; border-radius: 8px; }
+  .ico:hover { background: var(--bg); }
+  .bar { display: flex; align-items: center; justify-content: space-between; padding: 9px 14px 4px; font-size: 13px; }
+  .bar a { color: var(--pri); cursor: pointer; font-weight: 600; text-decoration: none; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 6px 14px 12px; max-height: 390px; overflow-y: auto; }
+  .it { position: relative; border-radius: 10px; overflow: hidden; border: 2px solid transparent; cursor: pointer; aspect-ratio: 1; }
+  .it img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .it .dim { position: absolute; left: 4px; bottom: 4px; background: rgba(0,0,0,.6); color: #fff; font-size: 10.5px; padding: 1px 5px; border-radius: 5px; }
+  .it .ck { position: absolute; top: 5px; right: 5px; width: 20px; height: 20px; border-radius: 50%; background: rgba(255,255,255,.9); border: 2px solid #b8c3d1; display: grid; place-items: center; font-size: 12px; color: #fff; }
+  .it.sel { border-color: var(--pri); }
+  .it.sel .ck { background: var(--pri); border-color: var(--pri); }
+  .it .one { position: absolute; top: 5px; left: 5px; border: 0; background: rgba(255,255,255,.92); border-radius: 6px; font-size: 12px; padding: 1px 5px; cursor: pointer; display: none; }
+  .it:hover .one { display: block; }
+  .empty { padding: 40px 20px; text-align: center; color: var(--muted); }
+  footer { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--line); padding: 10px 14px; display: grid; gap: 8px; }
+  footer .r { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  footer label { display: flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; }
+  .tip { font-size: 12px; color: var(--muted); text-align: center; padding: 0 14px 10px; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt=""><h1>Rasm Saqlovchi</h1>
+    <button class="ico" id="opts" title="Sozlamalar">⚙</button>
+  </header>
+  <div class="bar"><span id="count" class="muted">Rasmlar qidirilmoqda…</span><a id="all">Hammasini tanlash</a></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty hidden" id="empty">Bu sahifada rasm topilmadi.</div>
+  <div class="tip">💡 Istalgan rasm ustida o'ng tugma → <b>Rasmni saqlash</b></div>
+  <footer>
+    <div class="r">
+      <div class="seg" id="fmt"><button data-f="jpg">JPG</button><button data-f="png">PNG</button><button data-f="webp">WebP</button></div>
+      <label><input type="checkbox" id="zip"> ZIP arxiv</label>
+    </div>
+    <button class="btn pri" id="dl" disabled>Yuklab olish</button>
+  </footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "AI Suhbat Eksporti"
+ },
+ "desc": {
+  "message": "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi."
+ }
+}

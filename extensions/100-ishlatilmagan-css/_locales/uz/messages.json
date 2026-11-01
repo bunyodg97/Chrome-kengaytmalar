@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Ishlatilmagan CSS"
+ },
+ "desc": {
+  "message": "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…"
+ }
+}

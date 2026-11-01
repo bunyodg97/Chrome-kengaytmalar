@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "rest-mijozi",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "R",
+ "name": {
+  "uz": "REST Mijozi",
+  "ru": "REST Клиент"
+ },
+ "short": {
+  "uz": "REST Mijozi",
+  "ru": "REST Клиент"
+ },
+ "desc": {
+  "uz": "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…",
+  "ru": "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."
+ },
+ "features": {
+  "uz": [
+   "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…"
+  ],
+  "ru": [
+   "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "api",
+ "standalone": false
+}

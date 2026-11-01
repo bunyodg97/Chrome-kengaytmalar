@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "ekrandan-matn",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "E",
+ "name": {
+  "uz": "Ekrandan Matn (OCR)",
+  "ru": "Текст с экрана (OCR)"
+ },
+ "short": {
+  "uz": "Ekrandan Matn (OCR)",
+  "ru": "Текст с экрана (OCR)"
+ },
+ "desc": {
+  "uz": "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…",
+  "ru": "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок…"
+ },
+ "features": {
+  "uz": [
+   "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…"
+  ],
+  "ru": [
+   "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "https://cdn.jsdelivr.net/*",
+  "scripting",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "life",
+ "standalone": false
+}

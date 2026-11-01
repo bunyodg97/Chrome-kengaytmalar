@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "responsive",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "R",
+ "name": {
+  "uz": "Responsive Ko'rgich",
+  "ru": "Адаптивный просмотр"
+ },
+ "short": {
+  "uz": "Responsive Ko'rgich",
+  "ru": "Адаптивный просмотр"
+ },
+ "desc": {
+  "uz": "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi.",
+  "ru": "Показывает сайт рядом в размерах телефона, планшета и компьютера."
+ },
+ "features": {
+  "uz": [
+   "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi."
+  ],
+  "ru": [
+   "Показывает сайт рядом в размерах телефона, планшета и компьютера."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "declarativeNetRequest",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

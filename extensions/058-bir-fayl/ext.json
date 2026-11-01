@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "bir-fayl",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "B",
+ "name": {
+  "uz": "Bir Fayl",
+  "ru": "Один файл"
+ },
+ "short": {
+  "uz": "Bir Fayl",
+  "ru": "Один файл"
+ },
+ "desc": {
+  "uz": "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi.",
+  "ru": "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."
+ },
+ "features": {
+  "uz": [
+   "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi."
+  ],
+  "ru": [
+   "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "downloads",
+  "offscreen",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

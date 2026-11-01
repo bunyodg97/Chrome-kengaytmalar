@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "mening-uslubim",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "M",
+ "name": {
+  "uz": "Mening Uslubim",
+  "ru": "Мой стиль"
+ },
+ "short": {
+  "uz": "Mening Uslubim",
+  "ru": "Мой стиль"
+ },
+ "desc": {
+  "uz": "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi.",
+  "ru": "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."
+ },
+ "features": {
+  "uz": [
+   "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi."
+  ],
+  "ru": [
+   "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "storage",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": false
+}

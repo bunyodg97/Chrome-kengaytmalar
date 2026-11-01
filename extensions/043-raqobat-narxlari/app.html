@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Raqobat Narxlari</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>
+html,body{height:100%}body{display:grid;grid-template-columns:300px 1fr;overflow:hidden}
+aside{border-right:1px solid var(--line);background:var(--card);display:flex;flex-direction:column;min-height:0}
+aside .hd{padding:14px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+aside .ls{overflow:auto;flex:1;padding:8px;display:flex;flex-direction:column;gap:6px}
+.pi{padding:9px 10px;border:1px solid var(--line);border-radius:9px;cursor:pointer;display:flex;flex-direction:column;gap:3px;background:var(--bg)}
+.pi.on{border-color:var(--acc);background:var(--acc-soft)}.pi b{font-size:13.5px}.pi .s{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+main{overflow:auto;min-height:0}.page{max-width:1100px}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px}
+.tile span{font-size:11.5px;color:var(--muted);display:block}.tile b{font-size:16px;font-variant-numeric:tabular-nums}
+.tile.me{border-color:var(--acc)}
+.strip{position:relative;height:64px;margin:6px 8px 22px}.strip .ax{position:absolute;left:0;right:0;top:30px;height:2px;background:var(--line)}
+.strip i{position:absolute;top:22px;width:8px;height:18px;margin-left:-4px;border-radius:3px;opacity:.75}.strip i.u{background:#7b1fa2}.strip i.o{background:#00897b}
+.strip .me{position:absolute;top:4px;bottom:0;width:3px;margin-left:-1.5px;background:var(--bad)}.strip .me span{position:absolute;top:-2px;left:6px;font:700 11.5px var(--f);color:var(--bad);white-space:nowrap}
+.strip .lb{position:absolute;top:46px;font-size:11px;color:var(--muted);transform:translateX(-50%);white-space:nowrap}
+.bysrc{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.sug{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.sug div{border:1px dashed var(--line);border-radius:10px;padding:10px;cursor:copy}.sug b{display:block;font-size:17px}.sug span{font-size:12px;color:var(--muted)}
+table td,table th{font-size:13px}td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.src{font:700 10.5px var(--f);padding:2px 6px;border-radius:5px;color:#fff}.src.uzum{background:#7b1fa2}.src.olx{background:#00897b}
+.hide{background:none;border:0;color:var(--muted);padding:0 6px;font-weight:400}.hide:hover{color:var(--bad)}
+canvas#hist{width:100%;height:180px}
+dialog{border:0;border-radius:12px;padding:0;width:min(560px,94vw);background:var(--card);color:var(--ink)}dialog::backdrop{background:rgba(0,0,0,.45)}
+.prog{position:fixed;right:16px;bottom:16px;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:10px;font-size:13px}
+@media(max-width:900px){body{grid-template-columns:1fr}aside{display:none}.tiles{grid-template-columns:repeat(3,1fr)}}
+</style></head>
+<body>
+<aside>
+  <div class="hd"><div class="row between"><b>Mahsulotlarim</b><button id="add">+ Qo'shish</button></div>
+    <button class="ghost" id="all">↻ Hammasini tekshirish</button><button class="ghost" id="stBtn">🏪 Do'konlar sozlamasi</button>
+    <div class="row small"><label style="flex-direction:row;align-items:center;gap:6px">Avto tekshirish<select id="every" style="width:auto;padding:3px 6px"><option value="0">O'chiq</option><option value="3">3 soatda</option><option value="6">6 soatda</option><option value="12">12 soatda</option><option value="24">Kuniga</option></select></label></div>
+    <div class="row small muted">1$ = <input id="rate" type="number" style="width:90px;padding:3px 6px"> so'm <span id="rateSrc"></span></div>
+  </div>
+  <div class="ls" id="list"></div>
+</aside>
+<main><div class="page" id="main"><div class="empty">Chapdan mahsulot tanlang yoki «+ Qo'shish» bosing.</div></div></main>
+<dialog id="dlg"><form class="wrap" id="f" method="dialog">
+  <h2 id="dlgT">Mahsulot qo'shish</h2>
+  <label>Nomi (o'zingiz uchun)<input id="fName" required placeholder="Masalan: iPhone 13 128GB"></label>
+  <label>Qidiruv so'zlari (Uzum va OLX'da shu qidiriladi)<input id="fQuery" required placeholder="iphone 13 128"></label>
+  <div class="grid2"><label>Mening narxim (so'm)<input id="fMy" type="number" min="0" placeholder="8 500 000"></label><label>Istisno so'zlar (vergul bilan)<input id="fEx" placeholder="chexol, plenka, oyna"></label></div>
+  <div class="grid2"><label>Narx dan (filtr)<input id="fMin" type="number" min="0" placeholder="aksessuarlarni olib tashlash uchun"></label><label>Narx gacha<input id="fMax" type="number" min="0"></label></div>
+  <div><div class="small muted" style="margin-bottom:4px">Qayerda qidirilsin</div><div class="row" id="fSrc"></div></div>
+  <div class="row"><label class="inline"><input type="checkbox" id="fStrict" checked> Sarlavhada barcha so'zlar bo'lsin</label><label class="inline"><input type="checkbox" id="fTrim" checked> Haddan tashqari narxlarni chiqarish</label></div>
+  <div class="row"><button id="fSave" value="ok">Saqlash va tekshirish</button><button class="ghost" value="cancel" formnovalidate>Bekor</button><span class="grow"></span><button class="danger" id="fDel" type="button" hidden>O'chirish</button></div>
+</form></dialog>
+<dialog id="stDlg" style="width:min(760px,96vw)"><div class="wrap" style="max-height:85vh;overflow:auto">
+  <div class="row between"><h2>Do'konlar</h2><button class="ghost" id="stClose" type="button">Yopish</button></div>
+  <p class="small muted">Yoqilgan do'konlar yangi mahsulotlarda avtomatik belgilanadi. Sayt o'zgarib, narxlar o'qilmay qolsa, «Sinash» bosib tekshiring va kerak bo'lsa manzilni tuzating.</p>
+  <label>Sinash uchun qidiruv so'zi<input id="stQ" value="iphone 13" style="max-width:240px"></label>
+  <div class="list" id="stList"></div>
+  <div class="card"><b class="small">Boshqa do'kon qo'shish</b>
+    <div class="grid2"><input id="stName" placeholder="Nomi (masalan: Idea)"><input id="stLinks" placeholder="Havola bo'lagi (masalan: /product/)"></div>
+    <input id="stUrl" placeholder="Qidiruv manzili: https://sayt.uz/search?q={q}" class="mono"><button id="stAdd" type="button" style="align-self:flex-start">Qo'shish</button></div>
+</div></dialog>
+<div class="prog" id="prog" hidden></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="core.js"></script><script src="app.js"></script></body></html>

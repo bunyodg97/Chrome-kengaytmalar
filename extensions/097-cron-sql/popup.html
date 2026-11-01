@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Cron va SQL</title><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:520px}#ce{font:600 18px var(--mono);text-align:center}.desc{font-size:15px;font-weight:600;text-align:center;min-height:22px}.fl{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;text-align:center;font-size:10.5px;color:var(--muted)}.runs{font:12px var(--mono)}.pre{display:flex;flex-wrap:wrap;gap:4px}.pre span{cursor:pointer}textarea{font:12.5px/1.5 var(--mono);min-height:150px;white-space:pre;tab-size:2}</style></head>
+<body><div class="wrap" id="root">
+<div class="tabs" id="tb"><button data-t="cron" class="on">Cron</button><button data-t="sql">SQL formatlash</button><a class="btn ghost" href="popup.html?full=1" target="_blank" id="big" style="margin-left:auto">⤢</a></div>
+<div id="pCron" class="list"><input id="ce" value="*/15 9-18 * * 1-5" spellcheck="false"><div class="fl"><span>daqiqa</span><span>soat</span><span>kun</span><span>oy</span><span>hafta kuni</span></div>
+<div class="desc" id="cd"></div><div class="card runs" id="cr"></div>
+<div class="pre" id="pre"></div><div class="small muted">Belgilar: <code>*</code> har biri · <code>,</code> ro'yxat · <code>-</code> oraliq · <code>/</code> qadam · 6 maydon bo'lsa birinchisi soniya · @daily, @hourly...</div></div>
+<div id="pSql" class="list" hidden><textarea id="si" spellcheck="false" placeholder="SQL so'rovini qo'ying"></textarea>
+<div class="row"><button id="fmt">Formatlash</button><button class="ghost" id="min">Bir qatorga</button><label class="inline small"><input type="checkbox" id="up" checked style="width:auto"> KATTA kalit so'zlar</label><select id="ind" style="width:auto"><option value="  ">2 bo'sh joy</option><option value="    ">4 bo'sh joy</option><option value="\t">Tab</option></select><button class="ghost" id="cp">Nusxalash</button></div></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="cron.js"></script><script src="sql.js"></script><script src="popup.js"></script></body></html>

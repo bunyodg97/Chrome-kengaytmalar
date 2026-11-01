@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "ai-eksport",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "A",
+ "name": {
+  "uz": "AI Suhbat Eksporti",
+  "ru": "Экспорт AI-чатов"
+ },
+ "short": {
+  "uz": "AI Suhbat Eksporti",
+  "ru": "Экспорт AI-чатов"
+ },
+ "desc": {
+  "uz": "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi.",
+  "ru": "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."
+ },
+ "features": {
+  "uz": [
+   "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi."
+  ],
+  "ru": [
+   "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "ai",
+ "standalone": false
+}

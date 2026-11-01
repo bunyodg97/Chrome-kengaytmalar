@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "tez-javoblar",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "T",
+ "name": {
+  "uz": "Tez Javoblar",
+  "ru": "Быстрые ответы"
+ },
+ "short": {
+  "uz": "Tez Javoblar",
+  "ru": "Быстрые ответы"
+ },
+ "desc": {
+  "uz": "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…",
+  "ru": "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."
+ },
+ "features": {
+  "uz": [
+   "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…"
+  ],
+  "ru": [
+   "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Tug'ilgan kunlar</title><link rel="stylesheet" href="ui.css">
+<style>.d{min-width:48px;text-align:center;font-weight:700}.d small{display:block;font-weight:400;color:var(--muted);font-size:11px}.today{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 10%,var(--card))}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);width:min(420px,92vw)}dialog::backdrop{background:#0006}textarea{min-height:110px}</style></head>
+<body><div class="wrap" id="root">
+<div class="row between"><h2>Tug'ilgan kunlar</h2><div class="row"><a class="btn ghost" href="popup.html?full=1" target="_blank" title="Katta oynada">⤢</a><button class="ghost" id="more" title="Sozlamalar / import">⋯</button><button id="add">+ Qo'shish</button></div></div>
+<input id="q" placeholder="Qidirish...">
+<div class="list" id="list"></div>
+<div class="card" id="cfg" hidden><label>Oldindan eslatish (kun)<input id="before" value="3, 1"></label><label>Eslatish soati (dan keyin)<input type="number" id="hour" min="0" max="23" value="9"></label>
+<div class="row"><label class="btn ghost">CSV import<input type="file" id="imp" accept=".csv,.txt" hidden></label><button class="ghost" id="exp">CSV eksport</button></div><div class="small muted">CSV ustunlari: Ism, Sana (KK.OO.YYYY yoki KK.OO), Kim, Izoh</div></div>
+</div>
+<dialog id="dlg"><form method="dialog" class="list"><h2 id="dt">Yangi odam</h2><label>Ism<input id="fn" required></label>
+<div class="grid2"><label>Tug'ilgan sana<input type="date" id="fd" required></label><label class="inline" style="margin-top:18px"><input type="checkbox" id="fy" style="width:auto"> Yili noma'lum</label></div>
+<label>Kim<select id="fr"><option>Oila</option><option>Do'st</option><option>Hamkasb</option><option>Mijoz</option><option>Boshqa</option></select></label><label>Izoh (sovg'a g'oyasi va h.k.)<input id="fo"></label>
+<div class="row between"><button type="button" class="danger" id="del">O'chirish</button><div class="row"><button type="button" class="ghost" id="cancel">Bekor</button><button id="save">Saqlash</button></div></div></form></dialog>
+<dialog id="wd"><div class="list"><h2 id="wt">Tabrik</h2><div class="tabs" id="lt"><button data-l="uz" class="on">O'zbek</button><button data-l="ru">Rus</button><button data-l="en">Ingliz</button></div>
+<textarea id="wx"></textarea><div class="row between"><button class="ghost" id="wn">Boshqa variant ↻</button><div class="row"><button class="ghost" id="wc2">Yopish</button><button id="wcp">Nusxalash</button></div></div></div></dialog>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="common.js"></script><script src="popup.js"></script></body></html>

@@ -1,0 +1,39 @@
+{
+ "external": true,
+ "slug": "kuzatuvsiz",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "K",
+ "name": {
+  "uz": "Kuzatuvsiz",
+  "ru": "Без слежки"
+ },
+ "short": {
+  "uz": "Kuzatuvsiz",
+  "ru": "Без слежки"
+ },
+ "desc": {
+  "uz": "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi.",
+  "ru": "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."
+ },
+ "features": {
+  "uz": [
+   "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi."
+  ],
+  "ru": [
+   "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "cookies",
+  "declarativeNetRequest",
+  "declarativeNetRequestFeedback",
+  "storage",
+  "tabs",
+  "webRequest"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

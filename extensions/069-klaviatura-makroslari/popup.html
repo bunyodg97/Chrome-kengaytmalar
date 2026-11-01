@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Klaviatura Makroslari</title><link rel="stylesheet" href="ui.css"><style>body.popup{width:440px}.m{align-items:flex-start}.m .k{font-family:var(--mono);font-weight:700;color:var(--acc);min-width:80px}.m .v{white-space:pre-wrap;font-size:12.5px;max-height:4.5em;overflow:hidden;color:var(--muted)}textarea{min-height:90px}</style></head>
+<body><div class="wrap" id="root">
+<div class="row between"><h2>Makroslar</h2><div class="row"><label class="inline"><input type="checkbox" id="on" style="width:auto"> Yoqilgan</label><a class="btn ghost" href="popup.html?full=1" target="_blank" id="big">⤢</a></div></div>
+<label class="inline small" id="hostl"><input type="checkbox" id="hoff" style="width:auto"> <span id="host"></span> saytida o'chirish</label>
+<div class="card list"><div class="grid2"><label>Qisqa so'z<input id="k" placeholder="/manzil"></label><label>&nbsp;<button id="sv">Saqlash</button></label></div>
+<label>To'liq matn<textarea id="v" placeholder="Bu matn qo'yiladi. {sana} {vaqt} {kursor} {url}"></textarea></label><div class="small muted">Qisqa so'zni yozishingiz bilan almashtiriladi. {kursor} — kursor shu joyda qoladi.</div></div>
+<input id="q" placeholder="Qidirish..."><div class="list" id="list"></div>
+<div class="row"><button class="ghost" id="exp">Eksport</button><label class="btn ghost">Import<input type="file" id="imp" accept=".json" hidden></label></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="defaults.js"></script><script src="popup.js"></script></body></html>

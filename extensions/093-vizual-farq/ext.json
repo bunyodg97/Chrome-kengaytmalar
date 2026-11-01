@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "vizual-farq",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "V",
+ "name": {
+  "uz": "Vizual Farq",
+  "ru": "Визуальная разница"
+ },
+ "short": {
+  "uz": "Vizual Farq",
+  "ru": "Визуальная разница"
+ },
+ "desc": {
+  "uz": "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…",
+  "ru": "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки…"
+ },
+ "features": {
+  "uz": [
+   "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…"
+  ],
+  "ru": [
+   "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

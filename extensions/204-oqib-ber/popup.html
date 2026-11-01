@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; width: 340px; font: 13.5px/1.45 "Segoe UI", system-ui, sans-serif; background: #fdf4f8; color: #2a1622; }
+  button, select { font: inherit; color: inherit; }
+  header { display: flex; align-items: center; gap: 8px; padding: 12px 14px; }
+  header img { width: 24px; } header h1 { font-size: 15px; margin: 0; }
+  .acts { display: grid; gap: 8px; padding: 0 14px 6px; }
+  .big { border: 0; border-radius: 12px; padding: 12px; font-weight: 700; font-size: 14.5px; cursor: pointer; background: #db2777; color: #fff; }
+  .big:hover { filter: brightness(1.07); }
+  .sec2 { border: 1px solid #f3cfe0; background: #fff; color: #9d174d; padding: 9px; font-size: 13px; }
+  .live { display: flex; gap: 6px; padding: 4px 14px 6px; }
+  .live button { flex: 1; border: 1px solid #f3cfe0; background: #fff; border-radius: 10px; padding: 7px; cursor: pointer; font-weight: 600; }
+  h3 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; color: #8b5b74; margin: 10px 16px 6px; }
+  .card { margin: 0 14px 10px; background: #fff; border: 1px solid #f3dbe7; border-radius: 12px; padding: 4px 12px; }
+  .row { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-top: 1px solid #fbeef4; }
+  .row:first-child { border-top: 0; }
+  .row label { width: 92px; flex: none; font-size: 13px; }
+  .row select { flex: 1; min-width: 0; border: 1px solid #f0d3e1; border-radius: 8px; padding: 4px 6px; background: #fff; font-size: 12.5px; }
+  .row .t { border: 0; background: #fce7f1; color: #9d174d; border-radius: 8px; width: 30px; height: 28px; cursor: pointer; flex: none; }
+  input[type=range] { flex: 1; accent-color: #db2777; }
+  .v { width: 40px; text-align: right; font-weight: 600; color: #9d174d; }
+  .note { font-size: 11.5px; color: #8b5b74; padding: 0 16px 12px; line-height: 1.55; }
+</style>
+</head>
+<body>
+  <header><img src="icons/icon32.png" alt=""><h1>O'qib Ber</h1></header>
+  <div class="acts">
+    <button class="big" id="page">🔊 Sahifani o'qish</button>
+    <button class="big sec2" id="sel">Belgilangan matnni o'qish</button>
+  </div>
+  <div class="live" id="live" hidden><button id="pp">⏸ Pauza</button><button id="stop">⏹ To'xtatish</button></div>
+
+  <h3>Ovozlar</h3>
+  <div class="card">
+    <div class="row"><label>🇺🇿 O'zbekcha</label><select id="v-uz"></select><button class="t" data-l="uz" title="Sinash">▶</button></div>
+    <div class="row"><label>🇷🇺 Ruscha / kirill</label><select id="v-ru"></select><button class="t" data-l="ru" title="Sinash">▶</button></div>
+    <div class="row"><label>🇬🇧 Inglizcha</label><select id="v-en"></select><button class="t" data-l="en" title="Sinash">▶</button></div>
+  </div>
+  <div class="card">
+    <div class="row"><label>Tezlik</label><input type="range" id="rate" min="0.5" max="2.5" step="0.05"><span class="v" id="rv"></span></div>
+    <div class="row"><label>Ohang</label><input type="range" id="pitch" min="0.5" max="1.5" step="0.05"><span class="v" id="pv"></span></div>
+  </div>
+  <div class="note">Til avtomatik aniqlanadi. Kompyuterda o'zbekcha ovoz bo'lmasa, lotin yozuvidagi matn <b>turkcha</b> ovoz bilan o'qiladi (talaffuzi yaqin).<br>Tezkor: Alt+Shift+O — o'qish, Alt+Shift+X — to'xtatish.</div>
+  <script src="popup.js"></script>
+</body>
+</html>

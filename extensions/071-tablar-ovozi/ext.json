@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "tablar-ovozi",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "T",
+ "name": {
+  "uz": "Tablar Ovozi",
+  "ru": "Звук вкладок"
+ },
+ "short": {
+  "uz": "Tablar Ovozi",
+  "ru": "Звук вкладок"
+ },
+ "desc": {
+  "uz": "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…",
+  "ru": "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к…"
+ },
+ "features": {
+  "uz": [
+   "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…"
+  ],
+  "ru": [
+   "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к…"
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "tabs"
+ ],
+ "category": "life",
+ "standalone": false
+}

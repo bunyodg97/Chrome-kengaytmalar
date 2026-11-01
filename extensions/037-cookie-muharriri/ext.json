@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "cookie-muharriri",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "C",
+ "name": {
+  "uz": "Cookie Muharriri",
+  "ru": "Редактор cookie"
+ },
+ "short": {
+  "uz": "Cookie Muharriri",
+  "ru": "Редактор cookie"
+ },
+ "desc": {
+  "uz": "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import.",
+  "ru": "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."
+ },
+ "features": {
+  "uz": [
+   "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import."
+  ],
+  "ru": [
+   "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "cookies",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Tab Yig'uvchi</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>
+.g-head{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.g-name{font-weight:700;border:0;background:transparent;padding:2px 4px;width:auto;min-width:120px;flex:1}
+.link{display:flex;gap:8px;align-items:center;padding:4px 2px}
+.link img,.link .ph{width:16px;height:16px;flex:none;border-radius:3px;background:var(--line)}
+.link a{color:var(--ink);text-decoration:none;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.link a:hover{color:var(--acc);text-decoration:underline}
+.x{background:none;border:0;color:var(--muted);padding:2px 6px;font-weight:400}
+.x:hover{color:var(--bad)}
+</style></head>
+<body>
+<div class="page">
+  <div class="row between"><div><h1>Tab Yig'uvchi</h1><p class="muted" id="sum"></p></div>
+    <div class="row"><input id="q" placeholder="Qidirish…" style="width:220px"><button class="ghost" id="exp">Eksport</button><button class="ghost" id="imp">Import</button></div></div>
+  <div class="card" id="impBox" hidden><label>Har qatorga bitta havola (yoki "havola | nom")<textarea id="impText" rows="6"></textarea></label><div class="row"><button id="impGo">Qo'shish</button><button class="ghost" id="impX">Yopish</button></div></div>
+  <div id="groups" class="list"></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="list.js"></script>
+</body></html>

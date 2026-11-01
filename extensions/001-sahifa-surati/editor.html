@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Sahifa Surati — muharrir</title><link rel="stylesheet" href="ui.css">
+<style>
+.tools{position:sticky;top:0;z-index:3;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tools .tool.on{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+.tools input[type=color]{width:38px;height:34px;padding:2px}
+.tools input[type=number]{width:70px}
+.stage{padding:16px;display:flex;justify-content:center}
+canvas{max-width:100%;height:auto;box-shadow:0 2px 14px rgba(0,0,0,.18);cursor:crosshair;background:#fff}
+.sep{width:1px;height:26px;background:var(--line);margin:0 4px}
+</style></head>
+<body>
+<div class="tools">
+  <button class="ghost tool on" data-t="arrow">↗ Strelka</button>
+  <button class="ghost tool" data-t="rect">▭ To'rtburchak</button>
+  <button class="ghost tool" data-t="pen">✎ Qalam</button>
+  <button class="ghost tool" data-t="text">T Matn</button>
+  <button class="ghost tool" data-t="blur">▦ Xiralashtirish</button>
+  <button class="ghost tool" data-t="crop">⌗ Kesish</button>
+  <span class="sep"></span>
+  <input type="color" id="color" value="#e53935" aria-label="Rang">
+  <input type="number" id="width" value="4" min="1" max="30" aria-label="Qalinlik">
+  <span class="sep"></span>
+  <button class="ghost" id="undo">Bekor qilish</button>
+  <span class="grow"></span>
+  <button class="ghost" id="copy">Nusxalash</button>
+  <button class="ghost" id="jpg">JPG saqlash</button>
+  <button id="png">PNG saqlash</button>
+</div>
+<div class="stage"><canvas id="cv"></canvas></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="editor.js"></script>
+</body></html>

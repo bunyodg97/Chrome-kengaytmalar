@@ -1,0 +1,2 @@
+const r = () => $('#l').innerHTML = $('#q').value.split(/\s+/).filter(Boolean).map(TW.explain).map(x => `<div class="item c"><div class="k">${x.sw ? `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${esc(x.sw)}"></span> ` : ''}${esc(x.cls)}</div>${x.when ? `<div class="w">⏵ ${esc(x.when)}</div>` : ''}<div>${esc(x.d)}</div>${x.css ? `<code>${esc(x.css)}</code>` : ''}</div>`).join('');
+$('#q').oninput = r; r();

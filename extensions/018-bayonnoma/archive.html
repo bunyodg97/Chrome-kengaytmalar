@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Bayonnomalar</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.lay{display:grid;grid-template-columns:260px 1fr;gap:16px}.side .item{cursor:pointer;flex-direction:column;align-items:flex-start;gap:2px}.side .item.on{border-color:var(--acc);background:var(--acc-soft)}
+.line{padding:4px 0;border-bottom:1px dashed var(--line)}.line b{color:var(--acc)}.line time{color:var(--muted);font-size:11.5px;margin-right:6px}
+#sum{white-space:pre-wrap}@media(max-width:760px){.lay{grid-template-columns:1fr}}</style></head>
+<body><div class="page" style="max-width:1100px">
+<div class="row between"><h1>Bayonnomalar</h1><button class="ghost" id="setBtn">AI sozlamalari</button></div>
+<div class="card" id="setBox" hidden>
+  <div class="grid2"><label>Provayder<select id="prov"><option value="anthropic">Anthropic (Claude)</option><option value="openai">OpenAI</option><option value="gemini">Google Gemini</option></select></label><label>Model (ixtiyoriy)<input id="model"></label></div>
+  <label>API kaliti<input id="key" type="password" autocomplete="off"></label><div class="row"><button id="setSave">Saqlash</button></div>
+</div>
+<div class="lay"><div class="side list" id="side"></div><div id="main" class="card"><div class="empty">Chapdan yig'ilishni tanlang.</div></div></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="ai.js"></script><script src="archive.js"></script>
+</body></html>

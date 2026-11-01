@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "element-nusxalash",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "E",
+ "name": {
+  "uz": "Element Nusxalash",
+  "ru": "Копирование элемента"
+ },
+ "short": {
+  "uz": "Element Nusxalash",
+  "ru": "Копирование элемента"
+ },
+ "desc": {
+  "uz": "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…",
+  "ru": "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание…"
+ },
+ "features": {
+  "uz": [
+   "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…"
+  ],
+  "ru": [
+   "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

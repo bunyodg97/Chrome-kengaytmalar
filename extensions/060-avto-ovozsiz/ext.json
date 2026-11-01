@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "avto-ovozsiz",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "A",
+ "name": {
+  "uz": "Avto-ovozsiz",
+  "ru": "Без автовоспроизведения"
+ },
+ "short": {
+  "uz": "Avto-ovozsiz",
+  "ru": "Без автовоспроизведения"
+ },
+ "desc": {
+  "uz": "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…",
+  "ru": "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."
+ },
+ "features": {
+  "uz": [
+   "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…"
+  ],
+  "ru": [
+   "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "tabs"
+ ],
+ "category": "life",
+ "standalone": false
+}

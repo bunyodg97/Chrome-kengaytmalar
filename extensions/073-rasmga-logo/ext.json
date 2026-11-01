@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "rasmga-logo",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "R",
+ "name": {
+  "uz": "Rasmga Logo",
+  "ru": "Логотип на фото"
+ },
+ "short": {
+  "uz": "Rasmga Logo",
+  "ru": "Логотип на фото"
+ },
+ "desc": {
+  "uz": "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…",
+  "ru": "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность…"
+ },
+ "features": {
+  "uz": [
+   "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…"
+  ],
+  "ru": [
+   "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "life",
+ "standalone": false
+}

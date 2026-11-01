@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.pv{display:flex;justify-content:center;background:#fff;border-radius:10px;padding:12px;border:1px solid var(--line)}.pv canvas,.pv svg{max-width:100%;height:auto}.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>QR va Shtrix-kod</h1></header>
+<div class="wrap">
+  <div class="tabs"><button class="on" data-tab="qr">QR-kod</button><button data-tab="wifi">Wi-Fi QR</button><button data-tab="bc">Shtrix-kod</button></div>
+  <div data-pane="qr" class="list"><textarea id="txt" rows="3" style="font-family:var(--f)"></textarea></div>
+  <div data-pane="wifi" hidden class="list"><input id="ssid" placeholder="Wi-Fi nomi (SSID)"><input id="pass" placeholder="Parol"><select id="sec"><option value="WPA">WPA/WPA2</option><option value="WEP">WEP</option><option value="nopass">Parolsiz</option></select><label class="inline small"><input type="checkbox" id="hid"> Yashirin tarmoq</label></div>
+  <div data-pane="bc" hidden class="list"><select id="fmt"><option value="EAN13">EAN-13 (mahsulot)</option><option value="CODE128">Code 128 (istalgan matn)</option><option value="UPC">UPC-A</option><option value="EAN8">EAN-8</option><option value="CODE39">Code 39</option></select><input id="code" placeholder="4780000000000" class="mono"><div class="small" id="bcErr" style="color:var(--bad)"></div></div>
+  <div class="grid3" id="qropt"><label>O'lcham<select id="sz"><option value="6">Kichik</option><option value="10" selected>O'rta</option><option value="16">Katta</option></select></label><label>Rang<input type="color" id="fg" value="#000000"></label><label>Fon<input type="color" id="bg" value="#ffffff"></label></div>
+  <div class="pv" id="pv"></div>
+  <div class="row"><button id="png" class="grow">PNG yuklab olish</button><button class="ghost" id="svg">SVG</button><button class="ghost" id="cp">Nusxalash</button></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/qrcode.js"></script><script src="lib/JsBarcode.all.min.js"></script><script src="popup.js"></script></body></html>

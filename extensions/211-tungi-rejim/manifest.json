@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "Tungi rejim — istalgan sayt qorong'i",
+  "short_name": "Tungi rejim",
+  "version": "2.0.0",
+  "description": "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D.",
+  "author": "Bunyodg97",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tungi rejim"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "common.js",
+        "dark-css.js",
+        "dynamic.js",
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "commands": {
+    "toggle-site": {
+      "suggested_key": {
+        "default": "Alt+Shift+D"
+      },
+      "description": "Shu saytda tungi rejimni yoqish / o'chirish"
+    }
+  }
+}

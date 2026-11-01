@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Конвертеры"
+ },
+ "desc": {
+  "message": "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct.…"
+ }
+}

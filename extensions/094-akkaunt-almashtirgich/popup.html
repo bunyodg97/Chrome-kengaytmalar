@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><style>body.popup{width:380px}.p.on{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 9%,var(--card))}.p .n{font-weight:700}.av{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;flex:none}</style></head>
+<body class="popup"><div class="wrap">
+<div class="row between"><h2>Akkauntlar</h2><span class="small muted" id="site"></span></div>
+<div class="list" id="list"></div>
+<div class="row"><input id="nm" placeholder="Joriy sessiya nomi: admin, mijoz..." style="flex:1"><button id="save">Saqlash</button></div>
+<label class="inline small"><input type="checkbox" id="sub" checked style="width:auto"> Barcha subdomenlar cookie'lari bilan</label>
+<button class="ghost danger" id="clean" style="width:100%">🚪 Toza sessiya (chiqish — cookie va storage tozalanadi)</button>
+<div class="small muted">Diqqat: sessiya ma'lumotlari (tokenlar) kompyuterda shifrlanmagan holda saqlanadi — faqat test akkauntlar uchun ishlating.</div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

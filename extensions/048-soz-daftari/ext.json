@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "soz-daftari",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "S",
+ "name": {
+  "uz": "So'z Daftari",
+  "ru": "Словарик"
+ },
+ "short": {
+  "uz": "So'z Daftari",
+  "ru": "Словарик"
+ },
+ "desc": {
+  "uz": "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…",
+  "ru": "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и…"
+ },
+ "features": {
+  "uz": [
+   "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…"
+  ],
+  "ru": [
+   "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и…"
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "https://translate.googleapis.com/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

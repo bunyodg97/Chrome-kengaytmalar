@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "avto-qayta-yuklash",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "K",
+ "name": {
+  "uz": "Kengaytma Qayta Yuklagich",
+  "ru": "Перезагрузка расширений"
+ },
+ "short": {
+  "uz": "Kengaytma Qayta Yuklagich",
+  "ru": "Перезагрузка расширений"
+ },
+ "desc": {
+  "uz": "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…",
+  "ru": "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании…"
+ },
+ "features": {
+  "uz": [
+   "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…"
+  ],
+  "ru": [
+   "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "management",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

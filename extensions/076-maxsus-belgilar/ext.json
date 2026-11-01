@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "maxsus-belgilar",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "M",
+ "name": {
+  "uz": "Maxsus Belgilar",
+  "ru": "Спецсимволы"
+ },
+ "short": {
+  "uz": "Maxsus Belgilar",
+  "ru": "Спецсимволы"
+ },
+ "desc": {
+  "uz": "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…",
+  "ru": "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."
+ },
+ "features": {
+  "uz": [
+   "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…"
+  ],
+  "ru": [
+   "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

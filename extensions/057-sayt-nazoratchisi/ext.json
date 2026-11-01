@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "sayt-nazoratchisi",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "S",
+ "name": {
+  "uz": "Sayt Nazoratchisi",
+  "ru": "Мониторинг сайтов"
+ },
+ "short": {
+  "uz": "Sayt Nazoratchisi",
+  "ru": "Мониторинг сайтов"
+ },
+ "desc": {
+  "uz": "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…",
+  "ru": "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график…"
+ },
+ "features": {
+  "uz": [
+   "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…"
+  ],
+  "ru": [
+   "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график…"
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "alarms",
+  "contextMenus",
+  "notifications",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "trafik",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "T",
+ "name": {
+  "uz": "Trafik Hisoblagich",
+  "ru": "Счётчик трафика"
+ },
+ "short": {
+  "uz": "Trafik Hisoblagich",
+  "ru": "Счётчик трафика"
+ },
+ "desc": {
+  "uz": "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun.",
+  "ru": "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."
+ },
+ "features": {
+  "uz": [
+   "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun."
+  ],
+  "ru": [
+   "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "alarms",
+  "notifications",
+  "storage",
+  "tabs",
+  "webRequest"
+ ],
+ "category": "work",
+ "standalone": true
+}

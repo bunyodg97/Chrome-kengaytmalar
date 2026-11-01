@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "texno-aniqlagich",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "T",
+ "name": {
+  "uz": "Texno Aniqlagich",
+  "ru": "Определитель технологий"
+ },
+ "short": {
+  "uz": "Texno Aniqlagich",
+  "ru": "Определитель технологий"
+ },
+ "desc": {
+  "uz": "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting.",
+  "ru": "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."
+ },
+ "features": {
+  "uz": [
+   "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting."
+  ],
+  "ru": [
+   "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

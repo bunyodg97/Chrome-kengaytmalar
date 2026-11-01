@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "oqish-rejimi",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "O",
+ "name": {
+  "uz": "O'qish Rejimi",
+  "ru": "Режим чтения"
+ },
+ "short": {
+  "uz": "O'qish Rejimi",
+  "ru": "Режим чтения"
+ },
+ "desc": {
+  "uz": "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi.",
+  "ru": "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."
+ },
+ "features": {
+  "uz": [
+   "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi."
+  ],
+  "ru": [
+   "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

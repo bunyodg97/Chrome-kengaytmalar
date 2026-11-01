@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Prompt Kutubxonasi"
+ },
+ "desc": {
+  "message": "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan."
+ }
+}

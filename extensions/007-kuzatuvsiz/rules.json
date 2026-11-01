@@ -1,0 +1,69 @@
+[
+ {
+  "id": 1,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "amplitude.com",
+    "analytics.google.com",
+    "analytics.tiktok.com",
+    "analytics.twitter.com",
+    "api.segment.io",
+    "bat.bing.com",
+    "cdn.segment.com",
+    "chartbeat.com",
+    "chartbeat.net",
+    "clarity.ms",
+    "clicky.com",
+    "connect.facebook.net",
+    "counter.yadro.ru",
+    "crazyegg.com",
+    "ct.pinterest.com",
+    "fullstory.com",
+    "google-analytics.com",
+    "googletagmanager.com",
+    "heapanalytics.com",
+    "hotjar.com",
+    "hotjar.io",
+    "inspectlet.com",
+    "kissmetrics.com",
+    "liveinternet.ru",
+    "logrocket.com",
+    "logrocket.io",
+    "luckyorange.com",
+    "luckyorange.net",
+    "matomo.cloud",
+    "mc.yandex.com",
+    "mc.yandex.ru",
+    "mediametrics.ru",
+    "mixpanel.com",
+    "mouseflow.com",
+    "nr-data.net",
+    "px.ads.linkedin.com",
+    "quantserve.com",
+    "scorecardresearch.com",
+    "smartlook.com",
+    "snap.licdn.com",
+    "statcounter.com",
+    "static.ads-twitter.com",
+    "static.getclicky.com",
+    "tns-counter.ru",
+    "top-fwz1.mail.ru",
+    "woopra.com"
+   ],
+   "domainType": "thirdParty",
+   "resourceTypes": [
+    "script",
+    "image",
+    "xmlhttprequest",
+    "ping",
+    "sub_frame",
+    "other",
+    "websocket"
+   ]
+  }
+ }
+]

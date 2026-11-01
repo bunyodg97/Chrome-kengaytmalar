@@ -1,0 +1,25 @@
+(() => {
+  if (window.__twi) { window.__twi(); return; }
+  const host = document.createElement('div'); host.style.cssText = 'all:initial;position:fixed;inset:0;z-index:2147483647;pointer-events:none';
+  const sh = host.attachShadow({ mode: 'open' }); document.documentElement.append(host);
+  sh.innerHTML = `<style>.hl{position:fixed;outline:2px solid #0ea5e9;background:#0ea5e914;pointer-events:none}.p{position:fixed;width:400px;max-height:70vh;overflow:auto;background:#0f172af5;color:#e2e8f0;font:12.5px/1.45 system-ui;border-radius:12px;box-shadow:0 10px 40px #0008;pointer-events:auto}
+  .h{padding:8px 12px;border-bottom:1px solid #1e293b;display:flex;gap:8px;align-items:center;position:sticky;top:0;background:#0f172a}.h b{flex:1;font:600 12px ui-monospace,monospace;color:#7dd3fc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.h button{all:unset;cursor:pointer;padding:2px 6px;border-radius:5px;color:#94a3b8}.h button:hover{background:#1e293b}
+  .c{padding:7px 12px;border-bottom:1px solid #1e293b}.c .k{font:600 12px ui-monospace,monospace;color:#38bdf8}.c .k.no{color:#64748b}.c .w{font-size:11px;color:#fbbf24}.c .d{margin-top:2px}.c code{display:block;margin-top:3px;font:11px ui-monospace,monospace;color:#a5b4fc;word-break:break-all}.sw{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:4px;border:1px solid #fff4}
+  .e{padding:14px;color:#94a3b8}.in{padding:8px 12px;border-top:1px solid #1e293b}.in input{all:unset;box-sizing:border-box;width:100%;background:#1e293b;padding:6px 8px;border-radius:6px;font:12px ui-monospace,monospace}.hint{padding:6px 12px;font-size:11px;color:#64748b}</style>
+  <div class="hl"></div><div class="p" style="right:12px;top:12px"><div class="h"><b id="t">Element ustiga olib boring</b><button id="pin" title="Qotirish (klik)">📌</button><button id="cp" title="Tushuntirishni nusxalash">⧉</button><button id="__ab" title="Sozlamalar va til">⚙</button><button id="x" title="Yopish (Esc)">✕</button></div><div id="l"><div class="e">Tailwind klasslari bor elementga sichqonchani olib boring. Bosing — qotiriladi.</div></div>
+  <div class="in"><input id="q" placeholder="Yoki klasslarni yozing: flex items-center md:gap-4 hover:bg-sky-500"></div><div class="hint">Klik — qotirish/bo'shatish · ↑ — ota element · Esc — chiqish</div></div>`;
+  const hl = sh.querySelector('.hl'), L = sh.getElementById('l'), T = sh.getElementById('t'); let pinned = false, cur = null, last = [];
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  function render(list, title) { T.textContent = title; last = list.map(TW.explain); L.innerHTML = last.length ? last.map(r => `<div class="c"><div class="k ${r.ok ? '' : 'no'}">${r.sw ? `<span class="sw" style="background:${esc(r.sw)}"></span>` : ''}${esc(r.cls)}</div>${r.when ? `<div class="w">⏵ ${esc(r.when)}</div>` : ''}<div class="d">${esc(r.d)}</div>${r.css ? `<code>${esc(r.css)}</code>` : ''}</div>`).join('') : '<div class="e">Bu elementda klass yo\'q</div>'; }
+  function show(el) { cur = el; const r = el.getBoundingClientRect(); Object.assign(hl.style, { left: r.left + 'px', top: r.top + 'px', width: r.width + 'px', height: r.height + 'px' });
+    const cls = typeof el.className === 'string' ? el.className : el.getAttribute('class') || ''; render(cls.split(/\s+/).filter(Boolean), `<${el.tagName.toLowerCase()}> · ${cls.split(/\s+/).filter(Boolean).length} klass`); }
+  const mv = e => { if (pinned) return; const p = e.composedPath(); if (p.includes(host)) return; const el = e.target; if (el && el !== cur && el.nodeType === 1) show(el); };
+  const ck = e => { if (e.composedPath().includes(host)) return; e.preventDefault(); e.stopPropagation(); pinned = !pinned; sh.getElementById('pin').style.color = pinned ? '#38bdf8' : ''; if (!pinned) show(e.target); };
+  const kd = e => { if (e.composedPath().includes(host) && e.key !== 'Escape') return; if (e.key === 'Escape') close(); else if (e.key === 'ArrowUp' && cur?.parentElement) { e.preventDefault(); pinned = true; show(cur.parentElement); } };
+  sh.getElementById('q').oninput = e => { pinned = true; render(e.target.value.split(/\s+/).filter(Boolean), 'Qo\'lda kiritilgan'); };
+  sh.getElementById('pin').onclick = () => { pinned = !pinned; sh.getElementById('pin').style.color = pinned ? '#38bdf8' : ''; };
+  sh.getElementById('cp').onclick = () => navigator.clipboard.writeText(last.map(r => `${r.cls}${r.when ? ` [${r.when}]` : ''} — ${r.d}${r.css ? `\n  ${r.css}` : ''}`).join('\n'));
+  addEventListener('mouseover', mv, true); addEventListener('click', ck, true); addEventListener('keydown', kd, true);
+  function close() { removeEventListener('mouseover', mv, true); removeEventListener('click', ck, true); removeEventListener('keydown', kd, true); host.remove(); window.__twi = null; }
+  sh.getElementById('x').onclick = close; sh.getElementById('__ab').onclick = () => chrome.runtime.sendMessage({ type: '__ab_open' }); window.__twi = close;
+})();

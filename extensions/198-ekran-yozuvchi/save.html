@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Videoni saqlash — Ekran Yozuvchi</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>video{width:100%;max-height:62vh;background:#000;border-radius:10px}.nm{display:flex;gap:6px;align-items:center}.nm input{font-size:16px;font-weight:600}.ext{font:600 15px var(--mono);color:var(--muted)}</style></head>
+<body><div class="page" style="max-width:900px">
+<div class="row between"><h1>Videoni saqlash</h1><span class="muted small" id="meta"></span></div>
+<video id="v" controls></video>
+<div class="card" id="form">
+  <label>Video nomi</label>
+  <div class="nm"><input id="name" autocomplete="off"><span class="ext" id="ext"></span></div>
+  <div class="row"><button class="ghost" id="useDate">Sanani qo'yish</button><label class="inline small"><input type="checkbox" id="remember"> Keyingi safar so'ramasdan sana bilan saqlansin</label></div>
+  <div class="row"><button id="save">⬇ Saqlash</button><button class="ghost" id="saveAs">Papkani tanlab saqlash…</button><button class="danger" id="discard">O'chirish</button></div>
+  <div class="small muted">Fayl «Yuklanmalar/Ekran Yozuvchi» papkasiga tushadi.</div>
+</div>
+<div class="card" id="done" hidden></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="db.js"></script><script src="name.js"></script><script src="save.js"></script></body></html>

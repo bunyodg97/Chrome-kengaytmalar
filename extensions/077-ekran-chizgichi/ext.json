@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "ekran-chizgichi",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "E",
+ "name": {
+  "uz": "Ekran Chizg'ichi",
+  "ru": "Экранная линейка"
+ },
+ "short": {
+  "uz": "Ekran Chizg'ichi",
+  "ru": "Экранная линейка"
+ },
+ "desc": {
+  "uz": "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…",
+  "ru": "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в…"
+ },
+ "features": {
+  "uz": [
+   "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…"
+  ],
+  "ru": [
+   "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

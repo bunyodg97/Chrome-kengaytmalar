@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Do'stcha — Sozlamalar</title>
+<link rel="icon" href="icons/icon32.png">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; color: #1e293b; background: #f1f5f9; }
+  header { background: linear-gradient(135deg, #0ea5e9, #6366f1); color: #fff; padding: 22px 0 70px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header h1 { margin: 0; font-size: 24px; } header p { margin: 4px 0 0; opacity: .9; }
+  main { margin-top: -54px; }
+  .card { background: #fff; border-radius: 16px; padding: 20px 22px; margin-bottom: 16px; box-shadow: 0 2px 10px rgba(15,23,42,.06); }
+  .card h2 { margin: 0 0 4px; font-size: 18px; }
+  .hint { margin: 0 0 14px; color: #64748b; font-size: 13.5px; }
+  .pets { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+  .pets button { border: 2px solid #e2e8f0; background: #fff; border-radius: 14px; padding: 10px 6px 8px; cursor: pointer; font: 600 14px system-ui; color: #334155; }
+  .pets button:hover { border-color: #93c5fd; }
+  .pets button.on { border-color: #0ea5e9; background: #f0f9ff; }
+  .pets img { display: block; width: 84px; height: 84px; margin: 0 auto 4px; object-fit: contain; }
+  .add { display: flex; gap: 8px; }
+  .add input { flex: 1; padding: 11px 14px; font: inherit; border: 2px solid #e2e8f0; border-radius: 10px; outline: none; }
+  .add input:focus { border-color: #0ea5e9; }
+  .btn { padding: 10px 16px; border: 0; border-radius: 10px; background: #0ea5e9; color: #fff; font: 600 14px system-ui; cursor: pointer; white-space: nowrap; }
+  .btn.gray { background: #e2e8f0; color: #1e293b; }
+  .btn:disabled { opacity: .5; cursor: default; }
+  .emojis { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 0; }
+  .emojis button { border: 0; background: #f1f5f9; border-radius: 8px; font-size: 18px; width: 34px; height: 32px; cursor: pointer; }
+  .emojis button:hover { background: #e0f2fe; }
+  .count { font-size: 12px; color: #94a3b8; text-align: right; margin-top: 4px; }
+  ul.list { list-style: none; margin: 14px 0 0; padding: 0; }
+  ul.list li { display: flex; align-items: center; gap: 8px; padding: 9px 12px; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 6px; background: #fafcff; }
+  ul.list li span.t { flex: 1; overflow-wrap: anywhere; }
+  ul.list li input { flex: 1; padding: 6px 10px; font: inherit; border: 2px solid #0ea5e9; border-radius: 8px; outline: none; }
+  .ic { border: 0; background: none; cursor: pointer; font-size: 16px; padding: 2px 6px; border-radius: 6px; }
+  .ic:hover { background: #e2e8f0; }
+  .empty { color: #94a3b8; font-size: 14px; padding: 8px 2px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 0; border-top: 1px solid #f1f5f9; }
+  .row:first-of-type { border-top: 0; }
+  .row small { display: block; color: #64748b; font-size: 12.5px; }
+  .sw { position: relative; width: 42px; height: 24px; flex: none; }
+  .sw input { opacity: 0; width: 0; height: 0; }
+  .sw span { position: absolute; inset: 0; background: #cbd5e1; border-radius: 24px; transition: .2s; cursor: pointer; }
+  .sw span::before { content: ''; position: absolute; width: 18px; height: 18px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; }
+  .sw input:checked + span { background: #0ea5e9; }
+  .sw input:checked + span::before { transform: translateX(18px); }
+  .seg { display: flex; background: #e2e8f0; border-radius: 9px; padding: 3px; flex: none; }
+  .seg button { border: 0; background: none; padding: 5px 12px; border-radius: 7px; cursor: pointer; font: inherit; font-size: 13px; color: #475569; }
+  .seg button.on { background: #fff; color: #0f172a; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+  details { margin-top: 12px; }
+  summary { cursor: pointer; color: #0369a1; font-size: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chips span { background: #f1f5f9; border-radius: 20px; padding: 4px 10px; font-size: 13px; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(20px); background: #0f172a; color: #fff; padding: 10px 18px; border-radius: 10px; opacity: 0; transition: .25s; pointer-events: none; font-size: 14px; }
+  .toast.on { opacity: 1; transform: translateX(-50%); }
+  footer { text-align: center; color: #94a3b8; font-size: 12px; padding: 10px 0 30px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+  <header><div class="wrap"><h1>🐾 Do'stcha — Sozlamalar</h1><p>Do'stingizni tanlang va unga o'zingizning so'zlaringizni o'rgating</p></div></header>
+  <main class="wrap">
+    <section class="card">
+      <h2>Do'stingiz</h2>
+      <p class="hint">Sahifa pastida kim yurib yursin?</p>
+      <div class="pets" id="pets"></div>
+    </section>
+
+    <section class="card">
+      <h2>✍️ Mening so'zlarim</h2>
+      <p class="hint">Bu yerga yozgan so'zlaringizni do'stingiz vaqti-vaqti bilan aytadi. Masalan: "Bunyod, zo'rsan! 💪" yoki "Onamga qo'ng'iroq qil 📞".</p>
+      <div class="add">
+        <input id="newText" maxlength="80" placeholder="Yangi so'z yozing va Enter bosing…" autocomplete="off">
+        <button class="btn" id="addBtn" disabled>➕ Qo'shish</button>
+      </div>
+      <div class="emojis" id="emojis"></div>
+      <div class="count" id="count"></div>
+      <ul class="list" id="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>💬 Gapirish</h2>
+      <div class="row"><div>Gapirsin<small>O'chirsangiz, faqat bosganingizda javob beradi</small></div><label class="sw"><input type="checkbox" id="talk"><span></span></label></div>
+      <div class="row"><div>Qanchalik ko'p gapirsin</div><div class="seg" id="chat"><button data-v="k">Kam</button><button data-v="m">O'rtacha</button><button data-v="b">Ko'p</button></div></div>
+      <div class="row"><div>Tayyor so'zlarni ham ishlatsin<small>O'chirsangiz, faqat sizning so'zlaringizni aytadi</small></div><label class="sw"><input type="checkbox" id="useBuiltin"><span></span></label></div>
+      <details><summary>Tayyor so'zlarni ko'rish</summary><div class="chips" id="builtin"></div></details>
+    </section>
+
+    <section class="card">
+      <h2>💧 Eslatmalar</h2>
+      <div class="row"><div>Suv ichish, dam olishni eslatsin</div><label class="sw"><input type="checkbox" id="remind"><span></span></label></div>
+      <div class="row"><div>Qancha vaqtda bir marta</div><div class="seg" id="remindMin"><button data-v="20">20 daq</button><button data-v="30">30 daq</button><button data-v="45">45 daq</button><button data-v="60">1 soat</button></div></div>
+    </section>
+
+    <section class="card">
+      <h2>🚫 Ko'rinmaydigan saytlar</h2>
+      <p class="hint">Bu saytlarda do'stingiz chiqmaydi. Qo'shish uchun saytda kengaytma belgisini bosib, "Shu saytda ko'rsatish"ni o'chiring.</p>
+      <ul class="list" id="offList"></ul>
+    </section>
+  </main>
+  <footer>Bunyodg97 · Do'stcha 2.0</footer>
+  <div class="toast" id="toast"></div>
+  <script src="pets.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

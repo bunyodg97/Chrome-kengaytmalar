@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.clock{font:700 54px/1 var(--mono, ui-monospace,monospace);text-align:center;letter-spacing:1px;margin:6px 0}.ring{height:6px;background:var(--line);border-radius:3px;overflow:hidden}.ring i{display:block;height:100%;background:var(--acc);transition:width .5s}
+.pre button{flex:1;padding:8px 0}</style></head>
+<body class="popup"><div class="wrap">
+<div id="run" hidden><div class="small muted" style="text-align:center" id="lbl"></div><div class="clock" id="clock">00:00</div><div class="ring"><i id="bar"></i></div>
+<div class="row" style="margin-top:10px"><button id="pp" style="flex:1">Pauza</button><button class="ghost" id="p1">+1</button><button class="ghost" id="p5">+5</button><button class="danger" id="st">To'xtatish</button></div>
+<button class="ghost" id="float" style="width:100%;margin-top:6px">Sahifada suzuvchi soatni ko'rsatish</button></div>
+<div id="new"><h2>Uchrashuv taymeri</h2>
+<div class="row pre"><button class="ghost" data-m="5">5</button><button class="ghost" data-m="10">10</button><button class="ghost" data-m="15">15</button><button class="ghost" data-m="25">25</button><button class="ghost" data-m="30">30</button><button class="ghost" data-m="45">45</button><button class="ghost" data-m="60">60</button></div>
+<div class="grid2" style="margin-top:8px"><label>Daqiqa<input type="number" id="mm" min="0" value="30"></label><label>Soniya<input type="number" id="ss" min="0" max="59" value="0"></label></div>
+<label>Yoki tugash vaqti<input type="time" id="at"></label>
+<label>Nomi<input id="label" placeholder="Masalan: Haftalik yig'ilish"></label>
+<label>Ogohlantirish (daqiqa qolganda)<input id="warn" value="5, 1"></label>
+<label class="row"><input type="checkbox" id="sound" checked style="width:auto"> Ovozli signal <button class="ghost" id="test" style="margin-left:auto">Sinash</button></label>
+<button id="go" style="width:100%">Boshlash</button></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

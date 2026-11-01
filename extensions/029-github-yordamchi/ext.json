@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "github-yordamchi",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "G",
+ "name": {
+  "uz": "GitHub Yordamchi",
+  "ru": "GitHub Помощник"
+ },
+ "short": {
+  "uz": "GitHub Yordamchi",
+  "ru": "GitHub Помощник"
+ },
+ "desc": {
+  "uz": "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish.",
+  "ru": "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."
+ },
+ "features": {
+  "uz": [
+   "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish."
+  ],
+  "ru": [
+   "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "https://api.github.com/*",
+  "https://github.com/*",
+  "https://raw.githubusercontent.com/*",
+  "storage"
+ ],
+ "category": "github",
+ "standalone": false
+}

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Генератор иконок"
+ },
+ "desc": {
+  "message": "Все иконки 16–1024 из одного изображения: favicon.ico, Apple touch, PWA, расширение Chrome, Android mipmap, iOS. Фон, отступы…"
+ }
+}

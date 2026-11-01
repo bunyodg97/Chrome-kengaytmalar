@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "konsol-xatolari",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "K",
+ "name": {
+  "uz": "Konsol Xatolari",
+  "ru": "Ошибки консоли"
+ },
+ "short": {
+  "uz": "Konsol Xatolari",
+  "ru": "Ошибки консоли"
+ },
+ "desc": {
+  "uz": "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…",
+  "ru": "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в…"
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…"
+  ],
+  "ru": [
+   "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в…"
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "https://api.telegram.org/*",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

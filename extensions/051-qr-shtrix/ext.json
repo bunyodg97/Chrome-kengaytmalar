@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "qr-shtrix",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "Q",
+ "name": {
+  "uz": "QR va Shtrix-kod",
+  "ru": "QR и штрихкод"
+ },
+ "short": {
+  "uz": "QR va Shtrix-kod",
+  "ru": "QR и штрихкод"
+ },
+ "desc": {
+  "uz": "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish.",
+  "ru": "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."
+ },
+ "features": {
+  "uz": [
+   "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish."
+  ],
+  "ru": [
+   "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

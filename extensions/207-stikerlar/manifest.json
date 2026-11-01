@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Stikerlar — saytlarga eslatma va marker",
+  "short_name": "Stikerlar",
+  "version": "1.0.0",
+  "description": "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida.",
+  "author": "Bunyodg97",
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": { "default_popup": "popup.html", "default_title": "Stikerlar" },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["storage", "contextMenus", "tabs", "unlimitedStorage"],
+  "content_scripts": [{ "matches": ["http://*/*", "https://*/*", "file:///*"], "js": ["content.js"], "run_at": "document_idle" }],
+  "commands": {
+    "add-note": { "suggested_key": { "default": "Alt+Shift+N" }, "description": "Sahifaga stiker qo'yish" },
+    "highlight": { "suggested_key": { "default": "Alt+Shift+H" }, "description": "Belgilangan matnni marker bilan belgilash" }
+  }
+}

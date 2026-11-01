@@ -1,0 +1,40 @@
+{
+ "external": true,
+ "slug": "sahifa-kuzatuvchi",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "S",
+ "name": {
+  "uz": "Sahifa Kuzatuvchi",
+  "ru": "Наблюдатель страниц"
+ },
+ "short": {
+  "uz": "Sahifa Kuzatuvchi",
+  "ru": "Наблюдатель страниц"
+ },
+ "desc": {
+  "uz": "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi.",
+  "ru": "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."
+ },
+ "features": {
+  "uz": [
+   "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi."
+  ],
+  "ru": [
+   "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "alarms",
+  "contextMenus",
+  "notifications",
+  "offscreen",
+  "scripting",
+  "storage",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": false
+}

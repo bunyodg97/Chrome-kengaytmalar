@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "kod-parchalari",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "K",
+ "name": {
+  "uz": "Kod Parchalari",
+  "ru": "Сниппеты кода"
+ },
+ "short": {
+  "uz": "Kod Parchalari",
+  "ru": "Сниппеты кода"
+ },
+ "desc": {
+  "uz": "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…",
+  "ru": "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле…"
+ },
+ "features": {
+  "uz": [
+   "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…"
+  ],
+  "ru": [
+   "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

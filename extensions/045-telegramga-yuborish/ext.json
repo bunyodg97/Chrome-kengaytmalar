@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "telegramga-yuborish",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "T",
+ "name": {
+  "uz": "Telegram'ga Yuborish",
+  "ru": "Отправить в Telegram"
+ },
+ "short": {
+  "uz": "Telegram'ga Yuborish",
+  "ru": "Отправить в Telegram"
+ },
+ "desc": {
+  "uz": "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi.",
+  "ru": "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."
+ },
+ "features": {
+  "uz": [
+   "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi."
+  ],
+  "ru": [
+   "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "https://api.telegram.org/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

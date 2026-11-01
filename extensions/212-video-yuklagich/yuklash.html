@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Yuklashlar — Video Yuklagich</title>
+<link rel="icon" href="icons/icon32.png">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 "Segoe UI", system-ui, sans-serif; background: #fff5f7; color: #2a0f17; }
+  button { font: inherit; color: inherit; }
+  .wrap { max-width: 760px; margin: 30px auto; padding: 0 20px; }
+  .head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; } .head img { width: 40px; } h1 { font-size: 21px; margin: 0; }
+  .note { background: #fff; border: 1px solid #fbd5dc; border-radius: 12px; padding: 10px 14px; font-size: 13px; color: #8a5a66; margin-bottom: 14px; }
+  .note b { color: #9f1239; }
+  .job { background: #fff; border: 1px solid #fbd5dc; border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; }
+  .job .t { display: flex; align-items: center; gap: 10px; }
+  .job .nm { flex: 1; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .job .st { font-size: 12.5px; color: #8a5a66; margin-top: 6px; }
+  .bar { height: 8px; background: #fde4ea; border-radius: 99px; overflow: hidden; margin-top: 8px; }
+  .bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #fb7185, #e11d48); border-radius: 99px; transition: width .3s; }
+  .job.done .bar i { background: #16a34a; } .job.err .bar i { background: #9ca3af; }
+  .job.err .st { color: #b91c1c; }
+  .x { border: 1px solid #f5c2cc; background: #fff; border-radius: 8px; padding: 3px 10px; cursor: pointer; font-size: 12.5px; }
+  .empty { text-align: center; color: #8a5a66; padding: 50px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head"><img src="icons/icon128.png" alt=""><h1>Yuklashlar</h1></div>
+  <div class="note">Bu sahifani yuklash tugaguncha yopmang. Bo'lak-bo'lak (HLS) videolar shu yerda yig'ilib, bitta <b>MP4</b> faylga aylantiriladi.<br>⚠️ <b>YouTube, Netflix va boshqa DRM bilan himoyalangan saytlarda ishlamaydi.</b></div>
+  <div id="jobs"></div>
+  <div class="empty" id="empty">Hozircha yuklash yo'q. Video bor sahifada kengaytma belgisini bosing.</div>
+</div>
+<script src="lib/mux.min.js"></script>
+<script src="hls.js"></script>
+<script src="yuklash.js"></script>
+</body>
+</html>

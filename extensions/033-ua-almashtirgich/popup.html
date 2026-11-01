@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><style>.opt{display:flex;align-items:center;gap:8px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer;color:var(--ink);flex-direction:row;font-size:13.5px}.opt.on{border-color:var(--acc);background:var(--acc-soft)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>UA Almashtirgich</h1></header>
+<div class="wrap">
+  <div class="tabs"><button class="on" data-tab="tab">Faqat shu tab</button><button data-tab="all">Barcha tablar</button></div>
+  <div class="list" id="list"></div>
+  <textarea id="custom" placeholder="O'zingizning User-Agent qatoringiz" rows="3" hidden></textarea>
+  <div class="row"><button class="ghost grow" id="off">Asl holiga qaytarish</button><button id="reload">Sahifani yangilash</button></div>
+  <div class="muted small mono" id="cur" style="word-break:break-all"></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="presets.js"></script><script src="popup.js"></script>
+</body></html>

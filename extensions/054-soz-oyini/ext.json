@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "soz-oyini",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "S",
+ "name": {
+  "uz": "So'z O'yini",
+  "ru": "Игра в слова"
+ },
+ "short": {
+  "uz": "So'z O'yini",
+  "ru": "Игра в слова"
+ },
+ "desc": {
+  "uz": "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan.",
+  "ru": "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."
+ },
+ "features": {
+  "uz": [
+   "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan."
+  ],
+  "ru": [
+   "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

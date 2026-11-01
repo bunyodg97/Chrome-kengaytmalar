@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "vaqt-hisobi",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "V",
+ "name": {
+  "uz": "Vaqt Hisobi",
+  "ru": "Учёт времени"
+ },
+ "short": {
+  "uz": "Vaqt Hisobi",
+  "ru": "Учёт времени"
+ },
+ "desc": {
+  "uz": "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot.",
+  "ru": "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."
+ },
+ "features": {
+  "uz": [
+   "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot."
+  ],
+  "ru": [
+   "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "idle",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": false
+}

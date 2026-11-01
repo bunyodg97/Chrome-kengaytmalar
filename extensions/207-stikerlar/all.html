@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Barcha eslatmalar — Stikerlar</title>
+<link rel="icon" href="icons/icon32.png">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.5 "Segoe UI", system-ui, sans-serif; background: #fffaf0; color: #2b2410; }
+  button, input { font: inherit; color: inherit; }
+  .wrap { max-width: 860px; margin: 28px auto; padding: 0 20px; }
+  .head { display: flex; align-items: center; gap: 12px; } .head img { width: 40px; } h1 { font-size: 21px; margin: 0; flex: 1; }
+  .bar { display: flex; gap: 8px; margin: 18px 0; }
+  .bar input { flex: 1; border: 1.5px solid #f1dfb0; border-radius: 12px; padding: 10px 14px; outline: none; background: #fff; }
+  .bar input:focus { border-color: #f59e0b; }
+  .btn { border: 1px solid #f1dfb0; background: #fff; border-radius: 10px; padding: 8px 14px; cursor: pointer; font-weight: 600; }
+  .page { background: #fff; border: 1px solid #f1e4c2; border-radius: 14px; margin-bottom: 14px; overflow: hidden; }
+  .ph { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #fff7e0; border-bottom: 1px solid #f6e9c6; }
+  .ph a { flex: 1; color: #8a5a00; font-weight: 600; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ph a:hover { text-decoration: underline; }
+  .ph small { color: #9a8a62; white-space: nowrap; }
+  .ph button { border: 0; background: none; cursor: pointer; color: #b45309; }
+  .n { display: flex; gap: 10px; padding: 9px 14px; border-top: 1px solid #fbf3df; }
+  .n:first-of-type { border-top: 0; }
+  .n .k { width: 10px; flex: none; border-radius: 3px; }
+  .n .t { flex: 1; white-space: pre-wrap; word-break: break-word; }
+  .n.hl .t { font-style: italic; }
+  .n .d { color: #9a8a62; font-size: 12px; white-space: nowrap; }
+  mark { background: #ffe58a; padding: 0 1px; }
+  .empty { text-align: center; color: #9a8a62; padding: 50px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head"><img src="icons/icon128.png" alt=""><h1>Barcha eslatmalar</h1><span id="count" style="color:#9a8a62"></span></div>
+  <div class="bar"><input id="q" placeholder="🔍 Eslatmalardan qidirish..." autofocus><button class="btn" id="exp">⬇ TXT qilib saqlash</button></div>
+  <div id="list"></div>
+</div>
+<script src="all.js"></script>
+</body>
+</html>

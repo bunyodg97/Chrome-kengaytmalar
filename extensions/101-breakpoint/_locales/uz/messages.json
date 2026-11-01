@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Breakpoint Ko'rsatkichi"
+ },
+ "desc": {
+  "message": "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "cookie-bannersiz",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "C",
+ "name": {
+  "uz": "Cookie Bannersiz",
+  "ru": "Без cookie-баннеров"
+ },
+ "short": {
+  "uz": "Cookie Bannersiz",
+  "ru": "Без cookie-баннеров"
+ },
+ "desc": {
+  "uz": "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi.",
+  "ru": "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."
+ },
+ "features": {
+  "uz": [
+   "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi."
+  ],
+  "ru": [
+   "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "storage",
+  "tabs"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:520px}.shot{position:relative;border:1px solid var(--line);border-radius:8px;overflow:hidden}.shot canvas{width:100%;display:block;cursor:crosshair}.sum{font-size:12px}textarea{min-height:60px}.dst button.on{background:var(--acc);color:var(--acc-ink)}</style></head>
+<body class="popup"><div class="wrap">
+<div class="shot"><canvas id="cv"></canvas></div><div class="row small muted between"><span>Rasm ustida chizib muammoli joyni belgilang</span><span><button class="ghost" id="undo" style="padding:2px 8px">↶</button> <label class="inline"><input type="checkbox" id="incShot" checked style="width:auto"> rasm</label></span></div>
+<input id="title" placeholder="Qisqa sarlavha: Tugma bosilganda sahifa oqarib qoladi">
+<textarea id="desc" placeholder="Nima qildingiz? Nima kutgandingiz? Nima bo'ldi?"></textarea>
+<div class="card sum" id="sum">Loglar yig'ilmoqda...</div>
+<div class="tabs dst" id="dst"><button data-d="tg" class="on">Telegram</button><button data-d="gh">GitHub Issue</button><button data-d="zip">ZIP fayl</button><button data-d="md">Matn nusxa</button></div>
+<div id="cfgTg" class="grid2"><input id="tgTok" placeholder="Bot token"><input id="tgChat" placeholder="Chat ID / @kanal"></div>
+<div id="cfgGh" class="grid2" hidden><input id="ghTok" placeholder="GitHub token (repo)"><input id="ghRepo" placeholder="egasi/repo"></div>
+<button id="send" style="width:100%">Yuborish</button><div class="small" id="res"></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/jszip.min.js"></script><script src="popup.js"></script></body></html>

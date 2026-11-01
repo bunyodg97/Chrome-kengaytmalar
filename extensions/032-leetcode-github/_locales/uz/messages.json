@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "LeetCode → GitHub"
+ },
+ "desc": {
+  "message": "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi."
+ }
+}

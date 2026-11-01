@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "tezlik-sinovi",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "T",
+ "name": {
+  "uz": "Tezlik Sinovi",
+  "ru": "Тест скорости"
+ },
+ "short": {
+  "uz": "Tezlik Sinovi",
+  "ru": "Тест скорости"
+ },
+ "desc": {
+  "uz": "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi.",
+  "ru": "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."
+ },
+ "features": {
+  "uz": [
+   "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi."
+  ],
+  "ru": [
+   "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "https://speed.cloudflare.com/*",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

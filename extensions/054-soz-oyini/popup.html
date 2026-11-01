@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:360px}.board{display:grid;grid-template-rows:repeat(6,1fr);gap:5px;margin:0 auto;width:250px}.r{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}
+.c{aspect-ratio:1;border:2px solid var(--line);display:grid;place-items:center;font:800 22px var(--f);text-transform:uppercase;border-radius:6px}.c.f{border-color:var(--muted)}
+.c.g{background:#6a9a2b;border-color:#6a9a2b;color:#fff}.c.y{background:#c9a227;border-color:#c9a227;color:#fff}.c.n{background:#78808c;border-color:#78808c;color:#fff}
+.kb{display:flex;flex-direction:column;gap:5px}.kr{display:flex;gap:4px;justify-content:center}.k{min-width:28px;padding:10px 4px;font-size:13px;font-weight:700;background:var(--line);color:var(--ink);border:0;border-radius:5px}
+.k.g{background:#6a9a2b;color:#fff}.k.y{background:#c9a227;color:#fff}.k.n{background:#78808c;color:#fff}.k.w{min-width:46px}
+.shake{animation:sh .35s}@keyframes sh{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.st{display:grid;grid-template-columns:repeat(4,1fr);text-align:center}.st b{display:block;font-size:20px}.st span{font-size:11px;color:var(--muted)}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>So'z O'yini</h1><select id="mode" style="width:auto;padding:3px 6px"><option value="daily">Kunlik so'z</option><option value="free">Mashq</option></select></header>
+<div class="wrap"><div class="small muted" id="msg" style="text-align:center;min-height:18px">5 harfli o'zbekcha so'zni toping</div><div class="board" id="board"></div><div class="kb" id="kb"></div>
+<div id="end" hidden class="card"><div class="st" id="stats"></div><div class="row"><button class="grow" id="again">Yangi so'z (mashq)</button><button class="ghost" id="share">Natijani nusxalash</button></div></div>
+<details><summary class="small muted">Qoidalar</summary><p class="small">🟩 harf to'g'ri joyda · 🟨 so'zda bor, lekin boshqa joyda · ⬜ so'zda yo'q. «o'», «g'» harflari ishlatilmaydi.</p></details></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="words.js"></script><script src="popup.js"></script></body></html>

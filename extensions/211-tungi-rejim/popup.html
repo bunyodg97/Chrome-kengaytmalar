@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 320px; font: 14px/1.45 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; background: #15172a; color: #e9eaf5; }
+  button, input { font: inherit; color: inherit; }
+  .hidden { display: none !important; }
+  header { display: flex; align-items: center; gap: 9px; padding: 13px 15px 8px; }
+  header img { width: 26px; }
+  header h1 { font-size: 15px; margin: 0; flex: 1; }
+  .switch { position: relative; width: 40px; height: 23px; flex: none; }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .switch span { position: absolute; inset: 0; background: #3a3d5c; border-radius: 99px; transition: .2s; cursor: pointer; }
+  .switch span::after { content: ''; position: absolute; width: 17px; height: 17px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; }
+  .switch input:checked + span { background: #ffce5c; }
+  .switch input:checked + span::after { transform: translateX(17px); background: #15172a; }
+  .site { margin: 6px 15px 10px; background: rgba(255,255,255,.06); border-radius: 14px; padding: 14px; }
+  .site .h { font-size: 12px; color: #9a9cc0; }
+  .site .n { font-size: 17px; font-weight: 700; word-break: break-all; }
+  .bigbtn { margin-top: 12px; width: 100%; border: 0; border-radius: 12px; padding: 12px; font-weight: 700; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; }
+  .bigbtn.on { background: #ffce5c; color: #15172a; }
+  .bigbtn.off { background: rgba(255,255,255,.1); color: #fff; }
+  .sub { margin-top: 8px; font-size: 12px; color: #9a9cc0; text-align: center; }
+  .sub a { color: #ffce5c; cursor: pointer; }
+  .na { margin: 6px 15px 10px; padding: 16px; text-align: center; color: #9a9cc0; background: rgba(255,255,255,.04); border-radius: 14px; font-size: 13px; }
+  .sec { margin: 0 15px 10px; background: rgba(255,255,255,.04); border-radius: 14px; padding: 4px 14px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 0; border-top: 1px solid rgba(255,255,255,.06); font-size: 13.5px; }
+  .row:first-child { border-top: 0; }
+  .sl { padding: 8px 0; border-top: 1px solid rgba(255,255,255,.06); }
+  .sl:first-child { border-top: 0; }
+  .sl .t { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 4px; }
+  .sl .t b { color: #ffce5c; font-weight: 600; }
+  input[type=range] { width: 100%; accent-color: #ffce5c; }
+  input[type=time] { background: rgba(255,255,255,.08); border: 0; border-radius: 8px; padding: 4px 6px; color-scheme: dark; }
+  .times { display: flex; align-items: center; gap: 6px; padding: 0 0 10px; }
+  details summary { cursor: pointer; padding: 10px 0; font-size: 13.5px; list-style: none; display: flex; justify-content: space-between; }
+  details summary::-webkit-details-marker { display: none; }
+  .list { padding-bottom: 8px; max-height: 150px; overflow-y: auto; }
+  .li { display: flex; align-items: center; justify-content: space-between; font-size: 12.5px; padding: 4px 0; }
+  .li .tag { font-size: 11px; padding: 1px 7px; border-radius: 99px; margin-left: 6px; }
+  .tag.y { background: rgba(255,206,92,.18); color: #ffce5c; } .tag.n { background: rgba(255,255,255,.1); color: #c9cae0; } .tag.a { background: rgba(120,140,255,.18); color: #aab6ff; }
+  .li button { border: 0; background: none; color: #9a9cc0; cursor: pointer; }
+  .seg { display: inline-flex; background: rgba(255,255,255,.08); border-radius: 9px; padding: 2px; }
+  .seg button { border: 0; background: none; padding: 4px 10px; border-radius: 7px; cursor: pointer; font-size: 12.5px; font-weight: 600; color: #9a9cc0; }
+  .seg button.on { background: #ffce5c; color: #15172a; }
+  .modeRow { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; font-size: 12.5px; color: #9a9cc0; }
+  .foot { text-align: center; font-size: 11.5px; color: #6f7196; padding: 0 0 12px; }
+  a.reset { color: #9a9cc0; cursor: pointer; font-size: 12px; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt=""><h1>Tungi rejim</h1>
+    <span style="font-size:12px;color:#9a9cc0">Hamma saytlar</span>
+    <label class="switch" title="Barcha saytlarda"><input type="checkbox" id="global"><span></span></label>
+  </header>
+
+  <div class="site" id="siteBox">
+    <div class="h">Joriy sayt</div>
+    <div class="n" id="host">—</div>
+    <button class="bigbtn" id="toggle"></button>
+    <div class="sub" id="sub"></div>
+    <div class="modeRow" id="siteModeRow"><span>Bu saytda usul:</span><div class="seg" id="siteMode"><button data-v="dynamic">Dinamik</button><button data-v="filter">Filtr</button></div></div>
+  </div>
+  <div class="na hidden" id="na">🔒 Chrome ichki sahifalari va Web Store'da kengaytmalar ishlay olmaydi.</div>
+
+  <div class="sec">
+    <div class="sl"><div class="t"><span>☀️ Yorqinlik</span><b id="vB"></b></div><input type="range" id="brightness" min="50" max="150"></div>
+    <div class="sl"><div class="t"><span>◐ Kontrast</span><b id="vC"></b></div><input type="range" id="contrast" min="50" max="150"></div>
+    <div class="sl"><div class="t"><span>🔥 Iliq rang (ko'z uchun)</span><b id="vS"></b></div><input type="range" id="sepia" min="0" max="100"></div>
+    <div class="sl" style="text-align:right"><a class="reset" id="reset">Standartga qaytarish</a></div>
+  </div>
+
+  <div class="sec">
+    <div class="row"><span title="Dinamik — ranglar qayta yoziladi, rasmlar o'zgarmaydi. Filtr — tez, har qanday saytda ishlaydi.">⚙️ Standart usul</span><div class="seg" id="mode"><button data-v="dynamic">Dinamik</button><button data-v="filter">Filtr</button></div></div>
+    <label class="row"><span>🕖 Faqat kechqurun (jadval)</span><span class="switch"><input type="checkbox" id="schOn"><span></span></span></label>
+    <div class="times" id="times"><input type="time" id="from"> — <input type="time" id="to"></div>
+    <label class="row"><span>🔍 O'zi qorong'i saytlarni aniqlash</span><span class="switch"><input type="checkbox" id="autoDetect"><span></span></span></label>
+    <details>
+      <summary><span>📋 Alohida sozlangan saytlar</span><span id="cnt">0</span></summary>
+      <div class="list" id="list"></div>
+    </details>
+  </div>
+  <div class="foot">Tezkor tugma: <b>Alt + Shift + D</b> · v2.0</div>
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+import { getSettings, saveSettings } from './common.js';
+  const $ = id => document.getElementById(id);
+  const S = await getSettings();
+  const toast = m => { const t = document.createElement('div'); t.className = 'toast'; t.textContent = m; document.body.appendChild(t); setTimeout(() => t.remove(), 1400); };
+  const save = () => saveSettings(S).then(() => toast('Saqlandi ✓'));
+  $('quality').value = Math.round(S.quality * 100); $('qTxt').textContent = $('quality').value + '%';
+  $('quality').oninput = () => $('qTxt').textContent = $('quality').value + '%';
+  $('quality').onchange = () => { S.quality = +$('quality').value / 100; save(); };
+  $('bg').value = S.bg; $('bg').onchange = () => { S.bg = $('bg').value; save(); };
+  $('folder').value = S.folder; $('folder').onchange = () => { S.folder = $('folder').value.trim(); save(); };
+  $('saveAs').checked = S.saveAs; $('saveAs').onchange = () => { S.saveAs = $('saveAs').checked; save(); };
+  $('zip').checked = S.zip; $('zip').onchange = () => { S.zip = $('zip').checked; save(); };
+  $('minSize').value = String(S.minSize); $('minSize').onchange = () => { S.minSize = +$('minSize').value; save(); };

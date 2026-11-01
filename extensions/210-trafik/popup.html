@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 360px; font: 13.5px/1.45 "Segoe UI", system-ui, sans-serif; background: #f3f8fa; color: #11252d; }
+  button, select { font: inherit; color: inherit; }
+  .hidden { display: none !important; }
+  header { background: linear-gradient(135deg, #0891b2, #0e7490); color: #fff; padding: 14px 16px; }
+  .top { display: flex; align-items: center; gap: 8px; } .top img { width: 24px; } .top h1 { font-size: 15px; margin: 0; flex: 1; }
+  .big { font-size: 34px; font-weight: 800; margin-top: 8px; letter-spacing: -.5px; }
+  .big small { font-size: 14px; font-weight: 600; opacity: .85; }
+  .sub { font-size: 12.5px; opacity: .9; }
+  .lim { margin-top: 8px; height: 6px; background: rgba(255,255,255,.25); border-radius: 99px; overflow: hidden; }
+  .lim i { display: block; height: 100%; background: #fff; border-radius: 99px; }
+  .lim.warn i { background: #fcd34d; } .lim.bad i { background: #fca5a5; }
+  .seg { display: flex; gap: 4px; margin: 12px 14px 8px; background: #e2edf1; border-radius: 10px; padding: 3px; }
+  .seg button { flex: 1; border: 0; background: none; padding: 6px; border-radius: 8px; cursor: pointer; font-weight: 600; color: #4b6570; }
+  .seg button.on { background: #fff; color: #0e7490; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .chart { display: flex; align-items: flex-end; gap: 6px; height: 80px; margin: 4px 14px 8px; padding: 0 2px; }
+  .chart .c { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; height: 100%; justify-content: flex-end; }
+  .chart .b { width: 100%; background: #67c6dc; border-radius: 5px 5px 2px 2px; min-height: 2px; }
+  .chart .c.today .b { background: #0891b2; }
+  .chart small { font-size: 10px; color: #6b8590; }
+  .list { margin: 0 14px; background: #fff; border: 1px solid #dbe8ed; border-radius: 12px; max-height: 250px; overflow-y: auto; }
+  .r { padding: 7px 12px; border-top: 1px solid #eef4f6; }
+  .r:first-child { border-top: 0; }
+  .r .l { display: flex; justify-content: space-between; gap: 8px; }
+  .r .l span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .r .l b { white-space: nowrap; font-weight: 700; }
+  .r .bar { height: 4px; background: #eef4f6; border-radius: 99px; margin-top: 4px; overflow: hidden; }
+  .r .bar i { display: block; height: 100%; background: #0891b2; border-radius: 99px; }
+  .empty { padding: 20px; text-align: center; color: #6b8590; }
+  h3 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; color: #6b8590; margin: 12px 16px 6px; }
+  .set { margin: 0 14px 10px; background: #fff; border: 1px solid #dbe8ed; border-radius: 12px; padding: 2px 12px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 0; border-top: 1px solid #eef4f6; }
+  .row:first-child { border-top: 0; }
+  select { border: 1px solid #cfdfe5; border-radius: 8px; padding: 3px 6px; background: #fff; }
+  .switch { position: relative; width: 36px; height: 21px; flex: none; }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .switch span { position: absolute; inset: 0; background: #c5d6dc; border-radius: 99px; transition: .2s; cursor: pointer; }
+  .switch span::after { content: ''; position: absolute; width: 15px; height: 15px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; }
+  .switch input:checked + span { background: #0891b2; }
+  .switch input:checked + span::after { transform: translateX(15px); }
+  .foot { text-align: center; font-size: 11px; color: #7d949c; padding: 0 14px 12px; }
+  .foot a { color: #0e7490; cursor: pointer; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="top"><img src="icons/icon32.png" alt=""><h1>Trafik Hisoblagich</h1></div>
+    <div class="big" id="big">0 <small>MB</small></div>
+    <div class="sub" id="sub">bugun sarflandi</div>
+    <div class="lim hidden" id="lim"><i id="limBar"></i></div>
+  </header>
+  <div class="seg" id="period"><button data-p="day">Bugun</button><button data-p="week">7 kun</button><button data-p="month">Shu oy</button></div>
+  <div class="chart" id="chart"></div>
+  <div class="list" id="list"></div>
+  <h3>Limitlar</h3>
+  <div class="set">
+    <div class="row"><span>Kunlik limit</span><select id="dailyMB"><option value="0">Yo'q</option><option value="200">200 MB</option><option value="500">500 MB</option><option value="1024">1 GB</option><option value="2048">2 GB</option><option value="5120">5 GB</option></select></div>
+    <div class="row"><span>Oylik limit (tarif)</span><select id="monthlyMB"><option value="0">Yo'q</option><option value="5120">5 GB</option><option value="10240">10 GB</option><option value="20480">20 GB</option><option value="30720">30 GB</option><option value="51200">50 GB</option><option value="102400">100 GB</option></select></div>
+    <label class="row"><span>Belgida bugungi trafikni ko'rsatish</span><span class="switch"><input type="checkbox" id="badge"><span></span></span></label>
+    <label class="row"><span>⏸ Hisoblashni to'xtatib turish</span><span class="switch"><input type="checkbox" id="paused"><span></span></span></label>
+  </div>
+  <div class="foot">Faqat Chrome trafigi hisoblanadi (boshqa dasturlar emas). · <a id="reset">Statistikani tozalash</a></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "AI Yordamchi (o'zbekcha)"
+ },
+ "desc": {
+  "message": "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi."
+ }
+}

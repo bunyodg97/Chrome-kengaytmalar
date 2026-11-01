@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Namoz vaqtlari</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="place">
+      <select id="region" title="Viloyatni tanlang"></select>
+      <select id="city" title="Shahar yoki tumanni tanlang"></select>
+      <button id="locate" class="icon-btn" title="Joylashuvimni aniqlash">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm8.94 3A9 9 0 0 0 13 3.06V1h-2v2.06A9 9 0 0 0 3.06 11H1v2h2.06A9 9 0 0 0 11 20.94V23h2v-2.06A9 9 0 0 0 20.94 13H23v-2h-2.06zM12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+      </button>
+    </div>
+    <button id="toggleSettings" class="icon-btn" title="Sozlamalar">
+      <svg viewBox="0 0 24 24" width="17" height="17"><path fill="currentColor" d="M19.14 12.94a7.07 7.07 0 0 0 0-1.88l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.03 7.03 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.49.42l-.36 2.54c-.59.24-1.13.56-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.66 8.84a.5.5 0 0 0 .12.64l2.03 1.58a7.07 7.07 0 0 0 0 1.88l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32c.13.22.39.3.6.22l2.39-.96c.5.38 1.04.7 1.63.94l.36 2.54c.05.24.25.42.49.42h3.84c.25 0 .45-.18.49-.42l.36-2.54c.59-.24 1.13-.56 1.63-.94l2.39.96c.22.08.47 0 .6-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.6a3.6 3.6 0 1 1 0-7.2 3.6 3.6 0 0 1 0 7.2z"/></svg>
+    </button>
+  </header>
+
+  <main id="mainView">
+    <div class="place-full" id="placeFull"></div>
+    <section class="hero">
+      <div class="hero-label"><span id="nextName">—</span> <span class="muted">namozigacha</span></div>
+      <div class="countdown" id="countdown">--:--:--</div>
+      <div class="hero-sub"><span id="nextAt"></span></div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <div class="progress-labels"><span id="prevLbl"></span><span id="nextLbl"></span></div>
+    </section>
+
+    <ul class="times" id="times"></ul>
+
+    <footer>
+      <span id="gregorian"></span>
+      <span id="hijri"></span>
+    </footer>
+  </main>
+
+  <section id="settingsView" hidden>
+    <h3>Eslatmalar</h3>
+    <label class="row"><span>Namoz vaqti kirganda eslatish</span><input type="checkbox" id="notify"></label>
+    <label class="row"><span>Oldindan eslatish</span>
+      <select id="notifyBefore">
+        <option value="0">O'chiq</option><option value="5">5 daqiqa</option>
+        <option value="10">10 daqiqa</option><option value="15">15 daqiqa</option>
+        <option value="20">20 daqiqa</option><option value="30">30 daqiqa</option>
+      </select>
+    </label>
+    <label class="row"><span>Quyosh chiqishini ham eslatish</span><input type="checkbox" id="notifySunrise"></label>
+    <label class="row"><span>Eslatma o'zi yopilmasin</span><input type="checkbox" id="persistent"></label>
+    <button id="testNotify" class="ghost">Sinov eslatmasini ko'rsatish</button>
+
+    <h3>Hisoblash usuli</h3>
+    <label class="row"><span>Asr mazhabi</span>
+      <select id="asrFactor"><option value="2">Hanafiy</option><option value="1">Shofi'iy</option></select>
+    </label>
+    <label class="row"><span>Bomdod burchagi</span><input type="number" id="fajrAngle" step="0.5" min="10" max="20"></label>
+    <label class="row"><span>Xufton burchagi</span><input type="number" id="ishaAngle" step="0.5" min="10" max="20"></label>
+
+    <h3>Daqiqa tuzatish <small>(islom.uz jadvaliga moslash uchun)</small></h3>
+    <div class="adj" id="adj"></div>
+
+    <div class="settings-actions">
+      <button id="reset" class="ghost">Standartga qaytarish</button>
+      <button id="back" class="primary">Tayyor</button>
+    </div>
+  </section>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

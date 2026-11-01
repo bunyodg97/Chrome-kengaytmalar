@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "dasturchi-qutisi",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "D",
+ "name": {
+  "uz": "Dasturchi Qutisi",
+  "ru": "Ящик разработчика"
+ },
+ "short": {
+  "uz": "Dasturchi Qutisi",
+  "ru": "Ящик разработчика"
+ },
+ "desc": {
+  "uz": "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz.",
+  "ru": "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."
+ },
+ "features": {
+  "uz": [
+   "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz."
+  ],
+  "ru": [
+   "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

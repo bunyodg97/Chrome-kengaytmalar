@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "odatlar",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "O",
+ "name": {
+  "uz": "Odatlar",
+  "ru": "Привычки"
+ },
+ "short": {
+  "uz": "Odatlar",
+  "ru": "Привычки"
+ },
+ "desc": {
+  "uz": "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar.",
+  "ru": "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."
+ },
+ "features": {
+  "uz": [
+   "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar."
+  ],
+  "ru": [
+   "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "notifications",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

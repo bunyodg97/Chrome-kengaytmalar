@@ -1,8 +1,8 @@
 # 🧩 Chrome kengaytmalari — Bunyodg97
 
-Dasturchilar, traderlar va kundalik hayot uchun **38 ta bepul Chrome kengaytmasi**. Hammasi **o’zbek va rus tilida**, Manifest V3. Ma’lumotlaringiz faqat brauzeringizda saqlanadi.
+Dasturchilar, traderlar va kundalik hayot uchun **157 ta bepul Chrome kengaytmasi**. Deyarli hammasi **o’zbek va rus tilida** (199–213 hozircha faqat o’zbekcha), Manifest V3. Ma’lumotlaringiz faqat brauzeringizda saqlanadi.
 
-> 🇷🇺 **38 бесплатных расширений Chrome** для разработчиков, трейдеров и повседневной жизни. Всё на **узбекском и русском**, Manifest V3. Ваши данные остаются только в браузере.
+> 🇷🇺 **157 бесплатных расширений Chrome** для разработчиков, трейдеров и повседневной жизни. Почти всё на **узбекском и русском** (199–213 пока только на узбекском), Manifest V3. Ваши данные остаются только в браузере.
 
 Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) · [❤️ Qo’llab-quvvatlash](https://www.ali-dasturchi.uz/#donat)
 
@@ -22,6 +22,109 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 <!-- LIST:START -->
 | № | Kengaytma | Расширение | Versiya |
 |---|---|---|---|
+| 001 | [Sahifa Surati](extensions/001-sahifa-surati) | Снимок страницы | 1.0.0 |
+| 002 | [Tab Yig'uvchi](extensions/002-tab-yiguvchi) | Сборщик вкладок | 1.0.0 |
+| 003 | [AI Yordamchi (o'zbekcha)](extensions/003-ai-yordamchi) | AI Помощник (узбекский) | 1.0.0 |
+| 004 | [Reklamasiz](extensions/004-reklamasiz) | Без рекламы | 1.0.0 |
+| 005 | [SEO Tekshiruv](extensions/005-seo-tekshiruv) | SEO Проверка | 1.0.0 |
+| 006 | [Vaqt Hisobi](extensions/006-vaqt-hisobi) | Учёт времени | 1.0.0 |
+| 007 | [Kuzatuvsiz](extensions/007-kuzatuvsiz) | Без слежки | 1.0.0 |
+| 008 | [Video Tezlik](extensions/008-video-tezlik) | Скорость видео | 1.0.0 |
+| 009 | [Yangi Tab](extensions/009-yangi-tab) | Новая вкладка | 1.0.0 |
+| 010 | [Odatlar](extensions/010-odatlar) | Привычки | 1.0.0 |
+| 011 | [Rang va Shrift](extensions/011-rang-shrift) | Цвет и шрифт | 1.0.0 |
+| 012 | [PDF Ustaxona](extensions/012-pdf-ustaxona) | PDF Мастерская | 1.0.0 |
+| 013 | [O'qish Rejimi](extensions/013-oqish-rejimi) | Режим чтения | 1.0.0 |
+| 014 | [Tezlik Sinovi](extensions/014-tezlik-sinovi) | Тест скорости | 1.0.0 |
+| 015 | [Avto Yangilash](extensions/015-avto-yangilash) | Автообновление | 1.0.0 |
+| 016 | [Tozalagich](extensions/016-tozalagich) | Очиститель | 1.0.0 |
+| 017 | [Nusxa Ruxsati](extensions/017-nusxa-ruxsati) | Разрешить копирование | 1.0.0 |
+| 018 | [Bayonnoma](extensions/018-bayonnoma) | Протокол встречи | 1.0.0 |
+| 019 | [Parol Ustasi](extensions/019-parol-ustasi) | Мастер паролей | 1.0.0 |
+| 020 | [JSON Ko'zgu](extensions/020-json-kozgu) | JSON Зеркало | 1.0.0 |
+| 021 | [Mening Uslubim](extensions/021-mening-uslubim) | Мой стиль | 1.0.0 |
+| 022 | [Ovoz Kuchaytirgich](extensions/022-ovoz-kuchaytirgich) | Усилитель звука | 1.0.0 |
+| 023 | [Oyna ichida oyna](extensions/023-oyna-ichida) | Картинка в картинке | 1.0.0 |
+| 024 | [So'rov Ustasi](extensions/024-sorov-ustasi) | Мастер запросов | 1.0.0 |
+| 025 | [Responsive Ko'rgich](extensions/025-responsive) | Адаптивный просмотр | 1.0.0 |
+| 026 | [Texno Aniqlagich](extensions/026-texno-aniqlagich) | Определитель технологий | 1.0.0 |
+| 027 | [Chegara Ko'rsatgich](extensions/027-chegara) | Границы элементов | 1.0.0 |
+| 028 | [Dasturchi Qutisi](extensions/028-dasturchi-qutisi) | Ящик разработчика | 1.0.0 |
+| 029 | [GitHub Yordamchi](extensions/029-github-yordamchi) | GitHub Помощник | 1.0.0 |
+| 030 | [Web Vitals Jonli](extensions/030-web-vitals) | Web Vitals онлайн | 1.0.0 |
+| 031 | [Kirish Imkoniyati Tekshiruvi](extensions/031-a11y-tekshiruv) | Проверка доступности | 1.0.0 |
+| 032 | [LeetCode → GitHub](extensions/032-leetcode-github) | LeetCode → GitHub | 1.0.0 |
+| 033 | [UA Almashtirgich](extensions/033-ua-almashtirgich) | Смена User-Agent | 1.0.0 |
+| 034 | [GitHub Xabarlari](extensions/034-github-xabarlari) | Уведомления GitHub | 1.0.0 |
+| 035 | [Prompt Kutubxonasi](extensions/035-prompt-kutubxonasi) | Библиотека промптов | 1.0.0 |
+| 036 | [AI Suhbat Eksporti](extensions/036-ai-eksport) | Экспорт AI-чатов | 1.0.0 |
+| 037 | [Cookie Muharriri](extensions/037-cookie-muharriri) | Редактор cookie | 1.0.0 |
+| 038 | [REST Mijozi](extensions/038-rest-mijozi) | REST Клиент | 1.0.0 |
+| 039 | [YouTube Tahlilchi](extensions/039-youtube-tahlilchi) | YouTube Аналитик | 1.0.0 |
+| 040 | [Kun Rejasi](extensions/040-kun-rejasi) | План дня | 1.0.0 |
+| 041 | [Cookie Bannersiz](extensions/041-cookie-bannersiz) | Без cookie-баннеров | 1.0.0 |
+| 042 | [Vaqtinchalik Pochta](extensions/042-vaqtinchalik-pochta) | Временная почта | 1.0.0 |
+| 043 | [Raqobat Narxlari](extensions/043-raqobat-narxlari) | Цены конкурентов | 1.1.0 |
+| 044 | [Valyuta Kursi](extensions/044-valyuta-kursi) | Курс валют | 1.0.0 |
+| 045 | [Telegram'ga Yuborish](extensions/045-telegramga-yuborish) | Отправить в Telegram | 1.0.0 |
+| 046 | [Forma To'ldirgich (Excel → sayt)](extensions/046-forma-toldirgich) | Заполнитель форм (Excel → сайт) | 1.0.0 |
+| 047 | [Ob-havo va Havo Sifati](extensions/047-ob-havo) | Погода и качество воздуха | 1.0.0 |
+| 048 | [So'z Daftari](extensions/048-soz-daftari) | Словарик | 1.0.0 |
+| 049 | [Jadval Yuklovchi](extensions/049-jadval-yuklovchi) | Загрузчик таблиц | 1.0.0 |
+| 050 | [Tez Javoblar](extensions/050-tez-javoblar) | Быстрые ответы | 1.0.0 |
+| 051 | [QR va Shtrix-kod](extensions/051-qr-shtrix) | QR и штрихкод | 1.0.0 |
+| 052 | [Tez Yashirish («Boshliq keldi»)](extensions/052-tez-yashirish) | Быстро скрыть («Начальник идёт») | 1.0.0 |
+| 053 | [GIF Yaratuvchi](extensions/053-gif-yaratuvchi) | Создатель GIF | 1.0.0 |
+| 054 | [So'z O'yini](extensions/054-soz-oyini) | Игра в слова | 1.0.0 |
+| 055 | [Sahifa Kuzatuvchi](extensions/055-sahifa-kuzatuvchi) | Наблюдатель страниц | 1.0.0 |
+| 056 | [Nusxalar Tarixi](extensions/056-nusxalar-tarixi) | История копирования | 1.0.0 |
+| 057 | [Sayt Nazoratchisi](extensions/057-sayt-nazoratchisi) | Мониторинг сайтов | 1.0.0 |
+| 058 | [Bir Fayl](extensions/058-bir-fayl) | Один файл | 1.0.0 |
+| 059 | [Ko'z Dam](extensions/059-koz-dam) | Отдых для глаз | 1.0.0 |
+| 060 | [Avto-ovozsiz](extensions/060-avto-ovozsiz) | Без автовоспроизведения | 1.0.0 |
+| 061 | [Telefonga Yuborish](extensions/061-telefonga-yuborish) | Отправить на телефон | 1.0.0 |
+| 062 | [Ekrandan Matn (OCR)](extensions/062-ekrandan-matn) | Текст с экрана (OCR) | 1.0.0 |
+| 063 | [Sahifaga Chizish](extensions/063-sahifaga-chizish) | Рисование на странице | 1.0.0 |
+| 064 | [Uchrashuv Taymeri](extensions/064-uchrashuv-taymeri) | Таймер встречи | 1.0.0 |
+| 065 | [Tug'ilgan Kunlar](extensions/065-tugilgan-kunlar) | Дни рождения | 1.0.0 |
+| 066 | [Xarid Ro'yxati](extensions/066-xarid-royxati) | Список покупок | 1.0.0 |
+| 067 | [Keyinroq O'qish](extensions/067-keyinroq-oqish) | Прочитать позже | 1.0.0 |
+| 068 | [Meet Davomat](extensions/068-meet-davomat) | Посещаемость Meet | 1.0.0 |
+| 069 | [Klaviatura Makroslari](extensions/069-klaviatura-makroslari) | Клавиатурные макросы | 1.0.0 |
+| 070 | [Kod Parchalari](extensions/070-kod-parchalari) | Сниппеты кода | 1.0.0 |
+| 071 | [Tablar Ovozi](extensions/071-tablar-ovozi) | Звук вкладок | 1.0.0 |
+| 072 | [Video Kadri](extensions/072-video-kadri) | Кадр из видео | 1.0.0 |
+| 073 | [Rasmga Logo](extensions/073-rasmga-logo) | Логотип на фото | 1.0.0 |
+| 074 | [Xarajatlar Daftari](extensions/074-xarajatlar-daftari) | Дневник расходов | 1.0.0 |
+| 075 | [Birlik O'giruvchi](extensions/075-birlik-ogiruvchi) | Конвертер единиц | 1.0.0 |
+| 076 | [Maxsus Belgilar](extensions/076-maxsus-belgilar) | Спецсимволы | 1.0.0 |
+| 077 | [Ekran Chizg'ichi](extensions/077-ekran-chizgichi) | Экранная линейка | 1.0.0 |
+| 078 | [Lupa](extensions/078-lupa) | Лупа | 1.0.0 |
+| 079 | [Rasm bo'yicha Qidirish](extensions/079-rasm-qidirish) | Поиск по картинке | 1.0.0 |
+| 080 | [Kengaytma Qayta Yuklagich](extensions/080-avto-qayta-yuklash) | Перезагрузка расширений | 1.0.0 |
+| 081 | [Storage Muharriri](extensions/081-storage-muharriri) | Редактор хранилища | 1.0.0 |
+| 082 | [Konsol Xatolari](extensions/082-konsol-xatolari) | Ошибки консоли | 1.0.0 |
+| 083 | [Element Nusxalash](extensions/083-element-nusxalash) | Копирование элемента | 1.0.0 |
+| 084 | [Hujjat Qidiruvi](extensions/084-hujjat-qidiruvi) | Поиск по документации | 1.0.0 |
+| 085 | [Ikonka Generatori](extensions/085-ikonka-generatori) | Генератор иконок | 1.0.0 |
+| 086 | [PWA Tekshiruvchi](extensions/086-pwa-tekshiruvchi) | Проверка PWA | 1.0.0 |
+| 087 | [Sekin Internet](extensions/087-sekin-internet) | Медленный интернет | 1.0.0 |
+| 088 | [Kod Skrinshoti](extensions/088-kod-skrinshoti) | Скриншот кода | 1.0.0 |
+| 089 | [Konvertorlar](extensions/089-konvertorlar) | Конвертеры | 1.0.0 |
+| 090 | [SVG Yig'uvchi](extensions/090-svg-yiguvchi) | Сборщик SVG | 1.0.0 |
+| 091 | [WebSocket Kuzatuvchi](extensions/091-websocket-kuzatuvchi) | Наблюдатель WebSocket | 1.0.0 |
+| 092 | [Xato Hisoboti](extensions/092-xato-hisoboti) | Отчёт об ошибке | 1.0.0 |
+| 093 | [Vizual Farq](extensions/093-vizual-farq) | Визуальная разница | 1.0.0 |
+| 094 | [Akkaunt Almashtirgich](extensions/094-akkaunt-almashtirgich) | Переключатель аккаунтов | 1.0.0 |
+| 095 | [Joy, Vaqt va Til](extensions/095-joy-vaqt-til) | Место, время и язык | 1.0.0 |
+| 096 | [Domen va SSL](extensions/096-domen-ssl) | Домен и SSL | 1.0.0 |
+| 097 | [Cron va SQL](extensions/097-cron-sql) | Cron и SQL | 1.0.0 |
+| 098 | [README Muharriri](extensions/098-readme-muharriri) | Редактор README | 1.0.0 |
+| 099 | [Flex/Grid Ko'rgich](extensions/099-flex-grid) | Просмотр Flex/Grid | 1.0.0 |
+| 100 | [Ishlatilmagan CSS](extensions/100-ishlatilmagan-css) | Неиспользуемый CSS | 1.0.0 |
+| 101 | [Breakpoint Ko'rsatkichi](extensions/101-breakpoint) | Индикатор брейкпоинтов | 1.0.0 |
+| 102 | [Soya va Gradient](extensions/102-soya-gradient) | Тени и градиенты | 1.0.0 |
+| 103 | [Tailwind Tushuntiruvchi](extensions/103-tailwind-tushuntiruvchi) | Объяснитель Tailwind | 1.0.0 |
 | 104 | [Dark mode almashtirgich](extensions/104-dark-mode) | Переключатель тёмной темы | 1.0.0 |
 | 105 | [Rang ko’rligi simulyatori](extensions/105-color-blind) | Симулятор дальтонизма | 1.0.0 |
 | 106 | [Rasm auditi](extensions/106-image-audit) | Аудит изображений | 1.0.0 |
@@ -60,6 +163,22 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 | 195 | [Suzuvchi video (PiP) — boshqa ishlaringizni qilavering](extensions/195-pip-player) | Плавающее видео (PiP) — работайте параллельно | 1.0.0 |
 | 196 | [Ko’rinadigan ovoz — subtitr va imo-ishora](extensions/196-korinadigan-ovoz) | Видимый звук — субтитры и жесты | 2.0.0 |
 | 197 | [Futbol natijalari — jonli hisoblar](extensions/197-futbol-natijalari) | Футбол результаты — живые счета | 1.1.0 |
+| 198 | [Ekran Yozuvchi](extensions/198-ekran-yozuvchi) | Запись экрана | 2.0.0 |
+| 199 | [Diqqat](extensions/199-diqqat) | Концентрация | 1.1.0 |
+| 200 | [Bir qidiruv](extensions/200-dokon-qidiruv) | Один поиск | 1.0.0 |
+| 201 | [Do'stcha](extensions/201-dostcha) | Дружок | 2.0.0 |
+| 202 | [Matn Hisoblagich](extensions/202-matn-hisoblagich) | Счётчик текста | 1.0.0 |
+| 203 | [Namoz vaqtlari](extensions/203-namoz-vaqtlari) | Время намаза | 1.1.0 |
+| 204 | [O'qib Ber](extensions/204-oqib-ber) | Озвучка | 1.0.0 |
+| 205 | [PDF Imzo](extensions/205-pdf-imzo) | PDF-подпись | 1.0.0 |
+| 206 | [Rasm Saqlovchi](extensions/206-rasm-saqlovchi) | Сохранение картинок | 1.0.0 |
+| 207 | [Stikerlar](extensions/207-stikerlar) | Стикеры | 1.0.0 |
+| 208 | [Tab Uxlatuvchi](extensions/208-tab-uxlatuvchi) | Усыпитель вкладок | 1.0.0 |
+| 209 | [Toza PDF](extensions/209-toza-pdf) | Чистый PDF | 1.0.0 |
+| 210 | [Trafik Hisoblagich](extensions/210-trafik) | Счётчик трафика | 1.0.0 |
+| 211 | [Tungi rejim](extensions/211-tungi-rejim) | Ночной режим | 2.0.0 |
+| 212 | [Video Yuklagich](extensions/212-video-yuklagich) | Загрузчик видео | 1.0.0 |
+| 213 | [Xavfsiz Bola](extensions/213-xavfsiz-bola) | Безопасный ребёнок | 1.0.0 |
 <!-- LIST:END -->
 
 ## Har bir kengaytmadagi «Sozlamalar» bo’limi
@@ -90,8 +209,11 @@ scripts/smoke_test.py  Chrome'da yuklab, sahifalarni ochib, xatolarni yig'adi (P
 scripts/new.py         yangi kengaytma shabloni
 scripts/genkey.py      doimiy kengaytma ID kaliti (keys/NNN.pub)
 scripts/screenshots.py do'kon/sayt skrinshotlari (1280×800) va promo kartalar (440×280)
+scripts/import_bundle.py  tayyor kengaytmalar to'plamini (001–103, 198–213) extensions/ ga import qilish
+scripts/build_site.py  ali-dasturchi.uz uchun apps.js yozuvlari + rasmlar (dist/sayt/)
 scripts/build_catalog.py  sayt katalogi: catalog/extensions.json + catalog/index.html
-extensions/196, 197    tayyor (mustaqil) kengaytmalar — "external": true, o'zgartirilmasdan zip qilinadi
+extensions/001–103, 196–213  tayyor (mustaqil) kengaytmalar — "external": true, o'zgartirilmasdan zip qilinadi
+                       (198–213 — faqat o'zbekcha eski kengaytmalar: ruscha til va Sozlamalar bo'limi hali yo'q)
 catalog/               sayt uchun katalog (index.html + img/); template.html — andoza
 keys/                  kengaytmalarning ochiq kalitlari (doimiy ID)
 ```

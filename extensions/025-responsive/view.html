@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Responsive Ko'rgich</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>
+html,body{height:100%}body{display:flex;flex-direction:column}
+.tb{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 14px;background:var(--card);border-bottom:1px solid var(--line)}
+.tb input#url{flex:1;min-width:240px}
+.devs{display:flex;gap:6px;flex-wrap:wrap}
+.devs label{flex-direction:row;align-items:center;gap:4px;color:var(--ink);font-size:12.5px;border:1px solid var(--line);border-radius:7px;padding:3px 7px}
+.stage{flex:1;overflow:auto;padding:18px;display:flex;gap:26px;align-items:flex-start}
+.dev{flex:none;display:flex;flex-direction:column;gap:6px}
+.dev .hd{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--muted)}
+.dev .hd b{color:var(--ink)}
+.frame{border:10px solid #1d2330;border-radius:22px;background:#fff;overflow:hidden;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+.frame.desk{border-width:8px;border-radius:10px}
+.frame iframe{border:0;transform-origin:0 0;display:block;background:#fff}
+</style></head>
+<body data-about="float">
+<div class="tb">
+  <input id="url" placeholder="https://sayt.uz" aria-label="Manzil"><button id="go">Ochish</button><button class="ghost" id="reload">Yangilash</button>
+  <label style="flex-direction:row;align-items:center;gap:6px">Masshtab <input type="range" id="zoom" min="20" max="100" value="50" style="width:120px"><span id="zv">50%</span></label>
+  <button class="ghost" id="rot">Aylantirish</button>
+</div>
+<div class="tb devs" id="devs"></div>
+<div class="stage" id="stage"></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="view.js"></script>
+</body></html>

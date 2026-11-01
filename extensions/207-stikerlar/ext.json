@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "stikerlar",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "S",
+ "name": {
+  "uz": "Stikerlar",
+  "ru": "Стикеры"
+ },
+ "short": {
+  "uz": "Stikerlar",
+  "ru": "Стикеры"
+ },
+ "desc": {
+  "uz": "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida.",
+  "ru": "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."
+ },
+ "features": {
+  "uz": [
+   "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida."
+  ],
+  "ru": [
+   "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": true
+}

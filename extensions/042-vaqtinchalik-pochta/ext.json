@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "vaqtinchalik-pochta",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "V",
+ "name": {
+  "uz": "Vaqtinchalik Pochta",
+  "ru": "Временная почта"
+ },
+ "short": {
+  "uz": "Vaqtinchalik Pochta",
+  "ru": "Временная почта"
+ },
+ "desc": {
+  "uz": "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…",
+  "ru": "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."
+ },
+ "features": {
+  "uz": [
+   "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…"
+  ],
+  "ru": [
+   "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "alarms",
+  "contextMenus",
+  "https://api.mail.tm/*",
+  "notifications",
+  "scripting",
+  "storage"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

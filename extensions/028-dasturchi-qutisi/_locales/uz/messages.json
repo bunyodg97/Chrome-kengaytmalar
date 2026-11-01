@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Dasturchi Qutisi"
+ },
+ "desc": {
+  "message": "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz."
+ }
+}

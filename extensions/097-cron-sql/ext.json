@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "cron-sql",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "C",
+ "name": {
+  "uz": "Cron va SQL",
+  "ru": "Cron и SQL"
+ },
+ "short": {
+  "uz": "Cron va SQL",
+  "ru": "Cron и SQL"
+ },
+ "desc": {
+  "uz": "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…",
+  "ru": "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."
+ },
+ "features": {
+  "uz": [
+   "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…"
+  ],
+  "ru": [
+   "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

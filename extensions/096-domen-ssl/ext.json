@@ -1,0 +1,40 @@
+{
+ "external": true,
+ "slug": "domen-ssl",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "D",
+ "name": {
+  "uz": "Domen va SSL",
+  "ru": "Домен и SSL"
+ },
+ "short": {
+  "uz": "Domen va SSL",
+  "ru": "Домен и SSL"
+ },
+ "desc": {
+  "uz": "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…",
+  "ru": "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты —…"
+ },
+ "features": {
+  "uz": [
+   "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…"
+  ],
+  "ru": [
+   "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты —…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "alarms",
+  "contextMenus",
+  "https://*/*",
+  "https://crt.sh/*",
+  "https://dns.google/*",
+  "https://rdap.org/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

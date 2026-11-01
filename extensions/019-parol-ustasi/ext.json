@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "parol-ustasi",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "P",
+ "name": {
+  "uz": "Parol Ustasi",
+  "ru": "Мастер паролей"
+ },
+ "short": {
+  "uz": "Parol Ustasi",
+  "ru": "Мастер паролей"
+ },
+ "desc": {
+  "uz": "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi.",
+  "ru": "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."
+ },
+ "features": {
+  "uz": [
+   "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi."
+  ],
+  "ru": [
+   "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "https://api.pwnedpasswords.com/*",
+  "scripting",
+  "storage"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

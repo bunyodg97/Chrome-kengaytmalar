@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "hujjat-qidiruvi",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "H",
+ "name": {
+  "uz": "Hujjat Qidiruvi",
+  "ru": "Поиск по документации"
+ },
+ "short": {
+  "uz": "Hujjat Qidiruvi",
+  "ru": "Поиск по документации"
+ },
+ "desc": {
+  "uz": "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…",
+  "ru": "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go…"
+ },
+ "features": {
+  "uz": [
+   "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…"
+  ],
+  "ru": [
+   "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

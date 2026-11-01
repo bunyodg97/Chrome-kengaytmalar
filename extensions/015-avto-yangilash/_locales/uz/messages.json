@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Avto Yangilash"
+ },
+ "desc": {
+  "message": "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi."
+ }
+}

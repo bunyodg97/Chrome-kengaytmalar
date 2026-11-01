@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>REST Mijozi</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>
+html,body{height:100%}body{display:grid;grid-template-columns:260px 1fr;overflow:hidden}
+aside{border-right:1px solid var(--line);background:var(--card);display:flex;flex-direction:column;min-height:0}
+aside .list{overflow:auto;flex:1;padding:8px}
+aside .r{display:flex;gap:6px;align-items:center;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12.5px}
+aside .r:hover{background:var(--acc-soft)}aside .r .u{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.m{font:700 10.5px var(--mono);min-width:42px}.GET{color:#2e7d32}.POST{color:#ef6c00}.PUT{color:#1565c0}.PATCH{color:#6a1b9a}.DELETE{color:#c62828}.HEAD,.OPTIONS{color:#546e7a}
+main{display:grid;grid-template-rows:auto auto 1fr;min-height:0;overflow:hidden}
+.req{display:flex;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.req select{width:110px;font-weight:700}.req input{flex:1;font-family:var(--mono)}
+.split{display:grid;grid-template-columns:1fr 1fr;min-height:0;overflow:hidden}
+.pane{display:flex;flex-direction:column;min-height:0;overflow:auto;padding:10px 14px;gap:8px}
+.pane+.pane{border-left:1px solid var(--line)}
+.kv{display:grid;grid-template-columns:24px 1fr 1fr 28px;gap:6px;align-items:center}
+.kv input[type=text]{font-family:var(--mono);font-size:12.5px;padding:5px 7px}
+#body{min-height:200px;flex:1}
+.status{display:flex;gap:10px;align-items:center;font-size:13px}
+#resBody{flex:1;min-height:200px;white-space:pre-wrap;word-break:break-all;font:12.5px/1.5 var(--mono);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;margin:0;overflow:auto}
+.jk{color:#8b2bb9}.js{color:#0b7a3e}.jn{color:#1556c0}.jb{color:#c2410c}.jz{color:#9b1c1c}
+@media (prefers-color-scheme:dark){.jk{color:#d19af5}.js{color:#7ad19c}.jn{color:#7fb0ff}.jb{color:#ffb07a}.jz{color:#ff8f8f}}
+dialog{border:0;border-radius:12px;padding:0;width:min(560px,92vw);background:var(--card);color:var(--ink)}dialog::backdrop{background:rgba(0,0,0,.45)}
+@media (max-width:980px){.split{grid-template-columns:1fr;overflow:auto}.pane+.pane{border-left:0;border-top:1px solid var(--line)}body{grid-template-columns:1fr}aside{display:none}}
+</style></head>
+<body data-about="float">
+<aside>
+  <div class="tabs" style="padding:0 8px"><button class="on" data-tab="hist">Tarix</button><button data-tab="saved">Saqlangan</button><button data-tab="env">O'zgaruvchilar</button></div>
+  <div data-pane="hist" class="list" id="hist"></div>
+  <div data-pane="saved" class="list" id="saved" hidden></div>
+  <div data-pane="env" class="list" hidden><p class="small muted">URL, header va body'da <code>{{base}}</code> deb yozing.</p><div id="envList" class="list" style="padding:0"></div><button class="ghost" id="envAdd">+ O'zgaruvchi</button></div>
+  <div style="padding:8px;border-top:1px solid var(--line)" class="row"><button class="ghost grow" id="clearH">Tarixni tozalash</button></div>
+</aside>
+<main>
+  <div class="req">
+    <select id="method"><option>GET</option><option>POST</option><option>PUT</option><option>PATCH</option><option>DELETE</option><option>HEAD</option><option>OPTIONS</option></select>
+    <input id="url" placeholder="https://api.sayt.uz/v1/users yoki {{base}}/users" autocomplete="off">
+    <button id="send">Yuborish</button><button class="ghost" id="save">Saqlash</button><button class="ghost" id="curlBtn">cURL</button>
+  </div>
+  <div></div>
+  <div class="split">
+    <div class="pane">
+      <div class="tabs"><button class="on" data-tab="params">Parametrlar</button><button data-tab="headers">Header'lar</button><button data-tab="bodyT">Body</button><button data-tab="auth">Avtorizatsiya</button></div>
+      <div data-pane="params"><div id="params" class="list"></div><button class="ghost" data-add="params">+ Parametr</button></div>
+      <div data-pane="headers" hidden><div id="headers" class="list"></div><button class="ghost" data-add="headers">+ Header</button></div>
+      <div data-pane="bodyT" hidden style="display:flex;flex-direction:column;gap:8px;flex:1">
+        <div class="row"><select id="btype" style="width:auto"><option value="none">Yo'q</option><option value="json">JSON</option><option value="form">Form (x-www-form-urlencoded)</option><option value="raw">Matn</option></select><button class="ghost" id="fmtBody">JSON'ni formatlash</button></div>
+        <textarea id="body" spellcheck="false" placeholder='{"ism": "Bunyod"}'></textarea></div>
+      <div data-pane="auth" hidden class="list"><select id="atype"><option value="none">Yo'q</option><option value="bearer">Bearer token</option><option value="basic">Basic (login/parol)</option></select>
+        <input id="atoken" placeholder="Token" class="mono"><div class="grid2"><input id="auser" placeholder="Login"><input id="apass" type="password" placeholder="Parol"></div></div>
+    </div>
+    <div class="pane">
+      <div class="status" id="status"><span class="muted">Javob shu yerda ko'rinadi. Ctrl+Enter — yuborish.</span></div>
+      <div class="tabs"><button class="on" data-tab="rb">Body</button><button data-tab="rh">Header'lar</button></div>
+      <pre data-pane="rb" id="resBody"></pre>
+      <div data-pane="rh" hidden><table id="resHead" class="small"></table></div>
+      <div class="row"><button class="ghost" id="cpRes">Javobni nusxalash</button><button class="ghost" id="dlRes">Yuklab olish</button></div>
+    </div>
+  </div>
+</main>
+<dialog id="curlDlg"><div class="wrap"><h2>cURL</h2><label>Import (cURL buyrug'ini qo'ying)<textarea id="curlIn" rows="5"></textarea></label><div class="row"><button id="curlImp">Import</button></div>
+<label>Joriy so'rov cURL ko'rinishida<textarea id="curlOut" rows="5" readonly></textarea></label><label>JavaScript fetch<textarea id="fetchOut" rows="6" readonly></textarea></label><div class="row"><button class="ghost" id="curlClose">Yopish</button></div></div></dialog>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="app.js"></script></body></html>

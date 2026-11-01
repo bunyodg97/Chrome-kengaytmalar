@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Kod Parchalari</title><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:520px}pre{margin:0;background:#1e1f24;color:#e6e6e6;padding:10px;border-radius:8px;overflow:auto;font:12.5px/1.5 var(--mono);max-height:220px}pre i{font-style:normal}.k{color:#c792ea}.s{color:#c3e88d}.c{color:#6a737d}.n{color:#f78c6c}.f{color:#82aaff}
+.sn{display:block}.sn .h{display:flex;gap:6px;align-items:center;margin-bottom:6px}.sn .h b{flex:1}textarea{font:13px var(--mono);min-height:160px}.lay{display:grid;gap:10px}</style></head>
+<body><div class="wrap" id="root">
+<div class="row"><input id="q" placeholder="Qidirish: nom, teg, til, kod..." style="flex:1"><button id="new">+ Yangi</button><a class="btn ghost" href="popup.html?full=1" target="_blank" id="big">⤢</a></div>
+<div class="row" id="langs"></div>
+<div class="card list" id="ed" hidden><input id="et" placeholder="Nomi"><div class="grid2"><select id="el"><option value="js">JavaScript/TS</option><option value="py">Python</option><option value="sql">SQL</option><option value="html">HTML</option><option value="css">CSS</option><option value="sh">Bash</option><option value="php">PHP</option><option value="go">Go</option><option value="java">Java/C#/Kotlin</option><option value="txt">Matn</option></select><input id="eg" placeholder="Teglar: react, hook"></div>
+<textarea id="ec" placeholder="Kodni shu yerga qo'ying" spellcheck="false"></textarea><div class="row between"><button class="ghost danger" id="edel">O'chirish</button><div class="row"><button class="ghost" id="ecan">Bekor</button><button id="esv">Saqlash</button></div></div></div>
+<div class="lay" id="list"></div>
+<div class="row small muted">Saytda: kodni belgilab o'ng tugma → «saqlash». Istalgan maydonda Alt+K — qidirib qo'yish. <button class="ghost" id="exp">Eksport</button><label class="btn ghost">Import<input type="file" id="imp" accept=".json" hidden></label></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="hl.js"></script><script src="popup.js"></script></body></html>

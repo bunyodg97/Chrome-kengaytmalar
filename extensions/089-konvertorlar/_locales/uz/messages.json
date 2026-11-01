@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Konvertorlar"
+ },
+ "desc": {
+  "message": "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…"
+ }
+}

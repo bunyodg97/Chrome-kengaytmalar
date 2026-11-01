@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "ovoz-kuchaytirgich",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "O",
+ "name": {
+  "uz": "Ovoz Kuchaytirgich",
+  "ru": "Усилитель звука"
+ },
+ "short": {
+  "uz": "Ovoz Kuchaytirgich",
+  "ru": "Усилитель звука"
+ },
+ "desc": {
+  "uz": "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi.",
+  "ru": "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."
+ },
+ "features": {
+  "uz": [
+   "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi."
+  ],
+  "ru": [
+   "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "offscreen",
+  "storage",
+  "tabCapture",
+  "tabs"
+ ],
+ "category": "life",
+ "standalone": false
+}

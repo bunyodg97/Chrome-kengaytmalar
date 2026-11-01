@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "reklamasiz",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "R",
+ "name": {
+  "uz": "Reklamasiz",
+  "ru": "Без рекламы"
+ },
+ "short": {
+  "uz": "Reklamasiz",
+  "ru": "Без рекламы"
+ },
+ "desc": {
+  "uz": "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi.",
+  "ru": "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."
+ },
+ "features": {
+  "uz": [
+   "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi."
+  ],
+  "ru": [
+   "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "content_scripts",
+  "contextMenus",
+  "declarativeNetRequest",
+  "declarativeNetRequestFeedback",
+  "storage",
+  "tabs"
+ ],
+ "category": "privacy",
+ "standalone": false
+}

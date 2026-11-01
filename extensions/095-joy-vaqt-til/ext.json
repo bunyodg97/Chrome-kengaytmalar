@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "joy-vaqt-til",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "J",
+ "name": {
+  "uz": "Joy, Vaqt va Til",
+  "ru": "Место, время и язык"
+ },
+ "short": {
+  "uz": "Joy, Vaqt va Til",
+  "ru": "Место, время и язык"
+ },
+ "desc": {
+  "uz": "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…",
+  "ru": "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только…"
+ },
+ "features": {
+  "uz": [
+   "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…"
+  ],
+  "ru": [
+   "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "debugger",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

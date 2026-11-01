@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "klaviatura-makroslari",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "K",
+ "name": {
+  "uz": "Klaviatura Makroslari",
+  "ru": "Клавиатурные макросы"
+ },
+ "short": {
+  "uz": "Klaviatura Makroslari",
+  "ru": "Клавиатурные макросы"
+ },
+ "desc": {
+  "uz": "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…",
+  "ru": "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На…"
+ },
+ "features": {
+  "uz": [
+   "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…"
+  ],
+  "ru": [
+   "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

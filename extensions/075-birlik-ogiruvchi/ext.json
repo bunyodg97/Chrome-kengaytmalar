@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "birlik-ogiruvchi",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "B",
+ "name": {
+  "uz": "Birlik O'giruvchi",
+  "ru": "Конвертер единиц"
+ },
+ "short": {
+  "uz": "Birlik O'giruvchi",
+  "ru": "Конвертер единиц"
+ },
+ "desc": {
+  "uz": "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…",
+  "ru": "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."
+ },
+ "features": {
+  "uz": [
+   "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…"
+  ],
+  "ru": [
+   "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

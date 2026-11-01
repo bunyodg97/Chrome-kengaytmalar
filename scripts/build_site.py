@@ -17,7 +17,7 @@ from build_catalog import CATS, cat_of  # noqa: E402
 
 REPO = "bunyodg97/Chrome-kengaytmalar"
 TAG = sys.argv[sys.argv.index("--tag") + 1] if "--tag" in sys.argv else "v1.0.0"
-TAGS_OF = {"dev": ["dev", "utility"], "api": ["dev"], "github": ["dev"], "work": ["work"], "trade": ["trade"], "life": ["utility", "home"], "access": ["utility"]}
+TAGS_OF = {"privacy": ["security"], "ai": ["utility", "work"], "dev": ["dev", "utility"], "api": ["dev"], "github": ["dev"], "work": ["work"], "trade": ["trade"], "life": ["utility", "home"], "access": ["utility"]}
 NEW_TAGS = [{"id": "dev", "uz": "Dasturchilar", "ru": "Разработчикам", "icon": "terminal"},
             {"id": "trade", "uz": "Traderlar", "ru": "Трейдерам", "icon": "chart"}]
 INSTALL = {"uz": ["Zip faylni yuklab oling va doimiy papkaga oching (keyin ko'chirmang)", "chrome://extensions ni oching va «Developer mode» ni yoqing", "«Load unpacked» ni bosing va ochilgan papkani tanlang"],

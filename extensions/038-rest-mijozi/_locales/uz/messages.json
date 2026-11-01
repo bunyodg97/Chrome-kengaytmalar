@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "REST Mijozi"
+ },
+ "desc": {
+  "message": "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Экспорт AI-чатов"
+ },
+ "desc": {
+  "message": "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."
+ }
+}

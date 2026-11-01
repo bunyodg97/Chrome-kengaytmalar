@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Web Vitals онлайн"
+ },
+ "desc": {
+  "message": "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."
+ }
+}

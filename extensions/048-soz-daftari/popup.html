@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:380px}.card.fc{min-height:150px;align-items:center;justify-content:center;text-align:center;cursor:pointer}.fc .w{font-size:24px;font-weight:700}.fc .t{font-size:18px;color:var(--acc)}.fc .c{font-size:12px;color:var(--muted);font-style:italic}
+.fc:not(.open) .back{display:none}.fc.open #hint{display:none}.opt{text-align:left;justify-content:flex-start}.opt.ok{background:var(--ok);border-color:var(--ok);color:#fff}.opt.bad{background:var(--bad);border-color:var(--bad);color:#fff}
+.wl .item{flex-direction:column;align-items:stretch;gap:2px}.box{display:inline-flex;gap:2px}.box i{width:6px;height:6px;border-radius:50%;background:var(--line)}.box i.on{background:var(--ok)}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>So'z Daftari</h1><span class="chip acc" id="cnt"></span></header>
+<div class="wrap">
+  <div class="tabs"><button class="on" data-tab="learn">Takrorlash</button><button data-tab="quiz">Test</button><button data-tab="list">Lug'at</button></div>
+  <div data-pane="learn" id="learn"></div>
+  <div data-pane="quiz" hidden id="quiz"></div>
+  <div data-pane="list" hidden><form class="row" id="addF"><input id="addW" placeholder="Yangi so'z yoki ibora" style="flex:1"><button>+</button></form><input id="q" placeholder="Qidirish…" style="margin-top:6px"><div class="list wl" id="wl" style="max-height:300px;overflow:auto;margin-top:6px"></div>
+    <div class="row" style="margin-top:6px"><button class="ghost" id="exp">CSV eksport</button><label class="inline small"><input type="checkbox" id="rem"> Eslatmalar</label></div></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="tr.js"></script><script src="popup.js"></script></body></html>

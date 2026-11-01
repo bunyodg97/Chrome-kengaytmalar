@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "PWA Tekshiruvchi"
+ },
+ "desc": {
+  "message": "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…"
+ }
+}

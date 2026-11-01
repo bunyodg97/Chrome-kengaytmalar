@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Storage Muharriri"
+ },
+ "desc": {
+  "message": "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…"
+ }
+}

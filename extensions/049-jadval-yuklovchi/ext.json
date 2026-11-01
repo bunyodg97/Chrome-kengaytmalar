@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "jadval-yuklovchi",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "J",
+ "name": {
+  "uz": "Jadval Yuklovchi",
+  "ru": "Загрузчик таблиц"
+ },
+ "short": {
+  "uz": "Jadval Yuklovchi",
+  "ru": "Загрузчик таблиц"
+ },
+ "desc": {
+  "uz": "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi.",
+  "ru": "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi."
+  ],
+  "ru": [
+   "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

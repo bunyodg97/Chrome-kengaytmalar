@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "sahifa-surati",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "S",
+ "name": {
+  "uz": "Sahifa Surati",
+  "ru": "Снимок страницы"
+ },
+ "short": {
+  "uz": "Sahifa Surati",
+  "ru": "Снимок страницы"
+ },
+ "desc": {
+  "uz": "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi.",
+  "ru": "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."
+ },
+ "features": {
+  "uz": [
+   "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi."
+  ],
+  "ru": [
+   "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

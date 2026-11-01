@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "ua-almashtirgich",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "U",
+ "name": {
+  "uz": "UA Almashtirgich",
+  "ru": "Смена User-Agent"
+ },
+ "short": {
+  "uz": "UA Almashtirgich",
+  "ru": "Смена User-Agent"
+ },
+ "desc": {
+  "uz": "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun.",
+  "ru": "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."
+ },
+ "features": {
+  "uz": [
+   "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun."
+  ],
+  "ru": [
+   "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "contextMenus",
+  "declarativeNetRequest",
+  "scripting",
+  "storage",
+  "tabs",
+  "webNavigation"
+ ],
+ "category": "dev",
+ "standalone": false
+}

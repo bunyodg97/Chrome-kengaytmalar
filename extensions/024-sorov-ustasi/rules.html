@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>So'rov Ustasi — qoidalar</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.rule{border-left:4px solid var(--acc)}.rule.off{opacity:.6;border-left-color:var(--line)}.hrow{display:grid;grid-template-columns:110px 110px 1fr 1fr 34px;gap:6px}
+code{font-family:var(--mono);font-size:12px;background:var(--acc-soft);padding:1px 5px;border-radius:4px}</style></head>
+<body><div class="page">
+<div class="row between"><h1>So'rov Ustasi</h1><div class="row">
+  <select id="newType" style="width:auto"><option value="block">+ Bloklash</option><option value="redirect">+ Yo'naltirish</option><option value="header">+ Header o'zgartirish</option><option value="mock">+ Soxta javob (mock)</option></select>
+  <button id="add">Qo'shish</button><button class="ghost" id="exp">Eksport</button><label class="btn ghost">Import<input type="file" id="imp" hidden accept=".json"></label></div></div>
+<div class="card small muted">Manzil namunasi: <code>||api.sayt.uz/users</code> (domen va uning yo'li), <code>*/v1/orders*</code> (yulduzcha — har qanday matn), yoki regex: <code>/\/api\/item\/\d+/</code>. Qoidalar saqlangan zahoti ishlaydi; mock javoblar sahifa yangilangandan keyin.</div>
+<div id="err" class="small" style="color:var(--bad)"></div>
+<div id="list" class="list"></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="rules.js"></script>
+</body></html>

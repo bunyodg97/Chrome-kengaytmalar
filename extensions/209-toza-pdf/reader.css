@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+:root { --fs: 18px; }
+body { margin: 0; background: #eef0f3; color: #1b1b1f; font-family: "Segoe UI", system-ui, sans-serif; }
+[hidden] { display: none !important; }
+
+/* Asboblar paneli (chop etishda ko'rinmaydi) */
+.toolbar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 18px; background: #fff; border-bottom: 1px solid #e2e4e9; font-size: 13.5px; }
+.toolbar img { width: 22px; }
+.toolbar .grp { display: flex; gap: 6px; align-items: center; padding-left: 10px; border-left: 1px solid #e8e9ee; }
+.toolbar label { display: flex; align-items: center; gap: 4px; cursor: pointer; white-space: nowrap; }
+.toolbar input { accent-color: #dc2626; }
+.toolbar button { border: 1px solid #dcdfe6; background: #fff; border-radius: 8px; padding: 5px 10px; cursor: pointer; font: inherit; font-weight: 600; }
+.toolbar button:hover { border-color: #b9bec9; }
+.toolbar button:disabled { opacity: .45; cursor: default; }
+.toolbar .pri { background: #dc2626; border-color: #dc2626; color: #fff; padding: 7px 16px; }
+.toolbar .cut.on { background: #fee2e2; border-color: #fca5a5; color: #b91c1c; }
+.hint { display: none; text-align: center; background: #fff7ed; color: #9a3412; padding: 7px; font-size: 13px; border-bottom: 1px solid #fed7aa; }
+body.cutting .hint { display: block; }
+body.cutting #content *:hover { outline: 2px dashed #ef4444; outline-offset: 2px; cursor: crosshair; background: rgba(239,68,68,.06); }
+
+/* "Qog'oz" */
+.paper { max-width: 760px; margin: 28px auto 60px; background: #fff; padding: 56px 64px; border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,.08); font-size: var(--fs); line-height: 1.7; }
+body.serif .paper { font-family: Georgia, "Times New Roman", serif; }
+.meta { font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; color: #6b7080; text-transform: uppercase; letter-spacing: .6px; margin-bottom: 8px; }
+h1#title { font-size: 2em; line-height: 1.2; margin: 0 0 10px; }
+.by { font-family: "Segoe UI", system-ui, sans-serif; color: #6b7080; font-size: 14px; margin-bottom: 26px; padding-bottom: 18px; border-bottom: 1px solid #ececf0; }
+article h2 { font-size: 1.45em; line-height: 1.3; margin: 1.6em 0 .5em; }
+article h3, article h4 { font-size: 1.18em; margin: 1.4em 0 .4em; }
+article p { margin: 0 0 1em; }
+article img { max-width: 100%; height: auto; display: block; margin: 1.2em auto; border-radius: 4px; }
+article figure { margin: 1.4em 0; }
+article figcaption { font-family: "Segoe UI", system-ui, sans-serif; font-size: .78em; color: #6b7080; text-align: center; }
+article blockquote { margin: 1.2em 0; padding: .2em 1.1em; border-left: 4px solid #dc2626; color: #3b3b45; font-style: italic; }
+article pre { background: #f5f6f8; padding: 12px 14px; border-radius: 6px; overflow-x: auto; font-size: .8em; line-height: 1.5; }
+article code { font-size: .88em; background: #f2f3f6; padding: 1px 4px; border-radius: 3px; }
+article table { border-collapse: collapse; width: 100%; font-size: .85em; margin: 1.2em 0; }
+article td, article th { border: 1px solid #dcdfe6; padding: 6px 9px; text-align: left; vertical-align: top; }
+article th { background: #f5f6f8; }
+article a { color: #1d4ed8; }
+body.noimg article img, body.noimg article figure { display: none; }
+body.showlinks article a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .75em; color: #6b7080; word-break: break-all; }
+.source { margin-top: 34px; padding-top: 14px; border-top: 1px solid #ececf0; font-family: "Segoe UI", system-ui, sans-serif; font-size: 12.5px; color: #6b7080; word-break: break-all; }
+body.nosrc .source { display: none; }
+.err { max-width: 560px; margin: 80px auto; text-align: center; background: #fff; padding: 40px; border-radius: 12px; }
+
+/* Chop etish / PDF */
+@page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+@media print {
+  body { background: #fff; }
+  .toolbar, .hint { display: none !important; }
+  .paper { box-shadow: none; margin: 0; padding: 0; max-width: none; border-radius: 0; font-size: calc(var(--fs) * .72); }
+  article img { max-height: 120mm; width: auto; page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+  blockquote, pre, table, figure { page-break-inside: avoid; }
+  a { color: inherit !important; text-decoration: none; }
+}

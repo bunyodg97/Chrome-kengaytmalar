@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "flex-grid",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "F",
+ "name": {
+  "uz": "Flex/Grid Ko'rgich",
+  "ru": "Просмотр Flex/Grid"
+ },
+ "short": {
+  "uz": "Flex/Grid Ko'rgich",
+  "ru": "Просмотр Flex/Grid"
+ },
+ "desc": {
+  "uz": "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…",
+  "ru": "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и…"
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…"
+  ],
+  "ru": [
+   "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

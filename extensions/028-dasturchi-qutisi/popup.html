@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:480px}body.full{width:auto}body.full .wrap{max-width:900px;margin:0 auto}
+textarea{min-height:90px}.out{font-family:var(--mono);font-size:12.5px;white-space:pre-wrap;word-break:break-all;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px;min-height:40px;cursor:copy}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:4px 10px;font-size:13px}.kv span{color:var(--muted)}.kv b{font-family:var(--mono);font-weight:500;word-break:break-all;cursor:copy}
+mark{background:#ffe58a;color:#000;border-radius:2px}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Dasturchi Qutisi</h1><button class="ghost" id="full" title="Alohida tabda ochish">⤢</button></header>
+<div class="wrap">
+  <div class="tabs">
+    <button class="on" data-tab="b64">Base64</button><button data-tab="url">URL</button><button data-tab="jwt">JWT</button><button data-tab="time">Vaqt</button>
+    <button data-tab="uuid">UUID</button><button data-tab="hash">Hash</button><button data-tab="re">Regex</button><button data-tab="json">JSON</button><button data-tab="num">Sanoq</button>
+  </div>
+  <section data-pane="b64" class="wrap" style="padding:0"><textarea id="b64in" placeholder="Matn yoki Base64"></textarea>
+    <div class="row"><button id="b64e">Kodlash →</button><button class="ghost" id="b64d">← Dekodlash</button><label class="inline"><input type="checkbox" id="b64u"> URL-safe</label></div><div class="out" id="b64out"></div></section>
+  <section data-pane="url" hidden class="wrap" style="padding:0"><textarea id="urlin" placeholder="https://sayt.uz/qidiruv?q=o'zbek tili"></textarea>
+    <div class="row"><button id="urle">encodeURIComponent</button><button class="ghost" id="urld">Dekodlash</button><button class="ghost" id="urlp">Manzilni tahlil qilish</button></div><div class="out" id="urlout"></div></section>
+  <section data-pane="jwt" hidden class="wrap" style="padding:0"><textarea id="jwtin" placeholder="eyJhbGciOi..."></textarea><div id="jwtout"></div></section>
+  <section data-pane="time" hidden class="wrap" style="padding:0">
+    <div class="row"><input id="tsin" placeholder="1700000000 yoki 2026-10-31 14:00"><button class="ghost" id="tsnow">Hozir</button></div><div class="kv" id="tsout"></div></section>
+  <section data-pane="uuid" hidden class="wrap" style="padding:0"><div class="row"><label>Soni<input type="number" id="uuidn" value="5" min="1" max="500" style="width:90px"></label><label class="inline"><input type="checkbox" id="uuidU"> KATTA harf</label><label class="inline"><input type="checkbox" id="uuidD"> Chiziqchasiz</label><button id="uuidg">Yaratish</button></div><div class="out" id="uuidout"></div></section>
+  <section data-pane="hash" hidden class="wrap" style="padding:0"><textarea id="hashin" placeholder="Matn"></textarea><div class="kv" id="hashout"></div></section>
+  <section data-pane="re" hidden class="wrap" style="padding:0"><div class="row"><input id="rep" class="mono" placeholder="\+998\d{9}" style="flex:1"><input id="ref" value="g" style="width:60px" class="mono" aria-label="Bayroqlar"></div>
+    <textarea id="rein" placeholder="Sinov matni">Tel: +998901234567, ikkinchi: +998711112233</textarea><div class="out" id="reout"></div><div id="regr" class="small"></div></section>
+  <section data-pane="json" hidden class="wrap" style="padding:0"><textarea id="jsin" placeholder='{"a":1}' style="min-height:140px"></textarea>
+    <div class="row"><button id="jsf">Formatlash</button><button class="ghost" id="jsm">Siqish</button><button class="ghost" id="jss">Kalitlarni saralash</button><button class="ghost" id="jse">Escape</button></div><div class="small" id="jsmsg"></div></section>
+  <section data-pane="num" hidden class="wrap" style="padding:0"><div class="grid2"><label>O'nlik (10)<input id="n10" class="mono"></label><label>O'n oltilik (16)<input id="n16" class="mono"></label><label>Ikkilik (2)<input id="n2" class="mono"></label><label>Sakkizlik (8)<input id="n8" class="mono"></label></div><div class="small muted">Istalgan maydonga yozing — qolganlari hisoblanadi.</div></section>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="md5.js"></script><script src="popup.js"></script>
+</body></html>

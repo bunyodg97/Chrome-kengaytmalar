@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "koz-dam",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "K",
+ "name": {
+  "uz": "Ko'z Dam",
+  "ru": "Отдых для глаз"
+ },
+ "short": {
+  "uz": "Ko'z Dam",
+  "ru": "Отдых для глаз"
+ },
+ "desc": {
+  "uz": "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika.",
+  "ru": "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."
+ },
+ "features": {
+  "uz": [
+   "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika."
+  ],
+  "ru": [
+   "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "idle",
+  "notifications",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

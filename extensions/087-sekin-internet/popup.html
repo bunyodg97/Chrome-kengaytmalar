@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><style>.p{cursor:pointer}.p.on{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 10%,var(--card))}.p small{color:var(--muted);margin-left:auto;font-size:11px}</style></head>
+<body class="popup"><div class="wrap"><h2>Sekin internet — shu tab</h2>
+<div class="list" id="list"></div>
+<details><summary class="small">O'zim belgilayman</summary><div class="grid2" style="margin-top:6px"><label class="small">Yuklash, kbit/s<input type="number" id="cd" value="1000"></label><label class="small">Yuborish, kbit/s<input type="number" id="cu" value="500"></label></div><label class="small">Kechikish, ms<input type="number" id="cl" value="300"></label><button id="capp">Qo'llash</button></details>
+<label class="small">CPU sekinlashtirish: <b id="cpuv">1x</b><input type="range" id="cpu" min="1" max="20" value="1"></label>
+<label class="inline small"><input type="checkbox" id="rl" checked style="width:auto"> O'zgartirgach sahifani yangilash</label>
+<div class="small muted">Yoqilganda tepada «debugging» yozuvi chiqadi — bu normal. O'chirish uchun «Oddiy»ni tanlang.</div><div class="small" id="err" style="color:var(--bad)"></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="profiles.js"></script><script src="popup.js"></script></body></html>

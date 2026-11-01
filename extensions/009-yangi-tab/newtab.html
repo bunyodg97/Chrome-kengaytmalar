@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Yangi tab</title><link rel="stylesheet" href="ui.css">
+<style>
+html,body{height:100%}
+body{background:#0b1220;color:#fff;overflow:hidden}
+#sky{position:fixed;inset:0;width:100%;height:100%;z-index:0}
+.shade{position:fixed;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.05) 40%,rgba(0,0,0,.45));z-index:1}
+main{position:relative;z-index:2;height:100%;display:grid;grid-template-rows:auto 1fr auto;padding:22px 28px}
+.topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.wx{display:flex;align-items:center;gap:10px;font-size:15px;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.wx b{font-size:28px}
+.center{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center}
+.clock{font-size:clamp(64px,11vw,128px);font-weight:300;letter-spacing:-2px;line-height:1;text-shadow:0 2px 18px rgba(0,0,0,.35);font-variant-numeric:tabular-nums}
+.greet{font-size:24px;font-weight:500;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.date{font-size:15px;opacity:.9}
+.search{margin-top:14px;width:min(560px,90vw)}
+.search input{background:rgba(255,255,255,.92);color:#111;border:0;border-radius:24px;padding:12px 20px;font-size:15px;box-shadow:0 4px 18px rgba(0,0,0,.25)}
+.links{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+.links a{display:flex;flex-direction:column;align-items:center;gap:6px;width:78px;color:#fff;text-decoration:none;font-size:12px;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.links a span.ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.88);display:grid;place-items:center}
+.links a img{width:24px;height:24px}
+.links a .x{display:none}
+.edit .links a .x{display:block;position:absolute;margin:-8px 0 0 48px;background:#c62828;color:#fff;border-radius:50%;width:18px;height:18px;font-size:12px;line-height:18px}
+.bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+.quote{max-width:560px;font-size:15px;text-shadow:0 1px 5px rgba(0,0,0,.6)}
+.quote small{display:block;opacity:.75;margin-top:4px;font-size:12px}
+.panel{background:rgba(15,20,30,.62);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:12px;width:300px;color:#fff}
+.panel h2{font-size:14px;margin:0 0 8px}
+.panel input{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.18);color:#fff}
+.todo{display:flex;flex-direction:column;gap:4px;max-height:200px;overflow:auto;margin-top:6px}
+.todo label{flex-direction:row;align-items:center;gap:8px;color:#fff;font-size:13.5px}
+.todo label.done span{text-decoration:line-through;opacity:.55}
+.todo button{margin-left:auto;background:none;border:0;color:#fff;opacity:.5;padding:0 4px;font-weight:400}
+.gear{background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.25);color:#fff}
+dialog{border:0;border-radius:14px;padding:0;width:min(420px,92vw);background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+</style></head>
+<body data-about="float">
+<canvas id="sky"></canvas><div class="shade"></div>
+<main>
+  <div class="topbar"><div class="wx" id="wx"></div><div class="row"><button class="gear" id="editL">Havolalar</button><button class="gear" id="gear">Sozlamalar</button></div></div>
+  <div class="center">
+    <div class="clock" id="clock"></div>
+    <div class="greet" id="greet"></div>
+    <div class="date" id="date"></div>
+    <form class="search" id="sf"><input id="sq" placeholder="Qidirish yoki manzil kiriting" autocomplete="off" aria-label="Qidiruv"></form>
+    <div class="links" id="links"></div>
+  </div>
+  <div class="bottom">
+    <div class="quote" id="quote"></div>
+    <div class="panel"><h2>Bugungi vazifalar</h2><form id="tf"><input id="tin" placeholder="Yangi vazifa va Enter"></form><div class="todo" id="todo"></div></div>
+  </div>
+</main>
+<dialog id="dlg"><div class="wrap">
+  <h2>Sozlamalar</h2>
+  <label>Ismingiz<input id="sName" placeholder="Masalan: Bunyod"></label>
+  <label>Shahar (ob-havo uchun)<select id="sCity"></select></label>
+  <label>Qidiruv tizimi<select id="sEng"><option value="google">Google</option><option value="yandex">Yandex</option><option value="bing">Bing</option><option value="ddg">DuckDuckGo</option></select></label>
+  <label class="inline"><input type="checkbox" id="s24"> 24 soatlik format</label>
+  <div class="row"><button id="sSave">Saqlash</button><button class="ghost" id="sClose">Yopish</button></div>
+</div></dialog>
+<dialog id="ldlg"><form class="wrap" id="lf"><h2>Havola qo'shish</h2><label>Nomi<input id="lName" required></label><label>Manzil<input id="lUrl" required placeholder="https://"></label><div class="row"><button>Qo'shish</button><button class="ghost" type="button" id="lClose">Yopish</button><button class="ghost" type="button" id="lEdit">O'chirish rejimi</button></div></form></dialog>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="data.js"></script><script src="newtab.js"></script>
+</body></html>

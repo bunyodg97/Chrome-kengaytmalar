@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "a11y-tekshiruv",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "K",
+ "name": {
+  "uz": "Kirish Imkoniyati Tekshiruvi",
+  "ru": "Проверка доступности"
+ },
+ "short": {
+  "uz": "Kirish Imkoniyati Tekshiruvi",
+  "ru": "Проверка доступности"
+ },
+ "desc": {
+  "uz": "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…",
+  "ru": "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок…"
+ },
+ "features": {
+  "uz": [
+   "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…"
+  ],
+  "ru": [
+   "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

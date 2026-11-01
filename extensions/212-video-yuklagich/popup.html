@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; width: 380px; font: 13.5px/1.45 "Segoe UI", system-ui, sans-serif; background: #fff5f7; color: #2a0f17; }
+  button, select { font: inherit; color: inherit; }
+  header { display: flex; align-items: center; gap: 8px; padding: 12px 14px 8px; }
+  header img { width: 24px; } header h1 { font-size: 15px; margin: 0; flex: 1; }
+  header a { color: #be123c; font-size: 12.5px; cursor: pointer; text-decoration: none; font-weight: 600; }
+  .ban { margin: 0 14px 10px; border-radius: 12px; padding: 12px 14px; font-size: 13px; }
+  .ban.red { background: #ffe4e6; color: #9f1239; border: 1px solid #fecdd3; }
+  .ban.yel { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+  .ban b { display: block; font-size: 14px; margin-bottom: 3px; }
+  .list { margin: 0 14px; display: grid; gap: 8px; }
+  .v { background: #fff; border: 1px solid #fbd5dc; border-radius: 12px; padding: 10px 12px; }
+  .v .top { display: flex; align-items: center; gap: 8px; }
+  .k { font-size: 10.5px; font-weight: 800; padding: 2px 7px; border-radius: 6px; background: #ffe4e6; color: #be123c; letter-spacing: .3px; }
+  .k.hls { background: #e0e7ff; color: #3730a3; } .k.dash { background: #f1f5f9; color: #64748b; }
+  .nm { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+  .meta { color: #8a5a66; font-size: 12px; margin: 4px 0 8px; }
+  .row { display: flex; gap: 6px; }
+  .row select { flex: 1; border: 1px solid #f5c2cc; border-radius: 9px; padding: 5px 6px; background: #fff; min-width: 0; }
+  .dl { border: 0; border-radius: 9px; padding: 7px 14px; background: #e11d48; color: #fff; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .dl:disabled { background: #f3a6b7; cursor: default; }
+  .copy { border: 1px solid #f5c2cc; background: #fff; border-radius: 9px; padding: 6px 9px; cursor: pointer; }
+  .empty { margin: 4px 14px; background: #fff; border: 1px dashed #f5c2cc; border-radius: 12px; padding: 22px 16px; text-align: center; color: #8a5a66; }
+  .empty b { display: block; color: #2a0f17; margin-bottom: 4px; }
+  .foot { padding: 12px 16px; font-size: 11.5px; color: #8a5a66; line-height: 1.55; }
+  .foot b { color: #9f1239; }
+</style>
+</head>
+<body>
+  <header><img src="icons/icon32.png" alt=""><h1>Video Yuklagich</h1><a id="mgr" title="Yuklanayotganlar">⬇ Yuklashlar</a></header>
+  <div class="ban red" id="blocked" hidden></div>
+  <div class="ban yel" id="drm" hidden><b>🔒 Bu sahifadagi video DRM bilan himoyalangan</b>Himoyalangan videolarni yuklab olib bo'lmaydi. Quyida faqat himoyalanmagan fayllar (agar bo'lsa) ko'rsatiladi.</div>
+  <div class="list" id="list"></div>
+  <div class="empty" id="empty" hidden><b>Video topilmadi</b>Videoni bir marta ishga tushiring (▶) — kengaytma uni tarmoqdan aniqlaydi.<br>Kengaytma o'rnatilishidan oldin ochilgan sahifani yangilang (F5).</div>
+  <div class="foot">⚠️ <b>YouTube, Netflix va boshqa DRM bilan himoyalangan saytlarda ishlamaydi.</b><br>Faqat o'zingizga tegishli yoki yuklab olishga ruxsat berilgan videolarni saqlang. Mualliflik huquqiga rioya qilish foydalanuvchi zimmasida.</div>
+  <script src="blocked.js"></script>
+  <script src="hls.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

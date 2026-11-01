@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Тени и градиенты"
+ },
+ "desc": {
+  "message": "Живое редактирование box-shadow (многослойные, inset), text-shadow и градиентов (linear, radial, conic): готовые образцы, точки…"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "diqqat",
+ "version": "1.1.0",
+ "color": "#a16207",
+ "glyph": "D",
+ "name": {
+  "uz": "Diqqat",
+  "ru": "Концентрация"
+ },
+ "short": {
+  "uz": "Diqqat",
+  "ru": "Концентрация"
+ },
+ "desc": {
+  "uz": "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika.",
+  "ru": "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."
+ },
+ "features": {
+  "uz": [
+   "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika."
+  ],
+  "ru": [
+   "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "alarms",
+  "declarativeNetRequestWithHostAccess",
+  "notifications",
+  "offscreen",
+  "storage",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": true
+}

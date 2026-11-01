@@ -1,0 +1,37 @@
+{
+ "external": true,
+ "slug": "ob-havo",
+ "version": "1.0.0",
+ "color": "#a16207",
+ "glyph": "O",
+ "name": {
+  "uz": "Ob-havo va Havo Sifati",
+  "ru": "Погода и качество воздуха"
+ },
+ "short": {
+  "uz": "Ob-havo va Havo Sifati",
+  "ru": "Погода и качество воздуха"
+ },
+ "desc": {
+  "uz": "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…",
+  "ru": "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении…"
+ },
+ "features": {
+  "uz": [
+   "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…"
+  ],
+  "ru": [
+   "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении…"
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "contextMenus",
+  "https://air-quality-api.open-meteo.com/*",
+  "https://api.open-meteo.com/*",
+  "notifications",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

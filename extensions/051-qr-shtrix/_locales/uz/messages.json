@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "QR va Shtrix-kod"
+ },
+ "desc": {
+  "message": "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish."
+ }
+}

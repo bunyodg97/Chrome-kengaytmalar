@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "meet-davomat",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "M",
+ "name": {
+  "uz": "Meet Davomat",
+  "ru": "Посещаемость Meet"
+ },
+ "short": {
+  "uz": "Meet Davomat",
+  "ru": "Посещаемость Meet"
+ },
+ "desc": {
+  "uz": "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…",
+  "ru": "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в…"
+ },
+ "features": {
+  "uz": [
+   "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…"
+  ],
+  "ru": [
+   "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в…"
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "https://meet.google.com/*",
+  "storage",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": false
+}

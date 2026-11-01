@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.map{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:center;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.map .f{font-size:11.5px;color:var(--muted);word-break:break-all}.map.ok{border-left:4px solid var(--ok)}
+.rows{max-height:180px;overflow:auto;border:1px solid var(--line);border-radius:8px}.rows table td,.rows table th{font-size:11.5px;padding:3px 6px;white-space:nowrap}
+.rows tr.cur{background:var(--acc-soft)}.rows tr.done td:first-child::after{content:' ✓';color:var(--ok)}.rows tr.err td:first-child::after{content:' ✗';color:var(--bad)}
+#log{font:11.5px var(--mono);max-height:120px;overflow:auto;white-space:pre-wrap;color:var(--muted)}</style></head>
+<body><header class="top"><img src="icons/32.png" alt=""><h1>Forma To'ldirgich</h1></header>
+<div class="wrap">
+  <div class="card"><b class="small">1. Jadval</b><input type="file" id="file" accept=".xlsx,.xls,.csv"><div class="small muted" id="finfo">Birinchi qator — ustun nomlari.</div></div>
+  <div class="card" id="mapBox" hidden><div class="row between"><b class="small">2. Ustunlarni maydonlarga bog'lash</b><button class="ghost" id="auto">Avtomatik</button></div><div class="list" id="maps"></div>
+    <div class="map" id="subRow"><div><b class="small">Yuborish tugmasi (ixtiyoriy)</b><div class="f" id="subSel">tanlanmagan</div></div><div class="row"><button class="ghost" id="subPick">Tanlash</button><button class="ghost" id="subX">✕</button></div></div>
+    <button class="ghost" id="saveTpl">Shu bog'lanishni shu sayt uchun eslab qolish</button></div>
+  <div class="card" id="runBox" hidden><b class="small">3. To'ldirish</b>
+    <div class="rows"><table id="rows"></table></div>
+    <div class="row"><button class="ghost" id="prev">‹</button><span class="grow small" id="pos" style="text-align:center"></span><button class="ghost" id="next">›</button></div>
+    <div class="grid2"><button id="fill">Shu qatorni to'ldirish</button><button class="ghost" id="fillNext">To'ldirish va keyingisi</button></div>
+    <div class="row"><label class="inline small"><input type="checkbox" id="autoSub"> Har qatordan keyin yuborish tugmasini bosish</label></div>
+    <div class="row"><label class="small" style="flex-direction:row;align-items:center;gap:6px">Kutish <input type="number" id="wait" value="2" min="0" style="width:60px"> s</label><button class="ghost grow" id="runAll">▶ Hammasini avtomatik</button><button class="danger" id="stop" hidden>■</button></div>
+    <div id="log"></div></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/xlsx.full.min.js"></script><script src="page.js"></script><script src="panel.js"></script></body></html>

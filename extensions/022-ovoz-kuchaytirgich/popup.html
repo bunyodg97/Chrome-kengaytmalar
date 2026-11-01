@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.pre{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.pre button{padding:6px 0}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Ovoz Kuchaytirgich</h1></header>
+<div class="wrap">
+  <div class="muted small" id="tt"></div>
+  <div class="row between"><span class="big" id="val">100%</span><span class="chip" id="st">O'chiq</span></div>
+  <input type="range" id="rng" min="0" max="600" step="10" value="100" aria-label="Ovoz darajasi">
+  <div class="pre" id="pre"></div>
+  <label class="inline"><input type="checkbox" id="bass"> Bass kuchaytirish</label>
+  <label class="inline"><input type="checkbox" id="comp" checked> Buzilishdan himoya (ovoz «xirillamasin»)</label>
+  <div class="row"><button class="grow" id="go">Yoqish</button><button class="danger" id="stop" hidden>O'chirish</button></div>
+  <details><summary class="small muted">Kuchaytirilgan tablar</summary><div class="list" id="list" style="margin-top:6px"></div></details>
+  <p class="muted small">Yoqilganda Chrome tab ustida «ovoz yozilmoqda» belgisini ko'rsatadi — bu odatiy holat, ovoz hech qayerga yuborilmaydi.</p>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

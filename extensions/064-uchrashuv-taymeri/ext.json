@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "uchrashuv-taymeri",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "U",
+ "name": {
+  "uz": "Uchrashuv Taymeri",
+  "ru": "Таймер встречи"
+ },
+ "short": {
+  "uz": "Uchrashuv Taymeri",
+  "ru": "Таймер встречи"
+ },
+ "desc": {
+  "uz": "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…",
+  "ru": "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на…"
+ },
+ "features": {
+  "uz": [
+   "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…"
+  ],
+  "ru": [
+   "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "alarms",
+  "contextMenus",
+  "notifications",
+  "offscreen",
+  "scripting",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

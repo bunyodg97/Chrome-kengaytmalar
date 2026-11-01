@@ -1,0 +1,85 @@
+[
+ {
+  "id": 1,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=adult"
+   }
+  },
+  "condition": {
+   "requestDomains": [
+    "pornhub.com",
+    "xvideos.com",
+    "xnxx.com",
+    "xhamster.com",
+    "redtube.com",
+    "youporn.com",
+    "tube8.com",
+    "spankbang.com",
+    "eporner.com",
+    "beeg.com",
+    "tnaflix.com",
+    "porn.com",
+    "brazzers.com",
+    "chaturbate.com",
+    "stripchat.com",
+    "bongacams.com",
+    "cam4.com",
+    "livejasmin.com",
+    "onlyfans.com",
+    "fansly.com",
+    "rule34.xxx",
+    "nhentai.net",
+    "e-hentai.org",
+    "motherless.com",
+    "txxx.com",
+    "hclips.com",
+    "sunporno.com",
+    "porntrex.com",
+    "youjizz.com",
+    "thumbzilla.com",
+    "sex.com",
+    "xxx",
+    "porn",
+    "sex",
+    "adult",
+    "sexy",
+    "pornhub.org",
+    "xhamster.desi",
+    "xhamsterlive.com",
+    "camsoda.com",
+    "myfreecams.com",
+    "fapello.com",
+    "erome.com",
+    "hqporner.com",
+    "daftsex.com",
+    "porno365.net",
+    "pornolab.net"
+   ],
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "priority": 5,
+  "action": {
+   "type": "redirect",
+   "redirect": {
+    "extensionPath": "/blocked.html?r=adult"
+   }
+  },
+  "condition": {
+   "regexFilter": "(porn|xvideo|xnxx|xhamster|hentai|onlyfans|chaturbate|stripchat|bongacam|erotic|xxx|nude|seks)",
+   "isUrlFilterCaseSensitive": false,
+   "resourceTypes": [
+    "main_frame",
+    "sub_frame"
+   ]
+  }
+ }
+]

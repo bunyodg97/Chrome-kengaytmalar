@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Rasm Saqlovchi — sozlamalar</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .wrap { max-width: 640px; margin: 30px auto; padding: 0 20px; }
+  .head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .head img { width: 40px; }
+  .head h1 { font-size: 20px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 6px 18px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 13px 0; border-top: 1px solid var(--line); }
+  .row:first-child { border-top: 0; }
+  .row b { display: block; font-weight: 600; }
+  .row small { color: var(--muted); }
+  .inp { border: 1px solid var(--line); border-radius: 9px; padding: 6px 9px; width: 170px; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #17212f; color: #fff; padding: 8px 16px; border-radius: 10px; font-size: 13px; }
+  .how { margin-top: 18px; font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head"><img src="icons/icon128.png" alt=""><div><h1>Rasm Saqlovchi</h1><span class="muted">Sozlamalar</span></div></div>
+  <div class="card">
+    <div class="row"><div><b>JPG / WebP sifati</b><small>Past sifat — kichik fayl. 85–92% odatda farqi sezilmaydi.</small></div>
+      <span style="display:flex;align-items:center;gap:8px"><input type="range" id="quality" min="50" max="100" style="width:130px;accent-color:#0e8ce9"><b id="qTxt" style="width:38px"></b></span></div>
+    <div class="row"><div><b>Shaffof joylar rangi (JPG)</b><small>JPG shaffoflikni qo'llamaydi — shu rang bilan to'ldiriladi</small></div>
+      <input type="color" id="bg" style="width:44px;height:30px;border:0;background:none"></div>
+    <div class="row"><div><b>Saqlash papkasi</b><small>Yuklamalar ichida. Bo'sh qoldirsangiz — to'g'ridan-to'g'ri Yuklamalarga</small></div>
+      <input class="inp" id="folder" placeholder="Rasmlar"></div>
+    <label class="row"><div><b>Har safar joyni so'rash</b><small>"Saqlash" oynasi ochilib, papka va nom tanlanadi</small></div>
+      <span class="switch"><input type="checkbox" id="saveAs"><span></span></span></label>
+    <label class="row"><div><b>Ko'p rasmni ZIP qilib yuklash</b><small>O'chirilsa — har bir rasm alohida fayl bo'ladi</small></div>
+      <span class="switch"><input type="checkbox" id="zip"><span></span></span></label>
+    <div class="row"><div><b>Galereyadagi eng kichik rasm</b><small>Ikonka va mayda tugmalar ko'rsatilmaydi</small></div>
+      <select class="inp" id="minSize" style="width:120px"><option value="0">Hammasi</option><option value="50">50 px</option><option value="80">80 px</option><option value="150">150 px</option><option value="300">300 px</option></select></div>
+  </div>
+  <div class="how">
+    <b>Qanday ishlatiladi?</b><br>
+    • Istalgan rasm ustida <b>o'ng tugma → Rasmni saqlash → JPG / PNG / WebP</b>.<br>
+    • <b>Tahrirlab saqlash</b> — o'lcham, sifat, burish va natijaviy hajmni ko'rib saqlash.<br>
+    • Kengaytma belgisini bosing — sahifadagi barcha rasmlar chiqadi, tanlab birdaniga yuklab olasiz.
+  </div>
+  <p class="muted" style="text-align:center;font-size:12px;margin-top:24px">Rasm Saqlovchi v1.0 · Bunyodg97</p>
+</div>
+<script type="module" src="options.js"></script>
+</body>
+</html>

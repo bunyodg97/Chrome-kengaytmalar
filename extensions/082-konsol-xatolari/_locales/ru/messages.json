@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Ошибки консоли"
+ },
+ "desc": {
+  "message": "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в…"
+ }
+}

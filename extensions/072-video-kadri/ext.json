@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "video-kadri",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "V",
+ "name": {
+  "uz": "Video Kadri",
+  "ru": "Кадр из видео"
+ },
+ "short": {
+  "uz": "Video Kadri",
+  "ru": "Кадр из видео"
+ },
+ "desc": {
+  "uz": "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…",
+  "ru": "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом…"
+ },
+ "features": {
+  "uz": [
+   "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…"
+  ],
+  "ru": [
+   "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "downloads",
+  "scripting",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}

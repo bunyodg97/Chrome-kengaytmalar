@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Sahifa Kuzatuvchi"
+ },
+ "desc": {
+  "message": "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi."
+ }
+}

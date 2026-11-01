@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Поиск по документации"
+ },
+ "desc": {
+  "message": "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go…"
+ }
+}

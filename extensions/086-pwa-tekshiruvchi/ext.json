@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "pwa-tekshiruvchi",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "P",
+ "name": {
+  "uz": "PWA Tekshiruvchi",
+  "ru": "Проверка PWA"
+ },
+ "short": {
+  "uz": "PWA Tekshiruvchi",
+  "ru": "Проверка PWA"
+ },
+ "desc": {
+  "uz": "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…",
+  "ru": "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги —…"
+ },
+ "features": {
+  "uz": [
+   "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…"
+  ],
+  "ru": [
+   "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги —…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

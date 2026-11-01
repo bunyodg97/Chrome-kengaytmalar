@@ -1,0 +1,13 @@
+let tab, cur = null, name = '';
+$('#pl').innerHTML = PLACES.map((p, i) => `<button class="ghost" data-i="${i}">${p[0]}</button>`).join('');
+try { $('#tzs').innerHTML = Intl.supportedValuesOf('timeZone').map(z => `<option>${z}</option>`).join(''); } catch {}
+function fill(p) { name = p[0]; $('#lat').value = p[1]; $('#lon').value = p[2]; $('#tz').value = p[3]; $('#loc').value = p[4]; $$('#pl button').forEach(b => b.classList.toggle('on', PLACES[b.dataset.i][0] === name)); }
+$('#pl').onclick = e => { const b = e.target.closest('button'); if (b) fill(PLACES[b.dataset.i]); };
+function preview(c) { try { const d = new Date(); $('#now').innerHTML = c ? `<b>${esc(c.name || 'Maxsus')}</b> faol: ${esc(c.tz)} · ${esc(c.loc)}<br>U yerda hozir: <b>${d.toLocaleString(c.loc || undefined, { timeZone: c.tz || undefined, dateStyle: 'full', timeStyle: 'short' })}</b><br>Raqam: ${(1234567.891).toLocaleString(c.loc || undefined)} · Valyuta: ${(99.5).toLocaleString(c.loc || undefined, { style: 'currency', currency: { 'uz-UZ': 'UZS', 'ru-RU': 'RUB', 'en-US': 'USD', 'en-GB': 'GBP', 'tr-TR': 'TRY', 'de-DE': 'EUR', 'ar-AE': 'AED', 'ja-JP': 'JPY', 'ko-KR': 'KRW', 'zh-CN': 'CNY', 'kk-KZ': 'KZT' }[c.loc] || 'USD' })}` : 'Hozir haqiqiy joy, vaqt va til ishlatilmoqda.'; } catch (e) { $('#now').textContent = 'Noto\'g\'ri timezone yoki locale'; } }
+$('#go').onclick = async () => { $('#err').textContent = ''; const c = { name, lat: +$('#lat').value, lon: +$('#lon').value, tz: $('#tz').value.trim(), loc: $('#loc').value.trim(), geo: $('#geo').checked, origin: new URL(tab.url).origin };
+  try { if (c.tz) new Intl.DateTimeFormat('en', { timeZone: c.tz }); } catch { $('#err').textContent = 'Bunday vaqt zonasi yo\'q'; return; }
+  const r = await chrome.runtime.sendMessage({ type: 'apply', tabId: tab.id, c }); if (r.error) { $('#err').textContent = 'Xato: ' + r.error; return; } cur = c; store.set('last', c); preview(c); chrome.tabs.reload(tab.id); };
+$('#off').onclick = async () => { await chrome.runtime.sendMessage({ type: 'apply', tabId: tab.id, c: null }); cur = null; preview(null); chrome.tabs.reload(tab.id); };
+['lat', 'lon', 'tz', 'loc'].forEach(k => $('#' + k).oninput = () => { name = ''; $$('#pl button').forEach(b => b.classList.remove('on')); });
+(async () => { tab = await activeTab(); cur = ((await chrome.storage.session.get('tabs')).tabs || {})[tab.id] || null; const l = cur || await store.get('last', null);
+  if (l) { name = l.name; $('#lat').value = l.lat; $('#lon').value = l.lon; $('#tz').value = l.tz; $('#loc').value = l.loc; $('#geo').checked = l.geo !== false; $$('#pl button').forEach(b => b.classList.toggle('on', PLACES[b.dataset.i][0] === name)); } else fill(PLACES[4]); preview(cur); })();

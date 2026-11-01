@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.r{display:grid;grid-template-columns:44px 1fr auto;gap:8px;align-items:center;padding:6px 8px;border-bottom:1px solid var(--line)}.r b{font-size:13px}.r .v{font-variant-numeric:tabular-nums;font-weight:600}.up{color:var(--ok)}.dn{color:var(--bad)}.calc{display:grid;grid-template-columns:1fr 90px;gap:6px}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Valyuta Kursi</h1><button class="ghost" id="rf">↻</button></header>
+<div class="wrap">
+  <div class="card"><b class="small">Kalkulyator</b><div class="calc"><input id="amt" type="number" value="100"><select id="cur"></select></div><div class="big" id="res" style="font-size:22px"></div><div class="calc"><input id="som" type="number" placeholder="so'm"><span class="small muted" id="back"></span></div></div>
+  <div class="card" style="padding:4px 0" id="list"></div>
+  <p class="muted small" id="date"></p>
+  <p class="muted small">Sahifadagi narxni ($, €, ₽ bilan) sichqoncha bilan belgilasangiz, so'mdagi qiymati chiqadi.</p>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

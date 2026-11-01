@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "ishlatilmagan-css",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "I",
+ "name": {
+  "uz": "Ishlatilmagan CSS",
+  "ru": "Неиспользуемый CSS"
+ },
+ "short": {
+  "uz": "Ishlatilmagan CSS",
+  "ru": "Неиспользуемый CSS"
+ },
+ "desc": {
+  "uz": "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…",
+  "ru": "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим…"
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…"
+  ],
+  "ru": [
+   "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

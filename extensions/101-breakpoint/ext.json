@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "breakpoint",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "B",
+ "name": {
+  "uz": "Breakpoint Ko'rsatkichi",
+  "ru": "Индикатор брейкпоинтов"
+ },
+ "short": {
+  "uz": "Breakpoint Ko'rsatkichi",
+  "ru": "Индикатор брейкпоинтов"
+ },
+ "desc": {
+  "uz": "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…",
+  "ru": "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта…"
+ },
+ "features": {
+  "uz": [
+   "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…"
+  ],
+  "ru": [
+   "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

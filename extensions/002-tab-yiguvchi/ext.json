@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "tab-yiguvchi",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "T",
+ "name": {
+  "uz": "Tab Yig'uvchi",
+  "ru": "Сборщик вкладок"
+ },
+ "short": {
+  "uz": "Tab Yig'uvchi",
+  "ru": "Сборщик вкладок"
+ },
+ "desc": {
+  "uz": "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz.",
+  "ru": "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."
+ },
+ "features": {
+  "uz": [
+   "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz."
+  ],
+  "ru": [
+   "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage",
+  "tabs",
+  "unlimitedStorage"
+ ],
+ "category": "work",
+ "standalone": false
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Meet Davomat</title><link rel="stylesheet" href="ui.css"><style>body.popup{width:420px}table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--muted);font-weight:600}</style></head>
+<body><div class="wrap" id="root">
+<div class="row between"><h2>Meet Davomat</h2><label class="inline"><input type="checkbox" id="on" style="width:auto"> Yozib borish</label></div>
+<div class="card small" id="live">Google Meet'ga kiring — ishtirokchilar avtomatik yoziladi. To'liq ro'yxat uchun Meet'da «Odamlar» (People) panelini ochib qo'ying.</div>
+<div id="detail" hidden><div class="row between"><button class="ghost" id="back">← Orqaga</button><div class="row"><button id="xlsx">Excel</button><button class="ghost" id="csv">CSV</button><button class="ghost danger" id="del">✕</button></div></div>
+<h2 id="dt"></h2><div class="small muted" id="dm"></div><label class="small">Minimal qatnashish (daqiqa) — kamroq bo'lsa «qisqa» deb belgilanadi<input type="number" id="min" value="10" min="0"></label><table id="tbl"></table></div>
+<div id="lst" class="list"></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="lib/xlsx.full.min.js"></script><script src="popup.js"></script></body></html>

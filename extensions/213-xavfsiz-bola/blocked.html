@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Sahifa yopiq — Xavfsiz Bola</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { min-height: 100vh; display: grid; place-items: center; padding: 24px;
+         background: radial-gradient(circle at 20% 10%, #e9e8ff 0, transparent 40%), radial-gradient(circle at 85% 90%, #dff6f2 0, transparent 40%), var(--bg); }
+  .box { max-width: 480px; width: 100%; text-align: center; padding: 36px 30px; }
+  .emoji { font-size: 76px; line-height: 1; margin-bottom: 10px; animation: bob 2.4s ease-in-out infinite; }
+  @keyframes bob { 50% { transform: translateY(-6px); } }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  .sub { color: var(--muted); font-size: 15px; }
+  .ideas { margin: 18px 0 4px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .ideas span { background: var(--pri-soft); color: #4646b5; border-radius: 99px; padding: 5px 12px; font-size: 13px; }
+  .parent { margin-top: 22px; border-top: 1px dashed var(--line); padding-top: 16px; }
+  .parent summary { cursor: pointer; color: var(--muted); font-size: 13px; list-style: none; }
+  .parent summary::-webkit-details-marker { display: none; }
+  .pp { margin-top: 14px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .pp .pin-input { width: 160px; font-size: 22px; padding: 8px; }
+  .opts { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+  .brand { margin-top: 16px; font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; justify-content: center; }
+</style>
+</head>
+<body>
+  <div class="card box">
+    <div class="emoji" id="emoji">🛡️</div>
+    <h1 id="title">Bu sahifa yopiq</h1>
+    <div class="sub" id="sub"></div>
+    <div class="ideas" id="ideas"></div>
+
+    <details class="parent hidden" id="parentBox">
+      <summary>👨‍👩‍👧 Ota-ona uchun: vaqt qo'shish</summary>
+      <div class="pp">
+        <input class="pin-input" id="pin" type="password" inputmode="numeric" maxlength="6" placeholder="PIN">
+        <div class="opts" id="opts"></div>
+        <div class="err" id="err"></div>
+      </div>
+    </details>
+    <div class="brand"><img src="icons/icon16.png" alt=""> Xavfsiz Bola</div>
+  </div>
+  <script type="module" src="blocked.js"></script>
+</body>
+</html>

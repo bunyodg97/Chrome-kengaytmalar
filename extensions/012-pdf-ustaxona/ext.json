@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "pdf-ustaxona",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "P",
+ "name": {
+  "uz": "PDF Ustaxona",
+  "ru": "PDF Мастерская"
+ },
+ "short": {
+  "uz": "PDF Ustaxona",
+  "ru": "PDF Мастерская"
+ },
+ "desc": {
+  "uz": "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…",
+  "ru": "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."
+ },
+ "features": {
+  "uz": [
+   "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…"
+  ],
+  "ru": [
+   "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": false
+}

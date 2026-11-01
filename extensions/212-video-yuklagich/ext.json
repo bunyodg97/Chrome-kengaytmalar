@@ -1,0 +1,39 @@
+{
+ "external": true,
+ "slug": "video-yuklagich",
+ "version": "1.0.0",
+ "color": "#0e7490",
+ "glyph": "V",
+ "name": {
+  "uz": "Video Yuklagich",
+  "ru": "Загрузчик видео"
+ },
+ "short": {
+  "uz": "Video Yuklagich",
+  "ru": "Загрузчик видео"
+ },
+ "desc": {
+  "uz": "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI.",
+  "ru": "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."
+ },
+ "features": {
+  "uz": [
+   "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI."
+  ],
+  "ru": [
+   "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "declarativeNetRequestWithHostAccess",
+  "downloads",
+  "http://*/*",
+  "https://*/*",
+  "storage",
+  "tabs",
+  "webRequest"
+ ],
+ "category": "life",
+ "standalone": true
+}

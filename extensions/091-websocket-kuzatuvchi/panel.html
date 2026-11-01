@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body{font-size:12.5px}.wrap{padding:8px;height:100vh;display:flex;flex-direction:column;gap:6px;box-sizing:border-box}.cn{padding:5px 8px;cursor:pointer;display:block}.cn.on{border-color:var(--acc)}.cn .u{font:11.5px var(--mono);word-break:break-all}.cn .s{font-size:11px;color:var(--muted)}
+#msgs{flex:1;overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}.m{display:grid;grid-template-columns:16px 1fr auto;gap:4px;padding:3px 6px;border-bottom:1px solid var(--line);cursor:pointer;font:11.5px var(--mono)}.m .d{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.m.open .d{white-space:pre-wrap;word-break:break-all}.m .t{color:var(--muted);font-size:10.5px}.m.in .a{color:#2e7d32}.m.out .a{color:#c62828}.m.sys{color:var(--muted);font-style:italic}.m.hl{background:color-mix(in srgb,var(--warn) 18%,transparent)}#cl{max-height:28vh;overflow:auto}</style></head>
+<body data-about="float"><div class="wrap">
+<div class="row between"><b>WebSocket / SSE</b><div class="row"><button class="ghost" id="pause">⏸</button><button class="ghost" id="exp">⬇</button><button class="ghost" id="clr">🗑</button></div></div>
+<div class="list" id="cl"></div>
+<div class="row"><input id="q" placeholder="Filtr (matn yoki /regex/)" style="flex:1"><select id="dir" style="width:auto"><option value="">⇅</option><option value="in">↓ kelgan</option><option value="out">↑ ketgan</option></select></div>
+<div id="msgs"></div><div class="small muted" id="st">Sahifani yangilang — ulanishlar shundan keyin ko'rinadi.</div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="panel.js"></script></body></html>

@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "svg-yiguvchi",
+ "version": "1.0.0",
+ "color": "#7a3fd1",
+ "glyph": "S",
+ "name": {
+  "uz": "SVG Yig'uvchi",
+  "ru": "Сборщик SVG"
+ },
+ "short": {
+  "uz": "SVG Yig'uvchi",
+  "ru": "Сборщик SVG"
+ },
+ "desc": {
+  "uz": "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…",
+  "ru": "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data…"
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…"
+  ],
+  "ru": [
+   "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Klaviatura Makroslari"
+ },
+ "desc": {
+  "message": "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…"
+ }
+}

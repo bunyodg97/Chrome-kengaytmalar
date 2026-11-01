@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Vizual farq</title><link rel="icon" href="icons/32.png"><link rel="stylesheet" href="ui.css">
+<style>.v{position:relative;border:1px solid var(--line);border-radius:8px;overflow:auto;max-height:78vh;background:#888}.v canvas,.v img{display:block;max-width:100%}.side{display:grid;grid-template-columns:1fr 1fr;gap:8px}.side .v canvas{width:100%}
+.sl{position:relative;display:inline-block;max-width:100%}.sl img{display:block;max-width:100%}.sl .top{position:absolute;inset:0;overflow:hidden;border-right:2px solid #e91e63}.sl .top img{max-width:none}.big{font-size:28px;font-weight:800}</style></head>
+<body><div class="page" style="max-width:1500px"><div class="row between"><div><h1>Vizual farq</h1><div class="small muted" id="meta"></div></div><div style="text-align:right"><div class="big" id="pct"></div><div class="small muted" id="px"></div></div></div>
+<div class="row"><div class="tabs" id="tb"><button data-m="diff" class="on">Farq</button><button data-m="side">Yonma-yon</button><button data-m="slide">Surgich</button><button data-m="blend">Ustma-ust</button></div>
+<label class="small">Sezgirlik <input type="range" id="th" min="0" max="80" value="16" style="width:120px"></label><label class="inline small"><input type="checkbox" id="box" checked style="width:auto"> Hududlarni ramkaga olish</label><button class="ghost" id="dl">PNG yuklash</button><button class="ghost" id="newb">Hozirgisini «oldin» qilish</button></div>
+<div id="view" style="margin-top:10px"></div></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="db.js"></script><script src="diff.js"></script></body></html>

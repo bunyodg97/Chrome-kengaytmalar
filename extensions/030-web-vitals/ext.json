@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "web-vitals",
+ "version": "1.0.0",
+ "color": "#4d6b0f",
+ "glyph": "W",
+ "name": {
+  "uz": "Web Vitals Jonli",
+  "ru": "Web Vitals онлайн"
+ },
+ "short": {
+  "uz": "Web Vitals Jonli",
+  "ru": "Web Vitals онлайн"
+ },
+ "desc": {
+  "uz": "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi.",
+  "ru": "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."
+ },
+ "features": {
+  "uz": [
+   "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi."
+  ],
+  "ru": [
+   "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."
+  ]
+ },
+ "permissions": [
+  "content_scripts",
+  "contextMenus",
+  "storage",
+  "tabs"
+ ],
+ "category": "dev",
+ "standalone": false
+}

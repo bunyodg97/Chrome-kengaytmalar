@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "ai-yordamchi",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "A",
+ "name": {
+  "uz": "AI Yordamchi (o'zbekcha)",
+  "ru": "AI Помощник (узбекский)"
+ },
+ "short": {
+  "uz": "AI Yordamchi (o'zbekcha)",
+  "ru": "AI Помощник (узбекский)"
+ },
+ "desc": {
+  "uz": "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi.",
+  "ru": "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."
+ },
+ "features": {
+  "uz": [
+   "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi."
+  ],
+  "ru": [
+   "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "sidePanel",
+  "storage",
+  "tabs"
+ ],
+ "category": "ai",
+ "standalone": false
+}

@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "gif-yaratuvchi",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "G",
+ "name": {
+  "uz": "GIF Yaratuvchi",
+  "ru": "Создатель GIF"
+ },
+ "short": {
+  "uz": "GIF Yaratuvchi",
+  "ru": "Создатель GIF"
+ },
+ "desc": {
+  "uz": "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun.",
+  "ru": "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."
+ },
+ "features": {
+  "uz": [
+   "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun."
+  ],
+  "ru": [
+   "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "downloads",
+  "offscreen",
+  "scripting",
+  "storage",
+  "tabCapture"
+ ],
+ "category": "life",
+ "standalone": false
+}

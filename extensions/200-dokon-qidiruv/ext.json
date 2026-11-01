@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "dokon-qidiruv",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "B",
+ "name": {
+  "uz": "Bir qidiruv",
+  "ru": "Один поиск"
+ },
+ "short": {
+  "uz": "Bir qidiruv",
+  "ru": "Один поиск"
+ },
+ "desc": {
+  "uz": "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson.",
+  "ru": "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."
+ },
+ "features": {
+  "uz": [
+   "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson."
+  ],
+  "ru": [
+   "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage",
+  "tabGroups",
+  "tabs"
+ ],
+ "category": "life",
+ "standalone": true
+}

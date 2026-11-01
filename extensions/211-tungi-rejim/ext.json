@@ -1,0 +1,36 @@
+{
+ "external": true,
+ "slug": "tungi-rejim",
+ "version": "2.0.0",
+ "color": "#c2410c",
+ "glyph": "T",
+ "name": {
+  "uz": "Tungi rejim",
+  "ru": "Ночной режим"
+ },
+ "short": {
+  "uz": "Tungi rejim",
+  "ru": "Ночной режим"
+ },
+ "desc": {
+  "uz": "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D.",
+  "ru": "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."
+ },
+ "features": {
+  "uz": [
+   "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D."
+  ],
+  "ru": [
+   "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "alarms",
+  "content_scripts",
+  "scripting",
+  "storage"
+ ],
+ "category": "access",
+ "standalone": true
+}

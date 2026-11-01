@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:420px}.it img{width:44px;height:44px;object-fit:contain;border-radius:6px;background:#fff;flex:none}.it.done{opacity:.5}.it.done b{text-decoration:line-through}.it b{display:block;font-size:13px;line-height:1.3;max-height:2.6em;overflow:hidden}
+.it input.q{width:46px;padding:4px}.it input.p{width:92px;padding:4px}.tot{font-size:20px;font-weight:700}.grp{font-size:12px;font-weight:700;color:var(--muted);margin:8px 0 2px;text-transform:uppercase}</style></head>
+<body class="popup"><div class="wrap">
+<button id="add" style="width:100%">+ Shu sahifadagi mahsulotni qo'shish</button>
+<div class="row"><input id="manual" placeholder="Yoki qo'lda: Non 2 dona 4000" class="grow" style="flex:1"><button class="ghost" id="madd">+</button></div>
+<div class="card row between"><div><div class="small muted">Olinmagan (jami)</div><div class="tot" id="tot">0 so'm</div></div><div style="text-align:right"><div class="small muted">Olingan</div><div id="tdone">0</div></div></div>
+<div class="row between"><div class="tabs" id="f"><button data-f="all" class="on">Hammasi</button><button data-f="todo">Olinmagan</button><button data-f="done">Olingan</button></div><span class="small muted" id="rate"></span></div>
+<div id="list"></div>
+<div class="row"><button class="ghost" id="copy">Matn qilib nusxalash</button><button class="ghost" id="csv">CSV</button><button class="ghost danger" id="clr">Olinganlarni o'chirish</button></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

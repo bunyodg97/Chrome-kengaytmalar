@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Kirish Imkoniyati Tekshiruvi"
+ },
+ "desc": {
+  "message": "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…"
+ }
+}

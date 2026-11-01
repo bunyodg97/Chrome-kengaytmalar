@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.pw{font-family:var(--mono);font-size:17px;word-break:break-all;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:8px;min-height:46px}
+.meter{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}.meter i{height:6px;border-radius:3px;background:var(--line)}
+.s0 i:nth-child(-n+1){background:var(--bad)}.s1 i:nth-child(-n+2){background:var(--bad)}.s2 i:nth-child(-n+3){background:var(--warn)}.s3 i:nth-child(-n+4){background:var(--ok)}.s4 i{background:var(--ok)}
+ul{margin:4px 0 0;padding-left:18px;font-size:12.5px;color:var(--warn)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Parol Ustasi</h1></header>
+<div class="wrap">
+  <div class="tabs"><button class="on" data-tab="gen">Yaratish</button><button data-tab="chk">Tekshirish</button></div>
+  <div data-pane="gen" class="wrap" style="padding:0">
+    <div class="pw" id="pw"></div>
+    <div class="meter" id="m1"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="small muted" id="info1"></div>
+    <div class="row"><button id="copy" class="grow">Nusxalash</button><button class="ghost" id="again">Yangisi</button></div>
+    <label>Turi<select id="mode"><option value="random">Tasodifiy belgilar</option><option value="words">Esda qoladigan (so'zlardan)</option><option value="pin">PIN-kod (faqat raqam)</option></select></label>
+    <label>Uzunligi: <b id="lenV"></b><input type="range" id="len" min="4" max="64"></label>
+    <div id="opts" class="grid2">
+      <label class="inline"><input type="checkbox" id="upper"> A–Z</label><label class="inline"><input type="checkbox" id="lower"> a–z</label>
+      <label class="inline"><input type="checkbox" id="num"> 0–9</label><label class="inline"><input type="checkbox" id="sym"> !@#$</label>
+      <label class="inline" style="grid-column:span 2"><input type="checkbox" id="noSimilar"> O'xshash belgilarsiz (I, l, 1, O, 0)</label>
+    </div>
+    <p class="muted small">Formadagi maydonda o'ng tugma → «Kuchli parol yaratib qo'yish».</p>
+  </div>
+  <div data-pane="chk" hidden class="wrap" style="padding:0">
+    <input id="test" type="password" placeholder="Parolni kiriting" autocomplete="off">
+    <label class="inline"><input type="checkbox" id="showT"> Ko'rsatish</label>
+    <div class="meter" id="m2"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="small" id="info2"></div>
+    <button class="ghost" id="pwn">Sizib chiqqanlar bazasida tekshirish</button>
+    <div class="small" id="pwnRes"></div>
+    <p class="muted small">Tekshiruvda parolning o'zi yuborilmaydi: faqat SHA-1 xeshining dastlabki 5 belgisi (k-anonimlik usuli).</p>
+  </div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="gen.js"></script><script src="popup.js"></script>
+</body></html>

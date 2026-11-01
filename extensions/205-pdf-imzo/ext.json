@@ -1,0 +1,34 @@
+{
+ "external": true,
+ "slug": "pdf-imzo",
+ "version": "1.0.0",
+ "color": "#b4234a",
+ "glyph": "P",
+ "name": {
+  "uz": "PDF Imzo",
+  "ru": "PDF-подпись"
+ },
+ "short": {
+  "uz": "PDF Imzo",
+  "ru": "PDF-подпись"
+ },
+ "desc": {
+  "uz": "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi.",
+  "ru": "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."
+ },
+ "features": {
+  "uz": [
+   "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi."
+  ],
+  "ru": [
+   "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "work",
+ "standalone": true
+}

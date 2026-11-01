@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "rang-shrift",
+ "version": "1.0.0",
+ "color": "#c2410c",
+ "glyph": "R",
+ "name": {
+  "uz": "Rang va Shrift",
+  "ru": "Цвет и шрифт"
+ },
+ "short": {
+  "uz": "Rang va Shrift",
+  "ru": "Цвет и шрифт"
+ },
+ "desc": {
+  "uz": "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi.",
+  "ru": "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."
+ },
+ "features": {
+  "uz": [
+   "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi."
+  ],
+  "ru": [
+   "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

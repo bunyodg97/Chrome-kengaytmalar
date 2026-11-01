@@ -1,0 +1,33 @@
+{
+ "external": true,
+ "slug": "konvertorlar",
+ "version": "1.0.0",
+ "color": "#1f7a4d",
+ "glyph": "K",
+ "name": {
+  "uz": "Konvertorlar",
+  "ru": "Конвертеры"
+ },
+ "short": {
+  "uz": "Konvertorlar",
+  "ru": "Конвертеры"
+ },
+ "desc": {
+  "uz": "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…",
+  "ru": "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct.…"
+ },
+ "features": {
+  "uz": [
+   "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…"
+  ],
+  "ru": [
+   "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct.…"
+  ]
+ },
+ "permissions": [
+  "contextMenus",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

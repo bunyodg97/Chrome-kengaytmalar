@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.gauge{position:relative;width:220px;height:130px;margin:0 auto}.gauge canvas{width:220px;height:130px}
+.gv{position:absolute;left:0;right:0;bottom:6px;text-align:center}.gv b{font-size:30px;font-variant-numeric:tabular-nums}.gv span{display:block;font-size:12px;color:var(--muted)}
+.m{text-align:center}.m b{display:block;font-size:19px;font-variant-numeric:tabular-nums}.m span{font-size:11.5px;color:var(--muted)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.fit{display:flex;justify-content:space-between;font-size:13px;padding:3px 0}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Tezlik Sinovi</h1></header>
+<div class="wrap">
+  <div class="gauge"><canvas id="g" width="440" height="260"></canvas><div class="gv"><b id="now">0</b><span id="phase">Mbit/s</span></div></div>
+  <div class="three card"><div class="m"><b id="ping">—</b><span>Ping, ms</span></div><div class="m"><b id="down">—</b><span>Yuklab olish</span></div><div class="m"><b id="up">—</b><span>Yuklash</span></div></div>
+  <button id="go">Sinovni boshlash</button>
+  <div class="card" id="fitBox" hidden></div>
+  <details><summary class="small muted">Oxirgi o'lchovlar</summary><table id="hist" class="small" style="margin-top:6px"></table></details>
+  <p class="muted small">O'lchov Cloudflare serverlari orqali bajariladi va ~20 MB trafik sarflaydi.</p>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Объяснитель Tailwind"
+ },
+ "desc": {
+  "message": "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary]…"
+ }
+}

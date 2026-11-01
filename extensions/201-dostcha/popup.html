@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Do'stcha</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 310px; font: 14px/1.4 system-ui, -apple-system, 'Segoe UI', sans-serif; color: #1e293b; background: #f8fafc; }
+  .stage { height: 130px; background: linear-gradient(#e0f2fe, #f0f9ff); position: relative; overflow: hidden; border-bottom: 1px solid #e2e8f0; }
+  .stage::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 14px; background: #bae6fd; }
+  #pv { position: absolute; bottom: 6px; left: 50%; width: 104px; height: 104px; margin-left: -52px; cursor: pointer; z-index: 1; }
+  h1 { font-size: 15px; margin: 0; position: absolute; top: 8px; left: 12px; }
+  main { padding: 6px 14px 14px; }
+  .pets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 6px 0 8px; border-bottom: 1px solid #eef2f7; }
+  .pets button { border: 2px solid #e2e8f0; background: #fff; border-radius: 10px; padding: 4px 2px 3px; cursor: pointer; font: 600 11px system-ui; color: #334155; }
+  .pets button.on { border-color: #0ea5e9; background: #f0f9ff; }
+  .pets img { display: block; width: 44px; height: 44px; margin: 0 auto 2px; object-fit: contain; }
+  .row { display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid #eef2f7; }
+  .row:last-of-type { border: 0; }
+  .sw { position: relative; width: 38px; height: 22px; flex: none; }
+  .sw input { opacity: 0; width: 0; height: 0; }
+  .sw span { position: absolute; inset: 0; background: #cbd5e1; border-radius: 22px; transition: .2s; cursor: pointer; }
+  .sw span::before { content: ''; position: absolute; width: 16px; height: 16px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; }
+  .sw input:checked + span { background: #0ea5e9; }
+  .sw input:checked + span::before { transform: translateX(16px); }
+  .seg { display: flex; background: #e2e8f0; border-radius: 8px; padding: 2px; }
+  .seg button { border: 0; background: none; padding: 3px 10px; border-radius: 6px; cursor: pointer; font: inherit; font-size: 12px; color: #475569; }
+  .seg button.on { background: #fff; color: #0f172a; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+  .site { font-size: 12px; color: #64748b; }
+  .btns { display: flex; gap: 8px; margin-top: 10px; }
+  .btns button { flex: 1; padding: 8px; border: 0; border-radius: 8px; font: 600 13px system-ui; cursor: pointer; }
+  #hello { background: #0ea5e9; color: #fff; }
+  #hello:disabled { opacity: .5; cursor: default; }
+  #opts { background: #e2e8f0; color: #1e293b; }
+  footer { text-align: center; font-size: 11px; color: #94a3b8; padding-bottom: 10px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+  <div class="stage"><h1>🐾 Do'stcha</h1><div id="pv" title="Meni bosing!"></div></div>
+  <main>
+    <div class="pets" id="pets"></div>
+    <div class="row"><b>Do'stim yoqilgan</b><label class="sw"><input type="checkbox" id="on"><span></span></label></div>
+    <div class="row" id="siteRow"><span>Shu saytda ko'rsatish<br><span class="site" id="host"></span></span><label class="sw"><input type="checkbox" id="site"><span></span></label></div>
+    <div class="row"><span>O'lcham</span><div class="seg" id="size"><button data-v="s">Kichik</button><button data-v="m">O'rta</button><button data-v="l">Katta</button></div></div>
+    <div class="row"><span>Tezlik</span><div class="seg" id="speed"><button data-v="0.5">Sekin</button><button data-v="1">O'rta</button><button data-v="2">Tez</button></div></div>
+    <div class="row"><span>Gapirsin 💬</span><label class="sw"><input type="checkbox" id="talk"><span></span></label></div>
+    <div class="btns"><button id="hello">👋 Salom ber</button><button id="opts">⚙️ Sozlamalar</button></div>
+  </main>
+  <footer>Bunyodg97 · Do'stcha 2.0</footer>
+  <script src="pets.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

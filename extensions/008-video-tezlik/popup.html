@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.presets{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.presets button{padding:6px 0}.presets button.on{outline:2px solid var(--acc)}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>Video Tezlik</h1></header>
+<div class="wrap">
+  <div class="row between"><span class="big" id="val">1x</span><span class="muted small" id="cnt"></span></div>
+  <input type="range" id="rng" min="0.25" max="4" step="0.05" value="1" aria-label="Tezlik">
+  <div class="presets" id="pre"></div>
+  <details><summary class="small muted">Sozlamalar</summary>
+    <div class="card" style="margin-top:6px">
+      <label class="inline"><input type="checkbox" id="remember"> Har bir sayt uchun tezlikni eslab qolish</label>
+      <label class="inline"><input type="checkbox" id="badge"> Video ustida tezlikni ko'rsatish</label>
+      <label class="inline"><input type="checkbox" id="keys"> Klaviatura tugmalari (S, D, R, Z, X)</label>
+      <div class="grid2"><label>Qadam<input type="number" id="step" min="0.05" max="1" step="0.05"></label><label>Sakrash (soniya)<input type="number" id="jump" min="1" max="60"></label></div>
+      <label>R tugmasi uchun sevimli tezlik<input type="number" id="fav" min="0.25" max="16" step="0.25"></label>
+    </div>
+  </details>
+  <p class="muted small">S — sekinroq, D — tezroq, R — 1x / sevimli tezlik, Z / X — orqaga / oldinga.</p>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

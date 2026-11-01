@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:460px}.e{display:block;cursor:pointer}.e .m{font:12px var(--mono);word-break:break-word}.e pre{font:11px var(--mono);white-space:pre-wrap;color:var(--muted);margin:6px 0 0;display:none;max-height:180px;overflow:auto}.e.open pre{display:block}.e .s{font-size:11px;color:var(--muted);word-break:break-all}</style></head>
+<body class="popup"><div class="wrap">
+<div class="row between"><h2>Konsol xatolari</h2><div class="row"><button class="ghost" id="cp">Hammasini nusxalash</button><button class="ghost" id="clr">Tozalash</button></div></div>
+<div class="tabs" id="f"><button data-k="" class="on">Hammasi</button><button data-k="xato">Xato</button><button data-k="promise">Promise</button><button data-k="console">console.error</button><button data-k="resurs">Resurs</button></div>
+<div class="list" id="list"></div>
+<details><summary class="small">Sozlamalar</summary><div class="list" style="margin-top:6px">
+<label class="small">E'tiborsiz qoldirish (har qatorga bittasi, matn yoki fayl qismi)<textarea id="ign" rows="3"></textarea></label>
+<b class="small">Telegram xabar (o'z saytlaringiz uchun)</b><div class="grid2"><input id="tok" placeholder="Bot token"><input id="chat" placeholder="Chat ID"></div><input id="hosts" placeholder="Domenlar: mysite.uz, admin.mysite.uz"><button id="sv">Saqlash</button></div></details>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

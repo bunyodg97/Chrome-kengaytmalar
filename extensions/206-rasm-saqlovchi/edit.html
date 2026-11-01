@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Rasmni tahrirlab saqlash</title>
+<link rel="icon" href="icons/icon32.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  html, body { height: 100%; }
+  body { display: grid; grid-template-columns: 1fr 340px; }
+  .stage { display: grid; place-items: center; padding: 24px; min-height: 0; overflow: auto; }
+  .stage .frame { max-width: 100%; max-height: calc(100vh - 90px); border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,.08); overflow: hidden; display: grid; }
+  .stage img { max-width: 100%; max-height: calc(100vh - 90px); display: block; }
+  .info { text-align: center; color: var(--muted); font-size: 12.5px; margin-top: 10px; }
+  aside { background: #fff; border-left: 1px solid var(--line); padding: 18px; overflow-y: auto; display: flex; flex-direction: column; gap: 16px; }
+  aside h1 { font-size: 17px; display: flex; align-items: center; gap: 8px; }
+  aside h1 img { width: 26px; }
+  .sec h3 { font-size: 11.5px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin-bottom: 7px; }
+  .row { display: flex; align-items: center; gap: 8px; }
+  .num { width: 90px; border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
+  .lock { border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 5px 8px; cursor: pointer; }
+  .lock.on { background: var(--pri-soft); border-color: #a9d4f7; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+  .chips button { border: 1px solid var(--line); background: #fff; border-radius: 99px; padding: 3px 10px; font-size: 12px; cursor: pointer; }
+  .chips button:hover { border-color: var(--pri); color: var(--pri); }
+  input[type=range] { width: 100%; accent-color: var(--pri); }
+  .tools { display: flex; gap: 6px; }
+  .tools button { flex: 1; border: 1px solid var(--line); background: #fff; border-radius: 9px; padding: 7px 0; cursor: pointer; font-size: 15px; }
+  .tools button.on { background: var(--pri-soft); border-color: #a9d4f7; }
+  .cmp { background: var(--bg); border-radius: 12px; padding: 12px; font-size: 13px; display: grid; gap: 4px; }
+  .cmp div { display: flex; justify-content: space-between; }
+  .cmp .res b { color: var(--pri); }
+  .gain { font-size: 12px; font-weight: 700; }
+  .gain.down { color: var(--ok); } .gain.up { color: var(--bad); }
+  .name { display: flex; border: 1px solid var(--line); border-radius: 9px; overflow: hidden; }
+  .name input { flex: 1; border: 0; padding: 7px 9px; min-width: 0; outline: none; }
+  .name span { background: var(--bg); padding: 7px 9px; color: var(--muted); }
+  .acts { display: grid; gap: 8px; margin-top: auto; }
+  .acts .btn { padding: 11px; }
+  .err { color: var(--bad); text-align: center; padding: 40px; }
+  .toast { position: fixed; bottom: 20px; left: calc(50% - 170px); transform: translateX(-50%); background: #17212f; color: #fff; padding: 8px 16px; border-radius: 10px; font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div>
+      <div class="frame checker"><img id="preview" alt=""></div>
+      <div class="info" id="info">Yuklanmoqda…</div>
+    </div>
+  </div>
+  <aside>
+    <h1><img src="icons/icon48.png" alt=""> Tahrirlab saqlash</h1>
+
+    <div class="sec">
+      <h3>Format</h3>
+      <div class="seg" id="fmt"><button data-f="jpg">JPG</button><button data-f="png">PNG</button><button data-f="webp">WebP</button></div>
+    </div>
+
+    <div class="sec" id="qSec">
+      <h3>Sifat: <span id="qTxt">92%</span></h3>
+      <input type="range" id="q" min="10" max="100" step="1">
+      <div class="row" id="bgRow" style="margin-top:8px;font-size:13px"><span class="muted">Shaffof joylar rangi</span><input type="color" id="bg" style="width:36px;height:26px;border:0;background:none;padding:0"></div>
+    </div>
+
+    <div class="sec">
+      <h3>O'lcham (piksel)</h3>
+      <div class="row">
+        <input class="num" type="number" id="w" min="1"> <span class="muted">×</span>
+        <input class="num" type="number" id="h" min="1">
+        <button class="lock on" id="lock" title="Nisbatni saqlash">🔗</button>
+      </div>
+      <div class="chips" id="chips">
+        <button data-p="1">100%</button><button data-p="0.75">75%</button><button data-p="0.5">50%</button><button data-p="0.25">25%</button>
+        <button data-max="1920">1920</button><button data-max="1280">1280</button><button data-max="800">800</button>
+      </div>
+    </div>
+
+    <div class="sec">
+      <h3>Burish va aks ettirish</h3>
+      <div class="tools">
+        <button id="rotL" title="Chapga burish">↺</button>
+        <button id="rotR" title="O'ngga burish">↻</button>
+        <button id="flipH" title="Gorizontal aks">⇋</button>
+        <button id="flipV" title="Vertikal aks">⇵</button>
+      </div>
+    </div>
+
+    <div class="cmp">
+      <div><span class="muted">Asl rasm</span><span id="origTxt">—</span></div>
+      <div class="res"><span class="muted">Natija</span><span><b id="resTxt">—</b> <span class="gain" id="gain"></span></span></div>
+    </div>
+
+    <div class="sec">
+      <h3>Fayl nomi</h3>
+      <div class="name"><input id="fname"><span id="ext">.jpg</span></div>
+    </div>
+
+    <div class="acts">
+      <button class="btn pri" id="save">⬇ Saqlash</button>
+      <button class="btn" id="copy">📋 Nusxa olish (PNG)</button>
+    </div>
+  </aside>
+  <script type="module" src="edit.js"></script>
+</body>
+</html>

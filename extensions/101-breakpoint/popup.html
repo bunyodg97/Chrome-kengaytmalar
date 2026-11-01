@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css"><style>.pos{display:grid;grid-template-columns:1fr 1fr;gap:4px;width:120px}.pos button.on{background:var(--acc);color:var(--acc-ink)}</style></head>
+<body class="popup"><div class="wrap"><h2>Breakpoint ko'rsatkichi</h2>
+<label class="inline"><input type="checkbox" id="site" style="width:auto"> <span>Shu saytda ko'rsatish: <b id="h"></b></span></label>
+<label class="inline"><input type="checkbox" id="all" style="width:auto"> Barcha saytlarda ko'rsatish</label>
+<label class="small">Tizim<select id="set"></select></label>
+<label class="small" id="cl" hidden>O'zingizniki (nom:px, vergul bilan)<input id="custom" placeholder="mobil:0, planshet:768, desktop:1200"></label>
+<div class="row" style="align-items:flex-start"><span class="small muted">Joylashuv</span><div class="pos" id="pos"><button class="ghost" data-p="tl">↖</button><button class="ghost" data-p="tr">↗</button><button class="ghost" data-p="bl">↙</button><button class="ghost" data-p="br">↘</button></div></div>
+<div class="small muted">Belgini bosing — saytning o'z media query'lari; ikki marta bosing — shu saytda yashirish.</div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="sets.js"></script><script src="popup.js"></script></body></html>

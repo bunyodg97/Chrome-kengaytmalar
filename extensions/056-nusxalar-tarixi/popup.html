@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:400px}.c{border:1px solid var(--line);border-radius:8px;background:var(--card);padding:7px 9px;cursor:pointer;display:flex;gap:8px}.c:hover,.c.sel{border-color:var(--acc)}.c.pin{border-left:4px solid var(--warn)}
+.c .tx{flex:1;min-width:0;font-size:13px;white-space:pre-wrap;word-break:break-word;max-height:58px;overflow:hidden}.c .m{font-size:11px;color:var(--muted)}.c .b{display:flex;flex-direction:column;gap:2px}.c .b button{padding:1px 6px;font-size:12px;background:none;border:0;color:var(--muted);font-weight:400}</style></head>
+<body class="popup"><header class="top"><img src="icons/32.png" alt=""><h1>Nusxalar Tarixi</h1><span class="chip" id="cnt"></span></header>
+<div class="wrap"><input id="q" placeholder="Qidirish… (↑↓ Enter — nusxalash)" autofocus><div class="list" id="list" style="max-height:380px;overflow:auto"></div>
+<div class="row between"><label class="inline small"><input type="checkbox" id="off"> Yozib olishni to'xtatish</label><button class="ghost" id="clr">Tozalash (mahkamlanganlardan tashqari)</button></div>
+<details><summary class="small muted">Saqlanmaydigan saytlar</summary><textarea id="skip" rows="3"></textarea></details></div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

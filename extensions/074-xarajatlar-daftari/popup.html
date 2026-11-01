@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><title>Xarajatlar Daftari</title><link rel="stylesheet" href="ui.css">
+<style>body.popup{width:400px}.cats{display:flex;flex-wrap:wrap;gap:5px}.cats button{padding:5px 9px;font-size:12.5px}.cats button.on{background:var(--acc);color:var(--acc-ink)}.sum{font-size:24px;font-weight:800}.bud{height:8px;background:var(--line);border-radius:4px;overflow:hidden}.bud i{display:block;height:100%}
+canvas{width:100%;height:150px}.e .a{font-weight:700;white-space:nowrap}.day{font-size:12px;font-weight:700;color:var(--muted);margin:8px 0 2px;display:flex;justify-content:space-between}</style></head>
+<body><div class="wrap" id="root">
+<div class="row"><input id="amt" type="text" inputmode="numeric" placeholder="Summa" style="flex:1;font-size:18px;font-weight:700"><input id="date" type="date" style="width:auto"></div>
+<div class="cats" id="cats"></div><div class="row"><input id="note" placeholder="Izoh (ixtiyoriy)" style="flex:1"><button id="add">Qo'shish</button></div>
+<div class="row between"><button class="ghost" id="prev">‹</button><b id="mon"></b><button class="ghost" id="next">›</button></div>
+<div class="card"><div class="row between"><div><div class="small muted">Shu oy sarflandi</div><div class="sum" id="tot">0</div></div><div style="text-align:right" class="small muted"><div>Kunlik o'rtacha: <b id="avg"></b></div><div>Byudjet: <a href="#" id="setb"></a></div></div></div><div class="bud" id="budw"><i id="bud"></i></div></div>
+<div class="tabs" id="vt"><button data-v="list" class="on">Ro'yxat</button><button data-v="cat">Toifalar</button><button data-v="days">Kunlar</button></div>
+<div id="v"></div>
+<div class="row"><button class="ghost" id="csv">Excel (CSV)</button><a class="btn ghost" href="popup.html?full=1" target="_blank" id="big">⤢ Katta oyna</a><button class="ghost" id="cfg">Toifalar ⚙</button></div>
+</div><script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script></body></html>

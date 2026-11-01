@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "namoz-vaqtlari",
+ "version": "1.1.0",
+ "color": "#c2410c",
+ "glyph": "N",
+ "name": {
+  "uz": "Namoz vaqtlari",
+  "ru": "Время намаза"
+ },
+ "short": {
+  "uz": "Namoz vaqtlari",
+  "ru": "Время намаза"
+ },
+ "desc": {
+  "uz": "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi.",
+  "ru": "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."
+ },
+ "features": {
+  "uz": [
+   "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi."
+  ],
+  "ru": [
+   "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."
+  ]
+ },
+ "permissions": [
+  "alarms",
+  "geolocation",
+  "notifications",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": true
+}

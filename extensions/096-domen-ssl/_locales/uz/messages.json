@@ -1,0 +1,8 @@
+{
+ "name": {
+  "message": "Domen va SSL"
+ },
+ "desc": {
+  "message": "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…"
+ }
+}

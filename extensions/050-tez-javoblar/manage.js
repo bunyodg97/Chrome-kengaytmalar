@@ -1,0 +1,10 @@
+let L = [], t;
+const save = () => { clearTimeout(t); t = setTimeout(() => store.set('tj', L), 300); };
+const render = () => { $('#list').innerHTML = L.map((x, i) => `<div class="card" data-i="${i}"><div class="row"><input data-k="t" value="${esc(x.t)}" style="flex:2;font-weight:600" placeholder="Nomi"><input data-k="cat" value="${esc(x.cat)}" style="flex:1" placeholder="Toifa"><button class="danger" data-del>O'chirish</button></div><textarea data-k="x" rows="3" style="font-family:var(--f)">${esc(x.x)}</textarea></div>`).join(''); };
+$('#list').addEventListener('input', e => { const c = e.target.closest('[data-i]'); if (c && e.target.dataset.k) { L[+c.dataset.i][e.target.dataset.k] = e.target.value; save(); } });
+$('#list').addEventListener('click', e => { if (e.target.hasAttribute('data-del')) { L.splice(+e.target.closest('[data-i]').dataset.i, 1); save(); render(); } });
+$('#add').onclick = () => { L.unshift({ id: Date.now(), cat: 'Umumiy', t: 'Yangi javob', x: '' }); save(); render(); };
+$('#exp').onclick = () => download('tez-javoblar.json', JSON.stringify(L, null, 2), 'application/json');
+$('#imp').onchange = async e => { try { L = [...JSON.parse(await e.target.files[0].text()), ...L]; save(); render(); } catch { toast('Fayl noto\'g\'ri'); } };
+$('#sites').onchange = e => store.set('sites', e.target.value.split('\n').map(s => s.trim()).filter(Boolean));
+(async () => { L = await store.get('tj', TJ_DEFAULT); render(); $('#sites').value = (await store.get('sites', TJ_SITES)).join('\n'); })();

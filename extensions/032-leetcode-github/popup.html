@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="uz"><head><meta charset="utf-8"><link rel="stylesheet" href="ui.css">
+<style>.st{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;text-align:center}.st div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px}.st b{display:block;font-size:18px}.st span{font-size:11px;color:var(--muted)}
+.e{color:#1d8f5a}.m{color:#c98500}.h{color:#c62828}</style></head>
+<body class="popup">
+<header class="top"><img src="icons/32.png" alt=""><h1>LeetCode → GitHub</h1></header>
+<div class="wrap">
+  <div class="st"><div><b id="tot">0</b><span>Jami</span></div><div><b class="e" id="ez">0</b><span>Easy</span></div><div><b class="m" id="md">0</b><span>Medium</span></div><div><b class="h" id="hd">0</b><span>Hard</span></div></div>
+  <details id="set"><summary class="small" style="cursor:pointer;font-weight:600">Sozlamalar</summary><div class="card" style="margin-top:6px">
+    <label>GitHub token (Contents: Read and write)<input type="password" id="token" autocomplete="off"></label>
+    <label>Repo (egasi/nomi)<input id="repo" placeholder="Bunyodg97/leetcode"></label>
+    <label>Branch (ixtiyoriy)<input id="branch" placeholder="main"></label>
+    <label class="inline"><input type="checkbox" id="auto"> «Accepted» bo'lganda avtomatik saqlash</label>
+    <div class="row"><button id="save">Saqlash</button><button class="ghost" id="test">Tekshirish</button></div><div class="small" id="msg"></div></div></details>
+  <div class="small muted">Oxirgi saqlanganlar</div><div class="list" id="log"></div>
+</div>
+<script src="ru.js"></script><script src="about.js"></script><script src="util.js"></script><script src="popup.js"></script>
+</body></html>

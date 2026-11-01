@@ -1,0 +1,38 @@
+{
+ "external": true,
+ "slug": "tab-uxlatuvchi",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "T",
+ "name": {
+  "uz": "Tab Uxlatuvchi",
+  "ru": "Усыпитель вкладок"
+ },
+ "short": {
+  "uz": "Tab Uxlatuvchi",
+  "ru": "Усыпитель вкладок"
+ },
+ "desc": {
+  "uz": "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi.",
+  "ru": "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."
+ },
+ "features": {
+  "uz": [
+   "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi."
+  ],
+  "ru": [
+   "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."
+  ]
+ },
+ "permissions": [
+  "<all_urls>",
+  "alarms",
+  "content_scripts",
+  "contextMenus",
+  "scripting",
+  "storage",
+  "tabs"
+ ],
+ "category": "work",
+ "standalone": true
+}

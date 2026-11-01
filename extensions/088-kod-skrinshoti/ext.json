@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "kod-skrinshoti",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "K",
+ "name": {
+  "uz": "Kod Skrinshoti",
+  "ru": "Скриншот кода"
+ },
+ "short": {
+  "uz": "Kod Skrinshoti",
+  "ru": "Скриншот кода"
+ },
+ "desc": {
+  "uz": "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…",
+  "ru": "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или…"
+ },
+ "features": {
+  "uz": [
+   "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…"
+  ],
+  "ru": [
+   "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или…"
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "contextMenus",
+  "scripting",
+  "storage"
+ ],
+ "category": "dev",
+ "standalone": false
+}

@@ -1,0 +1,35 @@
+{
+ "external": true,
+ "slug": "video-tezlik",
+ "version": "1.0.0",
+ "color": "#2f6fed",
+ "glyph": "V",
+ "name": {
+  "uz": "Video Tezlik",
+  "ru": "Скорость видео"
+ },
+ "short": {
+  "uz": "Video Tezlik",
+  "ru": "Скорость видео"
+ },
+ "desc": {
+  "uz": "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga.",
+  "ru": "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."
+ },
+ "features": {
+  "uz": [
+   "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga."
+  ],
+  "ru": [
+   "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."
+  ]
+ },
+ "permissions": [
+  "activeTab",
+  "content_scripts",
+  "contextMenus",
+  "storage"
+ ],
+ "category": "life",
+ "standalone": false
+}
