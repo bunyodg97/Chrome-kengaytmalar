@@ -1,0 +1,43 @@
+{
+  "external": true,
+  "slug": "futbol-natijalari",
+  "version": "1.1.0",
+  "color": "#2f9e44",
+  "glyph": "F",
+  "name": {
+    "uz": "Futbol natijalari — jonli hisoblar",
+    "ru": "Футбол результаты — живые счета"
+  },
+  "short": {
+    "uz": "Futbol",
+    "ru": "Футбол"
+  },
+  "desc": {
+    "uz": "Barcha mamlakatlar futbol hisoblari, ligalar, turnir jadvali, jamoa qidiruvi va eng yaqin o’yingacha teskari sanoq. Basketbol (NBA) va xokkey (NHL) ham bor.",
+    "ru": "Живые счета футбола всей планеты, лиги, турнирные таблицы, поиск команд и обратный отсчёт до ближайшего матча. Есть баскетбол (NBA) и хоккей (NHL)."
+  },
+  "features": {
+    "uz": [
+      "Jonli o’yinlar, kunlar bo’yicha natijalar, sevimli jamoalar tepada",
+      "200 dan ortiq mamlakat va ligalar, turnir jadvali",
+      "Qidiruv: `Real Madrid`, `Barselona`, `Реал` kabi yozuvlar bilan",
+      "Jamoa sahifasi: eng yaqin o’yin, stadion, teskari sanoq, so’nggi natijalar",
+      "Bildirishnomalar: o’yin boshlanishi, gol, tugashi; belgida jonli hisob",
+      "Tezkor tugmalar: `Alt+Shift+F`, `/`, `←` `→`, `1`–`4`"
+    ],
+    "ru": [
+      "Живые матчи, результаты по дням, избранные команды сверху",
+      "200+ стран и лиг, турнирные таблицы",
+      "Поиск: `Real Madrid`, `Барселона`, `Реал` и др.",
+      "Страница команды: ближайший матч, стадион, отсчёт, последние результаты",
+      "Уведомления: начало, гол, финал; живой счёт на значке",
+      "Горячие клавиши: `Alt+Shift+F`, `/`, `←` `→`, `1`–`4`"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "category": "sport"
+}

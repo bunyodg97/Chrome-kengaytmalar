@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <title>Imo-ishora lug'ati — Ko'rinadigan ovoz</title>
+  <link rel="stylesheet" href="ui.css">
+  <style>
+    body { max-width: 980px; margin: 0 auto; padding: 24px 18px 60px; font-size: 15px; }
+    h1 { display: flex; align-items: center; gap: 10px; font-size: 22px; margin: 0 0 6px; }
+    .intro { color: var(--muted); margin: 0 0 18px; }
+    .add { display: grid; grid-template-columns: 1fr 1.3fr auto; gap: 8px; align-items: end; }
+    .add label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+    .add input[type=file] { font-size: 13px; }
+    .tools { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .abc { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 8px; }
+    .cell { position: relative; border: 1px dashed var(--line); border-radius: 10px; height: 92px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--panel-2); cursor: pointer; overflow: hidden; }
+    .cell.has { border-style: solid; border-color: var(--accent); background: var(--panel); }
+    .cell .l { font-size: 26px; font-weight: 800; }
+    .cell .p { color: var(--muted); font-size: 22px; }
+    .cell img, .cell video { max-width: 100%; max-height: 64px; object-fit: contain; }
+    .cell .k { position: absolute; top: 3px; left: 6px; font-size: 12px; font-weight: 700; }
+    .cell .x { position: absolute; top: 2px; right: 4px; border: 0; background: none; color: var(--err); font-size: 15px; display: none; }
+    .cell.has:hover .x { display: block; }
+    .words { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+    .w { border: 1px solid var(--line); border-radius: 10px; background: var(--panel); overflow: hidden; }
+    .w .m { height: 110px; display: flex; align-items: center; justify-content: center; background: var(--panel-2); }
+    .w .m img, .w .m video { max-width: 100%; max-height: 110px; object-fit: contain; }
+    .w .n { display: flex; justify-content: space-between; align-items: center; padding: 6px 9px; font-weight: 700; }
+    .w .n button { border: 0; background: none; color: var(--err); }
+    .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: 8px 16px; border-radius: 999px; font-weight: 600; opacity: 0; transition: opacity .2s; }
+    .toast.on { opacity: 1; }
+    .headrow { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .q-stage { height: 220px; display: flex; align-items: center; justify-content: center; background: #0b1220; border-radius: 14px; margin-bottom: 12px; }
+    .q-stage img, .q-stage video { max-height: 210px; max-width: 100%; object-fit: contain; }
+    .q-opts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .q-opts button { font-size: 34px; font-weight: 800; padding: 14px; border-radius: 12px; border: 2px solid var(--line); background: var(--panel-2); }
+    .q-opts button.ok { background: var(--ok); color: #fff; border-color: var(--ok); }
+    .q-opts button.bad { background: var(--err); color: #fff; border-color: var(--err); }
+    .q-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; font-weight: 700; }
+    @media (max-width: 640px) { .add { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1><img src="icons/icon48.png" width="34" height="34" alt=""><span id="title"></span></h1>
+  <p class="intro" id="intro"></p>
+
+  <div class="card">
+    <div class="add">
+      <label><span id="lWord"></span><input type="text" id="word" autocomplete="off"></label>
+      <label><span id="lFile"></span><input type="file" id="file" accept="image/*,video/*"></label>
+      <button class="btn" id="addBtn"></button>
+    </div>
+    <div class="tools">
+      <label class="btn ghost" style="cursor:pointer"><span id="lFolder"></span><input type="file" id="folder" webkitdirectory multiple hidden></label>
+      <button class="btn ghost" id="exp"></button>
+      <label class="btn ghost" style="cursor:pointer"><span id="lImp"></span><input type="file" id="imp" accept=".json,application/json" hidden></label>
+    </div>
+    <small class="hint" id="hint"></small>
+  </div>
+
+  <div class="card"><h3 id="hLetters"></h3><div class="abc" id="abc"></div></div>
+
+  <div class="card">
+    <div class="headrow"><h3 id="hWords" style="margin:0"></h3><input type="search" id="q"></div>
+    <div class="words" id="words" style="margin-top:10px"></div>
+  </div>
+
+  <div class="card" id="quizCard"><h3 id="hQuiz"></h3>
+    <p class="hint" id="quizIntro" style="margin:0 0 10px"></p>
+    <div id="quiz"></div>
+  </div>
+
+  <input type="file" id="cellFile" accept="image/*,video/*" hidden>
+  <div class="toast" id="toast"></div>
+  <script src="js/signs.js"></script>
+  <script type="module" src="manage.js"></script>
+</body>
+</html>

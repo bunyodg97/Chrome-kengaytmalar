@@ -225,6 +225,16 @@ def build_one(ext_dir, do_zip=True):
             continue
         (out / rel).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(p, out / rel)
+    if cfg.get("external"):
+        # tayyor (mustaqil) kengaytma: o'zgartirilmasdan zip qilinadi
+        if do_zip:
+            DIST.mkdir(exist_ok=True)
+            z = DIST / f"{ext_dir.name}-v{cfg['version']}.zip"
+            with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
+                for p in sorted(out.rglob("*")):
+                    if p.is_file():
+                        zf.write(p, p.relative_to(out))
+        return num, cfg
     shutil.copytree(SHARED, out / "shared")
     for inc in cfg.get("include", []):
         shutil.copy2((ext_dir / inc).resolve(), out / Path(inc).name)

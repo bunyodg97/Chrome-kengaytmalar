@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "Ko'rinadigan ovoz · Видимый звук — subtitr va imo-ishora",
+  "short_name": "Ko'rinadigan ovoz",
+  "version": "2.0.0",
+  "description": "Kar va eshitishi past foydalanuvchilar uchun: brauzer ovozi va yoningizdagi odam gapi — jonli subtitr, tarjima, imo-ishora; yozganingizni ovoz chiqarib o'qiydi. Субтитры, перевод, жесты и озвучка для глухих.",
+  "author": "Bunyodg97",
+  "homepage_url": "https://www.ali-dasturchi.uz",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ko'rinadigan ovoz",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "options_page": "manage.html",
+  "permissions": [
+    "notifications",
+    "tabCapture",
+    "offscreen",
+    "storage",
+    "unlimitedStorage",
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+K"
+      },
+      "description": "Kengaytmani ochish / Открыть расширение"
+    },
+    "toggle-captions": {
+      "suggested_key": {
+        "default": "Alt+Shift+S"
+      },
+      "description": "Subtitrni yoqish/o'chirish / Вкл/выкл субтитры"
+    },
+    "open-conversation": {
+      "suggested_key": {
+        "default": "Alt+Shift+J"
+      },
+      "description": "Jonli suhbatni ochish / Открыть живой разговор"
+    }
+  }
+}

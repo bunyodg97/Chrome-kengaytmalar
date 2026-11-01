@@ -1,0 +1,1904 @@
+{
+ "developer": "Bunyodg97",
+ "site": "https://www.ali-dasturchi.uz",
+ "donate": "https://www.ali-dasturchi.uz/#donat",
+ "repo": "https://github.com/bunyodg97/Chrome-kengaytmalar",
+ "releases": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/tag/v1.0.0",
+ "categories": {
+  "dev": {
+   "uz": "Veb-dasturchilar",
+   "ru": "Веб-разработка"
+  },
+  "api": {
+   "uz": "API va backend",
+   "ru": "API и backend"
+  },
+  "github": {
+   "uz": "GitHub",
+   "ru": "GitHub"
+  },
+  "work": {
+   "uz": "Mahsuldorlik",
+   "ru": "Продуктивность"
+  },
+  "trade": {
+   "uz": "Traderlar uchun",
+   "ru": "Трейдерам"
+  },
+  "life": {
+   "uz": "Kundalik hayot",
+   "ru": "Повседневное"
+  },
+  "access": {
+   "uz": "Qulaylik",
+   "ru": "Доступность"
+  }
+ },
+ "extensions": [
+  {
+   "id": 104,
+   "slug": "dark-mode",
+   "folder": "104-dark-mode",
+   "version": "1.0.0",
+   "color": "#3b3f8f",
+   "glyph": "◐",
+   "category": "dev",
+   "name": {
+    "uz": "Dark mode almashtirgich",
+    "ru": "Переключатель тёмной темы"
+   },
+   "short": {
+    "uz": "Dark mode",
+    "ru": "Тёмная тема"
+   },
+   "desc": {
+    "uz": "Saytni qorong’i yoki yorug’ rejimda bir bosishda sinang: prefers-color-scheme emulyatsiyasi va majburiy qorong’i filtr.",
+    "ru": "Проверяйте сайт в тёмной и светлой теме в один клик: эмуляция prefers-color-scheme и принудительный тёмный фильтр."
+   },
+   "features": {
+    "uz": [
+     "`prefers-color-scheme: dark/light` emulyatsiyasi (DevTools’siz)",
+     "Qorong’i mavzusi yo’q saytlar uchun majburiy invert filtr",
+     "Rasmlar va videolar asl rangda qoladi",
+     "`Alt+Shift+D` — rejimlarni almashtirish"
+    ],
+    "ru": [
+     "Эмуляция `prefers-color-scheme: dark/light` (без DevTools)",
+     "Принудительный инверсный фильтр для сайтов без тёмной темы",
+     "Изображения и видео остаются в исходных цветах",
+     "`Alt+Shift+D` — переключение режимов"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "debugger"
+   ],
+   "image": {
+    "uz": "img/104-dark-mode-uz.jpg",
+    "ru": "img/104-dark-mode-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/104-dark-mode-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/104-dark-mode"
+  },
+  {
+   "id": 105,
+   "slug": "color-blind",
+   "folder": "105-color-blind",
+   "version": "1.0.0",
+   "color": "#d9480f",
+   "glyph": "◉",
+   "category": "access",
+   "name": {
+    "uz": "Rang ko’rligi simulyatori",
+    "ru": "Симулятор дальтонизма"
+   },
+   "short": {
+    "uz": "Rang ko’rligi",
+    "ru": "Дальтонизм"
+   },
+   "desc": {
+    "uz": "Sahifani rang ko’rligining 8 turida ko’ring: protanopiya, deyteranopiya, tritanopiya va boshqalar. Dizayn va kirish qulayligini tekshirish uchun.",
+    "ru": "Смотрите страницу глазами людей с 8 видами нарушения цветовосприятия: протанопия, дейтеранопия, тританопия и др."
+   },
+   "features": {
+    "uz": [
+     "Protanopiya, deyteranopiya, tritanopiya, axromatopsiya va ularning yengil shakllari",
+     "Xira ko’rish simulyatsiyasi",
+     "Machado (2009) ilmiy matritsalari",
+     "`Alt+Shift+C` — keyingi turga o’tish"
+    ],
+    "ru": [
+     "Протанопия, дейтеранопия, тританопия, ахроматопсия и их лёгкие формы",
+     "Симуляция размытого зрения",
+     "Научные матрицы Machado (2009)",
+     "`Alt+Shift+C` — следующий тип"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/105-color-blind-uz.jpg",
+    "ru": "img/105-color-blind-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/105-color-blind-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/105-color-blind"
+  },
+  {
+   "id": 106,
+   "slug": "image-audit",
+   "folder": "106-image-audit",
+   "version": "1.0.0",
+   "color": "#0b7285",
+   "glyph": "IMG",
+   "category": "dev",
+   "name": {
+    "uz": "Rasm auditi",
+    "ru": "Аудит изображений"
+   },
+   "short": {
+    "uz": "Rasm auditi",
+    "ru": "Аудит картинок"
+   },
+   "desc": {
+    "uz": "Sahifadagi rasmlarni tekshiradi: og’ir fayllar, keragidan katta o’lcham, eski format (WebP/AVIF tavsiyasi), alt va width/height yo’qligi, lazy-loading xatolari.",
+    "ru": "Проверяет изображения на странице: тяжёлые файлы, избыточный размер, устаревший формат (совет WebP/AVIF), нет alt и width/height, ошибки lazy-loading."
+   },
+   "features": {
+    "uz": [
+     "Har bir rasm hajmi, asl va ko’rsatilgan o’lchami",
+     "Taxminiy tejash hajmi",
+     "WebP/AVIF tavsiyasi",
+     "Alt, width/height, loading=lazy tekshiruvi (SEO va CLS)",
+     "Rasmni bosganda sahifada ko’rsatadi",
+     "CSV eksport"
+    ],
+    "ru": [
+     "Размер файла, исходные и отображаемые размеры каждой картинки",
+     "Оценка возможной экономии",
+     "Рекомендация WebP/AVIF",
+     "Проверка alt, width/height, loading=lazy (SEO и CLS)",
+     "Подсветка картинки на странице по клику",
+     "Экспорт CSV"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/106-image-audit-uz.jpg",
+    "ru": "img/106-image-audit-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/106-image-audit-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/106-image-audit"
+  },
+  {
+   "id": 107,
+   "slug": "network-log",
+   "folder": "107-network-log",
+   "version": "1.0.0",
+   "color": "#1971c2",
+   "glyph": "⇅",
+   "category": "dev",
+   "name": {
+    "uz": "Sahifa ichidagi network log",
+    "ru": "Сетевой лог на странице"
+   },
+   "short": {
+    "uz": "Network log",
+    "ru": "Network log"
+   },
+   "desc": {
+    "uz": "fetch va XHR so’rovlarini DevTools ochmasdan sahifaning o’zida ko’ring: status, vaqt, header’lar, javob tanasi, cURL nusxa.",
+    "ru": "Смотрите fetch и XHR запросы прямо на странице без DevTools: статус, время, заголовки, тело ответа, копирование cURL."
+   },
+   "features": {
+    "uz": [
+     "fetch va XMLHttpRequest’ni real vaqtda yozadi",
+     "So’rov/javob header’lari va tanasi",
+     "Filtr, pauza, tozalash",
+     "cURL sifatida nusxalash, JSON eksport",
+     "Telefon rejimida (DevTools device mode) ham qulay"
+    ],
+    "ru": [
+     "Записывает fetch и XMLHttpRequest в реальном времени",
+     "Заголовки и тело запроса/ответа",
+     "Фильтр, пауза, очистка",
+     "Копирование как cURL, экспорт JSON",
+     "Удобно и в режиме устройства DevTools"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/107-network-log-uz.jpg",
+    "ru": "img/107-network-log-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/107-network-log-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/107-network-log"
+  },
+  {
+   "id": 108,
+   "slug": "remote-console",
+   "folder": "108-remote-console",
+   "version": "1.0.0",
+   "color": "#2b8a3e",
+   "glyph": ">_",
+   "category": "dev",
+   "name": {
+    "uz": "Telefon konsoli kompyuterda",
+    "ru": "Консоль телефона на компьютере"
+   },
+   "short": {
+    "uz": "Tel konsoli",
+    "ru": "Моб. консоль"
+   },
+   "desc": {
+    "uz": "Telefonda ochilgan sahifaning console.log, xato va ogohlantirishlarini kompyuterda real vaqtda ko’ring. Kabel va USB debugging kerak emas.",
+    "ru": "Смотрите console.log, ошибки и предупреждения страницы с телефона на компьютере в реальном времени. Без кабеля и USB-отладки."
+   },
+   "features": {
+    "uz": [
+     "Kichik skript yoki bookmarklet — telefonga hech narsa o’rnatilmaydi",
+     "console.log/info/warn/error, JS xatolari va unhandled rejection",
+     "Har bir qurilma (User-Agent) alohida ko’rsatiladi",
+     "Filtr, daraja bo’yicha saralash, eksport",
+     "O’z ntfy serveringizni ulash mumkin"
+    ],
+    "ru": [
+     "Небольшой скрипт или букмарклет — на телефон ничего не ставится",
+     "console.log/info/warn/error, ошибки JS и unhandled rejection",
+     "Каждое устройство (User-Agent) отдельно",
+     "Фильтр, уровни, экспорт",
+     "Можно подключить свой сервер ntfy"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/108-remote-console-uz.jpg",
+    "ru": "img/108-remote-console-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/108-remote-console-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/108-remote-console"
+  },
+  {
+   "id": 109,
+   "slug": "bundle-analyzer",
+   "folder": "109-bundle-analyzer",
+   "version": "1.0.0",
+   "color": "#e67700",
+   "glyph": "JS",
+   "category": "dev",
+   "name": {
+    "uz": "Bundle tahlili",
+    "ru": "Анализ бандлов"
+   },
+   "short": {
+    "uz": "Bundle",
+    "ru": "Бандлы"
+   },
+   "desc": {
+    "uz": "Sahifa yuklagan JS fayllar hajmi (siqilgan va asl), domenlar bo’yicha taqsimot va ishlatilgan kutubxonalar ro’yxati.",
+    "ru": "Размер JS-файлов страницы (сжатый и исходный), распределение по доменам и список используемых библиотек."
+   },
+   "features": {
+    "uz": [
+     "Har bir JS fayl: tarmoq hajmi, asl hajmi, yuklanish vaqti",
+     "O’z kodi va uchinchi tomon kodi ulushi",
+     "Domenlar bo’yicha diagramma",
+     "Aniqlangan kutubxona va frameworklar versiyasi bilan",
+     "Bir kutubxona ikki marta yuklanganini topadi",
+     "CSV eksport"
+    ],
+    "ru": [
+     "Каждый JS-файл: вес по сети, исходный размер, время загрузки",
+     "Доля своего и стороннего кода",
+     "Диаграмма по доменам",
+     "Обнаруженные библиотеки и фреймворки с версиями",
+     "Находит библиотеки, загруженные дважды",
+     "Экспорт CSV"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/109-bundle-analyzer-uz.jpg",
+    "ru": "img/109-bundle-analyzer-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/109-bundle-analyzer-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/109-bundle-analyzer"
+  },
+  {
+   "id": 110,
+   "slug": "vuln-libs",
+   "folder": "110-vuln-libs",
+   "version": "1.0.0",
+   "color": "#c92a2a",
+   "glyph": "⚠",
+   "category": "dev",
+   "name": {
+    "uz": "Eski kutubxona ogohlantiruvchisi",
+    "ru": "Предупреждение об устаревших библиотеках"
+   },
+   "short": {
+    "uz": "Zaif kutubxona",
+    "ru": "Уязв. библ."
+   },
+   "desc": {
+    "uz": "Saytda ishlatilgan JS kutubxonalar versiyasini aniqlab, ma’lum zaifliklar (CVE) va qo’llab-quvvatlanmaydigan versiyalar haqida ogohlantiradi.",
+    "ru": "Определяет версии JS-библиотек на сайте и предупреждает об известных уязвимостях (CVE) и неподдерживаемых версиях."
+   },
+   "features": {
+    "uz": [
+     "jQuery, jQuery UI, Bootstrap, Lodash, Moment, Handlebars, AngularJS, DOMPurify, Axios, Next.js va boshqalar",
+     "CVE raqami, xavf darajasi va qaysi versiyada tuzatilgani",
+     "Qo’llab-quvvatlash tugagan (EOL) versiyalar",
+     "Natija ikonkada son bilan ko’rinadi",
+     "Hisobotni nusxalash (vazifa yoki tiket uchun)"
+    ],
+    "ru": [
+     "jQuery, jQuery UI, Bootstrap, Lodash, Moment, Handlebars, AngularJS, DOMPurify, Axios, Next.js и др.",
+     "Номер CVE, уровень риска и версия с исправлением",
+     "Версии с завершённой поддержкой (EOL)",
+     "Результат отображается числом на иконке",
+     "Копирование отчёта (для задачи или тикета)"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/110-vuln-libs-uz.jpg",
+    "ru": "img/110-vuln-libs-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/110-vuln-libs-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/110-vuln-libs"
+  },
+  {
+   "id": 111,
+   "slug": "react-finder",
+   "folder": "111-react-finder",
+   "version": "1.0.0",
+   "color": "#087ea4",
+   "glyph": "⚛",
+   "category": "dev",
+   "name": {
+    "uz": "React komponent topuvchi",
+    "ru": "Поиск React-компонентов"
+   },
+   "short": {
+    "uz": "React topuvchi",
+    "ru": "React поиск"
+   },
+   "desc": {
+    "uz": "Sahifadagi elementni bosing — u qaysi React komponentga tegishli, qaysi faylning qaysi qatorida yozilgani va komponentlar zanjirini ko’rsatadi. Bir bosishda VS Code’da ochadi.",
+    "ru": "Наведите на элемент — покажет, какому React-компоненту он принадлежит, в каком файле и строке, и цепочку компонентов. Открывает в VS Code в один клик."
+   },
+   "features": {
+    "uz": [
+     "Sichqoncha ostidagi element komponenti va fayl:qator",
+     "Komponentlar zanjiri (App › Layout › Button)",
+     "Bosilganda props konsolga chiqadi ($rf), fayl yo’li nusxalanadi",
+     "VS Code, Cursor yoki WebStorm’da ochish",
+     "React 16–19 (fayl manzili development build’da)",
+     "`Alt+Shift+R` — tanlash rejimi"
+    ],
+    "ru": [
+     "Компонент и файл:строка элемента под курсором",
+     "Цепочка компонентов (App › Layout › Button)",
+     "По клику props выводятся в консоль ($rf), путь копируется",
+     "Открытие в VS Code, Cursor или WebStorm",
+     "React 16–19 (путь к файлу в development-сборке)",
+     "`Alt+Shift+R` — режим выбора"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/111-react-finder-uz.jpg",
+    "ru": "img/111-react-finder-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/111-react-finder-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/111-react-finder"
+  },
+  {
+   "id": 112,
+   "slug": "rerender-counter",
+   "folder": "112-rerender-counter",
+   "version": "1.0.0",
+   "color": "#5f3dc4",
+   "glyph": "↻",
+   "category": "dev",
+   "name": {
+    "uz": "Re-render hisoblagich",
+    "ru": "Счётчик ререндеров"
+   },
+   "short": {
+    "uz": "Re-render",
+    "ru": "Ререндеры"
+   },
+   "desc": {
+    "uz": "React komponentlari necha marta qayta chizilganini real vaqtda sanaydi va sahifada ko’rsatadi. Keraksiz re-render’larni topish uchun.",
+    "ru": "Считает в реальном времени, сколько раз перерисовывается каждый React-компонент, и показывает на странице. Для поиска лишних ререндеров."
+   },
+   "features": {
+    "uz": [
+     "Har komponent uchun render soni va oxirgi render vaqti",
+     "Qayta chizilgan elementlarni rangli ramka bilan ko’rsatish",
+     "Faqat siz yoqqan saytlarda ishlaydi",
+     "Nolga qaytarish, panelni yig’ish",
+     "React DevTools bilan birga ishlaydi"
+    ],
+    "ru": [
+     "Число рендеров и время последнего рендера для каждого компонента",
+     "Подсветка перерисованных элементов рамкой",
+     "Работает только на сайтах, где вы включили",
+     "Сброс, сворачивание панели",
+     "Совместим с React DevTools"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/112-rerender-counter-uz.jpg",
+    "ru": "img/112-rerender-counter-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/112-rerender-counter-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/112-rerender-counter"
+  },
+  {
+   "id": 113,
+   "slug": "vue-svelte-inspector",
+   "folder": "113-vue-svelte-inspector",
+   "version": "1.0.0",
+   "color": "#2f9e44",
+   "glyph": "V/S",
+   "category": "dev",
+   "name": {
+    "uz": "Vue va Svelte inspektori",
+    "ru": "Инспектор Vue и Svelte"
+   },
+   "short": {
+    "uz": "Vue/Svelte",
+    "ru": "Vue/Svelte"
+   },
+   "desc": {
+    "uz": "Elementni tanlang — Vue komponentining props, holati (data/setup) va fayli yoki Svelte komponentining fayl:qatori ko’rinadi. DevTools o’rnatmasdan.",
+    "ru": "Выберите элемент — увидите props, состояние (data/setup) и файл компонента Vue или файл:строку компонента Svelte. Без установки DevTools."
+   },
+   "features": {
+    "uz": [
+     "Vue 2 va Vue 3: props, data, setup holati, computed",
+     "Svelte 3/4/5: komponent fayli va qatori (dev build)",
+     "Komponentlar zanjiri",
+     "Holatni JSON daraxt ko’rinishida, konsolga chiqarish ($vs)",
+     "VS Code / Cursor / WebStorm’da ochish",
+     "`Alt+Shift+V` — tanlash rejimi"
+    ],
+    "ru": [
+     "Vue 2 и Vue 3: props, data, setup-состояние, computed",
+     "Svelte 3/4/5: файл и строка компонента (dev-сборка)",
+     "Цепочка компонентов",
+     "Состояние деревом JSON, вывод в консоль ($vs)",
+     "Открытие в VS Code / Cursor / WebStorm",
+     "`Alt+Shift+V` — режим выбора"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/113-vue-svelte-inspector-uz.jpg",
+    "ru": "img/113-vue-svelte-inspector-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/113-vue-svelte-inspector-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/113-vue-svelte-inspector"
+  },
+  {
+   "id": 114,
+   "slug": "framework-version",
+   "folder": "114-framework-version",
+   "version": "1.0.0",
+   "color": "#1864ab",
+   "glyph": "v↑",
+   "category": "dev",
+   "name": {
+    "uz": "Framework versiyasi",
+    "ru": "Версия фреймворка"
+   },
+   "short": {
+    "uz": "Versiyalar",
+    "ru": "Версии"
+   },
+   "desc": {
+    "uz": "Sayt qaysi framework va kutubxonalarda yozilganini, ularning versiyasini va eng so’nggi versiyadan qancha orqada ekanini ko’rsatadi.",
+    "ru": "Показывает, на каких фреймворках и библиотеках сделан сайт, их версии и насколько они отстают от последней."
+   },
+   "features": {
+    "uz": [
+     "React, Next.js, Vue, Nuxt, Angular, Svelte, jQuery, Bootstrap va 40+ boshqa",
+     "Eng so’nggi versiya npm’dan olinadi (24 soat keshlanadi)",
+     "Holat: yangi / kichik yangilanish / major orqada",
+     "Natijani Markdown jadval sifatida nusxalash"
+    ],
+    "ru": [
+     "React, Next.js, Vue, Nuxt, Angular, Svelte, jQuery, Bootstrap и 40+ других",
+     "Последняя версия берётся из npm (кэш 24 часа)",
+     "Статус: актуальна / минорное обновление / отстаёт на мажор",
+     "Копирование результата таблицей Markdown"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/114-framework-version-uz.jpg",
+    "ru": "img/114-framework-version-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/114-framework-version-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/114-framework-version"
+  },
+  {
+   "id": 115,
+   "slug": "graphql-builder",
+   "folder": "115-graphql-builder",
+   "version": "1.0.0",
+   "color": "#c2255c",
+   "glyph": "GQL",
+   "category": "api",
+   "name": {
+    "uz": "GraphQL so’rov quruvchi",
+    "ru": "Конструктор GraphQL-запросов"
+   },
+   "short": {
+    "uz": "GraphQL",
+    "ru": "GraphQL"
+   },
+   "desc": {
+    "uz": "API sxemasini avtomatik yuklab, maydonlarni belgilab GraphQL so’rov tuzing, avtoto’ldirish bilan tahrirlang va natijani ko’ring.",
+    "ru": "Загружает схему API, собирайте GraphQL-запрос галочками, редактируйте с автодополнением и смотрите результат."
+   },
+   "features": {
+    "uz": [
+     "Introspection orqali sxemani avtomatik yuklash",
+     "Query/Mutation maydonlarini belgilash — so’rov o’zi yoziladi",
+     "Argumentlar o’zgaruvchilarga (variables) aylanadi, enum’lar ro’yxatdan",
+     "Muharrirda sxema bo’yicha avtoto’ldirish (Ctrl+Space)",
+     "Header’lar (Authorization va h.k.), endpoint tarixi",
+     "Natijani chiroyli JSON ko’rinishida"
+    ],
+    "ru": [
+     "Автозагрузка схемы через introspection",
+     "Отмечайте поля Query/Mutation — запрос пишется сам",
+     "Аргументы превращаются в variables, enum — списком",
+     "Автодополнение по схеме в редакторе (Ctrl+Space)",
+     "Заголовки (Authorization и т.д.), история endpoint",
+     "Красивый вывод JSON"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/115-graphql-builder-uz.jpg",
+    "ru": "img/115-graphql-builder-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/115-graphql-builder-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/115-graphql-builder"
+  },
+  {
+   "id": 116,
+   "slug": "openapi-viewer",
+   "folder": "116-openapi-viewer",
+   "version": "1.0.0",
+   "color": "#37b24d",
+   "glyph": "API",
+   "category": "api",
+   "name": {
+    "uz": "Swagger/OpenAPI ko’ruvchi",
+    "ru": "Просмотр Swagger/OpenAPI"
+   },
+   "short": {
+    "uz": "OpenAPI",
+    "ru": "OpenAPI"
+   },
+   "desc": {
+    "uz": "OpenAPI 3 va Swagger 2 spetsifikatsiyasini (JSON yoki YAML) chiroyli, qidiriladigan hujjatga aylantiradi: endpoint’lar, parametrlar, sxemalar va namunalar.",
+    "ru": "Превращает спецификацию OpenAPI 3 и Swagger 2 (JSON или YAML) в удобную документацию с поиском: эндпоинты, параметры, схемы и примеры."
+   },
+   "features": {
+    "uz": [
+     "URL, fayl yoki matndan yuklash; JSON va YAML",
+     "Teglar bo’yicha guruhlangan endpoint’lar, qidiruv",
+     "Parametrlar, so’rov tanasi va javob sxemalari ($ref avtomatik ochiladi)",
+     "Sxemadan namuna JSON yaratish",
+     "Har bir endpoint uchun cURL nusxa",
+     "Joriy tabdagi .json/.yaml spetsifikatsiyani bir bosishda ochish"
+    ],
+    "ru": [
+     "Загрузка по URL, из файла или текста; JSON и YAML",
+     "Эндпоинты по тегам, поиск",
+     "Параметры, тело запроса и схемы ответов ($ref раскрываются)",
+     "Генерация примера JSON по схеме",
+     "Копирование cURL для каждого эндпоинта",
+     "Открытие .json/.yaml спецификации из текущей вкладки"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/116-openapi-viewer-uz.jpg",
+    "ru": "img/116-openapi-viewer-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/116-openapi-viewer-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/116-openapi-viewer"
+  },
+  {
+   "id": 117,
+   "slug": "webhook-tester",
+   "folder": "117-webhook-tester",
+   "version": "1.0.0",
+   "color": "#9c36b5",
+   "glyph": "WH",
+   "category": "api",
+   "name": {
+    "uz": "Webhook sinov manzili",
+    "ru": "Тестовый адрес для вебхуков"
+   },
+   "short": {
+    "uz": "Webhook",
+    "ru": "Вебхуки"
+   },
+   "desc": {
+    "uz": "Bir bosishda ochiq webhook manzili oling va kelgan so’rovlarni (header, body, query) real vaqtda ko’ring. Lokal serveringizga yo’naltirish ham mumkin.",
+    "ru": "Получите публичный адрес для вебхуков в один клик и смотрите входящие запросы (заголовки, тело, query) в реальном времени. Можно пересылать на локальный сервер."
+   },
+   "features": {
+    "uz": [
+     "Bir bosishda yangi webhook URL (webhook.site orqali)",
+     "Kelgan so’rovlar real vaqtda: metod, header, query, body",
+     "JSON va form-data chiroyli ko’rinishda",
+     "Lokal serverga yo’naltirish (masalan, http://localhost:3000/webhook)",
+     "cURL sifatida takrorlash uchun nusxa",
+     "Telegram, Payme, Click, Stripe, GitHub webhook’larini sinash uchun"
+    ],
+    "ru": [
+     "Новый адрес вебхука в один клик (через webhook.site)",
+     "Входящие запросы в реальном времени: метод, заголовки, query, тело",
+     "Красивый вывод JSON и form-data",
+     "Пересылка на локальный сервер (например, http://localhost:3000/webhook)",
+     "Копирование как cURL для повтора",
+     "Для проверки вебхуков Telegram, Payme, Click, Stripe, GitHub"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/117-webhook-tester-uz.jpg",
+    "ru": "img/117-webhook-tester-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/117-webhook-tester-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/117-webhook-tester"
+  },
+  {
+   "id": 118,
+   "slug": "github-goto-def",
+   "folder": "118-github-goto-def",
+   "version": "1.0.0",
+   "color": "#24292f",
+   "glyph": "→ƒ",
+   "category": "github",
+   "name": {
+    "uz": "GitHub’da «go to definition»",
+    "ru": "«Go to definition» на GitHub"
+   },
+   "short": {
+    "uz": "GitHub defn",
+    "ru": "GitHub defn"
+   },
+   "desc": {
+    "uz": "GitHub’da kod o’qiyotganda Ctrl (Mac’da ⌘) + bosish bilan funksiya, klass yoki o’zgaruvchi e’lon qilingan joyga o’ting — repo ichida qidiradi.",
+    "ru": "Читая код на GitHub, переходите к объявлению функции, класса или переменной по Ctrl (⌘ на Mac) + клик — поиск внутри репозитория."
+   },
+   "features": {
+    "uz": [
+     "Ctrl/⌘ + bosish — e’lon qilingan joyni repo bo’yicha qidirish",
+     "Ctrl bosib turilganda so’z ostiga chiziq tortiladi",
+     "Belgilangan matn uchun `Alt+Shift+G`",
+     "Popup’dan istalgan nomni qidirish",
+     "Barcha tillar: JS/TS, Python, Go, PHP, Java, C#, Rust…"
+    ],
+    "ru": [
+     "Ctrl/⌘ + клик — поиск объявления по репозиторию",
+     "При зажатом Ctrl слово подчёркивается",
+     "`Alt+Shift+G` для выделенного текста",
+     "Поиск любого имени из popup",
+     "Все языки: JS/TS, Python, Go, PHP, Java, C#, Rust…"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "content_scripts: <all_urls>"
+   ],
+   "image": {
+    "uz": "img/118-github-goto-def-uz.jpg",
+    "ru": "img/118-github-goto-def-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/118-github-goto-def-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/118-github-goto-def"
+  },
+  {
+   "id": 119,
+   "slug": "commit-graph",
+   "folder": "119-commit-graph",
+   "version": "1.0.0",
+   "color": "#e8590c",
+   "glyph": "CG",
+   "category": "github",
+   "name": {
+    "uz": "Commit tarixi grafigi",
+    "ru": "Граф истории коммитов"
+   },
+   "short": {
+    "uz": "Commit graf",
+    "ru": "Граф коммитов"
+   },
+   "desc": {
+    "uz": "GitHub repozitoriyasidagi branch’lar va commit’larni git log --graph kabi daraxt ko’rinishida ko’rsatadi: merge’lar, ajralishlar, teglar.",
+    "ru": "Показывает ветки и коммиты репозитория GitHub деревом, как git log --graph: слияния, ответвления, метки."
+   },
+   "features": {
+    "uz": [
+     "Bir nechta branch birga, rangli chiziqlar bilan",
+     "Merge va branch ajralishlari",
+     "Branch nomlari commit yonida",
+     "Commit xabari, muallif, sana; bosganda GitHub’da ochiladi",
+     "Joriy tabdagi repo avtomatik tanlanadi",
+     "Xususiy repolar uchun token (ixtiyoriy)"
+    ],
+    "ru": [
+     "Несколько веток вместе, цветные линии",
+     "Слияния и ответвления",
+     "Названия веток рядом с коммитами",
+     "Сообщение, автор, дата; клик открывает на GitHub",
+     "Репозиторий из текущей вкладки выбирается сам",
+     "Токен для приватных репо (необязательно)"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/119-commit-graph-uz.jpg",
+    "ru": "img/119-commit-graph-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/119-commit-graph-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/119-commit-graph"
+  },
+  {
+   "id": 120,
+   "slug": "deps-status",
+   "folder": "120-deps-status",
+   "version": "1.0.0",
+   "color": "#cb3837",
+   "glyph": "npm",
+   "category": "github",
+   "name": {
+    "uz": "Bog’liqliklar holati",
+    "ru": "Состояние зависимостей"
+   },
+   "short": {
+    "uz": "Bog’liqliklar",
+    "ru": "Зависимости"
+   },
+   "desc": {
+    "uz": "package.json (npm) yoki requirements.txt (PyPI) dagi paketlar eskirganmi — eng so’nggi versiya, major orqada qolish va deprecated paketlarni ko’rsatadi.",
+    "ru": "Устарели ли пакеты из package.json (npm) или requirements.txt (PyPI): последняя версия, отставание на мажор и deprecated-пакеты."
+   },
+   "features": {
+    "uz": [
+     "GitHub’dagi package.json/requirements.txt sahifasida bir bosishda",
+     "Faylni yuklash yoki matnni qo’yish",
+     "dependencies, devDependencies, peerDependencies",
+     "Holat: yangi / minor / major orqada / deprecated",
+     "Yangilash buyrug’ini nusxalash (npm i pkg@latest)",
+     "Markdown hisobot"
+    ],
+    "ru": [
+     "В один клик на странице package.json/requirements.txt на GitHub",
+     "Загрузка файла или вставка текста",
+     "dependencies, devDependencies, peerDependencies",
+     "Статус: актуален / минор / отстаёт на мажор / deprecated",
+     "Копирование команды обновления (npm i pkg@latest)",
+     "Отчёт в Markdown"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/120-deps-status-uz.jpg",
+    "ru": "img/120-deps-status-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/120-deps-status-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/120-deps-status"
+  },
+  {
+   "id": 121,
+   "slug": "repo-stats",
+   "folder": "121-repo-stats",
+   "version": "1.0.0",
+   "color": "#2b8a3e",
+   "glyph": "RS",
+   "category": "github",
+   "name": {
+    "uz": "Repo statistikasi",
+    "ru": "Статистика репозитория"
+   },
+   "short": {
+    "uz": "Repo stat",
+    "ru": "Стат. репо"
+   },
+   "desc": {
+    "uz": "GitHub repozitoriyasi haqida qisqa hisobot: yulduz, fork, ochiq issue va PR, tillar ulushi, faol ishtirokchilar va yillik commit faolligi.",
+    "ru": "Краткий отчёт о репозитории GitHub: звёзды, форки, открытые issue и PR, доли языков, активные участники и активность коммитов за год."
+   },
+   "features": {
+    "uz": [
+     "Asosiy ko’rsatkichlar bir qarashda",
+     "Tillar ulushi diagrammasi",
+     "Top-10 ishtirokchi",
+     "52 haftalik commit faolligi grafigi",
+     "Oxirgi reliz, litsenziya, mavzular",
+     "Repo «tirik»mi — oxirgi push qachon bo’lgani"
+    ],
+    "ru": [
+     "Основные показатели с первого взгляда",
+     "Диаграмма долей языков",
+     "Топ-10 участников",
+     "График активности коммитов за 52 недели",
+     "Последний релиз, лицензия, темы",
+     "«Жив» ли репо — когда был последний push"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "activeTab"
+   ],
+   "image": {
+    "uz": "img/121-repo-stats-uz.jpg",
+    "ru": "img/121-repo-stats-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/121-repo-stats-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/121-repo-stats"
+  },
+  {
+   "id": 122,
+   "slug": "ai-commit",
+   "folder": "122-ai-commit",
+   "version": "1.0.0",
+   "color": "#7048e8",
+   "glyph": "AI",
+   "category": "github",
+   "name": {
+    "uz": "AI commit xabari",
+    "ru": "AI-сообщение коммита"
+   },
+   "short": {
+    "uz": "AI commit",
+    "ru": "AI commit"
+   },
+   "desc": {
+    "uz": "git diff asosida aniq va qisqa commit xabarini AI yozib beradi: Conventional Commits uslubida, ingliz, o’zbek yoki rus tilida.",
+    "ru": "AI пишет точное и краткое сообщение коммита по git diff: в стиле Conventional Commits, на английском, узбекском или русском."
+   },
+   "features": {
+    "uz": [
+     "git diff --staged natijasini qo’ying yoki GitHub PR/commit/compare sahifasidan avtomatik oling",
+     "Conventional Commits (feat:, fix:, refactor:…) yoki oddiy uslub",
+     "Ingliz / o’zbek / rus tilida",
+     "Sarlavha + o’zgarishlar ro’yxati",
+     "`git commit -m …` buyrug’i sifatida nusxalash",
+     "O’z API kalitingiz: Claude, OpenAI yoki OpenAI-ga mos xizmat"
+    ],
+    "ru": [
+     "Вставьте вывод git diff --staged или возьмите со страницы PR/commit/compare GitHub",
+     "Conventional Commits (feat:, fix:, refactor:…) или обычный стиль",
+     "На английском / узбекском / русском",
+     "Заголовок + список изменений",
+     "Копирование как команда `git commit -m …`",
+     "Свой API-ключ: Claude, OpenAI или совместимый сервис"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "activeTab"
+   ],
+   "image": {
+    "uz": "img/122-ai-commit-uz.jpg",
+    "ru": "img/122-ai-commit-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/122-ai-commit-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/122-ai-commit"
+  },
+  {
+   "id": 123,
+   "slug": "security-headers",
+   "folder": "123-security-headers",
+   "version": "1.0.0",
+   "color": "#1098ad",
+   "glyph": "SH",
+   "category": "dev",
+   "name": {
+    "uz": "Xavfsizlik header’lari",
+    "ru": "Заголовки безопасности"
+   },
+   "short": {
+    "uz": "Sec headers",
+    "ru": "Sec headers"
+   },
+   "desc": {
+    "uz": "Sayt javobida CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy borligini tekshirib, A–F baho va tuzatish maslahatini beradi.",
+    "ru": "Проверяет наличие CSP, HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy в ответе сайта, ставит оценку A–F и даёт советы."
+   },
+   "features": {
+    "uz": [
+     "10+ xavfsizlik header’i tekshiruvi",
+     "A+…F baho",
+     "CSP’dagi xavfli qoidalar: unsafe-inline, unsafe-eval, *",
+     "HSTS max-age va includeSubDomains tahlili",
+     "Ortiqcha ma’lumot beruvchi Server, X-Powered-By",
+     "Nginx, Apache va Express uchun tayyor sozlama namunasi"
+    ],
+    "ru": [
+     "Проверка 10+ заголовков безопасности",
+     "Оценка A+…F",
+     "Опасные правила CSP: unsafe-inline, unsafe-eval, *",
+     "Анализ HSTS max-age и includeSubDomains",
+     "Раскрывающие информацию Server, X-Powered-By",
+     "Готовые примеры настройки для Nginx, Apache и Express"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/123-security-headers-uz.jpg",
+    "ru": "img/123-security-headers-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/123-security-headers-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/123-security-headers"
+  },
+  {
+   "id": 124,
+   "slug": "third-party",
+   "folder": "124-third-party",
+   "version": "1.0.0",
+   "color": "#862e9c",
+   "glyph": "3P",
+   "category": "dev",
+   "name": {
+    "uz": "Uchinchi tomon skriptlari",
+    "ru": "Сторонние скрипты"
+   },
+   "short": {
+    "uz": "3-tomon",
+    "ru": "Сторонние"
+   },
+   "desc": {
+    "uz": "Sayt qaysi tashqi xizmatlarga ulanishini va ma’lumot yuborishini ko’rsatadi: analitika, reklama, ijtimoiy tarmoqlar, chat, xatolar kuzatuvi va boshqalar.",
+    "ru": "Показывает, к каким внешним сервисам подключается сайт и куда отправляет данные: аналитика, реклама, соцсети, чаты, мониторинг ошибок и др."
+   },
+   "features": {
+    "uz": [
+     "Har bir tashqi domen: xizmat nomi, turi, so’rovlar soni va hajmi",
+     "200+ ma’lum xizmat: Google, Meta, Yandex, VK, Mail.ru, TikTok, Hotjar…",
+     "Ma’lumot yuborish (beacon, pixel, XHR) alohida belgilanadi",
+     "Kuzatuvchilar soni ikonkada",
+     "CSV eksport — maxfiylik siyosati yoki CSP tuzish uchun",
+     "Tayyor CSP connect-src/script-src ro’yxati"
+    ],
+    "ru": [
+     "Каждый внешний домен: сервис, тип, число запросов и объём",
+     "200+ известных сервисов: Google, Meta, Яндекс, VK, Mail.ru, TikTok, Hotjar…",
+     "Отправка данных (beacon, pixel, XHR) отмечается отдельно",
+     "Число трекеров на иконке",
+     "Экспорт CSV — для политики конфиденциальности или CSP",
+     "Готовый список для CSP connect-src/script-src"
+    ]
+   },
+   "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+   ],
+   "image": {
+    "uz": "img/124-third-party-uz.jpg",
+    "ru": "img/124-third-party-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/124-third-party-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/124-third-party"
+  },
+  {
+   "id": 125,
+   "slug": "dev-newtab",
+   "folder": "125-dev-newtab",
+   "version": "1.0.0",
+   "color": "#212529",
+   "glyph": "{}",
+   "category": "work",
+   "name": {
+    "uz": "Dasturchi uchun yangi tab",
+    "ru": "Новая вкладка для разработчика"
+   },
+   "short": {
+    "uz": "Dev tab",
+    "ru": "Dev tab"
+   },
+   "desc": {
+    "uz": "Yangi tabda: ochiq PR’laringiz, sizdan review kutayotganlar, tayinlangan issue’lar, GitHub faolligi, vazifalar ro’yxati va tezkor havolalar.",
+    "ru": "На новой вкладке: ваши открытые PR, ожидающие вашего ревью, назначенные issue, активность GitHub, список задач и быстрые ссылки."
+   },
+   "features": {
+    "uz": [
+     "Mening ochiq PR’larim va review so’rovlari",
+     "Menga tayinlangan issue’lar",
+     "Oxirgi GitHub faolligi",
+     "Vazifalar ro’yxati (brauzerda saqlanadi)",
+     "Tezkor havolalar va qidiruv: Google, GitHub, MDN, StackOverflow, npm",
+     "Soat va sana o’zbek/rus tilida"
+    ],
+    "ru": [
+     "Мои открытые PR и запросы на ревью",
+     "Назначенные мне issue",
+     "Последняя активность GitHub",
+     "Список задач (хранится в браузере)",
+     "Быстрые ссылки и поиск: Google, GitHub, MDN, StackOverflow, npm",
+     "Часы и дата на узбекском/русском"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/125-dev-newtab-uz.jpg",
+    "ru": "img/125-dev-newtab-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/125-dev-newtab-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/125-dev-newtab"
+  },
+  {
+   "id": 126,
+   "slug": "code-copy",
+   "folder": "126-code-copy",
+   "version": "1.0.0",
+   "color": "#495057",
+   "glyph": "</>",
+   "category": "dev",
+   "name": {
+    "uz": "Kod nusxalash tugmasi",
+    "ru": "Кнопка копирования кода"
+   },
+   "short": {
+    "uz": "Kod nusxa",
+    "ru": "Копир. кода"
+   },
+   "desc": {
+    "uz": "Istalgan saytdagi kod bloki ustiga sichqonchani olib borsangiz «Nusxalash» tugmasi chiqadi. Qator raqamlari va $ belgisini olib tashlaydi.",
+    "ru": "При наведении на блок кода на любом сайте появляется кнопка «Копировать». Убирает номера строк и знак $."
+   },
+   "features": {
+    "uz": [
+     "Barcha saytlarda pre/code bloklari uchun",
+     "Terminal buyruqlaridagi $ va > belgilarini olib tashlash",
+     "Qator raqamlarini olib tashlash",
+     "Sahifa tuzilishini o’zgartirmaydi — tugma ustida suzib turadi",
+     "Saytni istisnolar ro’yxatiga qo’shish"
+    ],
+    "ru": [
+     "Для блоков pre/code на всех сайтах",
+     "Удаление $ и > в командах терминала",
+     "Удаление номеров строк",
+     "Не меняет вёрстку страницы — кнопка плавает поверх",
+     "Исключение сайтов"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "activeTab",
+    "content_scripts: <all_urls>"
+   ],
+   "image": {
+    "uz": "img/126-code-copy-uz.jpg",
+    "ru": "img/126-code-copy-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/126-code-copy-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/126-code-copy"
+  },
+  {
+   "id": 127,
+   "slug": "time-tracker",
+   "folder": "127-time-tracker",
+   "version": "1.0.0",
+   "color": "#0b7285",
+   "glyph": "◷",
+   "category": "work",
+   "name": {
+    "uz": "Loyiha bo’yicha vaqt hisobi",
+    "ru": "Учёт времени по проектам"
+   },
+   "short": {
+    "uz": "Vaqt hisobi",
+    "ru": "Учёт времени"
+   },
+   "desc": {
+    "uz": "Har bir loyihaga ketgan vaqtni bir bosishda yozing: taymer, kunlik va oylik hisobot, soatbay narx bo’yicha summa, CSV va hisob-faktura.",
+    "ru": "Записывайте время по каждому проекту в один клик: таймер, отчёты за день и месяц, сумма по почасовой ставке, CSV и счёт."
+   },
+   "features": {
+    "uz": [
+     "Bir bosishda start/stop, ikonkada ishlagan vaqt",
+     "Loyihalar: nomi, rangi, soatbay narx va valyuta (UZS, USD, RUB…)",
+     "Qo’lda yozuv qo’shish va tahrirlash",
+     "Hisobot: sana oralig’i, loyiha bo’yicha jami soat va summa",
+     "CSV eksport va chop etishga tayyor hisob-faktura",
+     "`Alt+Shift+T` — oxirgi loyiha taymerini yoqish/to’xtatish"
+    ],
+    "ru": [
+     "Старт/стоп в один клик, время на иконке",
+     "Проекты: название, цвет, ставка и валюта (UZS, USD, RUB…)",
+     "Ручное добавление и редактирование записей",
+     "Отчёт: период, итоги часов и сумм по проектам",
+     "Экспорт CSV и готовый к печати счёт",
+     "`Alt+Shift+T` — старт/стоп последнего проекта"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms"
+   ],
+   "image": {
+    "uz": "img/127-time-tracker-uz.jpg",
+    "ru": "img/127-time-tracker-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/127-time-tracker-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/127-time-tracker"
+  },
+  {
+   "id": 128,
+   "slug": "popup-kanban",
+   "folder": "128-popup-kanban",
+   "version": "1.0.0",
+   "color": "#1971c2",
+   "glyph": "▥",
+   "category": "work",
+   "name": {
+    "uz": "Popup Kanban",
+    "ru": "Kanban в popup"
+   },
+   "short": {
+    "uz": "Kanban",
+    "ru": "Kanban"
+   },
+   "desc": {
+    "uz": "Vazifalar uchun kichik Kanban doska brauzer panelida: Rejada, Jarayonda, Tayyor. Sudrab o’tkazish, ranglar, bir nechta doska.",
+    "ru": "Мини-доска Kanban в панели браузера: Запланировано, В работе, Готово. Перетаскивание, цвета, несколько досок."
+   },
+   "features": {
+    "uz": [
+     "3 ustun, kartochkalarni sudrab o’tkazish",
+     "Bir nechta doska (loyiha bo’yicha)",
+     "Kartochka rangi (ustuvorlik) va muddat",
+     "Ikki marta bosib tahrirlash",
+     "Ikonkada «Jarayonda» vazifalar soni",
+     "JSON eksport/import, katta oynada ochish"
+    ],
+    "ru": [
+     "3 колонки, перетаскивание карточек",
+     "Несколько досок (по проектам)",
+     "Цвет карточки (приоритет) и срок",
+     "Редактирование двойным кликом",
+     "Число задач «В работе» на иконке",
+     "Экспорт/импорт JSON, открытие в большом окне"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/128-popup-kanban-uz.jpg",
+    "ru": "img/128-popup-kanban-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/128-popup-kanban-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/128-popup-kanban"
+  },
+  {
+   "id": 129,
+   "slug": "csv-excel-viewer",
+   "folder": "129-csv-excel-viewer",
+   "version": "1.0.0",
+   "color": "#2b8a3e",
+   "glyph": "XLS",
+   "category": "work",
+   "name": {
+    "uz": "CSV va Excel ko’ruvchi",
+    "ru": "Просмотр CSV и Excel"
+   },
+   "short": {
+    "uz": "CSV/Excel",
+    "ru": "CSV/Excel"
+   },
+   "desc": {
+    "uz": "CSV, TSV va Excel (.xlsx) fayllarni Excel’siz, brauzerning o’zida jadval ko’rinishida oching: saralash, qidiruv, varaqlar, eksport. Fayl hech qayerga yuborilmaydi.",
+    "ru": "Открывайте CSV, TSV и Excel (.xlsx) таблицей прямо в браузере без Excel: сортировка, поиск, листы, экспорт. Файл никуда не отправляется."
+   },
+   "features": {
+    "uz": [
+     "CSV/TSV: ajratgich va kodirovka (UTF-8, Windows-1251) avtomatik aniqlanadi",
+     "XLSX: barcha varaqlar, sanalar to’g’ri ko’rinadi",
+     "Ustun bo’yicha saralash, umumiy qidiruv",
+     "Ustun statistikasi: soni, yig’indi, o’rtacha, min/max",
+     "Filtrlangan natijani CSV qilib saqlash",
+     "Faylni sudrab tashlash; internetsiz ishlaydi"
+    ],
+    "ru": [
+     "CSV/TSV: разделитель и кодировка (UTF-8, Windows-1251) определяются сами",
+     "XLSX: все листы, даты отображаются правильно",
+     "Сортировка по столбцу, общий поиск",
+     "Статистика столбца: количество, сумма, среднее, мин/макс",
+     "Сохранение отфильтрованного результата в CSV",
+     "Перетаскивание файла; работает без интернета"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/129-csv-excel-viewer-uz.jpg",
+    "ru": "img/129-csv-excel-viewer-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/129-csv-excel-viewer-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/129-csv-excel-viewer"
+  },
+  {
+   "id": 130,
+   "slug": "placeholder-image",
+   "folder": "130-placeholder-image",
+   "version": "1.0.0",
+   "color": "#868e96",
+   "glyph": "WxH",
+   "category": "dev",
+   "name": {
+    "uz": "Placeholder rasm generatori",
+    "ru": "Генератор картинок-заглушек"
+   },
+   "short": {
+    "uz": "Placeholder",
+    "ru": "Заглушки"
+   },
+   "desc": {
+    "uz": "Kerakli o’lcham, rang va matndagi placeholder rasmni bir zumda yarating: PNG, JPG, WebP yoki SVG; yuklab olish, nusxalash yoki data URL.",
+    "ru": "Мгновенно создавайте картинку-заглушку нужного размера, цвета и с текстом: PNG, JPG, WebP или SVG; скачать, скопировать или data URL."
+   },
+   "features": {
+    "uz": [
+     "Istalgan o’lcham va tayyor o’lchamlar (avatar, banner, OG, Instagram…)",
+     "Fon va matn rangi, o’z matningiz yoki «1200×630»",
+     "Gradient va katakli naqsh",
+     "PNG, JPG, WebP, SVG",
+     "Rasm sifatida buferga nusxalash yoki data URL / <img> kod",
+     "Internetsiz ishlaydi"
+    ],
+    "ru": [
+     "Любой размер и готовые пресеты (аватар, баннер, OG, Instagram…)",
+     "Цвет фона и текста, свой текст или «1200×630»",
+     "Градиент и шахматный узор",
+     "PNG, JPG, WebP, SVG",
+     "Копирование картинкой в буфер или как data URL / код <img>",
+     "Работает без интернета"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "clipboardWrite"
+   ],
+   "image": {
+    "uz": "img/130-placeholder-image-uz.jpg",
+    "ru": "img/130-placeholder-image-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/130-placeholder-image-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/130-placeholder-image"
+  },
+  {
+   "id": 131,
+   "slug": "mock-api",
+   "folder": "131-mock-api",
+   "version": "1.0.0",
+   "color": "#d6336c",
+   "glyph": "{ }",
+   "category": "api",
+   "name": {
+    "uz": "Mock API generatori",
+    "ru": "Генератор Mock API"
+   },
+   "short": {
+    "uz": "Mock API",
+    "ru": "Mock API"
+   },
+   "desc": {
+    "uz": "Backend tayyor bo’lmasa ham frontendni ishlating: endpoint va shablon yozing — kengaytma fetch/XHR so’rovlarini ushlab, soxta ma’lumot qaytaradi.",
+    "ru": "Работайте над фронтендом без готового бэкенда: опишите endpoint и шаблон — расширение перехватит fetch/XHR и вернёт фейковые данные."
+   },
+   "features": {
+    "uz": [
+     "Metod, URL (* va :id), status kodi va kechikish",
+     "Shablon: {{name}}, {{email}}, {{int 1 100}}, {{uuid}}, {{date}}, {{city}}, {{phone}}, {{param id}}…",
+     "O’zbekcha ism va shaharlar bilan realistik ma’lumot",
+     "__repeat bilan massiv yaratish",
+     "Faqat siz yoqqan saytlarda, fetch va XHR uchun",
+     "Oldindan ko’rish, JSON nusxalash, eksport/import"
+    ],
+    "ru": [
+     "Метод, URL (* и :id), код статуса и задержка",
+     "Шаблон: {{name}}, {{email}}, {{int 1 100}}, {{uuid}}, {{date}}, {{city}}, {{phone}}, {{param id}}…",
+     "Реалистичные данные с узбекскими именами и городами",
+     "Массивы через __repeat",
+     "Только на включённых вами сайтах, для fetch и XHR",
+     "Предпросмотр, копирование JSON, экспорт/импорт"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+   ],
+   "image": {
+    "uz": "img/131-mock-api-uz.jpg",
+    "ru": "img/131-mock-api-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/131-mock-api-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/131-mock-api"
+  },
+  {
+   "id": 132,
+   "slug": "markdown-html",
+   "folder": "132-markdown-html",
+   "version": "1.0.0",
+   "color": "#343a40",
+   "glyph": "M↓",
+   "category": "work",
+   "name": {
+    "uz": "Markdown → HTML",
+    "ru": "Markdown → HTML"
+   },
+   "short": {
+    "uz": "MD → HTML",
+    "ru": "MD → HTML"
+   },
+   "desc": {
+    "uz": "Markdown yozing — jonli ko’rinish va tayyor HTML kod. GitHub uslubi, kod rang-barangligi, Gmail/Word’ga formatli nusxa, alohida .html fayl.",
+    "ru": "Пишите Markdown — живой предпросмотр и готовый HTML. Стиль GitHub, подсветка кода, копирование с форматированием в Gmail/Word, отдельный .html файл."
+   },
+   "features": {
+    "uz": [
+     "Jonli ko’rinish, sinxron aylantirish",
+     "GFM: jadvallar, vazifalar ro’yxati, kod bloklari",
+     "Kod bloklarini rang bilan ajratish (190+ til)",
+     "HTML kodni nusxalash yoki formatli matn sifatida (Gmail, Word, Google Docs)",
+     "Uslublari bilan alohida .html fayl yuklab olish",
+     "Matn avtomatik saqlanadi; xavfsiz (DOMPurify)"
+    ],
+    "ru": [
+     "Живой предпросмотр, синхронная прокрутка",
+     "GFM: таблицы, списки задач, блоки кода",
+     "Подсветка кода (190+ языков)",
+     "Копирование HTML-кода или текста с форматированием (Gmail, Word, Google Docs)",
+     "Скачивание отдельного .html файла со стилями",
+     "Текст сохраняется сам; безопасно (DOMPurify)"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "clipboardWrite"
+   ],
+   "image": {
+    "uz": "img/132-markdown-html-uz.jpg",
+    "ru": "img/132-markdown-html-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/132-markdown-html-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/132-markdown-html"
+  },
+  {
+   "id": 133,
+   "slug": "diff-viewer",
+   "folder": "133-diff-viewer",
+   "version": "1.0.0",
+   "color": "#5c940d",
+   "glyph": "±",
+   "category": "work",
+   "name": {
+    "uz": "Diff ko’ruvchi",
+    "ru": "Сравнение текстов (Diff)"
+   },
+   "short": {
+    "uz": "Diff",
+    "ru": "Diff"
+   },
+   "desc": {
+    "uz": "Ikki matn yoki kod faylini solishtiring: yonma-yon yoki birlashgan ko’rinish, qator ichidagi farqlar, bo’sh joylarni e’tiborsiz qoldirish, unified patch.",
+    "ru": "Сравнивайте два текста или файла с кодом: рядом или единым списком, отличия внутри строк, игнорирование пробелов, unified patch."
+   },
+   "features": {
+    "uz": [
+     "Yonma-yon (split) va birlashgan (unified) ko’rinish",
+     "Qator ichidagi so’z darajasidagi farqlar",
+     "Bo’sh joy va katta-kichik harfni e’tiborsiz qoldirish",
+     "Fayllarni sudrab tashlash, joyini almashtirish",
+     "Statistika: +qo’shilgan / −o’chirilgan",
+     ".patch (unified diff) sifatida saqlash; internetsiz"
+    ],
+    "ru": [
+     "Режимы «рядом» (split) и «единый» (unified)",
+     "Отличия внутри строк на уровне слов",
+     "Игнорирование пробелов и регистра",
+     "Перетаскивание файлов, перестановка местами",
+     "Статистика: +добавлено / −удалено",
+     "Сохранение в .patch (unified diff); без интернета"
+    ]
+   },
+   "permissions": [
+    "storage"
+   ],
+   "image": {
+    "uz": "img/133-diff-viewer-uz.jpg",
+    "ru": "img/133-diff-viewer-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/133-diff-viewer-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/133-diff-viewer"
+  },
+  {
+   "id": 157,
+   "slug": "relax-sounds",
+   "folder": "157-relax-sounds",
+   "version": "1.0.0",
+   "color": "#364fc7",
+   "glyph": "♫",
+   "category": "life",
+   "name": {
+    "uz": "Tinchlantiruvchi tovushlar",
+    "ru": "Успокаивающие звуки"
+   },
+   "short": {
+    "uz": "Relaks",
+    "ru": "Релакс"
+   },
+   "desc": {
+    "uz": "Tungi chigirtkalar, yomg’ir, shamol, qor, momaqaldiroq, olov, dengiz va boshqa tovushlarni aralashtirib tinglang. Uyqu taymeri bilan. Internetsiz ishlaydi.",
+    "ru": "Сверчки ночью, дождь, ветер, снег, гроза, костёр, море и другие звуки — смешивайте и слушайте. С таймером сна. Работает без интернета."
+   },
+   "features": {
+    "uz": [
+     "12 ta tovush: chigirtka, yomg’ir, momaqaldiroq, shamol, qor, olov, dengiz, soy, boyo’g’li, oq/pushti/jigarrang shovqin",
+     "Har bir tovushning alohida balandligi — o’z aralashmangizni yarating",
+     "Tayyor to’plamlar: Yozgi tun, Yomg’irli kecha, Qishki tun, Dengiz bo’yi, Diqqat",
+     "Uyqu taymeri — oxirida ovoz asta pasayadi",
+     "Ovozlar kod bilan sintez qilinadi: takrorlanmaydi, internet kerak emas",
+     "Popup yopilsa ham tovush davom etadi; `Alt+Shift+M` — yoqish/to’xtatish"
+    ],
+    "ru": [
+     "12 звуков: сверчки, дождь, гроза, ветер, снег, костёр, море, ручей, сова, белый/розовый/коричневый шум",
+     "Отдельная громкость каждого звука — создайте свой микс",
+     "Готовые наборы: Летняя ночь, Дождливый вечер, Зимняя ночь, Берег моря, Фокус",
+     "Таймер сна — в конце звук плавно затихает",
+     "Звуки синтезируются кодом: не повторяются, интернет не нужен",
+     "Звук продолжается после закрытия popup; `Alt+Shift+M` — вкл/выкл"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "offscreen"
+   ],
+   "image": {
+    "uz": "img/157-relax-sounds-uz.jpg",
+    "ru": "img/157-relax-sounds-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/157-relax-sounds-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/157-relax-sounds"
+  },
+  {
+   "id": 191,
+   "slug": "flight-tracker",
+   "folder": "191-flight-tracker",
+   "version": "1.0.0",
+   "color": "#0b7285",
+   "glyph": "✈",
+   "category": "life",
+   "name": {
+    "uz": "Avia chiptalar: arzon narx kuzatuvchisi",
+    "ru": "Авиабилеты: трекер низких цен"
+   },
+   "short": {
+    "uz": "Avia narx",
+    "ru": "Авиацены"
+   },
+   "desc": {
+    "uz": "Dunyo bo’ylab avia reyslar narxini qidiring, eng arzonini toping va narx siz belgilagan summaga tushganda bildirishnoma oling.",
+    "ru": "Ищите авиарейсы по всему миру, находите самые дешёвые и получайте уведомление, когда цена опустится до вашей суммы."
+   },
+   "features": {
+    "uz": [
+     "Istalgan shahar/aeroportdan istalgan shaharga qidiruv; «Hamma yo’nalishlar» — eng arzon manzillar ro’yxati",
+     "Aniq kun yoki butun oy bo’yicha eng arzon narxlar, to’g’ridan-to’g’ri reyslar filtri",
+     "Narx kuzatuvi: maqsadli summani belgilang — narx tushganda bildirishnoma keladi",
+     "Narx tarixi grafigi, avtomatik tekshiruv (1–12 soat)",
+     "UZS, USD, EUR, RUB, KZT valyutalari",
+     "Sotib olish — Aviasales sahifasiga o’tadi; token bo’lmasa Skyscanner, Google Flights, Kayak havolalari"
+    ],
+    "ru": [
+     "Поиск из любого города/аэропорта в любой; «Все направления» — список самых дешёвых мест",
+     "Самые низкие цены на конкретный день или весь месяц, фильтр прямых рейсов",
+     "Слежение за ценой: задайте сумму — придёт уведомление, когда цена упадёт",
+     "График истории цен, автопроверка (раз в 1–12 часов)",
+     "Валюты UZS, USD, EUR, RUB, KZT",
+     "Покупка — переход на Aviasales; без токена — ссылки Skyscanner, Google Flights, Kayak"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+   ],
+   "image": {
+    "uz": "img/191-flight-tracker-uz.jpg",
+    "ru": "img/191-flight-tracker-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/191-flight-tracker-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/191-flight-tracker"
+  },
+  {
+   "id": 192,
+   "slug": "trader-toolkit",
+   "folder": "192-trader-toolkit",
+   "version": "1.0.0",
+   "color": "#1f7a4d",
+   "glyph": "%",
+   "category": "trade",
+   "name": {
+    "uz": "Trader to’plami",
+    "ru": "Набор трейдера"
+   },
+   "short": {
+    "uz": "Trader",
+    "ru": "Трейдер"
+   },
+   "desc": {
+    "uz": "Pozitsiya hajmi kalkulyatori, savdo jurnali, bozor sessiyalari soati va savdodan oldingi chek-list bilan kunlik zarar limiti.",
+    "ru": "Калькулятор размера позиции, торговый журнал, часы торговых сессий и чек-лист перед сделкой с дневным лимитом убытка."
+   },
+   "features": {
+    "uz": [
+     "Pozitsiya kalkulyatori: kripto/futures, forex va aksiya; risk, hajm, margin, likvidatsiya narxi, R:R",
+     "Savdo jurnali: win rate, profit factor, kutilma, maksimal cho’kish, equity grafigi, CSV import/eksport",
+     "Sessiyalar soati: Sidney, Tokio, London, Nyu-York — ochiq/yopiq, kesishish soatlari, ochilishdan oldin ogohlantirish",
+     "Savdodan oldingi chek-list (o’zingiz tahrirlaysiz)",
+     "Kunlik zarar limiti: oshsa belgi va bildirishnoma «bugun to’xta»",
+     "Hamma ma’lumot faqat brauzeringizda saqlanadi, internet kerak emas",
+     "Bu moliyaviy maslahat emas — faqat hisoblash va hisob yuritish vositasi"
+    ],
+    "ru": [
+     "Калькулятор позиции: крипто/фьючерсы, форекс и акции; риск, объём, маржа, цена ликвидации, R:R",
+     "Торговый журнал: win rate, profit factor, матожидание, макс. просадка, график эквити, импорт/экспорт CSV",
+     "Часы сессий: Сидней, Токио, Лондон, Нью-Йорк — открыто/закрыто, пересечения, уведомление перед открытием",
+     "Чек-лист перед сделкой (редактируете сами)",
+     "Дневной лимит убытка: при превышении значок и уведомление «на сегодня хватит»",
+     "Все данные хранятся только в браузере, интернет не нужен",
+     "Это не финансовый совет — только инструмент расчётов и учёта"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+   ],
+   "image": {
+    "uz": "img/192-trader-toolkit-uz.jpg",
+    "ru": "img/192-trader-toolkit-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/192-trader-toolkit-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/192-trader-toolkit"
+  },
+  {
+   "id": 193,
+   "slug": "crypto-alerts",
+   "folder": "193-crypto-alerts",
+   "version": "1.0.0",
+   "color": "#f08c00",
+   "glyph": "!",
+   "category": "trade",
+   "name": {
+    "uz": "Kripto narx ogohlantirgichi",
+    "ru": "Оповещения о цене крипто"
+   },
+   "short": {
+    "uz": "Narx signali",
+    "ru": "Цены крипто"
+   },
+   "desc": {
+    "uz": "Binance va Bybit koinlari narxini kuzating: narx belgilangan darajaga yetganda yoki tez o’zgarganda (masalan 15 daqiqada ±3%) bildirishnoma oling.",
+    "ru": "Следите за ценами монет Binance и Bybit: уведомление, когда цена достигла уровня или быстро изменилась (например ±3% за 15 минут)."
+   },
+   "features": {
+    "uz": [
+     "Watchlist: narx, 24 soatlik o’zgarish va mini grafik",
+     "Ogohlantirish turlari: «narx yuqoriga/pastga o’tdi» va «N daqiqada ±X% o’zgardi»",
+     "Bir martalik yoki takroriy (qayta yoqiladigan) signallar",
+     "Binance (spot) va Bybit (spot) — kalitsiz, ochiq API",
+     "Bildirishnoma bosilsa birja sahifasi ochiladi",
+     "Juftliklar ro’yxatidan qidirish (avtomatik taklif)",
+     "Hamma ma’lumot brauzerda; savdo signali yoki maslahat emas"
+    ],
+    "ru": [
+     "Список наблюдения: цена, изменение за 24 часа и мини-график",
+     "Типы оповещений: «цена выше/ниже уровня» и «изменение ±X% за N минут»",
+     "Одноразовые и повторяющиеся (перезаряжаемые) оповещения",
+     "Binance (спот) и Bybit (спот) — открытый API без ключей",
+     "Клик по уведомлению открывает страницу биржи",
+     "Поиск пары по списку (автоподсказка)",
+     "Все данные в браузере; это не торговый сигнал и не совет"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+   ],
+   "image": {
+    "uz": "img/193-crypto-alerts-uz.jpg",
+    "ru": "img/193-crypto-alerts-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/193-crypto-alerts-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/193-crypto-alerts"
+  },
+  {
+   "id": 194,
+   "slug": "econ-calendar",
+   "folder": "194-econ-calendar",
+   "version": "1.0.0",
+   "color": "#c2255c",
+   "glyph": "E",
+   "category": "trade",
+   "name": {
+    "uz": "Iqtisodiy kalendar (trader uchun)",
+    "ru": "Экономический календарь трейдера"
+   },
+   "short": {
+    "uz": "Kalendar",
+    "ru": "Календарь"
+   },
+   "desc": {
+    "uz": "CPI, NFP, FOMC kabi muhim iqtisodiy yangiliklar kalendari: o’zbekcha va ruscha izohlar, mahalliy vaqt, valyuta/ahamiyat filtri va yangilikdan oldin eslatma.",
+    "ru": "Календарь важных экономических новостей (CPI, NFP, FOMC): пояснения на русском и узбекском, местное время, фильтры по валюте и важности, напоминание перед новостью."
+   },
+   "features": {
+    "uz": [
+     "Haftalik kalendar: bugun, ertaga, shu hafta, keyingi hafta",
+     "Ahamiyat (yuqori/o’rta/past) va valyuta bo’yicha filtr",
+     "Vaqtlar sizning mahalliy vaqtingizda",
+     "Muhim atamalarga (CPI, NFP, FOMC, PMI…) qisqa izoh o’zbekcha va ruscha",
+     "Keyingi muhim yangilikkacha teskari sanoq va belgi (badge)",
+     "Yangilikdan 5–60 daqiqa oldin avtomatik eslatma; ixtiyoriy yangilikka alohida 🔔",
+     "Prognoz va oldingi qiymat ko’rsatiladi"
+    ],
+    "ru": [
+     "Недельный календарь: сегодня, завтра, неделя, следующая неделя",
+     "Фильтр по важности (высокая/средняя/низкая) и валюте",
+     "Время в вашем часовом поясе",
+     "Краткие пояснения терминов (CPI, NFP, FOMC, PMI…) на русском и узбекском",
+     "Обратный отсчёт до ближайшей важной новости и значок (badge)",
+     "Авто-напоминание за 5–60 минут; отдельный 🔔 для любой новости",
+     "Показываются прогноз и предыдущее значение"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+   ],
+   "image": {
+    "uz": "img/194-econ-calendar-uz.jpg",
+    "ru": "img/194-econ-calendar-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/194-econ-calendar-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/194-econ-calendar"
+  },
+  {
+   "id": 195,
+   "slug": "pip-player",
+   "folder": "195-pip-player",
+   "version": "1.0.0",
+   "color": "#7048e8",
+   "glyph": "P",
+   "category": "life",
+   "name": {
+    "uz": "Suzuvchi video (PiP) — boshqa ishlaringizni qilavering",
+    "ru": "Плавающее видео (PiP) — работайте параллельно"
+   },
+   "short": {
+    "uz": "Suzuvchi video",
+    "ru": "PiP-видео"
+   },
+   "desc": {
+    "uz": "Videoni kichik suzuvchi oynaga chiqaring: boshqa tab yoki dasturda ishlayversangiz ham ustida turadi. Alt+P, video ustidagi tugma, tab almashganda avtomatik, ±10 soniya va tezlik boshqaruvi.",
+    "ru": "Выводите видео в маленькое плавающее окно: оно остаётся поверх других вкладок и программ. Alt+P, кнопка на видео, автозапуск при смене вкладки, перемотка ±10 с и скорость."
+   },
+   "features": {
+    "uz": [
+     "`Alt+P` yoki video ustidagi «PiP» tugmasi bilan suzuvchi oyna",
+     "Tab almashganda avtomatik PiP (Chrome 134+), qaytsangiz video joyiga qaytadi",
+     "Kengaytirilgan oyna (Document PiP): ±10 soniya, surish chizig’i, tezlik 0.5x–2x, ovoz, to’liq ekran, sahifaga qaytarish",
+     "Sahifada bir nechta video bo’lsa — qaysi birini chiqarishni tanlash oynasi",
+     "Oyna o’lchami va joyi eslab qolinadi",
+     "Saytlar qo’ygan PiP/uzatish cheklovlarini (disablePictureInPicture) olib tashlaydi",
+     "iframe ichidagi videolar ham qo’llab-quvvatlanadi",
+     "DRM himoyalangan xizmatlarda (Netflix kabi) Chrome PiP’ni bloklashi mumkin"
+    ],
+    "ru": [
+     "Плавающее окно по `Alt+P` или кнопке «PiP» на видео",
+     "Автоматический PiP при смене вкладки (Chrome 134+); при возврате видео встаёт на место",
+     "Расширенное окно (Document PiP): ±10 с, полоса перемотки, скорость 0.5x–2x, звук, полный экран, возврат на страницу",
+     "Если на странице несколько видео — окно выбора",
+     "Размер и положение окна запоминаются",
+     "Снимает ограничения сайтов на PiP/трансляцию (disablePictureInPicture)",
+     "Поддерживаются видео внутри iframe",
+     "В сервисах с DRM (вроде Netflix) Chrome может блокировать PiP"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "content_scripts: <all_urls>"
+   ],
+   "image": {
+    "uz": "img/195-pip-player-uz.jpg",
+    "ru": "img/195-pip-player-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/195-pip-player-v1.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/195-pip-player"
+  },
+  {
+   "id": 196,
+   "slug": "korinadigan-ovoz",
+   "folder": "196-korinadigan-ovoz",
+   "version": "2.0.0",
+   "color": "#2b8a3e",
+   "glyph": "K",
+   "category": "access",
+   "name": {
+    "uz": "Ko’rinadigan ovoz — subtitr va imo-ishora",
+    "ru": "Видимый звук — субтитры и жесты"
+   },
+   "short": {
+    "uz": "Ko’rinadigan ovoz",
+    "ru": "Видимый звук"
+   },
+   "desc": {
+    "uz": "Kar va eshitishi past foydalanuvchilar uchun: brauzer ovozi va yoningizdagi odam gapi jonli subtitr, tarjima va imo-ishora bo’lib ko’rinadi; yozganingizni ovoz chiqarib o’qiydi.",
+    "ru": "Для глухих и слабослышащих: звук браузера и речь собеседника — в виде живых субтитров, перевода и жестов; написанное вами озвучивается."
+   },
+   "features": {
+    "uz": [
+     "Jonli suhbat: yoningizdagi odam gapi so’zma-so’z ekranda, siz yozasiz — noutbuk ovoz chiqarib o’qiydi",
+     "Brauzerdagi har qanday ovoz (YouTube, darslar, vebinar) uchun jonli subtitr",
+     "Tarjima (masalan ruscha ↔ o’zbekcha) va imo-ishora paneli",
+     "Tayyor iboralar, «Men eshitmayman» kartasi, katta shrift, ekranni aylantirish",
+     "Nutq tanish: Chrome (bepul), internetsiz Whisper, Google yoki OpenAI",
+     "Matn tarixi, `.txt` ga saqlash, `Alt+Shift+K/S/J` tezkor tugmalari"
+    ],
+    "ru": [
+     "Живой разговор: речь собеседника словами на экране, вы печатаете — ноутбук озвучивает",
+     "Живые субтитры для любого звука в браузере (YouTube, уроки, вебинары)",
+     "Перевод (например русский ↔ узбекский) и панель жестов",
+     "Готовые фразы, карточка «Я не слышу», крупный шрифт, переворот экрана",
+     "Распознавание: Chrome (бесплатно), Whisper офлайн, Google или OpenAI",
+     "История текста, сохранение в `.txt`, горячие клавиши `Alt+Shift+K/S/J`"
+    ]
+   },
+   "permissions": [
+    "notifications",
+    "tabCapture",
+    "offscreen",
+    "storage",
+    "unlimitedStorage",
+    "scripting",
+    "activeTab",
+    "tabs"
+   ],
+   "image": {
+    "uz": "img/196-korinadigan-ovoz-uz.jpg",
+    "ru": "img/196-korinadigan-ovoz-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/196-korinadigan-ovoz-v2.0.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/196-korinadigan-ovoz"
+  },
+  {
+   "id": 197,
+   "slug": "futbol-natijalari",
+   "folder": "197-futbol-natijalari",
+   "version": "1.1.0",
+   "color": "#2f9e44",
+   "glyph": "F",
+   "category": "life",
+   "name": {
+    "uz": "Futbol natijalari — jonli hisoblar",
+    "ru": "Футбол результаты — живые счета"
+   },
+   "short": {
+    "uz": "Futbol",
+    "ru": "Футбол"
+   },
+   "desc": {
+    "uz": "Barcha mamlakatlar futbol hisoblari, ligalar, turnir jadvali, jamoa qidiruvi va eng yaqin o’yingacha teskari sanoq. Basketbol (NBA) va xokkey (NHL) ham bor.",
+    "ru": "Живые счета футбола всей планеты, лиги, турнирные таблицы, поиск команд и обратный отсчёт до ближайшего матча. Есть баскетбол (NBA) и хоккей (NHL)."
+   },
+   "features": {
+    "uz": [
+     "Jonli o’yinlar, kunlar bo’yicha natijalar, sevimli jamoalar tepada",
+     "200 dan ortiq mamlakat va ligalar, turnir jadvali",
+     "Qidiruv: `Real Madrid`, `Barselona`, `Реал` kabi yozuvlar bilan",
+     "Jamoa sahifasi: eng yaqin o’yin, stadion, teskari sanoq, so’nggi natijalar",
+     "Bildirishnomalar: o’yin boshlanishi, gol, tugashi; belgida jonli hisob",
+     "Tezkor tugmalar: `Alt+Shift+F`, `/`, `←` `→`, `1`–`4`"
+    ],
+    "ru": [
+     "Живые матчи, результаты по дням, избранные команды сверху",
+     "200+ стран и лиг, турнирные таблицы",
+     "Поиск: `Real Madrid`, `Барселона`, `Реал` и др.",
+     "Страница команды: ближайший матч, стадион, отсчёт, последние результаты",
+     "Уведомления: начало, гол, финал; живой счёт на значке",
+     "Горячие клавиши: `Alt+Shift+F`, `/`, `←` `→`, `1`–`4`"
+    ]
+   },
+   "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+   ],
+   "image": {
+    "uz": "img/197-futbol-natijalari-uz.jpg",
+    "ru": "img/197-futbol-natijalari-ru.jpg"
+   },
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/197-futbol-natijalari-v1.1.0.zip",
+   "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/197-futbol-natijalari"
+  }
+ ]
+}

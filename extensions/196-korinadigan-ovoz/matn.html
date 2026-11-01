@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <title>Matnlar — Ko'rinadigan ovoz</title>
+  <link rel="stylesheet" href="ui.css">
+  <style>
+    body { max-width: 1000px; margin: 0 auto; padding: 22px 18px 60px; font-size: 16px; }
+    h1 { display: flex; align-items: center; gap: 10px; font-size: 22px; margin: 0 0 14px; }
+    .tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .tools input[type=search] { flex: 1; min-width: 200px; font-size: 15px; }
+    .list { display: flex; flex-direction: column; gap: 2px; }
+    .e { display: grid; grid-template-columns: 70px 1fr; gap: 12px; padding: 8px 10px; border-radius: 9px; }
+    .e:hover { background: var(--panel-2); }
+    .e time { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; padding-top: 3px; }
+    .e .tx { font-size: var(--fs, 18px); line-height: 1.4; }
+    .e .tr { display: block; color: var(--accent); font-size: .85em; }
+    .e .pg { display: block; color: var(--muted); font-size: 12px; }
+    mark { background: #fde047; color: #111; border-radius: 3px; }
+    .ai { white-space: pre-wrap; font-size: 17px; line-height: 1.5; }
+    .ai.hidden, .hidden { display: none; }
+    .meta { color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1><img src="icons/icon48.png" width="32" height="32" alt=""><span id="title"></span> <span class="meta" id="count"></span></h1>
+  <div class="card">
+    <div class="tools">
+      <input type="search" id="q">
+      <button class="btn ghost" id="smaller">A−</button><button class="btn ghost" id="bigger">A+</button>
+      <button class="btn ghost" id="txt"></button>
+      <button class="btn ghost" id="srt"></button>
+    </div>
+    <div class="tools" style="margin-top:8px">
+      <button class="btn" id="sum"></button>
+      <button class="btn" id="simp"></button>
+      <button class="btn ghost" id="trall"></button>
+      <select id="trTo"><option value="uz">O'zbekcha</option><option value="ru">Русский</option><option value="en">English</option></select>
+    </div>
+  </div>
+  <div class="card hidden" id="aiCard"><h3 id="aiTitle"></h3><div class="ai" id="ai"></div></div>
+  <div class="card"><div class="list" id="list"></div></div>
+  <script type="module" src="matn.js"></script>
+</body>
+</html>

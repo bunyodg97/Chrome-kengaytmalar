@@ -1,0 +1,48 @@
+{
+  "external": true,
+  "slug": "korinadigan-ovoz",
+  "version": "2.0.0",
+  "color": "#2b8a3e",
+  "glyph": "K",
+  "name": {
+    "uz": "Ko’rinadigan ovoz — subtitr va imo-ishora",
+    "ru": "Видимый звук — субтитры и жесты"
+  },
+  "short": {
+    "uz": "Ko’rinadigan ovoz",
+    "ru": "Видимый звук"
+  },
+  "desc": {
+    "uz": "Kar va eshitishi past foydalanuvchilar uchun: brauzer ovozi va yoningizdagi odam gapi jonli subtitr, tarjima va imo-ishora bo’lib ko’rinadi; yozganingizni ovoz chiqarib o’qiydi.",
+    "ru": "Для глухих и слабослышащих: звук браузера и речь собеседника — в виде живых субтитров, перевода и жестов; написанное вами озвучивается."
+  },
+  "features": {
+    "uz": [
+      "Jonli suhbat: yoningizdagi odam gapi so’zma-so’z ekranda, siz yozasiz — noutbuk ovoz chiqarib o’qiydi",
+      "Brauzerdagi har qanday ovoz (YouTube, darslar, vebinar) uchun jonli subtitr",
+      "Tarjima (masalan ruscha ↔ o’zbekcha) va imo-ishora paneli",
+      "Tayyor iboralar, «Men eshitmayman» kartasi, katta shrift, ekranni aylantirish",
+      "Nutq tanish: Chrome (bepul), internetsiz Whisper, Google yoki OpenAI",
+      "Matn tarixi, `.txt` ga saqlash, `Alt+Shift+K/S/J` tezkor tugmalari"
+    ],
+    "ru": [
+      "Живой разговор: речь собеседника словами на экране, вы печатаете — ноутбук озвучивает",
+      "Живые субтитры для любого звука в браузере (YouTube, уроки, вебинары)",
+      "Перевод (например русский ↔ узбекский) и панель жестов",
+      "Готовые фразы, карточка «Я не слышу», крупный шрифт, переворот экрана",
+      "Распознавание: Chrome (бесплатно), Whisper офлайн, Google или OpenAI",
+      "История текста, сохранение в `.txt`, горячие клавиши `Alt+Shift+K/S/J`"
+    ]
+  },
+  "permissions": [
+    "notifications",
+    "tabCapture",
+    "offscreen",
+    "storage",
+    "unlimitedStorage",
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "category": "accessibility"
+}

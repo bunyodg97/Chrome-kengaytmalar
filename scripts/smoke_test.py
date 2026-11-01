@@ -56,7 +56,7 @@ def test_ext(pw, ext, langs=("uz", "ru")):
                 if "popup" in page:
                     pg.set_viewport_size({"width": 380, "height": 600})
                 pg.screenshot(path=str(SHOTS / f"{name}.png"), full_page=False)
-                if lang == "uz":
+                if lang == "uz" and pg.locator("button[data-tab=settings]").count():
                     pg.click("button[data-tab=settings]")
                     pg.wait_for_timeout(300)
                     pg.screenshot(path=str(SHOTS / f"{name}__settings.png"))

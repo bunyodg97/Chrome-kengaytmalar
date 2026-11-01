@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonli suhbat — Ko'rinadigan ovoz</title>
+  <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="suhbat.css">
+</head>
+<body>
+  <header class="bar">
+    <img src="icons/icon48.png" width="32" height="32" alt="">
+    <b id="title" class="ttl"></b>
+    <span class="pill" id="status"><span class="dot"></span><span id="stxt"></span></span>
+    <span class="grow"></span>
+    <button class="tb" id="deaf"></button>
+    <button class="tb" id="flip"></button>
+    <button class="tb sq" id="smaller" aria-label="A-">A−</button>
+    <button class="tb sq" id="bigger" aria-label="A+">A+</button>
+    <button class="tb sq" id="saveBtn" aria-label="save">💾</button>
+    <button class="tb sq" id="clearBtn" aria-label="clear">🗑</button>
+    <button class="tb sq" id="setBtn" aria-label="settings">⚙</button>
+  </header>
+
+  <div class="facing hidden" id="facing"><div class="facing-in" id="facingText"></div></div>
+
+  <div class="body">
+    <section class="log" id="log" aria-live="polite"></section>
+    <aside class="signs hidden" id="signs">
+      <div class="stage" id="stage"><span class="idle">🤟</span></div>
+      <div class="slbl" id="slbl"></div>
+    </aside>
+  </div>
+
+  <div class="warnbar hidden" id="warn"></div>
+
+  <footer class="composer">
+    <div class="phrases" id="phrases"></div>
+    <div class="inrow">
+      <button class="mic" id="mic"></button>
+      <textarea id="input" rows="2"></textarea>
+      <button class="speak" id="speak"></button>
+    </div>
+  </footer>
+
+  <div class="drawer hidden" id="drawer">
+    <div class="drawer-in">
+      <div class="dh"><b id="dTitle"></b><button class="tb sq" id="dClose">✕</button></div>
+      <div id="dBody"></div>
+    </div>
+  </div>
+
+  <div class="card-full hidden" id="card" tabindex="-1">
+    <div class="cf-in">
+      <div class="cf-ico">🦻</div>
+      <p class="cf-uz">Men eshitmayman.<br><small>Iltimos, ekranga qarab gapiring — so'zlaringiz shu yerda yoziladi. Yoki yozib bering.</small></p>
+      <p class="cf-ru">Я не слышу.<br><small>Пожалуйста, говорите — ваши слова появятся на экране. Или напишите.</small></p>
+      <p class="cf-en">I am deaf.<br><small>Please speak — your words will appear on this screen. Or type.</small></p>
+      <div class="cf-btns"><button class="btn" id="cardSpeak">🔊</button><button class="btn ghost" id="cardClose"></button></div>
+    </div>
+  </div>
+
+  <script src="js/signs.js"></script>
+  <script type="module" src="suhbat.js"></script>
+</body>
+</html>

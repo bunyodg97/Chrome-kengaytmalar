@@ -1,10 +1,21 @@
-# Chrome kengaytmalari — 3-to’plam (104–133)
+# 🧩 Chrome kengaytmalari — Bunyodg97
 
-Dasturchilar va veb-ishlab chiquvchilar uchun 30 ta Chrome kengaytmasi. Hammasi **o’zbek va rus tilida**, Manifest V3, tashqi kutubxonasiz yoki ichiga joylangan kutubxonalar bilan, internet talab qilmaydigan qismi oflayn ishlaydi.
+Dasturchilar, traderlar va kundalik hayot uchun **38 ta bepul Chrome kengaytmasi**. Hammasi **o’zbek va rus tilida**, Manifest V3. Ma’lumotlaringiz faqat brauzeringizda saqlanadi.
 
-> 🇷🇺 30 расширений Chrome для разработчиков. Все на **узбекском и русском**, Manifest V3.
+> 🇷🇺 **38 бесплатных расширений Chrome** для разработчиков, трейдеров и повседневной жизни. Всё на **узбекском и русском**, Manifest V3. Ваши данные остаются только в браузере.
 
 Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) · [❤️ Qo’llab-quvvatlash](https://www.ali-dasturchi.uz/#donat)
+
+📦 **Yuklab olish:** [Releases](https://github.com/bunyodg97/Chrome-kengaytmalar/releases) — har bir kengaytma alohida zip.
+🖼 **Katalog (skrinshotlar bilan):** [`catalog/index.html`](catalog/index.html)
+
+## Tez o’rnatish
+
+1. [Releases](https://github.com/bunyodg97/Chrome-kengaytmalar/releases)’dan kerakli zip’ni yuklang.
+2. Zip’ni **doimiy papkaga** oching (masalan `C:\Kengaytmalar\`) va keyin ko’chirmang yoki nomini o’zgartirmang — Chrome kengaytmani shu papka manzili bo’yicha eslab qoladi.
+3. `chrome://extensions` → **Developer mode** → **Load unpacked** → papkani tanlang.
+
+> Kengaytmalar ID’si doimiy (`manifest.json` ichidagi `key`), shuning uchun papkani ko’chirib qayta qo’shsangiz saqlangan ma’lumotlar yo’qolmaydi.
 
 ## Kengaytmalar
 
@@ -47,6 +58,8 @@ Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) ·
 | 193 | [Kripto narx ogohlantirgichi](extensions/193-crypto-alerts) | Оповещения о цене крипто | 1.0.0 |
 | 194 | [Iqtisodiy kalendar (trader uchun)](extensions/194-econ-calendar) | Экономический календарь трейдера | 1.0.0 |
 | 195 | [Suzuvchi video (PiP) — boshqa ishlaringizni qilavering](extensions/195-pip-player) | Плавающее видео (PiP) — работайте параллельно | 1.0.0 |
+| 196 | [Ko’rinadigan ovoz — subtitr va imo-ishora](extensions/196-korinadigan-ovoz) | Видимый звук — субтитры и жесты | 2.0.0 |
+| 197 | [Futbol natijalari — jonli hisoblar](extensions/197-futbol-natijalari) | Футбол результаты — живые счета | 1.1.0 |
 <!-- LIST:END -->
 
 ## Har bir kengaytmadagi «Sozlamalar» bo’limi
@@ -75,6 +88,12 @@ scripts/build.py       build/ va dist/ (zip) yasaydi, ikonkalarni chizadi
 scripts/check.py       manifest, fayllar va JS sintaksisini tekshiradi
 scripts/smoke_test.py  Chrome'da yuklab, sahifalarni ochib, xatolarni yig'adi (Playwright)
 scripts/new.py         yangi kengaytma shabloni
+scripts/genkey.py      doimiy kengaytma ID kaliti (keys/NNN.pub)
+scripts/screenshots.py do'kon/sayt skrinshotlari (1280×800) va promo kartalar (440×280)
+scripts/build_catalog.py  sayt katalogi: catalog/extensions.json + catalog/index.html
+extensions/196, 197    tayyor (mustaqil) kengaytmalar — "external": true, o'zgartirilmasdan zip qilinadi
+catalog/               sayt uchun katalog (index.html + img/); template.html — andoza
+keys/                  kengaytmalarning ochiq kalitlari (doimiy ID)
 ```
 
 ## Yig’ish
@@ -91,15 +110,24 @@ Chrome’ga o’rnatish: `chrome://extensions` → **Developer mode** → **Load
 ## GitHub’ga yuklash va reliz
 
 ```bash
-git remote add origin https://github.com/<foydalanuvchi>/chrome-kengaytmalar.git
-git push -u origin main
-git tag v3.0.0 && git push --tags   # GitHub Actions barcha zip'larni Releases'ga qo'yadi
+git push origin main
+git tag v1.0.0 && git push origin v1.0.0   # GitHub Actions barcha zip’larni Releases’ga qo’yadi
 ```
 
-Har bir push’da `.github/workflows/build.yml` hamma kengaytmani yig’adi va tekshiradi; `v*` teg qo’yilganda zip’lar avtomatik reliz bo’ladi.
+Har bir push’da `.github/workflows/build.yml` hamma kengaytmani yig’adi va tekshiradi; `v*` teg qo’yilganda zip’lar va `catalog.zip` avtomatik reliz bo’ladi.
+
+## Skrinshotlar va sayt katalogi
+
+```bash
+CHROME_PATH=/usr/bin/google-chrome python3 scripts/screenshots.py   # dist/screenshots/ + catalog/img/
+python3 scripts/build_catalog.py --tag v1.0.0                       # catalog/index.html + extensions.json
+```
+
+`catalog/` papkasini saytga yuklang (yoki faqat `extensions.json`ni o’z sayt kodingizda ishlating).
 
 ## Chrome Web Store’ga joylash
 
+0. Do’kon uchun `python3 scripts/build.py --store` bilan yig’ing (manifest’ga `key` qo’shilmaydi).
 1. `dist/NNN-slug-vX.Y.Z.zip` faylini [Developer Dashboard](https://chrome.google.com/webstore/devconsole)’ga yuklang.
 2. Tavsif va imkoniyatlar ro’yxatini kengaytmaning `README.md` faylidan oling (o’zbekcha va ruscha tayyor).
 3. Ruxsatlar izohi ham o’sha README’da — «Permission justification» maydoniga qo’ying.
