@@ -3,7 +3,7 @@
  "site": "https://www.ali-dasturchi.uz",
  "donate": "https://www.ali-dasturchi.uz/#donat",
  "repo": "https://github.com/bunyodg97/Chrome-kengaytmalar",
- "releases": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/tag/v1.0.0",
+ "releases": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/tag/v1.1.0",
  "categories": {
   "dev": {
    "uz": "Veb-dasturchilar",
@@ -81,7 +81,7 @@
     "uz": "img/001-sahifa-surati-uz.jpg",
     "ru": "img/001-sahifa-surati-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/001-sahifa-surati-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/001-sahifa-surati-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/001-sahifa-surati"
   },
   {
@@ -122,7 +122,7 @@
     "uz": "img/002-tab-yiguvchi-uz.jpg",
     "ru": "img/002-tab-yiguvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/002-tab-yiguvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/002-tab-yiguvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/002-tab-yiguvchi"
   },
   {
@@ -166,7 +166,7 @@
     "uz": "img/003-ai-yordamchi-uz.jpg",
     "ru": "img/003-ai-yordamchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/003-ai-yordamchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/003-ai-yordamchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/003-ai-yordamchi"
   },
   {
@@ -210,7 +210,7 @@
     "uz": "img/004-reklamasiz-uz.jpg",
     "ru": "img/004-reklamasiz-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/004-reklamasiz-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/004-reklamasiz-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/004-reklamasiz"
   },
   {
@@ -252,7 +252,7 @@
     "uz": "img/005-seo-tekshiruv-uz.jpg",
     "ru": "img/005-seo-tekshiruv-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/005-seo-tekshiruv-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/005-seo-tekshiruv-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/005-seo-tekshiruv"
   },
   {
@@ -295,7 +295,7 @@
     "uz": "img/006-vaqt-hisobi-uz.jpg",
     "ru": "img/006-vaqt-hisobi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/006-vaqt-hisobi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/006-vaqt-hisobi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/006-vaqt-hisobi"
   },
   {
@@ -340,7 +340,7 @@
     "uz": "img/007-kuzatuvsiz-uz.jpg",
     "ru": "img/007-kuzatuvsiz-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/007-kuzatuvsiz-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/007-kuzatuvsiz-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/007-kuzatuvsiz"
   },
   {
@@ -381,7 +381,7 @@
     "uz": "img/008-video-tezlik-uz.jpg",
     "ru": "img/008-video-tezlik-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/008-video-tezlik-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/008-video-tezlik-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/008-video-tezlik"
   },
   {
@@ -421,7 +421,7 @@
     "uz": "img/009-yangi-tab-uz.jpg",
     "ru": "img/009-yangi-tab-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/009-yangi-tab-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/009-yangi-tab-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/009-yangi-tab"
   },
   {
@@ -462,7 +462,7 @@
     "uz": "img/010-odatlar-uz.jpg",
     "ru": "img/010-odatlar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/010-odatlar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/010-odatlar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/010-odatlar"
   },
   {
@@ -503,7 +503,7 @@
     "uz": "img/011-rang-shrift-uz.jpg",
     "ru": "img/011-rang-shrift-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/011-rang-shrift-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/011-rang-shrift-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/011-rang-shrift"
   },
   {
@@ -542,7 +542,7 @@
     "uz": "img/012-pdf-ustaxona-uz.jpg",
     "ru": "img/012-pdf-ustaxona-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/012-pdf-ustaxona-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/012-pdf-ustaxona-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/012-pdf-ustaxona"
   },
   {
@@ -583,7 +583,7 @@
     "uz": "img/013-oqish-rejimi-uz.jpg",
     "ru": "img/013-oqish-rejimi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/013-oqish-rejimi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/013-oqish-rejimi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/013-oqish-rejimi"
   },
   {
@@ -623,7 +623,7 @@
     "uz": "img/014-tezlik-sinovi-uz.jpg",
     "ru": "img/014-tezlik-sinovi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/014-tezlik-sinovi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/014-tezlik-sinovi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/014-tezlik-sinovi"
   },
   {
@@ -666,7 +666,7 @@
     "uz": "img/015-avto-yangilash-uz.jpg",
     "ru": "img/015-avto-yangilash-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/015-avto-yangilash-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/015-avto-yangilash-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/015-avto-yangilash"
   },
   {
@@ -707,7 +707,7 @@
     "uz": "img/016-tozalagich-uz.jpg",
     "ru": "img/016-tozalagich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/016-tozalagich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/016-tozalagich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/016-tozalagich"
   },
   {
@@ -749,7 +749,7 @@
     "uz": "img/017-nusxa-ruxsati-uz.jpg",
     "ru": "img/017-nusxa-ruxsati-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/017-nusxa-ruxsati-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/017-nusxa-ruxsati-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/017-nusxa-ruxsati"
   },
   {
@@ -796,7 +796,7 @@
     "uz": "img/018-bayonnoma-uz.jpg",
     "ru": "img/018-bayonnoma-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/018-bayonnoma-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/018-bayonnoma-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/018-bayonnoma"
   },
   {
@@ -838,7 +838,7 @@
     "uz": "img/019-parol-ustasi-uz.jpg",
     "ru": "img/019-parol-ustasi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/019-parol-ustasi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/019-parol-ustasi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/019-parol-ustasi"
   },
   {
@@ -878,7 +878,7 @@
     "uz": "img/020-json-kozgu-uz.jpg",
     "ru": "img/020-json-kozgu-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/020-json-kozgu-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/020-json-kozgu-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/020-json-kozgu"
   },
   {
@@ -920,7 +920,7 @@
     "uz": "img/021-mening-uslubim-uz.jpg",
     "ru": "img/021-mening-uslubim-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/021-mening-uslubim-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/021-mening-uslubim-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/021-mening-uslubim"
   },
   {
@@ -962,7 +962,7 @@
     "uz": "img/022-ovoz-kuchaytirgich-uz.jpg",
     "ru": "img/022-ovoz-kuchaytirgich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/022-ovoz-kuchaytirgich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/022-ovoz-kuchaytirgich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/022-ovoz-kuchaytirgich"
   },
   {
@@ -1004,7 +1004,7 @@
     "uz": "img/023-oyna-ichida-uz.jpg",
     "ru": "img/023-oyna-ichida-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/023-oyna-ichida-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/023-oyna-ichida-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/023-oyna-ichida"
   },
   {
@@ -1047,7 +1047,7 @@
     "uz": "img/024-sorov-ustasi-uz.jpg",
     "ru": "img/024-sorov-ustasi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/024-sorov-ustasi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/024-sorov-ustasi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/024-sorov-ustasi"
   },
   {
@@ -1089,7 +1089,7 @@
     "uz": "img/025-responsive-uz.jpg",
     "ru": "img/025-responsive-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/025-responsive-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/025-responsive-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/025-responsive"
   },
   {
@@ -1131,7 +1131,7 @@
     "uz": "img/026-texno-aniqlagich-uz.jpg",
     "ru": "img/026-texno-aniqlagich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/026-texno-aniqlagich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/026-texno-aniqlagich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/026-texno-aniqlagich"
   },
   {
@@ -1172,7 +1172,7 @@
     "uz": "img/027-chegara-uz.jpg",
     "ru": "img/027-chegara-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/027-chegara-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/027-chegara-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/027-chegara"
   },
   {
@@ -1211,7 +1211,7 @@
     "uz": "img/028-dasturchi-qutisi-uz.jpg",
     "ru": "img/028-dasturchi-qutisi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/028-dasturchi-qutisi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/028-dasturchi-qutisi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/028-dasturchi-qutisi"
   },
   {
@@ -1254,7 +1254,7 @@
     "uz": "img/029-github-yordamchi-uz.jpg",
     "ru": "img/029-github-yordamchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/029-github-yordamchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/029-github-yordamchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/029-github-yordamchi"
   },
   {
@@ -1295,7 +1295,7 @@
     "uz": "img/030-web-vitals-uz.jpg",
     "ru": "img/030-web-vitals-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/030-web-vitals-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/030-web-vitals-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/030-web-vitals"
   },
   {
@@ -1336,7 +1336,7 @@
     "uz": "img/031-a11y-tekshiruv-uz.jpg",
     "ru": "img/031-a11y-tekshiruv-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/031-a11y-tekshiruv-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/031-a11y-tekshiruv-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/031-a11y-tekshiruv"
   },
   {
@@ -1379,7 +1379,7 @@
     "uz": "img/032-leetcode-github-uz.jpg",
     "ru": "img/032-leetcode-github-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/032-leetcode-github-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/032-leetcode-github-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/032-leetcode-github"
   },
   {
@@ -1423,7 +1423,7 @@
     "uz": "img/033-ua-almashtirgich-uz.jpg",
     "ru": "img/033-ua-almashtirgich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/033-ua-almashtirgich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/033-ua-almashtirgich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/033-ua-almashtirgich"
   },
   {
@@ -1465,7 +1465,7 @@
     "uz": "img/034-github-xabarlari-uz.jpg",
     "ru": "img/034-github-xabarlari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/034-github-xabarlari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/034-github-xabarlari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/034-github-xabarlari"
   },
   {
@@ -1505,7 +1505,7 @@
     "uz": "img/035-prompt-kutubxonasi-uz.jpg",
     "ru": "img/035-prompt-kutubxonasi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/035-prompt-kutubxonasi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/035-prompt-kutubxonasi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/035-prompt-kutubxonasi"
   },
   {
@@ -1546,7 +1546,7 @@
     "uz": "img/036-ai-eksport-uz.jpg",
     "ru": "img/036-ai-eksport-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/036-ai-eksport-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/036-ai-eksport-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/036-ai-eksport"
   },
   {
@@ -1589,7 +1589,7 @@
     "uz": "img/037-cookie-muharriri-uz.jpg",
     "ru": "img/037-cookie-muharriri-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/037-cookie-muharriri-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/037-cookie-muharriri-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/037-cookie-muharriri"
   },
   {
@@ -1630,7 +1630,7 @@
     "uz": "img/038-rest-mijozi-uz.jpg",
     "ru": "img/038-rest-mijozi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/038-rest-mijozi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/038-rest-mijozi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/038-rest-mijozi"
   },
   {
@@ -1671,7 +1671,7 @@
     "uz": "img/039-youtube-tahlilchi-uz.jpg",
     "ru": "img/039-youtube-tahlilchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/039-youtube-tahlilchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/039-youtube-tahlilchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/039-youtube-tahlilchi"
   },
   {
@@ -1712,7 +1712,7 @@
     "uz": "img/040-kun-rejasi-uz.jpg",
     "ru": "img/040-kun-rejasi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/040-kun-rejasi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/040-kun-rejasi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/040-kun-rejasi"
   },
   {
@@ -1754,7 +1754,7 @@
     "uz": "img/041-cookie-bannersiz-uz.jpg",
     "ru": "img/041-cookie-bannersiz-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/041-cookie-bannersiz-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/041-cookie-bannersiz-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/041-cookie-bannersiz"
   },
   {
@@ -1798,7 +1798,7 @@
     "uz": "img/042-vaqtinchalik-pochta-uz.jpg",
     "ru": "img/042-vaqtinchalik-pochta-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/042-vaqtinchalik-pochta-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/042-vaqtinchalik-pochta-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/042-vaqtinchalik-pochta"
   },
   {
@@ -1858,7 +1858,7 @@
     "uz": "img/043-raqobat-narxlari-uz.jpg",
     "ru": "img/043-raqobat-narxlari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/043-raqobat-narxlari-v1.1.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/043-raqobat-narxlari-v1.1.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/043-raqobat-narxlari"
   },
   {
@@ -1900,7 +1900,7 @@
     "uz": "img/044-valyuta-kursi-uz.jpg",
     "ru": "img/044-valyuta-kursi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/044-valyuta-kursi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/044-valyuta-kursi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/044-valyuta-kursi"
   },
   {
@@ -1942,7 +1942,7 @@
     "uz": "img/045-telegramga-yuborish-uz.jpg",
     "ru": "img/045-telegramga-yuborish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/045-telegramga-yuborish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/045-telegramga-yuborish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/045-telegramga-yuborish"
   },
   {
@@ -1985,7 +1985,7 @@
     "uz": "img/046-forma-toldirgich-uz.jpg",
     "ru": "img/046-forma-toldirgich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/046-forma-toldirgich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/046-forma-toldirgich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/046-forma-toldirgich"
   },
   {
@@ -2028,7 +2028,7 @@
     "uz": "img/047-ob-havo-uz.jpg",
     "ru": "img/047-ob-havo-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/047-ob-havo-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/047-ob-havo-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/047-ob-havo"
   },
   {
@@ -2070,7 +2070,7 @@
     "uz": "img/048-soz-daftari-uz.jpg",
     "ru": "img/048-soz-daftari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/048-soz-daftari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/048-soz-daftari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/048-soz-daftari"
   },
   {
@@ -2111,7 +2111,7 @@
     "uz": "img/049-jadval-yuklovchi-uz.jpg",
     "ru": "img/049-jadval-yuklovchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/049-jadval-yuklovchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/049-jadval-yuklovchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/049-jadval-yuklovchi"
   },
   {
@@ -2151,7 +2151,7 @@
     "uz": "img/050-tez-javoblar-uz.jpg",
     "ru": "img/050-tez-javoblar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/050-tez-javoblar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/050-tez-javoblar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/050-tez-javoblar"
   },
   {
@@ -2191,7 +2191,7 @@
     "uz": "img/051-qr-shtrix-uz.jpg",
     "ru": "img/051-qr-shtrix-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/051-qr-shtrix-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/051-qr-shtrix-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/051-qr-shtrix"
   },
   {
@@ -2231,7 +2231,7 @@
     "uz": "img/052-tez-yashirish-uz.jpg",
     "ru": "img/052-tez-yashirish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/052-tez-yashirish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/052-tez-yashirish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/052-tez-yashirish"
   },
   {
@@ -2275,7 +2275,7 @@
     "uz": "img/053-gif-yaratuvchi-uz.jpg",
     "ru": "img/053-gif-yaratuvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/053-gif-yaratuvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/053-gif-yaratuvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/053-gif-yaratuvchi"
   },
   {
@@ -2314,7 +2314,7 @@
     "uz": "img/054-soz-oyini-uz.jpg",
     "ru": "img/054-soz-oyini-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/054-soz-oyini-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/054-soz-oyini-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/054-soz-oyini"
   },
   {
@@ -2360,7 +2360,7 @@
     "uz": "img/055-sahifa-kuzatuvchi-uz.jpg",
     "ru": "img/055-sahifa-kuzatuvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/055-sahifa-kuzatuvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/055-sahifa-kuzatuvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/055-sahifa-kuzatuvchi"
   },
   {
@@ -2400,7 +2400,7 @@
     "uz": "img/056-nusxalar-tarixi-uz.jpg",
     "ru": "img/056-nusxalar-tarixi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/056-nusxalar-tarixi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/056-nusxalar-tarixi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/056-nusxalar-tarixi"
   },
   {
@@ -2442,7 +2442,7 @@
     "uz": "img/057-sayt-nazoratchisi-uz.jpg",
     "ru": "img/057-sayt-nazoratchisi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/057-sayt-nazoratchisi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/057-sayt-nazoratchisi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/057-sayt-nazoratchisi"
   },
   {
@@ -2486,7 +2486,7 @@
     "uz": "img/058-bir-fayl-uz.jpg",
     "ru": "img/058-bir-fayl-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/058-bir-fayl-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/058-bir-fayl-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/058-bir-fayl"
   },
   {
@@ -2528,7 +2528,7 @@
     "uz": "img/059-koz-dam-uz.jpg",
     "ru": "img/059-koz-dam-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/059-koz-dam-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/059-koz-dam-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/059-koz-dam"
   },
   {
@@ -2570,7 +2570,7 @@
     "uz": "img/060-avto-ovozsiz-uz.jpg",
     "ru": "img/060-avto-ovozsiz-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/060-avto-ovozsiz-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/060-avto-ovozsiz-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/060-avto-ovozsiz"
   },
   {
@@ -2611,7 +2611,7 @@
     "uz": "img/061-telefonga-yuborish-uz.jpg",
     "ru": "img/061-telefonga-yuborish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/061-telefonga-yuborish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/061-telefonga-yuborish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/061-telefonga-yuborish"
   },
   {
@@ -2654,7 +2654,7 @@
     "uz": "img/062-ekrandan-matn-uz.jpg",
     "ru": "img/062-ekrandan-matn-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/062-ekrandan-matn-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/062-ekrandan-matn-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/062-ekrandan-matn"
   },
   {
@@ -2696,7 +2696,7 @@
     "uz": "img/063-sahifaga-chizish-uz.jpg",
     "ru": "img/063-sahifaga-chizish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/063-sahifaga-chizish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/063-sahifaga-chizish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/063-sahifaga-chizish"
   },
   {
@@ -2740,7 +2740,7 @@
     "uz": "img/064-uchrashuv-taymeri-uz.jpg",
     "ru": "img/064-uchrashuv-taymeri-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/064-uchrashuv-taymeri-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/064-uchrashuv-taymeri-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/064-uchrashuv-taymeri"
   },
   {
@@ -2781,7 +2781,7 @@
     "uz": "img/065-tugilgan-kunlar-uz.jpg",
     "ru": "img/065-tugilgan-kunlar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/065-tugilgan-kunlar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/065-tugilgan-kunlar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/065-tugilgan-kunlar"
   },
   {
@@ -2823,7 +2823,7 @@
     "uz": "img/066-xarid-royxati-uz.jpg",
     "ru": "img/066-xarid-royxati-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/066-xarid-royxati-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/066-xarid-royxati-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/066-xarid-royxati"
   },
   {
@@ -2865,7 +2865,7 @@
     "uz": "img/067-keyinroq-oqish-uz.jpg",
     "ru": "img/067-keyinroq-oqish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/067-keyinroq-oqish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/067-keyinroq-oqish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/067-keyinroq-oqish"
   },
   {
@@ -2907,7 +2907,7 @@
     "uz": "img/068-meet-davomat-uz.jpg",
     "ru": "img/068-meet-davomat-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/068-meet-davomat-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/068-meet-davomat-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/068-meet-davomat"
   },
   {
@@ -2948,7 +2948,7 @@
     "uz": "img/069-klaviatura-makroslari-uz.jpg",
     "ru": "img/069-klaviatura-makroslari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/069-klaviatura-makroslari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/069-klaviatura-makroslari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/069-klaviatura-makroslari"
   },
   {
@@ -2990,7 +2990,7 @@
     "uz": "img/070-kod-parchalari-uz.jpg",
     "ru": "img/070-kod-parchalari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/070-kod-parchalari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/070-kod-parchalari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/070-kod-parchalari"
   },
   {
@@ -3032,7 +3032,7 @@
     "uz": "img/071-tablar-ovozi-uz.jpg",
     "ru": "img/071-tablar-ovozi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/071-tablar-ovozi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/071-tablar-ovozi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/071-tablar-ovozi"
   },
   {
@@ -3074,7 +3074,7 @@
     "uz": "img/072-video-kadri-uz.jpg",
     "ru": "img/072-video-kadri-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/072-video-kadri-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/072-video-kadri-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/072-video-kadri"
   },
   {
@@ -3114,7 +3114,7 @@
     "uz": "img/073-rasmga-logo-uz.jpg",
     "ru": "img/073-rasmga-logo-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/073-rasmga-logo-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/073-rasmga-logo-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/073-rasmga-logo"
   },
   {
@@ -3153,7 +3153,7 @@
     "uz": "img/074-xarajatlar-daftari-uz.jpg",
     "ru": "img/074-xarajatlar-daftari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/074-xarajatlar-daftari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/074-xarajatlar-daftari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/074-xarajatlar-daftari"
   },
   {
@@ -3193,7 +3193,7 @@
     "uz": "img/075-birlik-ogiruvchi-uz.jpg",
     "ru": "img/075-birlik-ogiruvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/075-birlik-ogiruvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/075-birlik-ogiruvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/075-birlik-ogiruvchi"
   },
   {
@@ -3234,7 +3234,7 @@
     "uz": "img/076-maxsus-belgilar-uz.jpg",
     "ru": "img/076-maxsus-belgilar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/076-maxsus-belgilar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/076-maxsus-belgilar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/076-maxsus-belgilar"
   },
   {
@@ -3275,7 +3275,7 @@
     "uz": "img/077-ekran-chizgichi-uz.jpg",
     "ru": "img/077-ekran-chizgichi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/077-ekran-chizgichi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/077-ekran-chizgichi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/077-ekran-chizgichi"
   },
   {
@@ -3316,7 +3316,7 @@
     "uz": "img/078-lupa-uz.jpg",
     "ru": "img/078-lupa-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/078-lupa-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/078-lupa-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/078-lupa"
   },
   {
@@ -3355,7 +3355,7 @@
     "uz": "img/079-rasm-qidirish-uz.jpg",
     "ru": "img/079-rasm-qidirish-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/079-rasm-qidirish-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/079-rasm-qidirish-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/079-rasm-qidirish"
   },
   {
@@ -3396,7 +3396,7 @@
     "uz": "img/080-avto-qayta-yuklash-uz.jpg",
     "ru": "img/080-avto-qayta-yuklash-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/080-avto-qayta-yuklash-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/080-avto-qayta-yuklash-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/080-avto-qayta-yuklash"
   },
   {
@@ -3439,7 +3439,7 @@
     "uz": "img/081-storage-muharriri-uz.jpg",
     "ru": "img/081-storage-muharriri-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/081-storage-muharriri-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/081-storage-muharriri-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/081-storage-muharriri"
   },
   {
@@ -3480,7 +3480,7 @@
     "uz": "img/082-konsol-xatolari-uz.jpg",
     "ru": "img/082-konsol-xatolari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/082-konsol-xatolari-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/082-konsol-xatolari-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/082-konsol-xatolari"
   },
   {
@@ -3521,7 +3521,7 @@
     "uz": "img/083-element-nusxalash-uz.jpg",
     "ru": "img/083-element-nusxalash-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/083-element-nusxalash-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/083-element-nusxalash-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/083-element-nusxalash"
   },
   {
@@ -3560,7 +3560,7 @@
     "uz": "img/084-hujjat-qidiruvi-uz.jpg",
     "ru": "img/084-hujjat-qidiruvi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/084-hujjat-qidiruvi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/084-hujjat-qidiruvi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/084-hujjat-qidiruvi"
   },
   {
@@ -3599,7 +3599,7 @@
     "uz": "img/085-ikonka-generatori-uz.jpg",
     "ru": "img/085-ikonka-generatori-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/085-ikonka-generatori-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/085-ikonka-generatori-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/085-ikonka-generatori"
   },
   {
@@ -3640,7 +3640,7 @@
     "uz": "img/086-pwa-tekshiruvchi-uz.jpg",
     "ru": "img/086-pwa-tekshiruvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/086-pwa-tekshiruvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/086-pwa-tekshiruvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/086-pwa-tekshiruvchi"
   },
   {
@@ -3681,7 +3681,7 @@
     "uz": "img/087-sekin-internet-uz.jpg",
     "ru": "img/087-sekin-internet-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/087-sekin-internet-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/087-sekin-internet-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/087-sekin-internet"
   },
   {
@@ -3722,7 +3722,7 @@
     "uz": "img/088-kod-skrinshoti-uz.jpg",
     "ru": "img/088-kod-skrinshoti-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/088-kod-skrinshoti-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/088-kod-skrinshoti-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/088-kod-skrinshoti"
   },
   {
@@ -3761,7 +3761,7 @@
     "uz": "img/089-konvertorlar-uz.jpg",
     "ru": "img/089-konvertorlar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/089-konvertorlar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/089-konvertorlar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/089-konvertorlar"
   },
   {
@@ -3802,7 +3802,7 @@
     "uz": "img/090-svg-yiguvchi-uz.jpg",
     "ru": "img/090-svg-yiguvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/090-svg-yiguvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/090-svg-yiguvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/090-svg-yiguvchi"
   },
   {
@@ -3844,7 +3844,7 @@
     "uz": "img/091-websocket-kuzatuvchi-uz.jpg",
     "ru": "img/091-websocket-kuzatuvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/091-websocket-kuzatuvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/091-websocket-kuzatuvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/091-websocket-kuzatuvchi"
   },
   {
@@ -3888,7 +3888,7 @@
     "uz": "img/092-xato-hisoboti-uz.jpg",
     "ru": "img/092-xato-hisoboti-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/092-xato-hisoboti-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/092-xato-hisoboti-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/092-xato-hisoboti"
   },
   {
@@ -3930,7 +3930,7 @@
     "uz": "img/093-vizual-farq-uz.jpg",
     "ru": "img/093-vizual-farq-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/093-vizual-farq-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/093-vizual-farq-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/093-vizual-farq"
   },
   {
@@ -3975,7 +3975,7 @@
     "uz": "img/094-akkaunt-almashtirgich-uz.jpg",
     "ru": "img/094-akkaunt-almashtirgich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/094-akkaunt-almashtirgich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/094-akkaunt-almashtirgich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/094-akkaunt-almashtirgich"
   },
   {
@@ -4016,7 +4016,7 @@
     "uz": "img/095-joy-vaqt-til-uz.jpg",
     "ru": "img/095-joy-vaqt-til-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/095-joy-vaqt-til-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/095-joy-vaqt-til-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/095-joy-vaqt-til"
   },
   {
@@ -4062,7 +4062,7 @@
     "uz": "img/096-domen-ssl-uz.jpg",
     "ru": "img/096-domen-ssl-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/096-domen-ssl-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/096-domen-ssl-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/096-domen-ssl"
   },
   {
@@ -4101,7 +4101,7 @@
     "uz": "img/097-cron-sql-uz.jpg",
     "ru": "img/097-cron-sql-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/097-cron-sql-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/097-cron-sql-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/097-cron-sql"
   },
   {
@@ -4142,7 +4142,7 @@
     "uz": "img/098-readme-muharriri-uz.jpg",
     "ru": "img/098-readme-muharriri-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/098-readme-muharriri-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/098-readme-muharriri-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/098-readme-muharriri"
   },
   {
@@ -4183,7 +4183,7 @@
     "uz": "img/099-flex-grid-uz.jpg",
     "ru": "img/099-flex-grid-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/099-flex-grid-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/099-flex-grid-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/099-flex-grid"
   },
   {
@@ -4224,7 +4224,7 @@
     "uz": "img/100-ishlatilmagan-css-uz.jpg",
     "ru": "img/100-ishlatilmagan-css-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/100-ishlatilmagan-css-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/100-ishlatilmagan-css-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/100-ishlatilmagan-css"
   },
   {
@@ -4265,7 +4265,7 @@
     "uz": "img/101-breakpoint-uz.jpg",
     "ru": "img/101-breakpoint-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/101-breakpoint-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/101-breakpoint-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/101-breakpoint"
   },
   {
@@ -4304,7 +4304,7 @@
     "uz": "img/102-soya-gradient-uz.jpg",
     "ru": "img/102-soya-gradient-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/102-soya-gradient-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/102-soya-gradient-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/102-soya-gradient"
   },
   {
@@ -4345,7 +4345,7 @@
     "uz": "img/103-tailwind-tushuntiruvchi-uz.jpg",
     "ru": "img/103-tailwind-tushuntiruvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/103-tailwind-tushuntiruvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/103-tailwind-tushuntiruvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/103-tailwind-tushuntiruvchi"
   },
   {
@@ -4392,7 +4392,7 @@
     "uz": "img/104-dark-mode-uz.jpg",
     "ru": "img/104-dark-mode-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/104-dark-mode-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/104-dark-mode-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/104-dark-mode"
   },
   {
@@ -4438,7 +4438,7 @@
     "uz": "img/105-color-blind-uz.jpg",
     "ru": "img/105-color-blind-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/105-color-blind-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/105-color-blind-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/105-color-blind"
   },
   {
@@ -4488,7 +4488,7 @@
     "uz": "img/106-image-audit-uz.jpg",
     "ru": "img/106-image-audit-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/106-image-audit-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/106-image-audit-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/106-image-audit"
   },
   {
@@ -4536,7 +4536,7 @@
     "uz": "img/107-network-log-uz.jpg",
     "ru": "img/107-network-log-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/107-network-log-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/107-network-log-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/107-network-log"
   },
   {
@@ -4582,7 +4582,7 @@
     "uz": "img/108-remote-console-uz.jpg",
     "ru": "img/108-remote-console-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/108-remote-console-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/108-remote-console-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/108-remote-console"
   },
   {
@@ -4632,7 +4632,7 @@
     "uz": "img/109-bundle-analyzer-uz.jpg",
     "ru": "img/109-bundle-analyzer-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/109-bundle-analyzer-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/109-bundle-analyzer-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/109-bundle-analyzer"
   },
   {
@@ -4680,7 +4680,7 @@
     "uz": "img/110-vuln-libs-uz.jpg",
     "ru": "img/110-vuln-libs-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/110-vuln-libs-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/110-vuln-libs-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/110-vuln-libs"
   },
   {
@@ -4730,7 +4730,7 @@
     "uz": "img/111-react-finder-uz.jpg",
     "ru": "img/111-react-finder-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/111-react-finder-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/111-react-finder-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/111-react-finder"
   },
   {
@@ -4778,7 +4778,7 @@
     "uz": "img/112-rerender-counter-uz.jpg",
     "ru": "img/112-rerender-counter-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/112-rerender-counter-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/112-rerender-counter-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/112-rerender-counter"
   },
   {
@@ -4828,7 +4828,7 @@
     "uz": "img/113-vue-svelte-inspector-uz.jpg",
     "ru": "img/113-vue-svelte-inspector-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/113-vue-svelte-inspector-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/113-vue-svelte-inspector-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/113-vue-svelte-inspector"
   },
   {
@@ -4874,7 +4874,7 @@
     "uz": "img/114-framework-version-uz.jpg",
     "ru": "img/114-framework-version-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/114-framework-version-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/114-framework-version-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/114-framework-version"
   },
   {
@@ -4922,7 +4922,7 @@
     "uz": "img/115-graphql-builder-uz.jpg",
     "ru": "img/115-graphql-builder-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/115-graphql-builder-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/115-graphql-builder-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/115-graphql-builder"
   },
   {
@@ -4970,7 +4970,7 @@
     "uz": "img/116-openapi-viewer-uz.jpg",
     "ru": "img/116-openapi-viewer-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/116-openapi-viewer-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/116-openapi-viewer-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/116-openapi-viewer"
   },
   {
@@ -5018,7 +5018,7 @@
     "uz": "img/117-webhook-tester-uz.jpg",
     "ru": "img/117-webhook-tester-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/117-webhook-tester-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/117-webhook-tester-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/117-webhook-tester"
   },
   {
@@ -5067,7 +5067,7 @@
     "uz": "img/118-github-goto-def-uz.jpg",
     "ru": "img/118-github-goto-def-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/118-github-goto-def-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/118-github-goto-def-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/118-github-goto-def"
   },
   {
@@ -5115,7 +5115,7 @@
     "uz": "img/119-commit-graph-uz.jpg",
     "ru": "img/119-commit-graph-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/119-commit-graph-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/119-commit-graph-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/119-commit-graph"
   },
   {
@@ -5163,7 +5163,7 @@
     "uz": "img/120-deps-status-uz.jpg",
     "ru": "img/120-deps-status-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/120-deps-status-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/120-deps-status-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/120-deps-status"
   },
   {
@@ -5212,7 +5212,7 @@
     "uz": "img/121-repo-stats-uz.jpg",
     "ru": "img/121-repo-stats-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/121-repo-stats-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/121-repo-stats-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/121-repo-stats"
   },
   {
@@ -5261,7 +5261,7 @@
     "uz": "img/122-ai-commit-uz.jpg",
     "ru": "img/122-ai-commit-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/122-ai-commit-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/122-ai-commit-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/122-ai-commit"
   },
   {
@@ -5310,7 +5310,7 @@
     "uz": "img/123-security-headers-uz.jpg",
     "ru": "img/123-security-headers-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/123-security-headers-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/123-security-headers-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/123-security-headers"
   },
   {
@@ -5360,7 +5360,7 @@
     "uz": "img/124-third-party-uz.jpg",
     "ru": "img/124-third-party-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/124-third-party-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/124-third-party-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/124-third-party"
   },
   {
@@ -5408,7 +5408,7 @@
     "uz": "img/125-dev-newtab-uz.jpg",
     "ru": "img/125-dev-newtab-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/125-dev-newtab-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/125-dev-newtab-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/125-dev-newtab"
   },
   {
@@ -5456,7 +5456,7 @@
     "uz": "img/126-code-copy-uz.jpg",
     "ru": "img/126-code-copy-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/126-code-copy-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/126-code-copy-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/126-code-copy"
   },
   {
@@ -5505,7 +5505,7 @@
     "uz": "img/127-time-tracker-uz.jpg",
     "ru": "img/127-time-tracker-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/127-time-tracker-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/127-time-tracker-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/127-time-tracker"
   },
   {
@@ -5553,7 +5553,7 @@
     "uz": "img/128-popup-kanban-uz.jpg",
     "ru": "img/128-popup-kanban-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/128-popup-kanban-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/128-popup-kanban-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/128-popup-kanban"
   },
   {
@@ -5601,7 +5601,7 @@
     "uz": "img/129-csv-excel-viewer-uz.jpg",
     "ru": "img/129-csv-excel-viewer-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/129-csv-excel-viewer-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/129-csv-excel-viewer-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/129-csv-excel-viewer"
   },
   {
@@ -5650,7 +5650,7 @@
     "uz": "img/130-placeholder-image-uz.jpg",
     "ru": "img/130-placeholder-image-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/130-placeholder-image-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/130-placeholder-image-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/130-placeholder-image"
   },
   {
@@ -5700,7 +5700,7 @@
     "uz": "img/131-mock-api-uz.jpg",
     "ru": "img/131-mock-api-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/131-mock-api-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/131-mock-api-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/131-mock-api"
   },
   {
@@ -5749,7 +5749,7 @@
     "uz": "img/132-markdown-html-uz.jpg",
     "ru": "img/132-markdown-html-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/132-markdown-html-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/132-markdown-html-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/132-markdown-html"
   },
   {
@@ -5797,7 +5797,7 @@
     "uz": "img/133-diff-viewer-uz.jpg",
     "ru": "img/133-diff-viewer-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/133-diff-viewer-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/133-diff-viewer-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/133-diff-viewer"
   },
   {
@@ -5846,7 +5846,7 @@
     "uz": "img/157-relax-sounds-uz.jpg",
     "ru": "img/157-relax-sounds-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/157-relax-sounds-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/157-relax-sounds-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/157-relax-sounds"
   },
   {
@@ -5896,7 +5896,7 @@
     "uz": "img/191-flight-tracker-uz.jpg",
     "ru": "img/191-flight-tracker-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/191-flight-tracker-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/191-flight-tracker-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/191-flight-tracker"
   },
   {
@@ -5948,7 +5948,7 @@
     "uz": "img/192-trader-toolkit-uz.jpg",
     "ru": "img/192-trader-toolkit-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/192-trader-toolkit-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/192-trader-toolkit-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/192-trader-toolkit"
   },
   {
@@ -6000,7 +6000,7 @@
     "uz": "img/193-crypto-alerts-uz.jpg",
     "ru": "img/193-crypto-alerts-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/193-crypto-alerts-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/193-crypto-alerts-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/193-crypto-alerts"
   },
   {
@@ -6052,7 +6052,7 @@
     "uz": "img/194-econ-calendar-uz.jpg",
     "ru": "img/194-econ-calendar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/194-econ-calendar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/194-econ-calendar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/194-econ-calendar"
   },
   {
@@ -6105,7 +6105,7 @@
     "uz": "img/195-pip-player-uz.jpg",
     "ru": "img/195-pip-player-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/195-pip-player-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/195-pip-player-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/195-pip-player"
   },
   {
@@ -6160,7 +6160,7 @@
     "uz": "img/196-korinadigan-ovoz-uz.jpg",
     "ru": "img/196-korinadigan-ovoz-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/196-korinadigan-ovoz-v2.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/196-korinadigan-ovoz-v2.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/196-korinadigan-ovoz"
   },
   {
@@ -6210,7 +6210,7 @@
     "uz": "img/197-futbol-natijalari-uz.jpg",
     "ru": "img/197-futbol-natijalari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/197-futbol-natijalari-v1.1.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/197-futbol-natijalari-v1.1.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/197-futbol-natijalari"
   },
   {
@@ -6256,7 +6256,7 @@
     "uz": "img/198-ekran-yozuvchi-uz.jpg",
     "ru": "img/198-ekran-yozuvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/198-ekran-yozuvchi-v2.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/198-ekran-yozuvchi-v2.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/198-ekran-yozuvchi"
   },
   {
@@ -6300,7 +6300,7 @@
     "uz": "img/199-diqqat-uz.jpg",
     "ru": "img/199-diqqat-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/199-diqqat-v1.1.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/199-diqqat-v1.1.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/199-diqqat"
   },
   {
@@ -6341,7 +6341,7 @@
     "uz": "img/200-dokon-qidiruv-uz.jpg",
     "ru": "img/200-dokon-qidiruv-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/200-dokon-qidiruv-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/200-dokon-qidiruv-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/200-dokon-qidiruv"
   },
   {
@@ -6380,7 +6380,7 @@
     "uz": "img/201-dostcha-uz.jpg",
     "ru": "img/201-dostcha-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/201-dostcha-v2.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/201-dostcha-v2.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/201-dostcha"
   },
   {
@@ -6422,7 +6422,7 @@
     "uz": "img/202-matn-hisoblagich-uz.jpg",
     "ru": "img/202-matn-hisoblagich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/202-matn-hisoblagich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/202-matn-hisoblagich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/202-matn-hisoblagich"
   },
   {
@@ -6463,7 +6463,7 @@
     "uz": "img/203-namoz-vaqtlari-uz.jpg",
     "ru": "img/203-namoz-vaqtlari-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/203-namoz-vaqtlari-v1.1.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/203-namoz-vaqtlari-v1.1.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/203-namoz-vaqtlari"
   },
   {
@@ -6506,7 +6506,7 @@
     "uz": "img/204-oqib-ber-uz.jpg",
     "ru": "img/204-oqib-ber-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/204-oqib-ber-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/204-oqib-ber-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/204-oqib-ber"
   },
   {
@@ -6546,7 +6546,7 @@
     "uz": "img/205-pdf-imzo-uz.jpg",
     "ru": "img/205-pdf-imzo-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/205-pdf-imzo-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/205-pdf-imzo-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/205-pdf-imzo"
   },
   {
@@ -6591,7 +6591,7 @@
     "uz": "img/206-rasm-saqlovchi-uz.jpg",
     "ru": "img/206-rasm-saqlovchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/206-rasm-saqlovchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/206-rasm-saqlovchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/206-rasm-saqlovchi"
   },
   {
@@ -6633,7 +6633,7 @@
     "uz": "img/207-stikerlar-uz.jpg",
     "ru": "img/207-stikerlar-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/207-stikerlar-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/207-stikerlar-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/207-stikerlar"
   },
   {
@@ -6677,7 +6677,7 @@
     "uz": "img/208-tab-uxlatuvchi-uz.jpg",
     "ru": "img/208-tab-uxlatuvchi-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/208-tab-uxlatuvchi-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/208-tab-uxlatuvchi-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/208-tab-uxlatuvchi"
   },
   {
@@ -6718,7 +6718,7 @@
     "uz": "img/209-toza-pdf-uz.jpg",
     "ru": "img/209-toza-pdf-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/209-toza-pdf-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/209-toza-pdf-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/209-toza-pdf"
   },
   {
@@ -6761,7 +6761,7 @@
     "uz": "img/210-trafik-uz.jpg",
     "ru": "img/210-trafik-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/210-trafik-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/210-trafik-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/210-trafik"
   },
   {
@@ -6803,7 +6803,7 @@
     "uz": "img/211-tungi-rejim-uz.jpg",
     "ru": "img/211-tungi-rejim-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/211-tungi-rejim-v2.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/211-tungi-rejim-v2.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/211-tungi-rejim"
   },
   {
@@ -6848,7 +6848,7 @@
     "uz": "img/212-video-yuklagich-uz.jpg",
     "ru": "img/212-video-yuklagich-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/212-video-yuklagich-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/212-video-yuklagich-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/212-video-yuklagich"
   },
   {
@@ -6891,7 +6891,7 @@
     "uz": "img/213-xavfsiz-bola-uz.jpg",
     "ru": "img/213-xavfsiz-bola-ru.jpg"
    },
-   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.0.0/213-xavfsiz-bola-v1.0.0.zip",
+   "download": "https://github.com/bunyodg97/Chrome-kengaytmalar/releases/download/v1.1.0/213-xavfsiz-bola-v1.0.0.zip",
    "source": "https://github.com/bunyodg97/Chrome-kengaytmalar/tree/main/extensions/213-xavfsiz-bola"
   }
  ]
