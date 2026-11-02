@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "PDF Ustaxona", "desc": "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…"}, "ru": {"name": "PDF Мастерская", "desc": "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."}};
+var AB_META = {"id": "ke-pdf-ustaxona", "uz": {"name": "PDF Ustaxona", "desc": "PDF birlashtirish, siqish, sahifalarni ajratish, aylantirish va rasmlardan PDF yasash. Hammasi brauzerda, fayllar hech qayerga…"}, "ru": {"name": "PDF Мастерская", "desc": "Объединение, сжатие, разделение и поворот страниц PDF, создание PDF из изображений. Всё в браузере, файлы никуда не отправляются."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

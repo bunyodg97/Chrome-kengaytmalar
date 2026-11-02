@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Tungi rejim", "desc": "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D."}, "ru": {"name": "Ночной режим", "desc": "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."}};
+self.AB_META = {"id": "ke-tungi-rejim", "uz": {"name": "Tungi rejim", "desc": "Istalgan saytni qorong'i rangga o'tkazadi: dinamik (ranglarni qayta yozish) yoki filtr usuli. Har bir sayt uchun alohida, yorqinlik, kechki jadval, Alt+Shift+D."}, "ru": {"name": "Ночной режим", "desc": "Делает любой сайт тёмным: динамически (перекраска цветов) или фильтром. Отдельно для каждого сайта, яркость, расписание, Alt+Shift+D."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

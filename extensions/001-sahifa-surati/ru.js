@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Sahifa Surati", "desc": "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi."}, "ru": {"name": "Снимок страницы", "desc": "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."}};
+var AB_META = {"id": "ke-sahifa-surati", "uz": {"name": "Sahifa Surati", "desc": "Butun sahifa yoki ko'rinadigan qismni rasmga oladi, strelka, matn va xiralashtirish qo'shadi."}, "ru": {"name": "Снимок страницы", "desc": "Делает снимок всей страницы или видимой части, добавляет стрелки, текст и размытие."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

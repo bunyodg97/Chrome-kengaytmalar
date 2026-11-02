@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "So'rov Ustasi", "desc": "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…"}, "ru": {"name": "Мастер запросов", "desc": "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."}};
+var AB_META = {"id": "ke-sorov-ustasi", "uz": {"name": "So'rov Ustasi", "desc": "Dasturchilar uchun: so'rovlarni bloklash, boshqa manzilga yo'naltirish, header'larni o'zgartirish va backend tayyor bo'lmasa soxta…"}, "ru": {"name": "Мастер запросов", "desc": "Для разработчиков: блокировка запросов, перенаправление, изменение заголовков и mock-ответы, пока бэкенд не готов."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

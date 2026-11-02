@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Vaqt Hisobi", "desc": "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot."}, "ru": {"name": "Учёт времени", "desc": "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."}};
+var AB_META = {"id": "ke-vaqt-hisobi", "uz": {"name": "Vaqt Hisobi", "desc": "Har bir saytda qancha vaqt o'tkazganingizni hisoblaydi: bugungi va haftalik hisobot."}, "ru": {"name": "Учёт времени", "desc": "Считает, сколько времени вы проводите на каждом сайте: отчёт за сегодня и за неделю."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kengaytma Qayta Yuklagich", "desc": "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…"}, "ru": {"name": "Перезагрузка расширений", "desc": "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании обновляется и вкладка. Alt+Shift+E — вручную."}};
+var AB_META = {"id": "ke-avto-qayta-yuklash", "uz": {"name": "Kengaytma Qayta Yuklagich", "desc": "Kengaytma ishlab chiqayotganlar uchun: papkadagi kod saqlanganda o'zingizning (unpacked) kengaytmangiz avtomatik qayta yuklanadi…"}, "ru": {"name": "Перезагрузка расширений", "desc": "Для разработчиков расширений: при сохранении кода в папке ваше (unpacked) расширение перезагружается автоматически, при желании обновляется и вкладка. Alt+Shift+E — вручную."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

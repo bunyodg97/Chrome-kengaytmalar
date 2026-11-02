@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Bir Fayl", "desc": "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi."}, "ru": {"name": "Один файл", "desc": "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."}};
+var AB_META = {"id": "ke-bir-fayl", "uz": {"name": "Bir Fayl", "desc": "Sahifani rasmlari va uslublari bilan birga bitta HTML faylga saqlaydi. Keyin internetsiz ham xuddi shunday ochiladi."}, "ru": {"name": "Один файл", "desc": "Сохраняет страницу вместе с изображениями и стилями в один HTML-файл. Потом она так же откроется даже без интернета."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

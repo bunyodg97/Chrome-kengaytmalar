@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tez Yashirish («Boshliq keldi»)", "desc": "Bir tugma (Alt+Q) bilan ko'ngilochar tablar yopiladi, ovoz o'chadi va ish sahifasi ochiladi. Yana bossangiz — hammasi joyiga…"}, "ru": {"name": "Быстро скрыть («Начальник идёт»)", "desc": "Одна клавиша (Alt+Q) закрывает развлекательные вкладки, выключает звук и открывает рабочую страницу. Повторное нажатие — всё вернётся."}};
+var AB_META = {"id": "ke-tez-yashirish", "uz": {"name": "Tez Yashirish («Boshliq keldi»)", "desc": "Bir tugma (Alt+Q) bilan ko'ngilochar tablar yopiladi, ovoz o'chadi va ish sahifasi ochiladi. Yana bossangiz — hammasi joyiga…"}, "ru": {"name": "Быстро скрыть («Начальник идёт»)", "desc": "Одна клавиша (Alt+Q) закрывает развлекательные вкладки, выключает звук и открывает рабочую страницу. Повторное нажатие — всё вернётся."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

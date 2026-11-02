@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tab Yig'uvchi", "desc": "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz."}, "ru": {"name": "Сборщик вкладок", "desc": "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."}};
+var AB_META = {"id": "ke-tab-yiguvchi", "uz": {"name": "Tab Yig'uvchi", "desc": "Ochiq tablarni bitta ro'yxatga yig'ib, xotirani bo'shatadi. Keyin bir bosishda qayta ochasiz."}, "ru": {"name": "Сборщик вкладок", "desc": "Собирает открытые вкладки в один список и освобождает память. Потом открываете их одним нажатием."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

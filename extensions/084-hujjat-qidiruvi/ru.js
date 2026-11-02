@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Hujjat Qidiruvi", "desc": "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…"}, "ru": {"name": "Поиск по документации", "desc": "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go, Tailwind, npm, Can I use и ваши источники."}};
+var AB_META = {"id": "ke-hujjat-qidiruvi", "uz": {"name": "Hujjat Qidiruvi", "desc": "Manzil satriga 'd mdn flex' yozing — to'g'ridan-to'g'ri MDN hujjatiga o'tasiz. React, Python, Node, PHP, Laravel, Django, Go…"}, "ru": {"name": "Поиск по документации", "desc": "Наберите в адресной строке 'd mdn flex' — и сразу попадёте в документацию MDN. React, Python, Node, PHP, Laravel, Django, Go, Tailwind, npm, Can I use и ваши источники."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

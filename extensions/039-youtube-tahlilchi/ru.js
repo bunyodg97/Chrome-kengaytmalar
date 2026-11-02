@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "YouTube Tahlilchi", "desc": "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…"}, "ru": {"name": "YouTube Аналитик", "desc": "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."}};
+var AB_META = {"id": "ke-youtube-tahlilchi", "uz": {"name": "YouTube Tahlilchi", "desc": "YouTube video sarlavhasi, tavsifi va teglarini tahlil qiladi, ball beradi va yaxshilash bo'yicha tavsiyalar chiqaradi. Teglarni…"}, "ru": {"name": "YouTube Аналитик", "desc": "Анализирует заголовок, описание и теги видео YouTube, ставит оценку и даёт советы по улучшению. Копирование тегов."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

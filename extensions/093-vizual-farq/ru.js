@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Vizual Farq", "desc": "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…"}, "ru": {"name": "Визуальная разница", "desc": "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки изменений CSS."}};
+var AB_META = {"id": "ke-vizual-farq", "uz": {"name": "Vizual Farq", "desc": "Sahifaning «oldingi» holatini saqlang, o'zgartirishdan keyin solishtiring: farq qizil bilan belgilanadi, foizi, yonma-yon, surgich…"}, "ru": {"name": "Визуальная разница", "desc": "Сохраните «до» и сравните после изменений: разница подсвечена красным, процент, режимы рядом, ползунок и наложение. Для проверки изменений CSS."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

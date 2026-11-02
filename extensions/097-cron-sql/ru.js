@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Cron va SQL", "desc": "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…"}, "ru": {"name": "Cron и SQL", "desc": "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."}};
+var AB_META = {"id": "ke-cron-sql", "uz": {"name": "Cron va SQL", "desc": "Cron ifodasini o'zbekcha tushuntiradi va keyingi ishga tushish vaqtlarini ko'rsatadi; SQL so'rovini chiroyli formatlaydi yoki bir…"}, "ru": {"name": "Cron и SQL", "desc": "Объясняет cron-выражение и показывает следующие запуски; красиво форматирует SQL или сжимает в одну строку. Без интернета."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

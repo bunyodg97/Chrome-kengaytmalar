@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "PDF Imzo", "desc": "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi."}, "ru": {"name": "PDF-подпись", "desc": "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."}};
+self.AB_META = {"id": "ke-pdf-imzo", "uz": {"name": "PDF Imzo", "desc": "PDF hujjatga imzo chizing, sana va matn qo'ying, belgi qo'ying va saqlang. Chop etmasdan. Internetsiz, fayl hech qayerga yuborilmaydi."}, "ru": {"name": "PDF-подпись", "desc": "Нарисуйте подпись, добавьте дату, текст и отметки в PDF и сохраните. Без печати, без интернета, файл никуда не отправляется."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

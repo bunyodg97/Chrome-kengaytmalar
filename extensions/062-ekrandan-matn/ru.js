@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ekrandan Matn (OCR)", "desc": "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…"}, "ru": {"name": "Текст с экрана (OCR)", "desc": "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок, видео, PDF."}};
+var AB_META = {"id": "ke-ekrandan-matn", "uz": {"name": "Ekrandan Matn (OCR)", "desc": "Ekranning istalgan qismini belgilang — undagi matn (o'zbek lotin/kirill, rus, ingliz) nusxa olinadigan matnga aylanadi. Rasm…"}, "ru": {"name": "Текст с экрана (OCR)", "desc": "Выделите любую часть экрана — текст (узбекский латиница/кириллица, русский, английский) станет копируемым. Из скриншотов картинок, видео, PDF."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

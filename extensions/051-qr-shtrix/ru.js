@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "QR va Shtrix-kod", "desc": "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish."}, "ru": {"name": "QR и штрихкод", "desc": "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."}};
+var AB_META = {"id": "ke-qr-shtrix", "uz": {"name": "QR va Shtrix-kod", "desc": "Sahifa havolasi, matn yoki Wi-Fi uchun QR-kod; mahsulot uchun EAN-13 va Code128 shtrix-kod. PNG va SVG ko'rinishida yuklab olish."}, "ru": {"name": "QR и штрихкод", "desc": "QR-код для ссылки, текста или Wi-Fi; штрихкод EAN-13 и Code128 для товаров. Скачивание в PNG и SVG."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

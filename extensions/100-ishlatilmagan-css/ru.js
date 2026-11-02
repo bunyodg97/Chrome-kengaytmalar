@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ishlatilmagan CSS", "desc": "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…"}, "ru": {"name": "Неиспользуемый CSS", "desc": "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим наблюдения и скачивание очищенного CSS."}};
+var AB_META = {"id": "ke-ishlatilmagan-css", "uz": {"name": "Ishlatilmagan CSS", "desc": "Sahifadagi CSS fayllarda hech bir elementga qo'llanilmagan qoidalarni topadi: fayl bo'yicha foiz va hajm, selektorlar ro'yxati…"}, "ru": {"name": "Неиспользуемый CSS", "desc": "Находит в CSS-файлах страницы правила, не применённые ни к одному элементу: процент и объём по файлам, список селекторов, режим наблюдения и скачивание очищенного CSS."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

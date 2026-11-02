@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ovoz Kuchaytirgich", "desc": "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi."}, "ru": {"name": "Усилитель звука", "desc": "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."}};
+var AB_META = {"id": "ke-ovoz-kuchaytirgich", "uz": {"name": "Ovoz Kuchaytirgich", "desc": "Tab ovozini 600% gacha baland qiladi, bass qo'shadi va buzilishni oldini oladi."}, "ru": {"name": "Усилитель звука", "desc": "Усиливает звук вкладки до 600%, добавляет басы и защищает от искажений."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Telefonga Yuborish", "desc": "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…"}, "ru": {"name": "Отправить на телефон", "desc": "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."}};
+var AB_META = {"id": "ke-telefonga-yuborish", "uz": {"name": "Telefonga Yuborish", "desc": "Ochiq sahifa, belgilangan matn, havola yoki rasmni QR-kod orqali bir zumda telefonga o'tkazadi — kabel ham, messenjer ham kerak…"}, "ru": {"name": "Отправить на телефон", "desc": "Мгновенно переносит открытую страницу, выделенный текст, ссылку или изображение на телефон через QR-код — без кабеля и мессенджеров."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

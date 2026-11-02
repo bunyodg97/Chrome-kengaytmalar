@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Chegara Ko'rsatgich", "desc": "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun."}, "ru": {"name": "Границы элементов", "desc": "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."}};
+var AB_META = {"id": "ke-chegara", "uz": {"name": "Chegara Ko'rsatgich", "desc": "Sahifadagi barcha elementlar chegarasini rangli chiziqlar bilan ko'rsatadi: layout xatolarini topish uchun."}, "ru": {"name": "Границы элементов", "desc": "Показывает границы всех элементов страницы цветными линиями — для поиска ошибок вёрстки."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

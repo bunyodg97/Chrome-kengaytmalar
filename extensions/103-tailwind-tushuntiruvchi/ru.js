@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tailwind Tushuntiruvchi", "desc": "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…"}, "ru": {"name": "Объяснитель Tailwind", "desc": "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary], !important). Можно проверить классы вручную."}};
+var AB_META = {"id": "ke-tailwind-tushuntiruvchi", "uz": {"name": "Tailwind Tushuntiruvchi", "desc": "Element ustiga olib boring — har bir Tailwind klass o'zbekcha tushuntiriladi va qaysi CSS hosil qilishi ko'rsatiladi (sm:, md…"}, "ru": {"name": "Объяснитель Tailwind", "desc": "Наведите на элемент — каждый класс Tailwind объясняется и показывается, какой CSS он даёт (sm:, md:, hover:, dark:, [arbitrary], !important). Можно проверить классы вручную."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

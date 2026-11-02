@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "REST Mijozi", "desc": "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…"}, "ru": {"name": "REST Клиент", "desc": "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."}};
+var AB_META = {"id": "ke-rest-mijozi", "uz": {"name": "REST Mijozi", "desc": "Postman'ning yengil o'zbekcha muqobili: so'rov yuborish, header, body, avtorizatsiya, o'zgaruvchilar, tarix, saqlangan so'rovlar…"}, "ru": {"name": "REST Клиент", "desc": "Лёгкая альтернатива Postman: запросы, заголовки, тело, авторизация, переменные, история, сохранённые запросы и cURL."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

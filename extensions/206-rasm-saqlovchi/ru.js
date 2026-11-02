@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Rasm Saqlovchi", "desc": "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish."}, "ru": {"name": "Сохранение картинок", "desc": "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."}};
+self.AB_META = {"id": "rasm-saqlovchi", "uz": {"name": "Rasm Saqlovchi", "desc": "Istalgan rasmni JPG, PNG yoki WebP qilib saqlang. O'lcham va sifatni o'zgartirish, sahifadagi barcha rasmlarni ZIP qilib yuklab olish."}, "ru": {"name": "Сохранение картинок", "desc": "Сохраняйте любое изображение как JPG, PNG или WebP. Изменение размера и качества, скачивание всех картинок страницы одним ZIP."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

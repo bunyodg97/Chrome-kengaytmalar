@@ -67,9 +67,18 @@
       <div><div class="lb">${L('Dasturchi')}</div><a class="ln" href="${SITE}" target="_blank"><b style="font-size:16px">👨‍💻</b><span><b>${DEV}</b><br><small>www.ali-dasturchi.uz</small></span>↗</a></div>
       <a class="ln don" href="${DONAT}" target="_blank"><b>❤️</b><span>${L('Dasturchini qo\'llab-quvvatlash')}</span>↗</a>
       <a class="ln" href="${SITE}" target="_blank"><b>🌐</b><span>${L('Boshqa kengaytmalar va dasturlar')}</span>↗</a>
+      <div class="__ab_upd"><button class="ln up" type="button" style="width:100%;cursor:pointer;background:none;font:inherit"><b>🔄</b><span>${lang === 'ru' ? 'Проверить обновление' : 'Yangilanishni tekshirish'}</span></button><div class="us" style="font-size:12.5px;margin-top:6px"></div></div>
       <div style="font-size:12px;color:var(--muted,#667)">${L('Bepul, reklamasiz va hech qanday ma\'lumotingiz serverga yuborilmaydi.')}</div></div>
     ${opts.close ? `<div class="ft"><span>© ${new Date().getFullYear()} ${DEV}</span><button class="x">${L('Yopish')}</button></div>` : ''}`;
     el.querySelector('.hd b').textContent = name();
+    { const up = el.querySelector('.__ab_upd .up'), us = el.querySelector('.__ab_upd .us'), ru = lang === 'ru';
+      if (up) up.onclick = async () => { const id = META.id; if (!id) { us.textContent = ru ? 'Нет данных' : "Ma'lumot yo'q"; return; } us.textContent = ru ? 'Проверяем…' : 'Tekshirilmoqda…';
+        try { const j = await (await fetch(SITE.replace(/\/$/, '') + '/api.php?action=ext&id=' + encodeURIComponent(id))).json(); if (!j.ok) throw 0;
+          const a = String(j.version || '0').split('.').map(Number), b = String(M.version).split('.').map(Number); let newer = false;
+          for (let i = 0; i < 4; i++) { const x = a[i] || 0, y = b[i] || 0; if (x !== y) { newer = x > y; break; } }
+          us.innerHTML = ''; if (newer) { const l = document.createElement('a'); l.href = j.page; l.target = '_blank'; l.textContent = (ru ? 'Доступна новая версия ' : 'Yangi versiya mavjud: ') + j.version + ' ↗'; l.style.fontWeight = '700'; us.append(l); }
+          else us.textContent = ru ? '✓ У вас последняя версия' : '✓ Sizda eng so\'nggi versiya'; }
+        catch { us.textContent = ru ? 'Не удалось проверить (нет интернета?)' : "Tekshirib bo'lmadi (internet yo'qmi?)"; } }; }
     if (opts.welcome) el.querySelector('.d').textContent = desc();
     el.querySelectorAll('.lg button').forEach(b => { b.classList.toggle('on', b.dataset.l === lang); b.onclick = () => setLang(b.dataset.l); });
     if (chrome.commands?.getAll) chrome.commands.getAll(cs => { const a = cs.filter(c => c.description || c.name === '_execute_action'); if (!a.length) return;

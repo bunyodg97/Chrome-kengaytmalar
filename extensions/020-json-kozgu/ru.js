@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "JSON Ko'zgu", "desc": "JSON javoblarni rangli, yig'iladigan daraxt ko'rinishida ko'rsatadi: qidiruv, yo'lni nusxalash, formatlash."}, "ru": {"name": "JSON Зеркало", "desc": "Показывает JSON-ответы цветным сворачиваемым деревом: поиск, копирование пути, форматирование."}};
+var AB_META = {"id": "ke-json-kozgu", "uz": {"name": "JSON Ko'zgu", "desc": "JSON javoblarni rangli, yig'iladigan daraxt ko'rinishida ko'rsatadi: qidiruv, yo'lni nusxalash, formatlash."}, "ru": {"name": "JSON Зеркало", "desc": "Показывает JSON-ответы цветным сворачиваемым деревом: поиск, копирование пути, форматирование."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

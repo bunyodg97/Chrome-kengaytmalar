@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tez Javoblar", "desc": "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…"}, "ru": {"name": "Быстрые ответы", "desc": "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."}};
+var AB_META = {"id": "ke-tez-javoblar", "uz": {"name": "Tez Javoblar", "desc": "Telegram, WhatsApp, Instagram va OLX chatlarida ko'p beriladigan savollarga tayyor javoblarni bir bosishda qo'yadi. Sotuvchilar…"}, "ru": {"name": "Быстрые ответы", "desc": "Готовые ответы на частые вопросы в чатах Telegram, WhatsApp, Instagram и OLX одним нажатием. Для продавцов."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

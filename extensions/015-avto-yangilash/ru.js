@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Avto Yangilash", "desc": "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi."}, "ru": {"name": "Автообновление", "desc": "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."}};
+var AB_META = {"id": "ke-avto-yangilash", "uz": {"name": "Avto Yangilash", "desc": "Sahifani belgilangan oraliqda avtomatik yangilaydi va sahifa matni o'zgarsa xabar beradi."}, "ru": {"name": "Автообновление", "desc": "Автоматически обновляет страницу с заданным интервалом и сообщает, если текст страницы изменился."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

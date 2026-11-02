@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Konvertorlar", "desc": "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…"}, "ru": {"name": "Конвертеры", "desc": "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Онлайн-превью, без интернета."}};
+var AB_META = {"id": "ke-konvertorlar", "uz": {"name": "Konvertorlar", "desc": "Dasturchi konvertorlari bir joyda: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Jonli…"}, "ru": {"name": "Конвертеры", "desc": "Конвертеры для разработчиков в одном месте: HTML → JSX, CSS → Tailwind, JSON → TypeScript, cURL → fetch/axios, JSON → Go struct. Онлайн-превью, без интернета."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Telegram'ga Yuborish", "desc": "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi."}, "ru": {"name": "Отправить в Telegram", "desc": "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."}};
+var AB_META = {"id": "ke-telegramga-yuborish", "uz": {"name": "Telegram'ga Yuborish", "desc": "Sahifa, belgilangan matn, rasm yoki havolani o'z botingiz orqali Telegram'ingizga (yoki kanal/guruhga) bir bosishda yuboradi."}, "ru": {"name": "Отправить в Telegram", "desc": "Отправляет страницу, выделенный текст, изображение или ссылку в ваш Telegram (или канал/группу) через вашего бота одним нажатием."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

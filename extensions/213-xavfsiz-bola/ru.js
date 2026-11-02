@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Xavfsiz Bola", "desc": "Kattalar va qimor saytlarini bloklaydi, YouTube/Instagram/TikTok uchun kunlik vaqt limiti, uxlash vaqti, PIN bilan himoyalangan ota-ona paneli."}, "ru": {"name": "Безопасный ребёнок", "desc": "Блокирует сайты для взрослых и азартные игры, дневной лимит времени для YouTube/Instagram/TikTok, время сна, родительская панель с PIN."}};
+self.AB_META = {"id": "xavfsiz-bola", "uz": {"name": "Xavfsiz Bola", "desc": "Kattalar va qimor saytlarini bloklaydi, YouTube/Instagram/TikTok uchun kunlik vaqt limiti, uxlash vaqti, PIN bilan himoyalangan ota-ona paneli."}, "ru": {"name": "Безопасный ребёнок", "desc": "Блокирует сайты для взрослых и азартные игры, дневной лимит времени для YouTube/Instagram/TikTok, время сна, родительская панель с PIN."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Maxsus Belgilar", "desc": "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…"}, "ru": {"name": "Спецсимволы", "desc": "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."}};
+var AB_META = {"id": "ke-maxsus-belgilar", "uz": {"name": "Maxsus Belgilar", "desc": "ʻ ʼ № © ° « » — ½ € ✓ va emojilarni bir bosishda maydonga qo'yadi yoki nusxalaydi. O'zbekcha oʻ/gʻ ni to'g'ri yozish, oxirgi…"}, "ru": {"name": "Спецсимволы", "desc": "Вставляет или копирует ʻ ʼ № © ° « » — ½ € ✓ и эмодзи одним нажатием. Правильные узбекские oʻ/gʻ, недавние символы, поиск."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Yangi Tab", "desc": "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar."}, "ru": {"name": "Новая вкладка", "desc": "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."}};
+var AB_META = {"id": "ke-yangi-tab", "uz": {"name": "Yangi Tab", "desc": "Chiroyli yangi tab sahifasi: soat, ob-havo, kun maqoli, vazifalar va tezkor havolalar."}, "ru": {"name": "Новая вкладка", "desc": "Красивая новая вкладка: часы, погода, пословица дня, задачи и быстрые ссылки."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

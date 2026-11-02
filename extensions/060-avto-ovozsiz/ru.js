@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Avto-ovozsiz", "desc": "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…"}, "ru": {"name": "Без автовоспроизведения", "desc": "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."}};
+var AB_META = {"id": "ke-avto-ovozsiz", "uz": {"name": "Avto-ovozsiz", "desc": "Saytlardagi o'zi boshlanadigan video va ovozlarni to'xtatadi: faqat siz bosganingizda o'ynaydi. Fon tablarini avtomatik ovozsiz…"}, "ru": {"name": "Без автовоспроизведения", "desc": "Останавливает видео и звук, которые запускаются сами: играет только когда нажмёте вы. Можно автоматически глушить фоновые вкладки."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

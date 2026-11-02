@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "GitHub Xabarlari", "desc": "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi."}, "ru": {"name": "Уведомления GitHub", "desc": "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."}};
+var AB_META = {"id": "ke-github-xabarlari", "uz": {"name": "GitHub Xabarlari", "desc": "GitHub bildirishnomalari, ochiq PR'laringiz va sizdan review kutilayotgan PR'lar toolbar'da. Yangilari haqida ogohlantiradi."}, "ru": {"name": "Уведомления GitHub", "desc": "Уведомления GitHub, ваши открытые PR и PR, ждущие вашего ревью, — на панели. Сообщает о новых."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

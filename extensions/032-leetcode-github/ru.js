@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "LeetCode → GitHub", "desc": "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi."}, "ru": {"name": "LeetCode → GitHub", "desc": "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."}};
+var AB_META = {"id": "ke-leetcode-github", "uz": {"name": "LeetCode → GitHub", "desc": "LeetCode'da yechim qabul qilinganda (Accepted) kod va masala sharti GitHub repongizga avtomatik saqlanadi."}, "ru": {"name": "LeetCode → GitHub", "desc": "Когда решение на LeetCode принято (Accepted), код и условие задачи автоматически сохраняются в ваш репозиторий GitHub."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

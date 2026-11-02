@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Texno Aniqlagich", "desc": "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting."}, "ru": {"name": "Определитель технологий", "desc": "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."}};
+var AB_META = {"id": "ke-texno-aniqlagich", "uz": {"name": "Texno Aniqlagich", "desc": "Sayt qaysi texnologiyalar bilan qurilganini aniqlaydi: framework, CMS, kutubxonalar, analitika, server va hosting."}, "ru": {"name": "Определитель технологий", "desc": "Определяет, на чём сделан сайт: фреймворк, CMS, библиотеки, аналитика, сервер и хостинг."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Domen va SSL", "desc": "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…"}, "ru": {"name": "Домен и SSL", "desc": "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты — предупредит о скором окончании."}};
+var AB_META = {"id": "ke-domen-ssl", "uz": {"name": "Domen va SSL", "desc": "Sayt SSL sertifikati va domeni qachon tugashini, DNS yozuvlarini (A, AAAA, MX, NS, TXT, CNAME) ko'rsatadi. O'z saytlaringizni…"}, "ru": {"name": "Домен и SSL", "desc": "Показывает, когда истекают SSL-сертификат и домен сайта, записи DNS (A, AAAA, MX, NS, TXT, CNAME). Добавьте свои сайты — предупредит о скором окончании."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

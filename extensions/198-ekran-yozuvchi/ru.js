@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ekran Yozuvchi", "desc": "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…"}, "ru": {"name": "Запись экрана", "desc": "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или сохраняется по дате."}};
+var AB_META = {"id": "ke-ekran-yozuvchi", "uz": {"name": "Ekran Yozuvchi", "desc": "Ekran, oyna, tab yoki o'zingiz chizgan hududni videoga yozadi (MP4/WebM), mikrofon bilan. Saqlashdan oldin nom berasiz yoki sana…"}, "ru": {"name": "Запись экрана", "desc": "Записывает экран, окно, вкладку или выбранную вами область в видео (MP4/WebM) с микрофоном. Перед сохранением задаёте имя или сохраняется по дате."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

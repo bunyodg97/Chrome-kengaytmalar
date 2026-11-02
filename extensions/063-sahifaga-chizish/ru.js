@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Sahifaga Chizish", "desc": "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…"}, "ru": {"name": "Рисование на странице", "desc": "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для презентаций и объяснений."}};
+var AB_META = {"id": "ke-sahifaga-chizish", "uz": {"name": "Sahifaga Chizish", "desc": "Istalgan sahifa ustiga qalam, marker, strelka, to'rtburchak, matn bilan chizing va belgilangan holatda PNG qilib saqlang. Taqdimot…"}, "ru": {"name": "Рисование на странице", "desc": "Рисуйте поверх любой страницы карандашом, маркером, стрелками, прямоугольниками и текстом и сохраняйте результат в PNG. Для презентаций и объяснений."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

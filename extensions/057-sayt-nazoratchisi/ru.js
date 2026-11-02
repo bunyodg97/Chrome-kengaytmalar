@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Sayt Nazoratchisi", "desc": "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…"}, "ru": {"name": "Мониторинг сайтов", "desc": "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график времени ответа."}};
+var AB_META = {"id": "ke-sayt-nazoratchisi", "uz": {"name": "Sayt Nazoratchisi", "desc": "O'z saytlaringizni har daqiqada tekshiradi: ishlamay qolsa yoki sekinlashsa ekranga va Telegram'ga xabar beradi. Ishlash foizi va…"}, "ru": {"name": "Мониторинг сайтов", "desc": "Проверяет ваши сайты каждую минуту: если сайт упал или тормозит — уведомит на экране и в Telegram. Процент доступности и график времени ответа."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

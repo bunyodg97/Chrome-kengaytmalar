@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Do'stcha", "desc": "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin."}, "ru": {"name": "Дружок", "desc": "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."}};
+self.AB_META = {"id": "ke-dostcha", "uz": {"name": "Do'stcha", "desc": "Sahifa pastida yurib yuradigan animatsiyali do'st: kuchukcha, mushukcha, quyoncha yoki panda. Salom beradi, gapiradi, uxlaydi, bosilsa sakraydi. O'z so'zlaringizni ham qo'shishingiz mumkin."}, "ru": {"name": "Дружок", "desc": "Анимированный друг, гуляющий по низу страницы: щенок, котёнок, зайчонок или панда. Здоровается, говорит, спит, подпрыгивает при нажатии. Можно добавить свои фразы."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ikonka Generatori", "desc": "Bitta rasmdan 16–1024 o'lchamdagi barcha ikonkalar: favicon.ico, Apple touch, PWA, Chrome kengaytma, Android mipmap, iOS. Fon…"}, "ru": {"name": "Генератор иконок", "desc": "Все иконки 16–1024 из одного изображения: favicon.ico, Apple touch, PWA, расширение Chrome, Android mipmap, iOS. Фон, отступы, скругление. ZIP + готовый HTML/manifest."}};
+var AB_META = {"id": "ke-ikonka-generatori", "uz": {"name": "Ikonka Generatori", "desc": "Bitta rasmdan 16–1024 o'lchamdagi barcha ikonkalar: favicon.ico, Apple touch, PWA, Chrome kengaytma, Android mipmap, iOS. Fon…"}, "ru": {"name": "Генератор иконок", "desc": "Все иконки 16–1024 из одного изображения: favicon.ico, Apple touch, PWA, расширение Chrome, Android mipmap, iOS. Фон, отступы, скругление. ZIP + готовый HTML/manifest."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

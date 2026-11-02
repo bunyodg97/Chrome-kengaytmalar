@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Flex/Grid Ko'rgich", "desc": "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…"}, "ru": {"name": "Просмотр Flex/Grid", "desc": "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и значения justify/align."}};
+var AB_META = {"id": "ke-flex-grid", "uz": {"name": "Flex/Grid Ko'rgich", "desc": "Sahifadagi barcha Flexbox va Grid konteynerlarni ustida chizadi: grid chiziqlari va raqamlari, ustun/qatorlar, gap (shtrixlangan)…"}, "ru": {"name": "Просмотр Flex/Grid", "desc": "Рисует поверх страницы все Flexbox и Grid контейнеры: линии и номера сетки, столбцы/строки, gap (штриховка), направление flex и значения justify/align."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

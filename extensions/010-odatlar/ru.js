@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Odatlar", "desc": "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar."}, "ru": {"name": "Привычки", "desc": "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."}};
+var AB_META = {"id": "ke-odatlar", "uz": {"name": "Odatlar", "desc": "Kunlik odatlarni belgilab boring: ketma-ket kunlar seriyasi, 12 haftalik xarita va eslatmalar."}, "ru": {"name": "Привычки", "desc": "Отмечайте ежедневные привычки: серии дней подряд, карта за 12 недель и напоминания."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

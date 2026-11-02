@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tug'ilgan Kunlar", "desc": "Yaqinlar, hamkasblar va mijozlarning tug'ilgan kunlarini eslatadi (oldindan va shu kuni) hamda o'zbek, rus, ingliz tilida tayyor…"}, "ru": {"name": "Дни рождения", "desc": "Напоминает о днях рождения близких, коллег и клиентов (заранее и в сам день) и даёт готовые поздравления на узбекском, русском и английском."}};
+var AB_META = {"id": "ke-tugilgan-kunlar", "uz": {"name": "Tug'ilgan Kunlar", "desc": "Yaqinlar, hamkasblar va mijozlarning tug'ilgan kunlarini eslatadi (oldindan va shu kuni) hamda o'zbek, rus, ingliz tilida tayyor…"}, "ru": {"name": "Дни рождения", "desc": "Напоминает о днях рождения близких, коллег и клиентов (заранее и в сам день) и даёт готовые поздравления на узбекском, русском и английском."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

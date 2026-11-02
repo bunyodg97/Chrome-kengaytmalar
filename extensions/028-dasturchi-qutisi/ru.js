@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Dasturchi Qutisi", "desc": "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz."}, "ru": {"name": "Ящик разработчика", "desc": "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."}};
+var AB_META = {"id": "ke-dasturchi-qutisi", "uz": {"name": "Dasturchi Qutisi", "desc": "Base64, URL, JWT, vaqt belgisi, UUID, hash, Regex, JSON va sanoq tizimlari — bitta oynada, internetsiz."}, "ru": {"name": "Ящик разработчика", "desc": "Base64, URL, JWT, метки времени, UUID, хеши, Regex, JSON и системы счисления — в одном окне, без интернета."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Video Kadri", "desc": "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…"}, "ru": {"name": "Кадр из видео", "desc": "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом вперёд/назад."}};
+var AB_META = {"id": "ke-video-kadri", "uz": {"name": "Video Kadri", "desc": "Istalgan videodan (YouTube, kurslar, yangiliklar) kerakli kadrni asl sifatda PNG/JPG qilib saqlang yoki nusxalang. Kadrma-kadr…"}, "ru": {"name": "Кадр из видео", "desc": "Сохраняйте или копируйте нужный кадр из любого видео (YouTube, курсы, новости) в исходном качестве PNG/JPG. С покадровым переходом вперёд/назад."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

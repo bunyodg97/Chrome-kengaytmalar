@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "GIF Yaratuvchi", "desc": "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun."}, "ru": {"name": "Создатель GIF", "desc": "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."}};
+var AB_META = {"id": "ke-gif-yaratuvchi", "uz": {"name": "GIF Yaratuvchi", "desc": "Sahifaning o'zingiz chizgan qismini qisqa GIF animatsiya qilib yozadi: ko'rsatmalar, xato namoyishi va chatlarda ulashish uchun."}, "ru": {"name": "Создатель GIF", "desc": "Записывает выбранную вами часть страницы в короткую GIF-анимацию: инструкции, демонстрация ошибок, отправка в чаты."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

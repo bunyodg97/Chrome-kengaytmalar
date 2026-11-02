@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Vaqtinchalik Pochta", "desc": "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…"}, "ru": {"name": "Временная почта", "desc": "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."}};
+var AB_META = {"id": "ke-vaqtinchalik-pochta", "uz": {"name": "Vaqtinchalik Pochta", "desc": "Ro'yxatdan o'tish uchun bir martalik email manzil: bir bosishda yaratiladi, xatlar shu yerning o'zida keladi. Asosiy pochtangiz…"}, "ru": {"name": "Временная почта", "desc": "Одноразовый email для регистраций: создаётся одним нажатием, письма приходят прямо сюда. Основная почта защищена от спама."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

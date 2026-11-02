@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tozalagich", "desc": "Kesh, cookie, tarix va sayt ma'lumotlarini bir bosishda tozalaydi — butun brauzerda yoki faqat joriy saytda."}, "ru": {"name": "Очиститель", "desc": "Очищает кэш, cookie, историю и данные сайтов одним нажатием — во всём браузере или только на текущем сайте."}};
+var AB_META = {"id": "ke-tozalagich", "uz": {"name": "Tozalagich", "desc": "Kesh, cookie, tarix va sayt ma'lumotlarini bir bosishda tozalaydi — butun brauzerda yoki faqat joriy saytda."}, "ru": {"name": "Очиститель", "desc": "Очищает кэш, cookie, историю и данные сайтов одним нажатием — во всём браузере или только на текущем сайте."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

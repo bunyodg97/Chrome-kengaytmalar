@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "README Muharriri", "desc": "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…"}, "ru": {"name": "Редактор README", "desc": "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие из репозитория GitHub, сохранение в .md или HTML."}};
+var AB_META = {"id": "ke-readme-muharriri", "uz": {"name": "README Muharriri", "desc": "README.md ni GitHub ko'rinishidagi jonli preview bilan yozing: tayyor shablonlar, badge'lar, jadval va checklist tugmalari…"}, "ru": {"name": "Редактор README", "desc": "Пишите README.md с живым превью как на GitHub: готовые шаблоны, бейджи, кнопки таблиц и чек-листов, генератор оглавления. Открытие из репозитория GitHub, сохранение в .md или HTML."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

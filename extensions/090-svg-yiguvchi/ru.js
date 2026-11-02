@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "SVG Yig'uvchi", "desc": "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…"}, "ru": {"name": "Сборщик SVG", "desc": "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data URI, скачивание PNG или ZIP."}};
+var AB_META = {"id": "ke-svg-yiguvchi", "uz": {"name": "SVG Yig'uvchi", "desc": "Sahifadagi barcha SVG ikonka va rasmlarni (inline, img, CSS fon, sprite) bir joyga yig'adi, optimallashtiradi. SVG, JSX yoki data…"}, "ru": {"name": "Сборщик SVG", "desc": "Собирает все SVG-иконки и изображения страницы (inline, img, CSS-фон, спрайты) и оптимизирует. Копирование как SVG, JSX или data URI, скачивание PNG или ZIP."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

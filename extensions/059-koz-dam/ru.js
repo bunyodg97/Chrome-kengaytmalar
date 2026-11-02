@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ko'z Dam", "desc": "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika."}, "ru": {"name": "Отдых для глаз", "desc": "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."}};
+var AB_META = {"id": "ke-koz-dam", "uz": {"name": "Ko'z Dam", "desc": "20-20-20 qoidasi: har 20 daqiqada 20 soniya uzoqqa qarashni eslatadi. Ko'z mashqlari, pauza va kunlik statistika."}, "ru": {"name": "Отдых для глаз", "desc": "Правило 20-20-20: каждые 20 минут напоминает 20 секунд смотреть вдаль. Упражнения для глаз, пауза и статистика за день."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

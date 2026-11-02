@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Toza PDF", "desc": "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish."}, "ru": {"name": "Чистый PDF", "desc": "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."}};
+self.AB_META = {"id": "ke-toza-pdf", "uz": {"name": "Toza PDF", "desc": "Maqolani reklama, menyu va keraksiz qismlarsiz chiroyli PDF qilib saqlaydi. Shrift, rasmlar, keraksiz bloklarni o'chirish."}, "ru": {"name": "Чистый PDF", "desc": "Сохраняет статью в красивый PDF без рекламы, меню и лишнего. Шрифт, картинки, удаление ненужных блоков."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

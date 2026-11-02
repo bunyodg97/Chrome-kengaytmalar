@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Element Nusxalash", "desc": "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…"}, "ru": {"name": "Копирование элемента", "desc": "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание одним HTML-файлом."}};
+var AB_META = {"id": "ke-element-nusxalash", "uz": {"name": "Element Nusxalash", "desc": "Saytdagi tugma, kartochka yoki blokni tanlang — u barcha uslublari bilan toza HTML + CSS ko'rinishida olinadi. Jonli ko'rinish…"}, "ru": {"name": "Копирование элемента", "desc": "Выберите кнопку, карточку или блок на сайте — получите чистый HTML + CSS со всеми стилями. Живой просмотр, копирование, скачивание одним HTML-файлом."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

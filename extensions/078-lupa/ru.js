@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Lupa", "desc": "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…"}, "ru": {"name": "Лупа", "desc": "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа, Alt+Shift+Z."}};
+var AB_META = {"id": "ke-lupa", "uz": {"name": "Lupa", "desc": "Sichqoncha ostidagi qismni 2x–10x kattalashtiradi: mayda matn, rasm tafsilotlari, piksel va rang kodi. Dumaloq yoki to'rtburchak…"}, "ru": {"name": "Лупа", "desc": "Увеличивает область под курсором в 2–10 раз: мелкий текст, детали изображений, пиксели и код цвета. Круглая или квадратная лупа, Alt+Shift+Z."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

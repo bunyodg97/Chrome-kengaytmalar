@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "So'z Daftari", "desc": "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…"}, "ru": {"name": "Словарик", "desc": "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и тесты."}};
+var AB_META = {"id": "ke-soz-daftari", "uz": {"name": "So'z Daftari", "desc": "Saytlarda uchragan notanish inglizcha yoki ruscha so'zni bir bosishda tarjimasi bilan lug'atga qo'shadi va kartochkalar, test…"}, "ru": {"name": "Словарик", "desc": "Добавляет незнакомое английское или русское слово с сайта в словарь с переводом одним нажатием и помогает выучить через карточки и тесты."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

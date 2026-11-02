@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Namoz vaqtlari", "desc": "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi."}, "ru": {"name": "Время намаза", "desc": "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."}};
+self.AB_META = {"id": "namoz-vaqtlari", "uz": {"name": "Namoz vaqtlari", "desc": "Brauzer tepasida keyingi namozgacha qolgan vaqt. O'zbekiston shaharlari, eslatmalar, internetsiz ishlaydi."}, "ru": {"name": "Время намаза", "desc": "Время до следующего намаза прямо в браузере. Города Узбекистана, напоминания, работает без интернета."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

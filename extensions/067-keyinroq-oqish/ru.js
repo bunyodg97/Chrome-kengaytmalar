@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Keyinroq O'qish", "desc": "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…"}, "ru": {"name": "Прочитать позже", "desc": "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск — замена Pocket."}};
+var AB_META = {"id": "ke-keyinroq-oqish", "uz": {"name": "Keyinroq O'qish", "desc": "Maqolani bir bosishda saqlang va keyin internetsiz, reklamasiz, qulay shriftda o'qing. Teglar, o'qish jarayoni, arxiv, qidiruv —…"}, "ru": {"name": "Прочитать позже", "desc": "Сохраняйте статьи одним нажатием и читайте потом без интернета и рекламы удобным шрифтом. Теги, прогресс чтения, архив, поиск — замена Pocket."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

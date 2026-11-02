@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Rasmga Logo", "desc": "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…"}, "ru": {"name": "Логотип на фото", "desc": "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность, повторяющийся узор. Скачивание в ZIP."}};
+var AB_META = {"id": "ke-rasmga-logo", "uz": {"name": "Rasmga Logo", "desc": "Mahsulot rasmlariga bir bosishda logo yoki matnli suv belgisi (watermark) qo'ying: o'nlab rasm birdaniga, joylashuv, o'lcham…"}, "ru": {"name": "Логотип на фото", "desc": "Ставьте логотип или текстовый водяной знак на фото товаров одним нажатием: десятки фото сразу, положение, размер, прозрачность, повторяющийся узор. Скачивание в ZIP."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

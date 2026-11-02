@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Video Tezlik", "desc": "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga."}, "ru": {"name": "Скорость видео", "desc": "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."}};
+var AB_META = {"id": "ke-video-tezlik", "uz": {"name": "Video Tezlik", "desc": "Istalgan saytdagi videoni 0.1x dan 16x gacha tezlashtiradi. Klaviatura: S sekin, D tez, R odatiy, Z/X 10 soniya orqaga/oldinga."}, "ru": {"name": "Скорость видео", "desc": "Ускоряет видео на любом сайте от 0.1x до 16x. Клавиши: S медленнее, D быстрее, R обычная, Z/X — 10 секунд назад/вперёд."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

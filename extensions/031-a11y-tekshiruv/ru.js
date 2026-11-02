@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kirish Imkoniyati Tekshiruvi", "desc": "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…"}, "ru": {"name": "Проверка доступности", "desc": "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок заголовков."}};
+var AB_META = {"id": "ke-a11y-tekshiruv", "uz": {"name": "Kirish Imkoniyati Tekshiruvi", "desc": "Sahifani nogironligi bor foydalanuvchilar uchun qulayligini tekshiradi: kontrast, alt matnlar, tugma nomlari, label'lar…"}, "ru": {"name": "Проверка доступности", "desc": "Проверяет удобство страницы для людей с ограниченными возможностями: контраст, alt-тексты, названия кнопок, label'ы, порядок заголовков."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

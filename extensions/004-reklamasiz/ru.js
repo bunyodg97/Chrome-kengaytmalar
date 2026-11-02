@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Reklamasiz", "desc": "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi."}, "ru": {"name": "Без рекламы", "desc": "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."}};
+var AB_META = {"id": "ke-reklamasiz", "uz": {"name": "Reklamasiz", "desc": "Reklama tarmoqlarini bloklaydi, sahifadagi reklama bloklarini yashiradi va YouTube reklamalarini o'tkazib yuboradi."}, "ru": {"name": "Без рекламы", "desc": "Блокирует рекламные сети, скрывает рекламные блоки на страницах и пропускает рекламу на YouTube."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

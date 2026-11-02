@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "AI Suhbat Eksporti", "desc": "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi."}, "ru": {"name": "Экспорт AI-чатов", "desc": "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."}};
+var AB_META = {"id": "ke-ai-eksport", "uz": {"name": "AI Suhbat Eksporti", "desc": "Claude, ChatGPT, Gemini va DeepSeek suhbatlarini kod bloklari bilan birga Markdown, PDF, TXT yoki JSON ko'rinishida saqlaydi."}, "ru": {"name": "Экспорт AI-чатов", "desc": "Сохраняет переписку с Claude, ChatGPT, Gemini и DeepSeek вместе с блоками кода в Markdown, PDF, TXT или JSON."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

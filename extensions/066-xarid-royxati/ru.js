@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Xarid Ro'yxati", "desc": "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…"}, "ru": {"name": "Список покупок", "desc": "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ), группы по магазинам, отметка «куплено»."}};
+var AB_META = {"id": "ke-xarid-royxati", "uz": {"name": "Xarid Ro'yxati", "desc": "Istalgan internet-do'kondan mahsulotni bir bosishda ro'yxatga qo'shing: nomi, narxi, rasmi avtomatik olinadi. Jami so'mda (dollar…"}, "ru": {"name": "Список покупок", "desc": "Добавляйте товар из любого интернет-магазина одним нажатием: название, цена и фото берутся автоматически. Итог в сумах (курс ЦБ), группы по магазинам, отметка «куплено»."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

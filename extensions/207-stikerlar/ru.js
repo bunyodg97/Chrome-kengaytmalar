@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Stikerlar", "desc": "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida."}, "ru": {"name": "Стикеры", "desc": "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."}};
+self.AB_META = {"id": "ke-stikerlar", "uz": {"name": "Stikerlar", "desc": "Istalgan saytga yopishqoq eslatma qo'ying va matnni marker bilan belgilang. Keyingi safar kirganingizda hammasi o'z joyida."}, "ru": {"name": "Стикеры", "desc": "Приклейте заметку на любой сайт и выделяйте текст маркером. При следующем визите всё на своих местах."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

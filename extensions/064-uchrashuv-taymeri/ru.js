@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Uchrashuv Taymeri", "desc": "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…"}, "ru": {"name": "Таймер встречи", "desc": "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на странице."}};
+var AB_META = {"id": "ke-uchrashuv-taymeri", "uz": {"name": "Uchrashuv Taymeri", "desc": "Uchrashuv, taqdimot va dars uchun teskari sanoq: belgida qolgan daqiqa, oxirgi daqiqalarda ogohlantirish, ovozli signal va sahifa…"}, "ru": {"name": "Таймер встречи", "desc": "Обратный отсчёт для встреч, презентаций и уроков: минуты на значке, предупреждения в конце, звуковой сигнал и плавающие часы на странице."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

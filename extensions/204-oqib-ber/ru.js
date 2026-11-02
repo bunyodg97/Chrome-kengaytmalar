@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "O'qib Ber", "desc": "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish."}, "ru": {"name": "Озвучка", "desc": "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."}};
+self.AB_META = {"id": "ke-oqib-ber", "uz": {"name": "O'qib Ber", "desc": "Maqola yoki belgilangan matnni ovozda o'qib beradi. O'zbekcha (lotin/kirill), ruscha, inglizcha. Tezlik, ovoz tanlash, joriy xatboshini ajratib ko'rsatish."}, "ru": {"name": "Озвучка", "desc": "Читает вслух статью или выделенный текст. Узбекский (латиница/кириллица), русский, английский. Скорость, выбор голоса, подсветка текущего абзаца."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

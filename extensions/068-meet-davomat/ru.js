@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Meet Davomat", "desc": "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…"}, "ru": {"name": "Посещаемость Meet", "desc": "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в Excel (XLSX) или CSV."}};
+var AB_META = {"id": "ke-meet-davomat", "uz": {"name": "Meet Davomat", "desc": "Google Meet darsi/yig'ilishida ishtirokchilarni avtomatik yozib boradi: kim, qachon kirdi-chiqdi, qancha qatnashdi. Excel (XLSX)…"}, "ru": {"name": "Посещаемость Meet", "desc": "Автоматически записывает участников урока/встречи в Google Meet: кто, когда вошёл и вышел, сколько присутствовал. Скачивание в Excel (XLSX) или CSV."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

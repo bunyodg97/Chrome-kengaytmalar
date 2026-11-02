@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Bayonnoma", "desc": "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi."}, "ru": {"name": "Протокол встречи", "desc": "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."}};
+var AB_META = {"id": "ke-bayonnoma", "uz": {"name": "Bayonnoma", "desc": "Google Meet va Zoom (brauzerda) yig'ilishlaridagi subtitrlarni yozib boradi, xulosa chiqaradi va bayonnoma sifatida saqlaydi."}, "ru": {"name": "Протокол встречи", "desc": "Записывает субтитры встреч Google Meet и Zoom (в браузере), делает выводы и сохраняет как протокол."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

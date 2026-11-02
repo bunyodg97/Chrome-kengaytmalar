@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Web Vitals Jonli", "desc": "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi."}, "ru": {"name": "Web Vitals онлайн", "desc": "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."}};
+var AB_META = {"id": "ke-web-vitals", "uz": {"name": "Web Vitals Jonli", "desc": "Sahifa burchagida LCP, CLS, INP, FCP va TTFB ko'rsatkichlarini real vaqtda ko'rsatadi."}, "ru": {"name": "Web Vitals онлайн", "desc": "Показывает LCP, CLS, INP, FCP и TTFB в углу страницы в реальном времени."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

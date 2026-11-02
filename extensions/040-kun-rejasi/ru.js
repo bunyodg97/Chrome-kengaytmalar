@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kun Rejasi", "desc": "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish."}, "ru": {"name": "План дня", "desc": "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."}};
+var AB_META = {"id": "ke-kun-rejasi", "uz": {"name": "Kun Rejasi", "desc": "Bugungi vazifalar va uchrashuvlar bitta oynada: vaqtli eslatmalar, muhimlik darajasi, bajarilmaganlarni ertaga ko'chirish."}, "ru": {"name": "План дня", "desc": "Задачи и встречи на сегодня в одном окне: напоминания по времени, важность, перенос невыполненного на завтра."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

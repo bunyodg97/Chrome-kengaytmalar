@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Xato Hisoboti", "desc": "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…"}, "ru": {"name": "Отчёт об ошибке", "desc": "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в Telegram, GitHub Issue или ZIP."}};
+var AB_META = {"id": "ke-xato-hisoboti", "uz": {"name": "Xato Hisoboti", "desc": "Saytdagi xatoni bir bosishda jo'nating: belgilash mumkin bo'lgan skrinshot, konsol loglari, muvaffaqiyatsiz tarmoq so'rovlari va…"}, "ru": {"name": "Отчёт об ошибке", "desc": "Отправьте ошибку сайта одним нажатием: скриншот с пометками, логи консоли, неудачные сетевые запросы и данные браузера — в Telegram, GitHub Issue или ZIP."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

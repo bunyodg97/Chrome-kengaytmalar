@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Rasm bo'yicha Qidirish", "desc": "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…"}, "ru": {"name": "Поиск по картинке", "desc": "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."}};
+var AB_META = {"id": "ke-rasm-qidirish", "uz": {"name": "Rasm bo'yicha Qidirish", "desc": "Rasmni o'ng tugma bilan bir vaqtda Google Lens, Yandex, Bing va TinEye'da qidiring: asl manbani, arzonroq mahsulotni yoki soxta…"}, "ru": {"name": "Поиск по картинке", "desc": "Ищите картинку правой кнопкой сразу в Google Lens, Яндексе, Bing и TinEye: найдите первоисточник, товар дешевле или подделку."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

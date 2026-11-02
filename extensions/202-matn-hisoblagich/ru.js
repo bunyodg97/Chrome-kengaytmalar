@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Matn Hisoblagich", "desc": "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich."}, "ru": {"name": "Счётчик текста", "desc": "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."}};
+self.AB_META = {"id": "ke-matn-hisoblagich", "uz": {"name": "Matn Hisoblagich", "desc": "Belgilar, so'zlar, gaplar, o'qish vaqti va nechta SMS bo'lishini hisoblaydi. O'zbekcha ʻ belgisi SMS narxini oshirishini ko'rsatadi. Saytdagi matn maydonlarida jonli hisoblagich."}, "ru": {"name": "Счётчик текста", "desc": "Считает символы, слова, предложения, время чтения и количество SMS. Показывает, что узбекский знак ʻ удорожает SMS. Живой счётчик в текстовых полях сайтов."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

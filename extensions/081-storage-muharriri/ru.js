@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Storage Muharriri", "desc": "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…"}, "ru": {"name": "Редактор хранилища", "desc": "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт и импорт JSON."}};
+var AB_META = {"id": "ke-storage-muharriri", "uz": {"name": "Storage Muharriri", "desc": "Saytning localStorage, sessionStorage va IndexedDB ma'lumotlarini yon panelda jadval ko'rinishida ko'ring, qidiring, tahrirlang…"}, "ru": {"name": "Редактор хранилища", "desc": "Просматривайте localStorage, sessionStorage и IndexedDB сайта таблицей в боковой панели: поиск, редактирование, удаление, экспорт и импорт JSON."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

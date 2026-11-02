@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "AI Yordamchi (o'zbekcha)", "desc": "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi."}, "ru": {"name": "AI Помощник (узбекский)", "desc": "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."}};
+var AB_META = {"id": "ke-ai-yordamchi", "uz": {"name": "AI Yordamchi (o'zbekcha)", "desc": "Sahifani qisqartiradi, tarjima qiladi, xat yozadi va savollarga o'zbek tilida javob beradi. O'z API kalitingiz bilan ishlaydi."}, "ru": {"name": "AI Помощник (узбекский)", "desc": "Сокращает страницы, переводит, пишет письма и отвечает на вопросы. Работает с вашим API-ключом."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

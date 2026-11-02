@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kod Skrinshoti", "desc": "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…"}, "ru": {"name": "Скриншот кода", "desc": "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или копирование — для Telegram и презентаций."}};
+var AB_META = {"id": "ke-kod-skrinshoti", "uz": {"name": "Kod Skrinshoti", "desc": "Kodni chiroyli rasmga aylantiring (Carbon kabi): mavzular, gradient fon, oyna tugmalari, qator raqamlari, sarlavha. PNG yuklash…"}, "ru": {"name": "Скриншот кода", "desc": "Превращайте код в красивую картинку (как Carbon): темы, градиентный фон, кнопки окна, номера строк, заголовок. Скачивание PNG или копирование — для Telegram и презентаций."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

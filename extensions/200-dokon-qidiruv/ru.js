@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Bir qidiruv", "desc": "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson."}, "ru": {"name": "Один поиск", "desc": "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."}};
+self.AB_META = {"id": "ke-dokon-qidiruv", "uz": {"name": "Bir qidiruv", "desc": "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson."}, "ru": {"name": "Один поиск", "desc": "Введите название товара один раз — Uzum, OLX, Wildberries, Яндекс Маркет, Asaxiy, AliExpress откроются в одной группе вкладок. Цены легко сравнить."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

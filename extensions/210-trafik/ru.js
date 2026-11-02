@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Trafik Hisoblagich", "desc": "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun."}, "ru": {"name": "Счётчик трафика", "desc": "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."}};
+self.AB_META = {"id": "ke-trafik", "uz": {"name": "Trafik Hisoblagich", "desc": "Har bir sayt qancha internet trafik sarflaganini ko'rsatadi. Kunlik va oylik limit, ogohlantirish. Mobil internet uchun."}, "ru": {"name": "Счётчик трафика", "desc": "Показывает, сколько интернет-трафика потратил каждый сайт. Дневной и месячный лимит, оповещения. Для мобильного интернета."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

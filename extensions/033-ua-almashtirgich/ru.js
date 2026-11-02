@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "UA Almashtirgich", "desc": "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun."}, "ru": {"name": "Смена User-Agent", "desc": "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."}};
+var AB_META = {"id": "ke-ua-almashtirgich", "uz": {"name": "UA Almashtirgich", "desc": "Sayt sizni iPhone, Android, planshet yoki boshqa brauzer deb o'ylaydi. Faqat bitta tab yoki hamma tablar uchun."}, "ru": {"name": "Смена User-Agent", "desc": "Сайт будет считать вас iPhone, Android, планшетом или другим браузером. Для одной вкладки или для всех."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Tab Uxlatuvchi", "desc": "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi."}, "ru": {"name": "Усыпитель вкладок", "desc": "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."}};
+self.AB_META = {"id": "ke-tab-uxlatuvchi", "uz": {"name": "Tab Uxlatuvchi", "desc": "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi."}, "ru": {"name": "Усыпитель вкладок", "desc": "Автоматически усыпляет неиспользуемые вкладки и освобождает память. Не трогает музыку, формы и важные сайты."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

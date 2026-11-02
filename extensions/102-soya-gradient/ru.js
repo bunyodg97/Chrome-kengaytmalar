@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Soya va Gradient", "desc": "box-shadow (ko'p qatlamli, inset), text-shadow va gradient (linear, radial, conic) ni jonli tahrirlang: tayyor namunalar, rang…"}, "ru": {"name": "Тени и градиенты", "desc": "Живое редактирование box-shadow (многослойные, inset), text-shadow и градиентов (linear, radial, conic): готовые образцы, точки цвета, угол. Копирование CSS и Tailwind одним нажатием."}};
+var AB_META = {"id": "ke-soya-gradient", "uz": {"name": "Soya va Gradient", "desc": "box-shadow (ko'p qatlamli, inset), text-shadow va gradient (linear, radial, conic) ni jonli tahrirlang: tayyor namunalar, rang…"}, "ru": {"name": "Тени и градиенты", "desc": "Живое редактирование box-shadow (многослойные, inset), text-shadow и градиентов (linear, radial, conic): готовые образцы, точки цвета, угол. Копирование CSS и Tailwind одним нажатием."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

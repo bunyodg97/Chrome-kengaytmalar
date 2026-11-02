@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Video Yuklagich", "desc": "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI."}, "ru": {"name": "Загрузчик видео", "desc": "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."}};
+self.AB_META = {"id": "ke-video-yuklagich", "uz": {"name": "Video Yuklagich", "desc": "Saytdagi ochiq videolarni (MP4, WebM, HLS) topib yuklab oladi. YouTube, Netflix kabi DRM bilan himoyalangan saytlarda ISHLAMAYDI."}, "ru": {"name": "Загрузчик видео", "desc": "Находит и скачивает открытые видео (MP4, WebM, HLS). НЕ работает на сайтах с DRM-защитой, таких как YouTube и Netflix."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

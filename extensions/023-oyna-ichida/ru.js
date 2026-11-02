@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Oyna ichida oyna", "desc": "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz."}, "ru": {"name": "Картинка в картинке", "desc": "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."}};
+var AB_META = {"id": "ke-oyna-ichida", "uz": {"name": "Oyna ichida oyna", "desc": "Istalgan saytdagi videoni ekran burchagidagi kichik oynada ko'rsatadi. Boshqa ish qilib turib videoni ko'raverasiz."}, "ru": {"name": "Картинка в картинке", "desc": "Показывает видео с любого сайта в маленьком окне в углу экрана. Смотрите видео, занимаясь другими делами."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

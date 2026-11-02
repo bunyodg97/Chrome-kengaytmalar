@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Parol Ustasi", "desc": "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi."}, "ru": {"name": "Мастер паролей", "desc": "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."}};
+var AB_META = {"id": "ke-parol-ustasi", "uz": {"name": "Parol Ustasi", "desc": "Kuchli parol yaratadi, parol kuchini tekshiradi va u ma'lum sizib chiqishlarda bor-yo'qligini xavfsiz usulda aniqlaydi."}, "ru": {"name": "Мастер паролей", "desc": "Создаёт надёжные пароли, проверяет их стойкость и безопасно проверяет, нет ли пароля в известных утечках."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

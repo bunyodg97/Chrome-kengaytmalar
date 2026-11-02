@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Nusxa Ruxsati", "desc": "Matnni belgilash, nusxa olish va o'ng tugmani bloklagan saytlarda bu cheklovlarni olib tashlaydi."}, "ru": {"name": "Разрешить копирование", "desc": "Снимает запреты на выделение текста, копирование и правую кнопку мыши на сайтах, где они заблокированы."}};
+var AB_META = {"id": "ke-nusxa-ruxsati", "uz": {"name": "Nusxa Ruxsati", "desc": "Matnni belgilash, nusxa olish va o'ng tugmani bloklagan saytlarda bu cheklovlarni olib tashlaydi."}, "ru": {"name": "Разрешить копирование", "desc": "Снимает запреты на выделение текста, копирование и правую кнопку мыши на сайтах, где они заблокированы."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

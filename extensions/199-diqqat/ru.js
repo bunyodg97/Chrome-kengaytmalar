@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (scripts/i18n_standalone)
-self.AB_META = {"uz": {"name": "Diqqat", "desc": "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika."}, "ru": {"name": "Концентрация", "desc": "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."}};
+self.AB_META = {"id": "diqqat", "uz": {"name": "Diqqat", "desc": "Ish vaqtida ijtimoiy tarmoqlar va chalg'ituvchi saytlarni bloklaydi. Pomodoro taymer, ovozli signal, ish jadvali, statistika."}, "ru": {"name": "Концентрация", "desc": "Блокирует соцсети и отвлекающие сайты в рабочее время. Таймер Помодоро, звуковой сигнал, рабочее расписание, статистика."}};
 self.RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

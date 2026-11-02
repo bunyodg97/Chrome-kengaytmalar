@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Breakpoint Ko'rsatkichi", "desc": "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…"}, "ru": {"name": "Индикатор брейкпоинтов", "desc": "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта, подсвечивая активный."}};
+var AB_META = {"id": "ke-breakpoint", "uz": {"name": "Breakpoint Ko'rsatkichi", "desc": "Burchakda joriy oyna eni va breakpoint (Tailwind sm/md/lg/xl, Bootstrap yoki o'zingizniki) doim ko'rinib turadi. Saytning o'z…"}, "ru": {"name": "Индикатор брейкпоинтов", "desc": "В углу всегда видны ширина окна и текущий брейкпоинт (Tailwind sm/md/lg/xl, Bootstrap или свой). Находит и медиазапросы сайта, подсвечивая активный."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

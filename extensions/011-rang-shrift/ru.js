@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Rang va Shrift", "desc": "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi."}, "ru": {"name": "Цвет и шрифт", "desc": "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."}};
+var AB_META = {"id": "ke-rang-shrift", "uz": {"name": "Rang va Shrift", "desc": "Sahifadagi istalgan elementning rangi, shrifti va o'lchamini ko'rsatadi; pipetka va sahifa palitrasi."}, "ru": {"name": "Цвет и шрифт", "desc": "Показывает цвет, шрифт и размер любого элемента на странице; пипетка и палитра страницы."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

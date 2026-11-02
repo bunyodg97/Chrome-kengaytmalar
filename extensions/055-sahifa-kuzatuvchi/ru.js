@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Sahifa Kuzatuvchi", "desc": "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi."}, "ru": {"name": "Наблюдатель страниц", "desc": "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."}};
+var AB_META = {"id": "ke-sahifa-kuzatuvchi", "uz": {"name": "Sahifa Kuzatuvchi", "desc": "Sahifaning siz belgilagan qismi (natijalar, narx, tender, e'lon) o'zgarsa, darhol xabar beradi. Brauzerning o'zi tekshirib turadi."}, "ru": {"name": "Наблюдатель страниц", "desc": "Сообщает, как только выбранная вами часть страницы (результаты, цена, тендер, объявление) изменится. Браузер проверяет сам."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

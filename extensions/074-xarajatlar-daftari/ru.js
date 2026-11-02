@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Xarajatlar Daftari", "desc": "Kunlik xarajatlarni so'mda tez yozing: toifalar, oylik byudjet, kun va toifa bo'yicha grafiklar, oy oxirida hisobot va Excelga…"}, "ru": {"name": "Дневник расходов", "desc": "Быстро записывайте ежедневные расходы в сумах: категории, месячный бюджет, графики по дням и категориям, отчёт за месяц и экспорт в Excel."}};
+var AB_META = {"id": "ke-xarajatlar-daftari", "uz": {"name": "Xarajatlar Daftari", "desc": "Kunlik xarajatlarni so'mda tez yozing: toifalar, oylik byudjet, kun va toifa bo'yicha grafiklar, oy oxirida hisobot va Excelga…"}, "ru": {"name": "Дневник расходов", "desc": "Быстро записывайте ежедневные расходы в сумах: категории, месячный бюджет, графики по дням и категориям, отчёт за месяц и экспорт в Excel."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

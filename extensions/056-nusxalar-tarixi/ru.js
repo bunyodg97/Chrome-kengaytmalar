@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Nusxalar Tarixi", "desc": "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi."}, "ru": {"name": "История копирования", "desc": "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по Alt+V."}};
+var AB_META = {"id": "ke-nusxalar-tarixi", "uz": {"name": "Nusxalar Tarixi", "desc": "Brauzerda nusxa olingan oxirgi 100 ta matn saqlanadi: qidirish, mahkamlash va bir bosishda qayta nusxalash. Alt+V bilan ochiladi."}, "ru": {"name": "История копирования", "desc": "Хранит последние 100 скопированных в браузере текстов: поиск, закрепление и повторное копирование одним нажатием. Открывается по Alt+V."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tablar Ovozi", "desc": "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…"}, "ru": {"name": "Звук вкладок", "desc": "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к звучащей вкладке."}};
+var AB_META = {"id": "ke-tablar-ovozi", "uz": {"name": "Tablar Ovozi", "desc": "Barcha tablar ovozi bitta panelda: har bir tab uchun alohida ovoz balandligi, o'chirish, «faqat shu tab» rejimi va ovoz…"}, "ru": {"name": "Звук вкладок", "desc": "Звук всех вкладок на одной панели: громкость для каждой вкладки, выключение, режим «только эта вкладка» и быстрый переход к звучащей вкладке."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

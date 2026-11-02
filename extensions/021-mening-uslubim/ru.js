@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Mening Uslubim", "desc": "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi."}, "ru": {"name": "Мой стиль", "desc": "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."}};
+var AB_META = {"id": "ke-mening-uslubim", "uz": {"name": "Mening Uslubim", "desc": "Istalgan saytning ko'rinishini o'z CSS kodingiz bilan o'zgartiring. Har bir sayt uchun alohida, darhol qo'llanadi."}, "ru": {"name": "Мой стиль", "desc": "Меняйте внешний вид любого сайта своим CSS-кодом. Отдельно для каждого сайта, применяется сразу."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

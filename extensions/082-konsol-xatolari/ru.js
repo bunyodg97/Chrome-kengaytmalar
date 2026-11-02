@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Konsol Xatolari", "desc": "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…"}, "ru": {"name": "Ошибки консоли", "desc": "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в Telegram для ваших сайтов."}};
+var AB_META = {"id": "ke-konsol-xatolari", "uz": {"name": "Konsol Xatolari", "desc": "Sahifadagi JavaScript xatolari, ushlanmagan promise va console.error'lar soni ikonkada. DevTools ochmasdan ro'yxat, stack…"}, "ru": {"name": "Ошибки консоли", "desc": "Число JavaScript-ошибок, необработанных promise и console.error на значке. Список, стек и копирование без DevTools; уведомления в Telegram для ваших сайтов."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

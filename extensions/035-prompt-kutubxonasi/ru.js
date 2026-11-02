@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Prompt Kutubxonasi", "desc": "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan."}, "ru": {"name": "Библиотека промптов", "desc": "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."}};
+var AB_META = {"id": "ke-prompt-kutubxonasi", "uz": {"name": "Prompt Kutubxonasi", "desc": "Claude, ChatGPT, Gemini va boshqa AI chatlarida tayyor promptlaringizni bir bosishda qo'yish. O'zgaruvchilar ({{mavzu}}) bilan."}, "ru": {"name": "Библиотека промптов", "desc": "Вставляйте готовые промпты в Claude, ChatGPT, Gemini и другие AI-чаты одним нажатием. С переменными ({{тема}})."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

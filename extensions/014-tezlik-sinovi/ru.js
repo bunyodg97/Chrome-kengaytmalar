@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Tezlik Sinovi", "desc": "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi."}, "ru": {"name": "Тест скорости", "desc": "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."}};
+var AB_META = {"id": "ke-tezlik-sinovi", "uz": {"name": "Tezlik Sinovi", "desc": "Internet tezligini bir bosishda o'lchaydi: ping, yuklab olish va yuklash. Video qo'ng'iroq, o'yin va 4K uchun yetarliligini aytadi."}, "ru": {"name": "Тест скорости", "desc": "Измеряет скорость интернета одним нажатием: пинг, загрузка и отдача. Подскажет, хватит ли для видеозвонков, игр и 4K."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "SEO Tekshiruv", "desc": "Sahifaning SEO holati, meta teglari, sarlavhalari, rasmlari, yuklanish tezligi va buzilgan havolalarini tekshiradi."}, "ru": {"name": "SEO Проверка", "desc": "Проверяет SEO страницы: мета-теги, заголовки, изображения, скорость загрузки и битые ссылки."}};
+var AB_META = {"id": "ke-seo-tekshiruv", "uz": {"name": "SEO Tekshiruv", "desc": "Sahifaning SEO holati, meta teglari, sarlavhalari, rasmlari, yuklanish tezligi va buzilgan havolalarini tekshiradi."}, "ru": {"name": "SEO Проверка", "desc": "Проверяет SEO страницы: мета-теги, заголовки, изображения, скорость загрузки и битые ссылки."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

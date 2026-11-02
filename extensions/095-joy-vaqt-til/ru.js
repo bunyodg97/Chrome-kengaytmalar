@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Joy, Vaqt va Til", "desc": "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…"}, "ru": {"name": "Место, время и язык", "desc": "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только для выбранной вкладки."}};
+var AB_META = {"id": "ke-joy-vaqt-til", "uz": {"name": "Joy, Vaqt va Til", "desc": "Saytni boshqa shahar, vaqt zonasi va tilda sinang: geolokatsiya, timezone, locale (sana/raqam formati) va Accept-Language — faqat…"}, "ru": {"name": "Место, время и язык", "desc": "Проверьте сайт в другом городе, часовом поясе и языке: геолокация, timezone, locale (формат дат/чисел) и Accept-Language — только для выбранной вкладки."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

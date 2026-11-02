@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Birlik O'giruvchi", "desc": "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…"}, "ru": {"name": "Конвертер единиц", "desc": "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."}};
+var AB_META = {"id": "ke-birlik-ogiruvchi", "uz": {"name": "Birlik O'giruvchi", "desc": "inch, ft, lbs, oz, °F, mph, gallon kabi chet el o'lchovlarini belgilashingiz bilan sm, kg, °C, km/soat, litrga aylantiradi.…"}, "ru": {"name": "Конвертер единиц", "desc": "Переводит выделенные inch, ft, lbs, oz, °F, mph, галлоны в см, кг, °C, км/ч, литры. Полный конвертер во всплывающем окне."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

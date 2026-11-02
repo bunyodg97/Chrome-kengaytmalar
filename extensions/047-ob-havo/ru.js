@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ob-havo va Havo Sifati", "desc": "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…"}, "ru": {"name": "Погода и качество воздуха", "desc": "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении воздуха."}};
+var AB_META = {"id": "ke-ob-havo", "uz": {"name": "Ob-havo va Havo Sifati", "desc": "Toolbar'da harorat, popup'da 7 kunlik prognoz va havo ifloslanishi (AQI, PM2.5) — O'zbekiston shaharlari uchun. Havo yomonlashsa…"}, "ru": {"name": "Погода и качество воздуха", "desc": "Температура на панели, прогноз на 7 дней и загрязнение воздуха (AQI, PM2.5) для городов Узбекистана. Предупреждает при ухудшении воздуха."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

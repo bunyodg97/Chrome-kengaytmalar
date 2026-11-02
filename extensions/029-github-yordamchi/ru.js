@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "GitHub Yordamchi", "desc": "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish."}, "ru": {"name": "GitHub Помощник", "desc": "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."}};
+var AB_META = {"id": "ke-github-yordamchi", "uz": {"name": "GitHub Yordamchi", "desc": "GitHub'da fayl daraxti paneli, fayl va repo hajmlari, bitta papkani ZIP qilib yuklab olish."}, "ru": {"name": "GitHub Помощник", "desc": "На GitHub: панель дерева файлов, размеры файлов и репозитория, скачивание одной папки в ZIP."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

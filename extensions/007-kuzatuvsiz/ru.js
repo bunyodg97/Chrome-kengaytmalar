@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kuzatuvsiz", "desc": "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi."}, "ru": {"name": "Без слежки", "desc": "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."}};
+var AB_META = {"id": "ke-kuzatuvsiz", "uz": {"name": "Kuzatuvsiz", "desc": "Saytlar sizni qancha tracker va cookie orqali kuzatayotganini ko'rsatadi va kuzatuvchilarni bloklaydi."}, "ru": {"name": "Без слежки", "desc": "Показывает, сколько трекеров и cookie следят за вами на сайтах, и блокирует трекеры."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

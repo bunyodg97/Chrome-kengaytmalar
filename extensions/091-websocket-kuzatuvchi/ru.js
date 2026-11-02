@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "WebSocket Kuzatuvchi", "desc": "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…"}, "ru": {"name": "Наблюдатель WebSocket", "desc": "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."}};
+var AB_META = {"id": "ke-websocket-kuzatuvchi", "uz": {"name": "WebSocket Kuzatuvchi", "desc": "Sahifadagi WebSocket va EventSource (SSE) ulanishlarini yon panelda jonli kuzating: yuborilgan/qabul qilingan xabarlar vaqti…"}, "ru": {"name": "Наблюдатель WebSocket", "desc": "Следите за WebSocket и EventSource (SSE) страницы в боковой панели: время и размер сообщений, JSON-вид, фильтр, пауза, экспорт."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

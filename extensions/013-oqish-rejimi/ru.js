@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "O'qish Rejimi", "desc": "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi."}, "ru": {"name": "Режим чтения", "desc": "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."}};
+var AB_META = {"id": "ke-oqish-rejimi", "uz": {"name": "O'qish Rejimi", "desc": "Maqolani reklama va ortiqcha elementlarsiz, qulay shriftda ochadi. Shrift o'lchami, kenglik va mavzu sozlanadi."}, "ru": {"name": "Режим чтения", "desc": "Открывает статью без рекламы и лишних элементов удобным шрифтом. Настраиваются размер шрифта, ширина и тема."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

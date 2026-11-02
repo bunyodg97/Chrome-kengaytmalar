@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Ekran Chizg'ichi", "desc": "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…"}, "ru": {"name": "Экранная линейка", "desc": "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в пикселях. Свободная линейка и направляющие."}};
+var AB_META = {"id": "ke-ekran-chizgichi", "uz": {"name": "Ekran Chizg'ichi", "desc": "Frontend uchun o'lchov: element ustiga olib boring — o'lchami, padding va margin; birini tanlab boshqasiga olib boring — oradagi…"}, "ru": {"name": "Экранная линейка", "desc": "Измерения для фронтенда: наведите на элемент — размер, padding и margin; выберите один и наведите на другой — расстояние в пикселях. Свободная линейка и направляющие."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

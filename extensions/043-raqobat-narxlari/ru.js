@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Raqobat Narxlari", "desc": "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…"}, "ru": {"name": "Цены конкурентов", "desc": "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая, средняя, ваше место и рекомендуемая цена."}};
+var AB_META = {"id": "ke-raqobat-narxlari", "uz": {"name": "Raqobat Narxlari", "desc": "Mahsulotingiz narxini Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart va Asaxiy'dagi raqobatchilar narxlari bilan solishtiradi…"}, "ru": {"name": "Цены конкурентов", "desc": "Сравнивает цену вашего товара с ценами конкурентов на Uzum, OLX, Olcha, Alif Shop, Mediapark, Texnomart и Asaxiy: самая низкая, средняя, ваше место и рекомендуемая цена."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

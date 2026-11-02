@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Responsive Ko'rgich", "desc": "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi."}, "ru": {"name": "Адаптивный просмотр", "desc": "Показывает сайт рядом в размерах телефона, планшета и компьютера."}};
+var AB_META = {"id": "ke-responsive", "uz": {"name": "Responsive Ko'rgich", "desc": "Saytni telefon, planshet va kompyuter o'lchamlarida yonma-yon ko'rsatadi."}, "ru": {"name": "Адаптивный просмотр", "desc": "Показывает сайт рядом в размерах телефона, планшета и компьютера."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

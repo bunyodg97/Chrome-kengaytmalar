@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Jadval Yuklovchi", "desc": "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi."}, "ru": {"name": "Загрузчик таблиц", "desc": "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."}};
+var AB_META = {"id": "ke-jadval-yuklovchi", "uz": {"name": "Jadval Yuklovchi", "desc": "Sahifadagi istalgan jadvalni bir bosishda Excel (XLSX) yoki CSV faylga tushiradi. Birlashtirilgan kataklar va sonlar to'g'ri o'tadi."}, "ru": {"name": "Загрузчик таблиц", "desc": "Выгружает любую таблицу со страницы в Excel (XLSX) или CSV одним нажатием. Объединённые ячейки и числа переносятся правильно."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

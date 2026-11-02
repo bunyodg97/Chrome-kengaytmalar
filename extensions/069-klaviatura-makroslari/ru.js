@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Klaviatura Makroslari", "desc": "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…"}, "ru": {"name": "Клавиатурные макросы", "desc": "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На всех сайтах, в Gmail и Telegram Web."}};
+var AB_META = {"id": "ke-klaviatura-makroslari", "uz": {"name": "Klaviatura Makroslari", "desc": "Qisqa so'z yozing — to'liq matn qo'yiladi: '/manzil' → to'liq manzil, '/salom' → salomlashuv. {sana}, {vaqt}, {kursor}…"}, "ru": {"name": "Клавиатурные макросы", "desc": "Наберите сокращение — вставится полный текст: '/manzil' → адрес, '/salom' → приветствие. Переменные {sana}, {vaqt}, {kursor}. На всех сайтах, в Gmail и Telegram Web."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

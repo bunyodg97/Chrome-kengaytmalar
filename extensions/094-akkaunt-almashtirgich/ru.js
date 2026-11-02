@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Akkaunt Almashtirgich", "desc": "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…"}, "ru": {"name": "Переключатель аккаунтов", "desc": "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием — с cookie, localStorage и sessionStorage."}};
+var AB_META = {"id": "ke-akkaunt-almashtirgich", "uz": {"name": "Akkaunt Almashtirgich", "desc": "Test uchun: bitta saytdagi bir nechta akkaunt (admin, mijoz, kuryer...) sessiyasini saqlang va bir bosishda almashtiring — cookie…"}, "ru": {"name": "Переключатель аккаунтов", "desc": "Для тестирования: сохраняйте сессии нескольких аккаунтов одного сайта (админ, клиент, курьер...) и переключайтесь одним нажатием — с cookie, localStorage и sessionStorage."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

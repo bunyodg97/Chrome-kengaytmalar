@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Valyuta Kursi", "desc": "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati."}, "ru": {"name": "Курс валют", "desc": "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."}};
+var AB_META = {"id": "ke-valyuta-kursi", "uz": {"name": "Valyuta Kursi", "desc": "Markaziy bank kurslari toolbar'da, kalkulyator va sahifadagi $, €, ₽ narxlarni belgilasangiz so'mdagi qiymati."}, "ru": {"name": "Курс валют", "desc": "Курсы Центробанка на панели, калькулятор и пересчёт выделенных на странице цен в $, €, ₽ в сумы."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

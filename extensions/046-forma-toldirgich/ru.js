@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Forma To'ldirgich (Excel → sayt)", "desc": "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…"}, "ru": {"name": "Заполнитель форм (Excel → сайт)", "desc": "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."}};
+var AB_META = {"id": "ke-forma-toldirgich", "uz": {"name": "Forma To'ldirgich (Excel → sayt)", "desc": "Excel yoki CSV jadvalidagi har bir qatorni istalgan saytning formasiga birma-bir kiritadi. Ustunlarni maydonlarga sichqoncha bilan…"}, "ru": {"name": "Заполнитель форм (Excel → сайт)", "desc": "Вводит каждую строку таблицы Excel или CSV в форму любого сайта по очереди. Столбцы связываются с полями мышью."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

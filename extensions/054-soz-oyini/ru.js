@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "So'z O'yini", "desc": "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan."}, "ru": {"name": "Игра в слова", "desc": "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."}};
+var AB_META = {"id": "ke-soz-oyini", "uz": {"name": "So'z O'yini", "desc": "O'zbekcha 5 harfli so'zni 6 urinishda toping: har kuni yangi so'z va cheksiz mashq rejimi, statistika bilan."}, "ru": {"name": "Игра в слова", "desc": "Угадайте узбекское слово из 5 букв за 6 попыток: новое слово каждый день и бесконечный режим тренировки со статистикой."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

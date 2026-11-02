@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Sekin Internet", "desc": "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…"}, "ru": {"name": "Медленный интернет", "desc": "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной вкладки, без DevTools."}};
+var AB_META = {"id": "ke-sekin-internet", "uz": {"name": "Sekin Internet", "desc": "Saytingizni sekin tarmoqda sinang: 2G, 3G, sekin 4G, offline yoki o'zingiz bergan tezlik/kechikish; CPU sekinlashtirish. Faqat…"}, "ru": {"name": "Медленный интернет", "desc": "Проверьте сайт в медленной сети: 2G, 3G, медленный 4G, офлайн или своя скорость/задержка; замедление CPU. Только для выбранной вкладки, без DevTools."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

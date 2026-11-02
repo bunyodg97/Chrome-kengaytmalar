@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Kod Parchalari", "desc": "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…"}, "ru": {"name": "Сниппеты кода", "desc": "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле по Alt+K."}};
+var AB_META = {"id": "ke-kod-parchalari", "uz": {"name": "Kod Parchalari", "desc": "Tez-tez ishlatiladigan kod parchalarini saqlang: til, teg, qidiruv, rangli ko'rinish. Sahifadagi koddan o'ng tugma bilan saqlash…"}, "ru": {"name": "Сниппеты кода", "desc": "Храните часто используемые фрагменты кода: язык, теги, поиск, подсветка. Сохранение с сайта правой кнопкой и вставка в любое поле по Alt+K."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

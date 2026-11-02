@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "PWA Tekshiruvchi", "desc": "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…"}, "ru": {"name": "Проверка PWA", "desc": "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги — оценка и конкретные советы."}};
+var AB_META = {"id": "ke-pwa-tekshiruvchi", "uz": {"name": "PWA Tekshiruvchi", "desc": "Sayt PWA sifatida o'rnatila oladimi? Manifest maydonlari, ikonkalar (192/512/maskable), service worker, kesh va offline, HTTPS…"}, "ru": {"name": "Проверка PWA", "desc": "Можно ли установить сайт как PWA? Поля манифеста, иконки (192/512/maskable), service worker, кэш и офлайн, HTTPS, мета-теги — оценка и конкретные советы."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

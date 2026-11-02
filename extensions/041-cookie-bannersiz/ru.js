@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Cookie Bannersiz", "desc": "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi."}, "ru": {"name": "Без cookie-баннеров", "desc": "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."}};
+var AB_META = {"id": "ke-cookie-bannersiz", "uz": {"name": "Cookie Bannersiz", "desc": "«Cookie'larga rozimisiz?» oynalarini avtomatik yopadi: imkon bo'lsa «Rad etish»ni bosadi, bo'lmasa oynani yashiradi."}, "ru": {"name": "Без cookie-баннеров", "desc": "Автоматически закрывает окна «Вы согласны на cookie?»: по возможности нажимает «Отклонить», иначе скрывает окно."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",

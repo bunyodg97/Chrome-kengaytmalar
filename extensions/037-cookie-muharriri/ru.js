@@ -1,5 +1,5 @@
 // Ruscha tarjimalar (avtomatik yig'iladi: _i18n/)
-var AB_META = {"uz": {"name": "Cookie Muharriri", "desc": "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import."}, "ru": {"name": "Редактор cookie", "desc": "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."}};
+var AB_META = {"id": "ke-cookie-muharriri", "uz": {"name": "Cookie Muharriri", "desc": "Joriy sayt cookie'larini ko'rish, tahrirlash, qo'shish, o'chirish, JSON/Netscape formatida eksport va import."}, "ru": {"name": "Редактор cookie", "desc": "Просмотр, редактирование, добавление и удаление cookie текущего сайта, экспорт и импорт в JSON/Netscape."}};
 var RU = {
 "Saqlash": "Сохранить",
 "Saqlandi": "Сохранено",
