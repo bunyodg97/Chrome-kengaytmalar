@@ -23,5 +23,15 @@
     "service_worker": "background.js",
     "type": "module"
   },
-  "permissions": ["storage", "alarms", "notifications", "geolocation"]
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "geolocation",
+    "contextMenus"
+  ],
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
+  }
 }

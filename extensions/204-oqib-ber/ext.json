@@ -33,5 +33,5 @@
   "tts"
  ],
  "category": "access",
- "standalone": true
+ "i18n": true
 }

@@ -1,0 +1,21 @@
+{
+"ru": {
+"Toza PDF": "Чистый PDF",
+"Shriftni kichraytirish": "Уменьшить шрифт",
+"Shriftni kattalashtirish": "Увеличить шрифт",
+"Shrift turi": "Тип шрифта",
+"Rasmlar": "Картинки",
+"Havolalar manzili": "Адреса ссылок",
+"Manba": "Источник",
+"Keraksiz blokni bosib o'chiring": "Нажмите на лишний блок, чтобы удалить",
+"✂️ Keraksizini o'chirish": "✂️ Удалить лишнее",
+"Oxirgi o'chirishni qaytarish": "Отменить последнее удаление",
+"⬇ PDF qilib saqlash": "⬇ Сохранить как PDF",
+"✂️ O'chirish rejimi: keraksiz blok ustiga bosing. Tugatish uchun tugmani yana bosing.": "✂️ Режим удаления: нажимайте на лишние блоки. Чтобы закончить, нажмите кнопку ещё раз.",
+"Bu sahifadan maqola olib bo'lmadi": "Не удалось получить статью с этой страницы",
+"Chrome ichki sahifalari (chrome://) va Web Store'da kengaytmalar ishlay olmaydi. Oddiy saytdagi maqolani oching va qayta urinib ko'ring.": "На внутренних страницах Chrome (chrome://) и в Web Store расширения не работают. Откройте статью на обычном сайте и попробуйте снова.",
+"📄 Toza PDF qilib saqlash": "📄 Сохранить как чистый PDF",
+"Saqlash: PDF sifatida": "Сохранить: как PDF",
+"Manba: {0}": "Источник: {0}"
+}
+}

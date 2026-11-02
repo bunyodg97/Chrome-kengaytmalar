@@ -1,3 +1,5 @@
+import './ru.js';
+import './about-bg.js';
 import { getSettings, blockedDomains, scheduleActive, dayKey, hostMatches } from './common.js';
 
 const BLOCKED = chrome.runtime.getURL('blocked.html');

@@ -33,5 +33,5 @@
   "webRequest"
  ],
  "category": "work",
- "standalone": true
+ "i18n": true
 }

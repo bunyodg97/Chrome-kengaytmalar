@@ -1,0 +1,32 @@
+{
+"ru": {
+"O'qib Ber": "Озвучка",
+"🔊 Sahifani o'qish": "🔊 Читать страницу",
+"Belgilangan matnni o'qish": "Читать выделенный текст",
+"⏸ Pauza": "⏸ Пауза",
+"⏹ To'xtatish": "⏹ Остановить",
+"Ovozlar": "Голоса",
+"🇺🇿 O'zbekcha": "🇺🇿 Узбекский",
+"Sinash": "Проверить",
+"🇷🇺 Ruscha / kirill": "🇷🇺 Русский / кириллица",
+"🇬🇧 Inglizcha": "🇬🇧 Английский",
+"Tezlik": "Скорость",
+"Ohang": "Тон",
+"Til avtomatik aniqlanadi. Kompyuterda o'zbekcha ovoz bo'lmasa, lotin yozuvidagi matn": "Язык определяется автоматически. Если на компьютере нет узбекского голоса, текст на латинице",
+"turkcha": "турецким",
+"ovoz bilan o'qiladi (talaffuzi yaqin).": "голосом (произношение близкое).",
+"Tezkor: Alt+Shift+O — o'qish, Alt+Shift+X — to'xtatish.": "Горячие клавиши: Alt+Shift+O — читать, Alt+Shift+X — остановить.",
+"Ovoz topilmadi": "Голос не найден",
+"🔊 Belgilangan matnni o'qish": "🔊 Читать выделенный текст",
+"🔊 Sahifani ovozda o'qish": "🔊 Читать страницу вслух",
+"Oldingi xatboshi": "Предыдущий абзац",
+"To'xtatish": "Остановить",
+"Bu sahifada ishlamaydi. Sahifani yangilang (F5) yoki boshqa saytda sinab ko'ring.": "На этой странице не работает. Обновите страницу (F5) или попробуйте на другом сайте.",
+"Avto": "Авто",
+"Boshqa tillar": "Другие языки",
+"Assalomu alaykum! Bu ovozli o'qish kengaytmasi.": "Здравствуйте! Это расширение для чтения вслух.",
+"Hello! This is a read aloud extension.": "Hello! This is a read aloud extension.",
+"Avto (o'zbekcha yoki turkcha)": "Авто (узбекский или турецкий)",
+"⚠️ Kompyuterda ovoz topilmadi. Windows sozlamalari → Vaqt va til → Nutq bo'limidan ovoz qo'shing.": "⚠️ На компьютере не найден голос. Добавьте голос: Параметры Windows → Время и язык → Речь."
+}
+}

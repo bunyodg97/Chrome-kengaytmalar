@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 importScripts('stores.js');
 
 chrome.runtime.onInstalled.addListener(() => {

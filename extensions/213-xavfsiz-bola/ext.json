@@ -33,5 +33,5 @@
   "tabs"
  ],
  "category": "privacy",
- "standalone": true
+ "i18n": true
 }

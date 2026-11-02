@@ -35,5 +35,5 @@
   "webRequest"
  ],
  "category": "life",
- "standalone": true
+ "i18n": true
 }

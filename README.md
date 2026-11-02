@@ -1,8 +1,8 @@
 # 🧩 Chrome kengaytmalari — Bunyodg97
 
-Dasturchilar, traderlar va kundalik hayot uchun **157 ta bepul Chrome kengaytmasi**. Deyarli hammasi **o’zbek va rus tilida** (199–213 hozircha faqat o’zbekcha), Manifest V3. Ma’lumotlaringiz faqat brauzeringizda saqlanadi.
+Dasturchilar, traderlar va kundalik hayot uchun **157 ta bepul Chrome kengaytmasi**. Hammasi **o’zbek va rus tilida**, Manifest V3. Ma’lumotlaringiz faqat brauzeringizda saqlanadi.
 
-> 🇷🇺 **157 бесплатных расширений Chrome** для разработчиков, трейдеров и повседневной жизни. Почти всё на **узбекском и русском** (199–213 пока только на узбекском), Manifest V3. Ваши данные остаются только в браузере.
+> 🇷🇺 **157 бесплатных расширений Chrome** для разработчиков, трейдеров и повседневной жизни. Всё на **узбекском и русском**, Manifest V3. Ваши данные остаются только в браузере.
 
 Dasturchi: **Bunyodg97** — [ali-dasturchi.uz](https://www.ali-dasturchi.uz) · [❤️ Qo’llab-quvvatlash](https://www.ali-dasturchi.uz/#donat)
 
@@ -209,11 +209,12 @@ scripts/smoke_test.py  Chrome'da yuklab, sahifalarni ochib, xatolarni yig'adi (P
 scripts/new.py         yangi kengaytma shabloni
 scripts/genkey.py      doimiy kengaytma ID kaliti (keys/NNN.pub)
 scripts/screenshots.py do'kon/sayt skrinshotlari (1280×800) va promo kartalar (440×280)
+scripts/upgrade_standalone.py  o'zbekcha kengaytmani uz+ru + Sozlamalar standartiga o'tkazish; scripts/test_i18n.py — tarjima tekshiruvi
 scripts/import_bundle.py  tayyor kengaytmalar to'plamini (001–103, 198–213) extensions/ ga import qilish
 scripts/build_site.py  ali-dasturchi.uz uchun apps.js yozuvlari + rasmlar (dist/sayt/)
 scripts/build_catalog.py  sayt katalogi: catalog/extensions.json + catalog/index.html
 extensions/001–103, 196–213  tayyor (mustaqil) kengaytmalar — "external": true, o'zgartirilmasdan zip qilinadi
-                       (198–213 — faqat o'zbekcha eski kengaytmalar: ruscha til va Sozlamalar bo'limi hali yo'q)
+                       (198–213: eski o'zbekcha kengaytmalar uz+ru qilib yangilangan — scripts/upgrade_standalone.py, tarjimalar scripts/i18n_standalone/)
 catalog/               sayt uchun katalog (index.html + img/); template.html — andoza
 keys/                  kengaytmalarning ochiq kalitlari (doimiy ID)
 ```

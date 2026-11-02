@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 importScripts('blocked.js');
 
 // Har bir tab uchun topilgan videolar: storage.session { v<tabId>: { items:[...], drm:false, page:'' } }

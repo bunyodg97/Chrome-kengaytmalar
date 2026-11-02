@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 // Trafik hisoblagich: har bir tarmoq javobining hajmini u ochilgan saytga yozamiz
 const DEFAULTS = { dailyMB: 0, monthlyMB: 0, badge: true, paused: false };
 const getS = async () => ({ ...DEFAULTS, ...((await chrome.storage.local.get('settings')).settings || {}) });

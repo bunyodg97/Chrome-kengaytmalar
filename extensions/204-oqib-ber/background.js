@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 // O'qib Ber — matnni bo'laklab chrome.tts orqali o'qiydi, sahifaga jarayonni bildirib turadi
 const DEFAULTS = { rate: 1, pitch: 1, voices: { uz: '', ru: '', en: '' }, autoLang: true };
 const getS = async () => { const s = (await chrome.storage.local.get('settings')).settings || {}; return { ...DEFAULTS, ...s, voices: { ...DEFAULTS.voices, ...(s.voices || {}) } }; };

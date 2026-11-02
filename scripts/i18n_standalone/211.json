@@ -1,0 +1,29 @@
+{
+"ru": {
+"Tungi rejim": "Ночной режим",
+"Hamma saytlar": "Все сайты",
+"Barcha saytlarda": "На всех сайтах",
+"Joriy sayt": "Текущий сайт",
+"Bu saytda usul:": "Способ на этом сайте:",
+"Dinamik": "Динамический",
+"Filtr": "Фильтр",
+"🔒 Chrome ichki sahifalari va Web Store'da kengaytmalar ishlay olmaydi.": "🔒 На внутренних страницах Chrome и в Web Store расширения не работают.",
+"☀️ Yorqinlik": "☀️ Яркость",
+"◐ Kontrast": "◐ Контраст",
+"🔥 Iliq rang (ko'z uchun)": "🔥 Тёплый цвет (для глаз)",
+"Standartga qaytarish": "Сбросить по умолчанию",
+"Dinamik — ranglar qayta yoziladi, rasmlar o'zgarmaydi. Filtr — tez, har qanday saytda ishlaydi.": "Динамический — цвета перекрашиваются, картинки не меняются. Фильтр — быстрый, работает на любом сайте.",
+"⚙️ Standart usul": "⚙️ Способ по умолчанию",
+"🕖 Faqat kechqurun (jadval)": "🕖 Только вечером (расписание)",
+"🔍 O'zi qorong'i saytlarni aniqlash": "🔍 Определять сайты, которые уже тёмные",
+"📋 Alohida sozlangan saytlar": "📋 Сайты с отдельными настройками",
+"Tezkor tugma:": "Горячая клавиша:",
+"🌙 Tungi rejim yoqilgan": "🌙 Ночной режим включён",
+"☀️ Tungi rejim o'chirilgan": "☀️ Ночной режим выключен",
+"Bu sayt o'zi qorong'i — shuning uchun o'chirildi": "Этот сайт уже тёмный — поэтому выключено",
+"Jadval bo'yicha {0} da yoqiladi": "Включится по расписанию в {0}",
+"Barcha saytlar sozlamasi bo'yicha": "По общей настройке для всех сайтов",
+"Barcha saytlarda o'chiq": "Выключено на всех сайтах",
+"Hali yo'q": "Пока нет"
+}
+}

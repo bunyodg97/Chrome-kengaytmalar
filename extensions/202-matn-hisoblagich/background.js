@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({ id: 'count', title: '🔢 Belgilangan matnni hisoblash', contexts: ['selection'] });
 });

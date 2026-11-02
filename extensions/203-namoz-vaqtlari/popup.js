@@ -1,5 +1,5 @@
 import { status, hijri, EVENTS } from './praytime.js';
-import { DEFAULTS, DEFAULT_PLACE, loadSettings, currentPlace, nearestPlace } from './settings.js';
+import { DEFAULTS, DEFAULT_PLACE, loadSettings, currentPlace, nearestPlace } from './app-settings.js';
 import { REGIONS, placeId, findPlace, fullName } from './regions.js';
 
 const $ = id => document.getElementById(id);

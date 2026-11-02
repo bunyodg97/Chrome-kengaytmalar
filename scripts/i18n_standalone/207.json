@@ -1,0 +1,26 @@
+{
+"ru": {
+"Barcha eslatmalar — Stikerlar": "Все заметки — Стикеры",
+"Barcha eslatmalar": "Все заметки",
+"🔍 Eslatmalardan qidirish...": "🔍 Поиск по заметкам...",
+"⬇ TXT qilib saqlash": "⬇ Сохранить в TXT",
+"Stikerlar": "Стикеры",
+"📝 Stiker qo'yish": "📝 Поставить стикер",
+"📚 Barcha eslatmalar": "📚 Все заметки",
+"Shu sahifada": "На этой странице",
+"Yuklanmoqda…": "Загрузка…",
+"💡 O'ng tugma → \"Shu yerga stiker qo'yish\" yoki matnni belgilab → \"Marker bilan belgilash\".": "💡 Правая кнопка → «Поставить стикер сюда» или выделите текст → «Выделить маркером».",
+"Tezkor: Alt+Shift+N — stiker, Alt+Shift+H — marker.": "Горячие клавиши: Alt+Shift+N — стикер, Alt+Shift+H — маркер.",
+"Shu sahifadagi hammasini o'chirish": "Удалить всё на этой странице",
+"Bu sahifadagi barcha stiker va markerlar o'chirilsinmi?": "Удалить все стикеры и маркеры на этой странице?",
+"📝 Shu yerga stiker qo'yish": "📝 Поставить стикер сюда",
+"📝 Belgilangan matn bilan stiker": "📝 Стикер с выделенным текстом",
+"Eslatma yozing...": "Напишите заметку...",
+"Stiker o'chirilsinmi?": "Удалить стикер?",
+"Marker — o'chirish uchun bosing": "Маркер — нажмите, чтобы удалить",
+"Marker belgisi olib tashlansinmi?": "Убрать маркер?",
+"{0} ta": "{0} шт.",
+"Kengaytma o'rnatilgandan oldin ochilgan bo'lsa — F5 bosing.": "Если страница была открыта до установки расширения — нажмите F5.",
+"Hali eslatma yo'q. Istalgan saytda o'ng tugma → \"Shu yerga stiker qo'yish\".": "Заметок пока нет. На любом сайте: правая кнопка → «Поставить стикер сюда»."
+}
+}

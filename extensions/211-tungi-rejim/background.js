@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 importScripts('common.js');
 const { normalize, globalActive, effective, hostOf, modeOf } = self.TR;
 

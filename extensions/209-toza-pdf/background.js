@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 importScripts('extract.js');
 
 async function make(tab) {

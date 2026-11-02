@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 const DEFAULTS = {
   enabled: true,
   minutes: 30,                 // necha daqiqa ishlatilmasa uxlatish

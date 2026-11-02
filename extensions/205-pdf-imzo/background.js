@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 // Belgi bosilganda: joriy tab PDF bo'lsa — uni ochamiz, aks holda bo'sh imzolash oynasi
 chrome.action.onClicked.addListener(tab => {
   const isPdf = /\.pdf(\?|#|$)/i.test(tab?.url || '');

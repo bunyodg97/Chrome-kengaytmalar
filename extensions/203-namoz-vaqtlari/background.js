@@ -1,5 +1,7 @@
+import './ru.js';
+import './about-bg.js';
 import { status, formatLeft, uzDate, daySchedule } from './praytime.js';
-import { loadSettings, currentPlace } from './settings.js';
+import { loadSettings, currentPlace } from './app-settings.js';
 
 const ICON = 'icons/icon128.png';
 

@@ -1,3 +1,5 @@
+import './ru.js';
+import './about-bg.js';
 import {
   now, getSettings, getUsage, siteForHost, hostOf, siteState, siteLeft, globalReason,
   blockReasonForUrl, allSites, fmtDur

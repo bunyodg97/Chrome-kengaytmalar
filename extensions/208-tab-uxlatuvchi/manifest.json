@@ -5,13 +5,53 @@
   "version": "1.0.0",
   "description": "Ishlatilmayotgan tablarni avtomatik uxlatib, kompyuter xotirasini bo'shatadi. Musiqa, forma va muhim saytlarga tegmaydi.",
   "author": "Bunyodg97",
-  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
-  "action": { "default_popup": "popup.html", "default_title": "Tab Uxlatuvchi" },
-  "background": { "service_worker": "background.js" },
-  "permissions": ["tabs", "storage", "alarms", "contextMenus", "scripting"],
-  "host_permissions": ["<all_urls>"],
-  "content_scripts": [{ "matches": ["<all_urls>"], "js": ["form-watch.js"], "run_at": "document_idle", "all_frames": true }],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Uxlatuvchi"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "ru.js",
+        "about-cs.js",
+        "form-watch.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
   "commands": {
-    "sleep-others": { "suggested_key": { "default": "Alt+Shift+S" }, "description": "Joriy oynadagi boshqa tablarni uxlatish" }
+    "sleep-others": {
+      "suggested_key": {
+        "default": "Alt+Shift+S"
+      },
+      "description": "Joriy oynadagi boshqa tablarni uxlatish"
+    }
+  },
+  "options_ui": {
+    "page": "settings.html",
+    "open_in_tab": true
   }
 }

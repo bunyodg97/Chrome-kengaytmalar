@@ -1,3 +1,5 @@
+import './ru.js';
+import './about-bg.js';
 import { FORMATS, getSettings, baseName, filePath, stamp } from './common.js';
 import { makeZip } from './zip.js';
 

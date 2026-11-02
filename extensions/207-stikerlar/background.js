@@ -1,3 +1,4 @@
+importScripts('ru.js', 'about-bg.js');
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.removeAll(() => {
     chrome.contextMenus.create({ id: 'note', title: '📝 Shu yerga stiker qo\'yish', contexts: ['page', 'image', 'link'] });

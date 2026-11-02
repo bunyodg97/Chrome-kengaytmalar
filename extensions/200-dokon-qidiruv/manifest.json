@@ -5,11 +5,34 @@
   "version": "1.0.0",
   "description": "Mahsulot nomini bir marta yozing — Uzum, OLX, Wildberries, Yandex Market, Asaxiy, AliExpress bir tab guruhida ochiladi. Narxlarni solishtirish oson.",
   "author": "Bunyodg97",
-  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
-  "action": { "default_popup": "popup.html", "default_title": "Do'konlardan qidirish" },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Do'konlardan qidirish"
+  },
   "options_page": "options.html",
-  "background": { "service_worker": "background.js" },
-  "permissions": ["storage", "tabs", "tabGroups", "contextMenus"],
-  "omnibox": { "keyword": "d" },
-  "commands": { "_execute_action": { "suggested_key": { "default": "Alt+Shift+F" } } }
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "tabGroups",
+    "contextMenus"
+  ],
+  "omnibox": {
+    "keyword": "d"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+F"
+      }
+    }
+  }
 }
