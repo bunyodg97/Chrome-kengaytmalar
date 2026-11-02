@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from build_catalog import CATS, cat_of  # noqa: E402
+from perms import perms_of  # noqa: E402
 
 REPO = "bunyodg97/Chrome-kengaytmalar"
 SKIP = {"diqqat", "namoz-vaqtlari", "xavfsiz-bola", "rasm-saqlovchi"}  # saytda allaqachon bor
@@ -45,7 +46,7 @@ def main():
             "name_ru": "Chrome: " + c["name"]["ru"], "short_ru": c["desc"]["ru"], "features_ru": c["features"]["ru"], "install_ru": INSTALL["ru"],
             "changelog": [{"version": c["version"], "date": "2026-11", "text": "Birinchi versiya", "text_ru": "Первая версия"}],
             "status": "", "eta": "", "tags": TAGS_OF[cat], "virustotal": "", "vtResult": "", "video": "", "chromeStore": "", "storePlanned": True,
-            "glyph": "puzzle"})
+            "glyph": "puzzle", "perms": perms_of(d)})
     (out / "kengaytmalar-apps.json").write_text(json.dumps({"tags": NEW_TAGS, "apps": apps}, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "qoshish.mjs").write_text(MJS, encoding="utf-8")
     print(f"sayt: {len(apps)} ta yozuv → dist/sayt/")
